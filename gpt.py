@@ -14,33 +14,36 @@ client = OpenAI(
 )
 
 # Working directory
-os.chdir("D:\\Gits\\LLMpy\\out\\")
+os.chdir("D:\\Gits\\HistPath_LLMpy\\out\\")
 
 # Try-catch some of the most common errors
 try:
-    for modelname in ["gpt-4-turbo", "gpt-3.5-turbo"]:
-        for promptIndex in range(prompts.getMaxPrompts()):
-            for inputIndex in range(prompts.getMaxInputs()):
-                print("Model name " + modelname + " prompt index " + str(promptIndex) + " input index " + str(inputIndex) + "\n")
-                prompt = prompts.getPrompt(promptIndex, inputIndex)
-                # Run the actual prompt itself
-                response = client.chat.completions.create(
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": prompt,
-                        }
-                    ],
-                    model=modelname,
-                    response_format={"type": "json_object"},
-                    temperature=0.0
-                )
-                # Write output to a suitable file
-                f = open("" + modelname + "_promptIndex" + str(promptIndex) + "_inputIndex" + str(inputIndex) + ".out", 'w')
-                print(response.choices[0].message.content, file=f)
-                f.close()
-                print("\n\n")
-                time.sleep(2) # Sleep 2 seconds
+    for rep in range(3): # Run multiple repeats of the same setup to assess determinism
+        for modelname in ["gpt-4-turbo", "gpt-3.5-turbo"]:
+            for promptIndex in range(prompts.getMaxPrompts()):
+                for inputIndex in range(prompts.getMaxInputs()):
+                    print("Model name " + modelname + " prompt index " + str(promptIndex) + " input index "
+                        + str(inputIndex) + " repeat " + str(rep) + "\n")
+                    prompt = prompts.getPrompt(promptIndex, inputIndex)
+                    # Run the actual prompt itself
+                    response = client.chat.completions.create(
+                        messages=[
+                            {
+                                "role": "user",
+                                "content": prompt,
+                            }
+                        ],
+                        model=modelname,
+                        response_format={"type": "json_object"},
+                        temperature=0.0
+                    )
+                    # Write output to a suitable file
+                    f = open("" + modelname + "_promptIndex" + str(promptIndex) + "_inputIndex" + str(inputIndex)
+                             + "_rep" + str(rep) + ".out", 'w')
+                    print(response.choices[0].message.content, file=f)
+                    f.close()
+                    print("\n\n")
+                    time.sleep(2) # Sleep 2 seconds
 except openai.APIConnectionError as e:
     print("The server could not be reached")
     print(e.__cause__)  # an underlying Exception, likely raised within httpx.
