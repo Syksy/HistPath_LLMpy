@@ -32,36 +32,38 @@ safety_settings = {
 os.chdir("~/out/")
 
 try:
-    for modelname in ["gemini-1.0-pro-001"]:
-        model = GenerativeModel(modelname)
-        for promptIndex in range(prompts.getMaxPrompts()):
-            for inputIndex in range(prompts.getMaxInputs()):
-                print("Model name " + modelname + " prompt index " + str(promptIndex) + " input index " + str(inputIndex) + "\n")
-                retries = 1
-                while True:
-                    prompt = prompts.getPrompt(promptIndex, inputIndex)
-                    response = model.generate_content(
-                        prompt,
-                        generation_config=generation_config,
-                        safety_settings=safety_settings,
-                        stream=False
-                    )
-                    # A lot of prompts are getting caught in the safety blocks even when they've been set to NONE? Try iterate
-                    # FinishReason.STOP is the response to a run through
-                    if response.candidates[0].finish_reason == FinishReason.STOP:
-                        break
-                    # Run failed, retrying
-                    # Appears to be an issue particularly in gemini-1.0-pro-002 ... fallback to older release
-                    # even with safety_settings put in
-                    else:
-                        retries = retries + 1
-                        print("Retrying, caught in harm filters likely FinishReason.OTHER...")
-                        time.sleep(11)
-                f = open("" + modelname + "_promptIndex" + str(promptIndex) + "_inputIndex" + str(inputIndex) + ".out",
-                         'w')
-                print(response.text, file=f)
-                f.close()
-                print("\n\n")
-                time.sleep(11)
+    for rep in range(3):  # Run multiple repeats of the same setup to assess determinism
+        for modelname in ["gemini-1.0-pro-001"]:
+            model = GenerativeModel(modelname)
+            for promptIndex in range(prompts.getMaxPrompts()):
+                for inputIndex in range(prompts.getMaxInputs()):
+                    print("Model name " + modelname + " prompt index " + str(promptIndex) + " input index "
+                        + str(inputIndex) + " repeat " + str(rep) + "\n")
+                    retries = 1
+                    while True:
+                        prompt = prompts.getPrompt(promptIndex, inputIndex)
+                        response = model.generate_content(
+                            prompt,
+                            generation_config=generation_config,
+                            safety_settings=safety_settings,
+                            stream=False
+                        )
+                        # A lot of prompts are getting caught in the safety blocks even when they've been set to NONE? Try iterate
+                        # FinishReason.STOP is the response to a run through
+                        if response.candidates[0].finish_reason == FinishReason.STOP:
+                            break
+                        # Run failed, retrying
+                        # Appears to be an issue particularly in gemini-1.0-pro-002 ... fallback to older release
+                        # even with safety_settings put in
+                        else:
+                            retries = retries + 1
+                            print("Retrying, caught in harm filters likely FinishReason.OTHER...")
+                            time.sleep(11)
+                    f = open("" + modelname + "_promptIndex" + str(promptIndex) + "_inputIndex" + str(inputIndex)
+                             + "_rep" + str(rep) + ".out", 'w')
+                    print(response.text, file=f)
+                    f.close()
+                    print("\n\n")
+                    time.sleep(11)
 except ValueError as e:
     print("Error: " + e)
