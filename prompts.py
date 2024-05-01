@@ -27,7 +27,7 @@ inputs = [
     # 7
     "Tutkittavaksi tullut prostatektomia-preparaatti, joka ajetaan kaseteilla normaalikaavan mukaan. Näytteissä D-G apexia, basis näytteissä K-P, seminaalivehikkeleitä O-Q. Ensimmäisessä leikkeessä havaitaan jo jonkin verran kasvainta perifeerisesti, ja tuumori lähellä kapselin reunaa. Läpikasvua ei nähdä eikä pos. reunamarginaaleja. Basis ja seminaalivehikkelit puhtaat. Löydetyt tuumorit Gleason 7-tasoista karsinoomaa, josta isompi osuus scoorauksella 3 n. 60% löydöksissä.",
     # 8
-    "Näytteinä 6 kpl edustavia prostatabiopsioita tyyppipaikoista, yhteensä n. 120mm. Laseilla nähdään prostatakudoksessa paikoin basaalisoluhyperplasiaa. Immunovärjäyksissä näytteissä 3-4 basaalisolut rajoittuneet ja värjäykset positiivisia, mutta fokus niin pieni että ei voida varmaa syöpädiagnoosia antaa. Johtopäätös: Suspicio-löydös biopsioista, mutta diagnoosi epävarmaa.",
+    "Näytteinä 6 kpl edustavia prostatabiopsioita tyyppipaikoista, yhteensä n. 120mm. Laseilla nähdään prostatakudoksessa paikoin basaalisoluhyperplasiaa. Immunovärjäyksissä näytteissä 3-4 basaalisolut rajoittuneet ja värjäykset positiivisia, mutta fokus niin pieni että ei voida varmaa syöpädiagnoosia antaa. Johtopäätös: Suspicio-löydös biopsioista, mutta diagnoosi epävarma.",
     # 9
     "Höyläyslastuja tuli yhteensä noin 30g, joista noin 20g käynnistettiin kuudessa blokissa. Histologisessa tarkastelussa havaitaan hyvänlaatuista prostatakudosta, missä ei atypiaa, malignia, tai karsinoomaa näy. Vähän nähtävissä läiskittäistä tulehdusta. Löydös sopii siis epäiltyyn hyvänlaatuiseen hyperplasiaan.",
     # 10
@@ -53,25 +53,25 @@ inputs = [
     # 20
     "Näytteenä on yhteensä 12.3g lastuja. Käynnistetään ne yhdellä kasetilla. Histologisessa tarkastelussa näkyy läiskittäistä kroonista tulehdusta, ja näytteistä tulee yleinen vaikutelma strooman hyperplasiasta. Mitään maligniin suoraan viittaavaa ei näy.",
     # 21
-    "A histo-pathological statement in Finnish.",
+    "Tutkittavana kuusi biopsialieriötä otettuna kohonneen PSA:n takia. Pesäke 1. vasemmalta edestä, nähdään 5mm matkalla huonosti erilaistunutta atyyppista rauhasrakennetta. Kyseessä adenokarsinooma, jossa Gleason luokitus 4+4=8. Pesäke 2. vasemmalta keskeltä noin 10mm matkalla nähdään myös karsinoomakudosta, jossa Gleasonin pistesumma 4+3=7 ja graduksen 4 osuus n. 80%. Pesäkkeessä 3. oikealta keskeltä myös löydös jossa gradusten 3 ja 4 suhde n. 70:30%, joten summa 7 (3+4). Lopuissa näytteistä lähinnä epiteelissä hyperplastisia muutoksia.",
     # 22
-    "A histo-pathological statement in Finnish.",
+    "Näytteinä yhteensä 4g höyläyslastuja, jotka käynnistetty kolmeen kudoskasettiin. Todetaan mikroskooppisesti suhteellisen normaalia prostatasolukkoa, jossa kuitenkin voimakasta polttoartefaktaa. Rauhaset melko tuhoutuneet polttoartefaktoista johtuen, mutta löydökset viittaisivat hienoisesti prostatahyperplasiaan.",
     # 23
-    "A histo-pathological statement in Finnish.",
+    "Tutkittavana on prostatektomiapreparaatti, joka käynnistetään normaalilla kaavalla oikea lohko vihreällä ja vasen lohko keltaisella värjäten. Apex näytteisiin A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä. Histologiassa nähdään laaja kasvain, joka ulottuu apexista basikseen asti. Osassa apex-näytteitä ulottuu myös reunan merkattuun rajaan ja tulee pienet positiiviset reunamarginaalit. Suurin kasvainfokus on basiksen puolella, missä vallitseva Gleason luokka 3 ja luokan 4 erilaistumista melkein yhtä paljon. Ei havaita kuitenkaan kasvaimen läpikasvua kapselin ulkopuolelle.",
     # 24
-    "A histo-pathological statement in Finnish.",
+    "Näyte (1) sisältää kaksi kudoslieriötä, joiden pituus 8+6mm. Pidemmässä nähdään noin 4mm pituudelta (noin puolet kokonaispituudesta) kasvainkudosta, jossa Gleason 3 -kasvutapaa 60% ja 4 -osuus n. 40%. Näyte (2) yksi 10mm, jossa kasvainkudosta n. 5mm pituudelta ja erilaistuminen Gleason 3 n. 70% ja 4-luokkaa 30%. Näyte (3) sis. 5+5mm, joissa ei havaita tavallisesta poikkeavaa prostatakudosta. Näytteissa (1) ja (2) nähdään myös PIN-muutoksia. Todetaan em. näytteistä siis Gleason 7:n prostatan adenokarsinooma.",
     # 25
-    "A histo-pathological statement in Finnish.",
+    "Näytteeksi saadut prostatan elektrosektiolastut on käynnistetty kahdeksassa blokissa. Histologisessa tarkastelussa näkyy pääasiassa säännöllistä prostatakudosta, löydös siis benigni.",
     # 26
-    "A histo-pathological statement in Finnish.",
+    "Näytteet 1-4: Mikroskopiassa nähdään että näytteessä nro 2 on noin 2mm kokoinen alue prostatan adenokarsinoomaa. Löydöksessä vallitsevampi Gleason on luokka 4, joskin luokka 3 on lähes yhtä suuri %. Nähdään jonkin verran siis fuusioituneita ja huonosti muodostuneita rauhasia.",
     # 27
-    "A histo-pathological statement in Finnish.",
+    "Tutkittavana 12 edustavaa neulabiopsiaa prostatan tyyppipaikoista. Näytteiden yhteispituus on noin 150mm. Nähdään normaaleja rauhasrakenteita ja jonkin verran aaltoilevaa hyperplastisen kaltaista epiteeliä. Lopputulos on siis lähinnä benignin oloista kasvua. Lääk. Heikki Histopatologi",
     # 28
-    "A histo-pathological statement in Finnish.",
+    "Näytteenä on edustavat prostatabiopsiat tyyppilokaatioista. Karsinoomaa löytyi seuraavasti: (1) oikean basiksen 8mm pituinen biopsia ja 7mm pituinen biopsia, joissa molemmissa Gleason 3 arkkitehtuuri pääsääntöisesti. (2) vasemmalla basiksessa 5mm myös Gleason 3 arkkitehtuurilla karsinoomalöydös. Toinen vasemman basiksen näyte puhdas. Loput näytteet myös puhtaita, joskin jonkin verran tulehdussolujen kertymää. Ei havaita tuma-atypiaa. Yhteenvetona 3/12 biopsiosta havaittu 3+3 tyypin adenokarsinoomaa.",
     # 29
-    "A histo-pathological statement in Finnish.",
+    "Prostatan paksuneulabiopsianäytteet tutkittavana rutiinikaavion mukaisesti: 1 basis oikea, 2 keski oikea, 3 apex oikea, 4 basis vasen, 5 keski vasen, 6 apex vasen. Histologisesti leikkeet onnistuneita. Näytteissä 5-6 pieneltä alueelta (<1mm) nähdään Gleason 5 kasvutapaa, mutta pääosin havaitaan huonosti erilaistunutta Gleason 4+3=7 kasvua.",
     # 30
-    "A histo-pathological statement in Finnish.",
+    "Tutkittavana kolme fuusiobiopsiaa prostatan suspektista fokuksesta. Yhteispituudesta 30mm nähdänä n. puolelta matkaa karsinoomafokuksia siten että pituudet noin 7, 6 ja 2mm. Näissä tason 3 graduksen kasvu promenttia kasvua, joskus jonkin verran myös Gleaosn 4 -tyypin silmukoituvaa rakenneta noin kolmasosalta karsinooman pituudelta. Yhteenvetona löydös score 7 yhteensä 15mm matkalta, jossa 3 arkkitehtuuri n. 2/3 ja 4 arkkitehtuuri n. 1/3 karsinooman osasta.",
     # Gibberish 1 (31)
     "Beep boop? Boop biip. Blarp!",
     # Gibberish 2 (32)
