@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 3,
+  "sample_size_or_weight": "30mm",
+  "Gleason_score": 7,
+  "benign_prostatic_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: The report mentions "Three fusion biopsies", so the answer is 3.
+* `sample_size_or_weight`: The report mentions "total length of 30mm", so the answer is "30mm".
+* `Gleason_score`: The report mentions "score 7", so the answer is 7.
+* `benign_prostatic_hyperplasia_only`: The report mentions "carcinoma foci", which indicates that it's not just benign prostatic hyperplasia, so the answer is false.
+* `perineural_invasion` and `atypia`: These are not mentioned in the report, so the answer is NA (Not Available) for both.

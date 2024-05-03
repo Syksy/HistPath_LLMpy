@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 3,
+  "sample_size_or_weight": "30mm",
+  "Gleason_score": 7,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples" is 3, as there are three fuusiobiopsiaa (fusion biopsies) mentioned in the report.
+* "sample_size_or_weight" is "30mm", which is the total length of the samples.
+* "Gleason_score" is 7, which is the overall Gleason score mentioned in the report.
+* "benign_hyperplasia_only" is false, as the report mentions carcinoma foci and Gleason scores, indicating malignant growth.
+* "perineural_invasion" and "atypia" are both NA, as there is no mention of these features in the report.

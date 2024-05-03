@@ -1,0 +1,21 @@
+{
+  "potilaalta_otetut_naytteet": 6,
+  "naytteiden_koko_tai_paino": "Ei saatavilla",
+  "Gleason luokitus": [
+    {
+      "nayte": "Colony 1",
+      "luokitus": "4+4=8"
+    },
+    {
+      "nayte": "Colony 2",
+      "luokitus": "4+3=7"
+    },
+    {
+      "nayte": "Colony 3",
+      "luokitus": "3+4=7"
+    }
+  ],
+  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
+  "atypia": true
+}

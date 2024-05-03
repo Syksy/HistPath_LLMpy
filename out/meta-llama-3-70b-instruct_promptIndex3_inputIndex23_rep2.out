@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": ["8+6mm", "10mm", "5+5mm"],
+  "3. Gleason score": ["3+4=7", "3+4=7", "NA"],
+  "4. BPH detection": "NA",
+  "5. Perineural growth detection": "yes",
+  "6. Atypia detection": "yes"
+}
+```
+
+Note: 
+
+* For question 4, I answered 'NA' because BPH (Benign Prostatic Hyperplasia) is not mentioned in the text.
+* For question 5, I answered 'yes' because PIN-muutoksia (Prostatic Intraepithelial Neoplasia) is mentioned, which is a type of perineural growth.
+* For question 6, I answered 'yes' because PIN-muutoksia is also a type of atypia.

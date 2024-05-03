@@ -1,0 +1,35 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "num_samples": 4,
+  "sample_info": [
+    {"sample_id": 1, "size_mm": 10, "representative": false},
+    {"sample_id": 2, "size_mm": 8, "representative": true},
+    {"sample_id": 3, "size_mm": 14, "representative": true},
+    {"sample_id": 4, "size_mm": 14, "representative": true}
+  ],
+  "gleason_score": {
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "percentage_primary_pattern": 90,
+    "percentage_secondary_pattern": 10
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia_present": false
+}
+```
+
+Let me explain how I arrived at this structured report:
+
+* `num_samples`: The number of samples taken from the patient, which is 4 in this case.
+* `sample_info`: An array of objects, each representing a sample. The properties are:
+	+ `sample_id`: A unique identifier for each sample (1-4).
+	+ `size_mm`: The size of each sample in millimeters.
+	+ `representative`: A boolean indicating whether the sample is representative of healthy prostate tissue or not.
+* `gleason_score`: An object containing the Gleason score information:
+	+ `primary_pattern` and `secondary_pattern`: The primary and secondary patterns of the Gleason score (3 and 4, respectively).
+	+ `percentage_primary_pattern` and `percentage_secondary_pattern`: The percentages of each pattern (90% and 10%, respectively).
+* `benign_hyperplasia_only`: A boolean indicating whether the sample shows only benign hyperplasia (false in this case, since adenocarcinoma is present).
+* `perineural_invasion` and `atypia_present`: Booleans indicating whether perineural invasion or atypia are present in the sample (both false in this case).

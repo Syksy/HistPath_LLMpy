@@ -1,0 +1,29 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 3,
+  "sample_size_or_weight": [
+    {"sample": 1, "size": "8+6mm"},
+    {"sample": 2, "size": "10mm"},
+    {"sample": 3, "size": "5+5mm"}
+  ],
+  "Gleason_score": [
+    {"sample": 1, "score": 7, "pattern_3": 60, "pattern_4": 40},
+    {"sample": 2, "score": 7, "pattern_3": 70, "pattern_4": 30},
+    {"sample": 3, "score": NA}
+  ],
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia_present": true
+}
+```
+
+Note: 
+
+* `number_of_samples` is the number of samples taken from the patient.
+* `sample_size_or_weight` is an array of objects, each containing the sample number and its corresponding size or weight.
+* `Gleason_score` is an array of objects, each containing the sample number, Gleason score, and the percentage of pattern 3 and pattern 4.
+* `benign_hyperplasia_only` is a boolean indicating whether the sample shows only benign hyperplasia (false in this case).
+* `perineural_invasion` is NA because it's not mentioned in the report.
+* `atypia_present` is true because PIN-muutoksia (prostatic intraepithelial neoplasia) are mentioned in the report.

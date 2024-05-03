@@ -1,0 +1,11 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+The report mentions "Prostate biopsies taken according to the normal method in cassettes" but does not specify the exact number of samples. Therefore, the answer is:
+```
+{
+  "näytteiden_määrä": "NA"
+}
+```
+
+Please let me know when to proceed to the next question!

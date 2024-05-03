@@ -1,0 +1,19 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 1, // Assuming 4g of tissue is one sample
+  "sample_size_or_weight": "4g",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": true,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Note: 
+
+* The number of samples is assumed to be 1, as the text mentions 4g of tissue, but it's not clear if this is one or multiple samples.
+* The Gleason score is not mentioned in the report, so it's marked as NA.
+* The report suggests that the findings are consistent with benign prostatic hyperplasia, so `benign_hyperplasia_only` is set to true.
+* There is no mention of perineural invasion or atypia in the report, so these values are marked as NA.

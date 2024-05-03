@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": "1 (koko elin yhtenä näytteenä)",
+  "sample_size_or_weight": "19g",
+  "Gleason_score": "5+4=9",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "kyllä",
+  "atypia": "kyllä"
+}
+```
+
+Note: 
+
+* `sample_count` is set to "1 (koko elin yhtenä näytteenä)" since the report mentions a single prostate sample.
+* `sample_size_or_weight` is set to "19g" which is the total weight of the sample.
+* `Gleason_score` is set to "5+4=9" based on the report mentioning that the Gleason score has mostly grade 5 and secondly grade 4.
+* `benign_hyperplasia_only` is set to "ei" since the report mentions malignant growth.
+* `perineural_invasion` is set to "kyllä" since the report mentions perineural invasion.
+* `atypia` is set to "kyllä" since the report mentions atypical growth.

@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 12,
+  "sample_size_or_weight": ["8mm", "7mm", "5mm"],
+  "Gleason_score": 3,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `number_of_samples`: The number of biopsies taken from the patient, which is 12.
+* `sample_size_or_weight`: The sizes of the biopsies are listed as an array, which are 8mm, 7mm, and 5mm.
+* `Gleason_score`: The Gleason score is reported as 3.
+* `benign_hyperplasia_only`: Since the report mentions adenocarcinoma, this field is set to false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to NA (not available).
+* `atypia`: The report explicitly states that there is no atypia, so this field is set to false.

@@ -1,0 +1,51 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions "Kuusi formaliinifiksoitua preparaattia", which translates to "Six formalin-fixed preparations".
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "NA"
+}
+```
+There is no mention of the size of the samples in the report.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": "3+4=7"
+}
+```
+The report mentions "E-F nähdään valtaosa kasvusta Gleason-luokkaa 3 (noin 60%), loput luokkaa 4, siis 3+4=7."
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
+}
+```
+There is no clear mention of benign prostatic hyperplasia in the report.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "ei"
+}
+```
+The report explicitly states that there is no perineural invasion: "eikä vesikkeli- tai perineuraali-invaasiota".
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you need further assistance!

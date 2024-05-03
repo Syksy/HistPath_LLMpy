@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": "4g",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": "kyllä",
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: Not mentioned in the report, so NA.
+* `sample_size_or_weight`: Mentioned as 4g.
+* `Gleason_score`: Not mentioned in the report, so NA.
+* `benign_hyperplasia_only`: The report mentions "subtly prostatic hyperplasia", which suggests that only benign hyperplasia is present, so "kyllä".
+* `perineural_invasion`: Not mentioned in the report, so NA.
+* `atypia`: Not mentioned in the report, so NA.

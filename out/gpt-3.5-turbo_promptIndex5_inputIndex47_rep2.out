@@ -1,0 +1,17 @@
+{
+  "Potilaalta otettujen näytteiden määrä": 4,
+  "Näytteiden koko tai paino": {
+    "Vasen puoli": [10, 7],
+    "Oikea puoli": [15, 10]
+  },
+  "Gleason luokitus": {
+    "Vasen puoli": {
+      "Gleason 3": "Pääasiallinen",
+      "Gleason 4": "Toiseksi yleisin"
+    },
+    "Oikea puoli": "Ei pahanlaatuista"
+  },
+  "Hyvänlaatuinen eturauhasen liikakasvu": false,
+  "Perineuraalinen kasvu havaittu": true,
+  "Atypia havaittu": false
+}

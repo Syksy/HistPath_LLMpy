@@ -1,0 +1,37 @@
+{
+  "Biopsy": {
+    "Number of samples": 6,
+    "Sample size/weight": "NA",
+    "Gleason score": [
+      {
+        "Colony": "1",
+        "Location": "left front",
+        "Distance from glandular structure": "5mm",
+        "Histology": "adenocarcinoma",
+        "Gleason classification": "4+4=8",
+        "Perineural invasion": "NA",
+        "Atypia": "Yes"
+      },
+      {
+        "Colony": "2",
+        "Location": "left center",
+        "Distance from glandular structure": "10mm",
+        "Histology": "carcinoma tissue",
+        "Gleason classification": "4+3=7",
+        "Proportion of grade 4": "80%",
+        "Perineural invasion": "NA",
+        "Atypia": "NA"
+      },
+      {
+        "Colony": "3",
+        "Location": "right center",
+        "Histology": "NA",
+        "Gleason classification": "3+4=7",
+        "Proportion of grade 4": "30%",
+        "Perineural invasion": "NA",
+        "Atypia": "NA"
+      }
+    ],
+    "Benign or malignant": "Malignant"
+  }
+}

@@ -1,0 +1,20 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 3
+}
+```
+The report mentions "Samples of 3 prostatic core needle biopsies".
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": 90,
+  "määre": "mm"
+}
+```
+The report mentions "The total length of the samples is 90mm".
+
+Let me know when to proceed with the next questions!

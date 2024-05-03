@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("1"),
+  "2. Näytteiden koko": ("100mm"),
+  "3. Gleason-luokitus": ("NA"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("kyllä"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: 
+
+* The number of samples is assumed to be 1, as there is no indication of multiple samples.
+* The size of the sample is 100mm.
+* There is no mention of Gleason score, so it's marked as NA (Not Available).
+* There is no clear indication of benign hyperplasia, so it's marked as "ei" (no).
+* Perineural growth is suspected, so it's marked as "kyllä" (yes).
+* There is no mention of atypia, so it's marked as NA (Not Available).

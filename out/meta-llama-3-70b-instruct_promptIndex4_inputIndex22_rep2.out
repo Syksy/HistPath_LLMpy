@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 9, // A-C, D-E, F-G, H-I
+  "sample_size_or_weight": NA,
+  "Gleason_score": 3+4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `number_of_samples`: 9 samples were taken from the patient (A-C, D-E, F-G, H-I).
+* `sample_size_or_weight`: No information about the size or weight of the samples was provided, so NA is returned.
+* `Gleason_score`: The Gleason score is 3+4, indicating a dominant pattern of grade 3 and a secondary pattern of grade 4.
+* `benign_hyperplasia_only`: False, as the report mentions a large tumor with a Gleason score, indicating malignant growth.
+* `perineural_invasion`: False, as there is no mention of perineural invasion in the report.
+* `atypia`: False, as there is no mention of atypia in the report.

@@ -1,0 +1,12 @@
+{
+  "number of samples": 7,
+  "size of samples": {
+    "apex": "D-G",
+    "base": "K-P",
+    "seminal vesicles": "O-Q"
+  },
+  "Gleason score": "3+4=7",
+  "BPH detected": "no",
+  "perineural growth detected": "no",
+  "atypia detected": "no"
+}

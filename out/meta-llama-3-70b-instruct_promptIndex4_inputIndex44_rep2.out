@@ -1,0 +1,24 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 4,
+  "sample_size_or_weight": {
+    "sample_1": "10mm",
+    "sample_2": "8mm",
+    "sample_3": "14mm",
+    "sample_4": "14mm"
+  },
+  "Gleason_score": {
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "percentage_primary_pattern": 90,
+    "percentage_secondary_pattern": 10
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": NA
+}
+```
+
+Note: Since there is no mention of atypia in the original report, I have returned NA (Not Available) for that field.

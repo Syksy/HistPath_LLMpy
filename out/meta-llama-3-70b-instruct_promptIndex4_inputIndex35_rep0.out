@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 1,
+  "sample_size_or_weight": "5g",
+  "Gleason_score": 8,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples" is set to 1, as the report mentions a single sample of prostate shavings.
+* "sample_size_or_weight" is set to "5g", as the report specifies the weight of the sample.
+* "Gleason_score" is set to 8, as the report explicitly states the total Gleason score.
+* "benign_hyperplasia_only" is set to false, as the report mentions adenocarcinoma, which is a malignant tumor.
+* "perineural_invasion" and "atypia" are set to NA, as there is no mention of these features in the report.

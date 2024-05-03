@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 6,
+  "2. Size of samples": "30g",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "yes",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "no"
+}
+```
+
+Note: 
+
+* The number of samples is 6, as mentioned in the text ("käynnistettiin kuudessa blokissa").
+* The size of the samples is 30g, as mentioned in the text ("Höyläyslastuja tuli yhteensä noin 30g").
+* The Gleason score is not mentioned in the text, so it's marked as "NA".
+* BPH (Benign Prostatic Hyperplasia) can be detected, as the text mentions "hyvänlaatuiseen hyperplasiaan", which translates to "benign hyperplasia".
+* There is no mention of perineural growth in the text, so it's marked as "NA".
+* Atypia cannot be detected, as the text explicitly states "ei atypiaa".

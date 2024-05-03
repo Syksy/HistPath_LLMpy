@@ -1,0 +1,28 @@
+{
+  "Potilaan tiedot": {
+    "Näytteiden määrä": "Kaseteissa normaalin tavan mukaan otetut prostatabiopsioat",
+    "Näytteiden kokonaispituus": "n. 150mm"
+  },
+  "Näyte 1B": {
+    "Kohta": "oikeasta basiksesta",
+    "Havainnot": "fokus, jossa pieniä rauhasrakenteita",
+    "Tulokset": {
+      "Tuma-atypia": "kyllä",
+      "Gleason luokitus": "suspisio-asteelle"
+    }
+  },
+  "Muut näytteet": {
+    "Havainnot": "normaalia rauhaskudosta"
+  },
+  "Johtopäätös": {
+    "Diagnoosi": "adenokarsinooma",
+    "Hyvänlaatuinen eturauhasen liikakasvu": "ei mainintaa",
+    "Perineuraalinen kasvu": "ei havaittu",
+    "Atypia": "ei mainintaa"
+  },
+  "Lääkärin tiedot": {
+    "Nimi": "Lauri Lääkäri",
+    "Sijainti": "Meilahti",
+    "Päiväys": "1.1.2021"
+  }
+}

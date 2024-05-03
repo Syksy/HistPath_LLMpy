@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 1,
+  "sample_size_or_weight": "150mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": true
+}
+```
+
+Explanation:
+
+* `number_of_samples`: The report mentions a single biopsy sample, so the answer is 1.
+* `sample_size_or_weight`: The report states that the total length of the sample is approximately 150mm.
+* `Gleason_score`: There is no mention of a Gleason score in the report, so the answer is NA (not available).
+* `benign_hyperplasia_only`: The report mentions adenocarcinoma-like morphology, which suggests that it's not just benign hyperplasia, so the answer is false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so the answer is NA (not available).
+* `atypia`: The report mentions tumour-atypia, which suggests that there are atypical changes in the tissue, so the answer is true.

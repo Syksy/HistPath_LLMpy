@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 7,
+  "benign_prostatic_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `number_of_samples`: NA, as the number of samples is not explicitly mentioned in the report.
+* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned in the report.
+* `Gleason_score`: 7, as mentioned in the report ("Löydetyt tuumorit Gleason 7-tasoista karsinoomaa").
+* `benign_prostatic_hyperplasia_only`: false, as the report mentions a tumor with a Gleason score of 7, indicating malignant growth.
+* `perineural_invasion`: false, as there is no mention of perineural invasion in the report.
+* `atypia`: false, as there is no mention of atypia in the report.

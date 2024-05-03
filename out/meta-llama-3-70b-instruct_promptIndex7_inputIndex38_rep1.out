@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": "30g",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": true,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `number_of_samples`: NA, because the report does not mention the number of samples taken from the patient.
+* `sample_size_or_weight`: "30g", because the report mentions that about 30g of planing chips were received.
+* `Gleason_score`: NA, because the report does not mention a Gleason score.
+* `benign_hyperplasia_only`: true, because the report concludes that the finding is suitable for suspected benign hyperplasia.
+* `perineural_invasion`: false, because there is no mention of perineural invasion in the report.
+* `atypia`: false, because the report explicitly states that no atypia is visible.

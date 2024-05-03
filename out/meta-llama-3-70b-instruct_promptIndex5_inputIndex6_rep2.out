@@ -1,0 +1,23 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 1,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 7,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `sample_count`: Since this is a prostatectomy specimen, it's considered as one sample.
+* `sample_size_or_weight`: Not mentioned in the report, so NA (Not Available) is returned.
+* `Gleason_score`: The report mentions Gleason score of 7, which is a combination of two scores (3+4 or 4+3). However, since the exact breakdown is not provided, only the overall score of 7 is reported.
+* `benign_hyperplasia_only`: The report mentions a tumor with Gleason score 7, which indicates malignant growth. Therefore, this field is set to false.
+* `perineural_invasion`: The report does not mention perineural invasion, so this field is set to false.
+* `atypia`: The report does not mention atypia, so this field is set to false.
+
+Note: If any of the required fields are not mentioned in the report, NA (Not Available) is returned.

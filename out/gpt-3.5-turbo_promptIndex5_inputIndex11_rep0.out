@@ -1,0 +1,12 @@
+{
+  "näytteiden määrä": 13,
+  "näytteiden koko": "180mm",
+  "Gleason luokitus": {
+    "isompi osuus": 3,
+    "pienempi osuus": 4,
+    "pienemmän osuuden osuus": "noin 30%"
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": false
+}

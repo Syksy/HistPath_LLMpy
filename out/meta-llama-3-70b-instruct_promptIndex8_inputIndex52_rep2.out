@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 9, 
+  "sample_size_or_weight": NA, 
+  "Gleason_score": "3+4", 
+  "benign_hyperplasia_only": "ei", 
+  "perineural_invasion": NA, 
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: 9 samples were taken from the patient (Apex to samples A-C, two macrosections per base D-E, F-G base and H-I two samples from seminal vesicles).
+* `sample_size_or_weight`: No information about the size or weight of the samples is provided, so NA is returned.
+* `Gleason_score`: The Gleason score is reported as 3+4, indicating that the prevailing Gleason grade 3 and grade 4 differentiation are almost equal.
+* `benign_hyperplasia_only`: The report mentions a large tumor, so it's not a case of benign hyperplasia only, hence "ei" (no) is returned.
+* `perineural_invasion` and `atypia`: There is no mention of perineural invasion or atypia in the report, so NA is returned for both.

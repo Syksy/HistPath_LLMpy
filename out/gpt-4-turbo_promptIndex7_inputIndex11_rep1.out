@@ -1,0 +1,12 @@
+{
+  "näytteiden_määrä": 13,
+  "näytteiden_koko_tai_paino": "180mm",
+  "gleason_luokitus": {
+    "suurempi_osuus": 3,
+    "pienempi_osuus": 4,
+    "pienemmän_osuuden_prosenttiosuus": 30
+  },
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "NA"
+}

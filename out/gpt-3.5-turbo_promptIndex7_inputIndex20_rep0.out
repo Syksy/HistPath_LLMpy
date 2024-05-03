@@ -1,0 +1,21 @@
+{
+  "potilaan_naytteiden_maara": 6,
+  "naytteiden_koko_tai_paino": "NA",
+  "Gleason luokitus": [
+    {
+      "pesake": "1. vasemmalta edesta",
+      "luokitus": "4+4=8"
+    },
+    {
+      "pesake": "2. vasemmalta keskelta",
+      "luokitus": "4+3=7"
+    },
+    {
+      "pesake": "3. oikealta keskelta",
+      "luokitus": "3+4=7"
+    }
+  ],
+  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
+  "atypia": true
+}

@@ -1,0 +1,17 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("2"),
+  "2. Näytteiden koko": ("oikealta noin 60mm, vasemmalta noin 80mm"),
+  "3. Gleason-luokitus": ("4+5=9"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("NA"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: 
+
+* For question 4, I answered "ei" (no) because the report mentions carcinoma (cancer) but not benign hyperplasia.
+* For questions 5 and 6, I answered "NA" (not available) because the report does not mention perineural growth or atypia.

@@ -1,0 +1,26 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "(a. Näytteiden määrä)": 14,
+  "(b. Näytteiden koko)": NA,
+  "(c. Gleason-luokitus)": 4,
+  "(d. Eturauhasen hyvälaatuinen liikakasvu)": ei,
+  "(e. Perineuraalinen kasvu)": kyllä,
+  "(f. Atypia)": NA
+}
+```
+
+Here's a brief explanation for each answer:
+
+a. The number of samples taken is 14 (A-D, E-F, G-N, and N-O).
+
+b. There is no clear indication of the size of the samples in the report.
+
+c. The prevailing Gleason class is 4, with some class 3 also present.
+
+d. There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth in the report, so the answer is "ei" (no).
+
+e. Perineural invasion is abundantly observed, so the answer is "kyllä" (yes).
+
+f. There is no mention of atypia in the report, so the answer is "NA" (not available).

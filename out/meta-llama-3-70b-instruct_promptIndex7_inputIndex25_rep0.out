@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 4,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: 4, as mentioned in the report ("Näytteet 1-4")
+* `sample_size_or_weight`: NA, as no information about sample size or weight is provided
+* `Gleason_score`: 4, as mentioned in the report ("Löydöksessä vallitsevampi Gleason on luokka 4")
+* `benign_hyperplasia_only`: false, as the report mentions adenocarcinoma, which is a malignant tumor
+* `perineural_invasion`: NA, as no information about perineural invasion is provided
+* `atypia`: NA, as no information about atypia is provided

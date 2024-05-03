@@ -1,0 +1,17 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("2"),
+  "2. Size of samples": ("60mm on the right, 80mm on the left"),
+  "3. Gleason score": ("4+5=9"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("NA"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: 
+
+* For question 4, I assumed that "hyvälaatuista eturauhasen liikakasvua" refers to benign prostatic hyperplasia, and since the report mentions carcinoma, I answered "ei".
+* For questions 5 and 6, I answered "NA" because there is no mention of perineural growth or atypia in the report.

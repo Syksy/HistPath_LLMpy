@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 1,
+  "2. Size of samples": "150mm",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "NA",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "yes"
+}
+```
+
+Note: The Gleason score, BPH detection, and perineural growth detection cannot be determined from the provided text, so they are marked as "NA" (not available).

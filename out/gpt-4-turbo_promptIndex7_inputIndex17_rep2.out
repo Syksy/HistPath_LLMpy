@@ -1,0 +1,11 @@
+{
+  "näytteiden_määrä": "4",
+  "näytteiden_koko_tai_paino": {
+    "vasen_puoli": ["10 mm", "7 mm"],
+    "oikea_puoli": ["15 mm", "10 mm"]
+  },
+  "gleason_luokitus": "3+4",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
+  "perineuraalinen_kasvu": "Kyllä",
+  "atypia": "NA"
+}

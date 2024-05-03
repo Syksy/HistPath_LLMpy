@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": "multiple",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "3+4",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "ei",
+  "atypia": "ei"
+}
+```
+
+Explanation:
+
+* `sample_count`: Multiple samples were taken, but the exact number is not specified.
+* `sample_size_or_weight`: No information about the size or weight of the samples is provided.
+* `Gleason_score`: The Gleason score is reported as 3+4, which means the primary pattern is 3 and the secondary pattern is 4.
+* `benign_hyperplasia_only`: The report indicates that there is a large tumor, so it's not just benign hyperplasia (ei = no).
+* `perineural_invasion`: There is no mention of perineural invasion in the report (ei = no).
+* `atypia`: There is no mention of atypia in the report (ei = no).

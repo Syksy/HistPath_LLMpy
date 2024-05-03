@@ -1,0 +1,19 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions "Samples 1-6", indicating that there are 6 samples.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "NA"
+}
+```
+There is no mention of the size of the samples in the report, so I'll answer with "NA".
+
+Let me know when to proceed with the next questions!

@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "(a) Näytteiden määrä": 3,
+  "(b) Näytteiden koko": [8, 6, 10, 5, 5],
+  "(c) Gleason-luokitus": 7,
+  "(d) Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "(e) Perineuraalinen kasvu": "NA",
+  "(f) Atypia": "NA"
+}
+```
+
+Note: For question (b), I provided an array of values since there are multiple sample sizes mentioned in the text.

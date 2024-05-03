@@ -1,0 +1,34 @@
+{
+  "number_of_samples": 3,
+  "sample_sizes_or_weights": [
+    {
+      "sample_number": 1,
+      "size": "8+6mm"
+    },
+    {
+      "sample_number": 2,
+      "size": "10mm"
+    },
+    {
+      "sample_number": 3,
+      "size": "5+5mm"
+    }
+  ],
+  "gleason_scores": [
+    {
+      "sample_number": 1,
+      "gleason_score": "3+4=7"
+    },
+    {
+      "sample_number": 2,
+      "gleason_score": "3+4=7"
+    },
+    {
+      "sample_number": 3,
+      "gleason_score": "NA"
+    }
+  ],
+  "benign_prostatic_hyperplasia": "No",
+  "perineural_invasion": "NA",
+  "atypia": "Yes"
+}

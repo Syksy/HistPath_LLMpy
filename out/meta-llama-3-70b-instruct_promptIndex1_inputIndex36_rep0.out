@@ -1,0 +1,31 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+The report mentions that the prostatectomy preparation has been tested, which is run on cassettes according to the normal formula, with Apex in specimens D-G, base in specimens K-P, and seminal vesicles O-Q. This implies that there are multiple specimens, but the exact number is not explicitly stated.
+
+Answer: `{"Näytteiden määrä": "NA"}`
+
+**2. Näytteiden koko:**
+There is no mention of the size of the specimens in the report.
+
+Answer: `{"Näytteiden koko": "NA"}`
+
+**3. Gleason-luokitus:**
+The report states that the tumors found are Gleason level 7 carcinoma.
+
+Answer: `{"Gleason-luokitus": "7"}`
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report.
+
+Answer: `{"Hyvälaatuinen eturauhasen liikakasvu": "NA"}`
+
+**5. Perineuraalinen kasvu:**
+There is no mention of perineural growth (perineuraalinen kasvu) in the report.
+
+Answer: `{"Perineuraalinen kasvu": "NA"}`
+
+**6. Atypia:**
+There is no mention of atypia in the report.
+
+Answer: `{"Atypia": "NA"}`

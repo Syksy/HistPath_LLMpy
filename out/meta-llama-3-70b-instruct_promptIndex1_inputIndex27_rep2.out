@@ -1,0 +1,23 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 12
+}
+```
+The report mentions that 3/12 biopsies showed adenocarcinoma, so we can infer that 12 biopsies were taken.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": {
+    "oikea_basiksen_biopsia": "8mm",
+    "oikea_basiksen_biopsia_2": "7mm",
+    "vasemman_basiksen_biopsia": "5mm"
+  }
+}
+```
+The report mentions the sizes of the biopsies as 8mm, 7mm, and 5mm.
+
+Let me know when you're ready for me to proceed with the next questions!

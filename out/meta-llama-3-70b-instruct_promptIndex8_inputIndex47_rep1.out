@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": "10 mm, 7 mm, 15 mm, 10 mm",
+  "Gleason_score": "3+4=7",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "kyllä",
+  "atypia": "kyllä"
+}
+```
+
+Explanation:
+
+* `sample_count`: There are 4 samples (2 from the left side and 2 from the right side).
+* `sample_size_or_weight`: The sizes of the samples are given in millimeters.
+* `Gleason_score`: The Gleason score is reported as 3+4=7, indicating a major type 3 and minor type 4.
+* `benign_hyperplasia_only`: The report indicates that there are malignant cells present, so this is set to "ei" (no).
+* `perineural_invasion`: The report mentions growth around nerves, so this is set to "kyllä" (yes).
+* `atypia`: The report mentions low-differentiated carcinoma cells, which implies atypia, so this is set to "kyllä" (yes).

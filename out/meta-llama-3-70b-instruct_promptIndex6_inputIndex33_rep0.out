@@ -1,0 +1,28 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 2,
+  "sample_size_or_weight": {
+    "right": "60mm",
+    "left": "80mm"
+  },
+  "Gleason_score": {
+    "primary": 4,
+    "secondary": 5,
+    "total": 9
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": false
+}
+```
+
+Note: 
+
+* The number of samples is assumed to be 2, as there are two separate measurements mentioned for the right and left sides.
+* The sample size or weight is reported separately for the right and left sides.
+* The Gleason score is broken down into primary, secondary, and total scores.
+* Benign hyperplasia only is set to false, as a carcinoma is found in one of the samples.
+* Perineural invasion is marked as NA, as it is not mentioned in the original report.
+* Atypia is set to false, as no atypical changes are mentioned in the original report.

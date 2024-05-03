@@ -1,0 +1,16 @@
+{
+  "Näytteiden määrä": 3,
+  "Näytteiden koko tai paino": [
+    "Näyte (1): 8+6 mm",
+    "Näyte (2): 10 mm",
+    "Näyte (3): 5+5 mm"
+  ],
+  "Gleason luokitus": [
+    "Näyte (1): Gleason 3 - 60%, Gleason 4 - 40%",
+    "Näyte (2): Gleason 3 - 70%, Gleason 4 - 30%",
+    "Näyte (3): NA"
+  ],
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, näytteissä (1) ja (2) on adenokarsinoomaa",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "Kyllä, näytteissä (1) ja (2) havaittu PIN-muutoksia"
+}

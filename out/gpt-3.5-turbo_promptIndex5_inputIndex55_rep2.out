@@ -1,0 +1,11 @@
+{
+  "Samples": 4,
+  "Sample_size": "2mm",
+  "Gleason_classification": {
+    "Grade_3": "almost as large a %",
+    "Grade_4": "most prevalent"
+  },
+  "Benign_prostatic_hyperplasia": true,
+  "Perineural_invasion": false,
+  "Atypia": false
+}

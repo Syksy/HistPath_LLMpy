@@ -1,0 +1,17 @@
+{
+  "näytteiden määrä": 2,
+  "näytteiden koko tai paino": {
+    "oikea": "60mm",
+    "vasen": "80mm"
+  },
+  "Gleason luokitus": {
+    "näyte B": 9,
+    "näyte B osat": {
+      "ensimmäinen osa": 4,
+      "toinen osa": 5
+    }
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": false
+}

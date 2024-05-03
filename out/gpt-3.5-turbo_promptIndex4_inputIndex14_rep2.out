@@ -1,0 +1,8 @@
+{
+  "potilaan_naytteiden_maara": 4,
+  "naytteiden_koko": ["10mm", "8mm", "14mm", "14mm"],
+  "Gleason luokitus": ["3", "4"],
+  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
+  "atypia": false
+}

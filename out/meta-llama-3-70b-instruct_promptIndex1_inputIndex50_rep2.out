@@ -1,0 +1,49 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report states that "Six biopsy specimens were taken for examination..."
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "NA"
+}
+```
+There is no mention of the size of the biopsy specimens in the report.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": ["4+4=8", "4+3=7", "3+4=7"]
+}
+```
+The report mentions three different Gleason scores: 4+4=8, 4+3=7, and 3+4=7.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report mentions "hyperplastic changes in the epithelium" which suggests that there is no malignant growth, but rather benign hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "kyllä"
+}
+```
+The report mentions a "poorly differentiated atypical glandular structure" which suggests that atypia is present.

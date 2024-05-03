@@ -1,0 +1,14 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 14, // A-D, E-F, G-N, N-O
+  "sample_size_or_weight": NA,
+  "Gleason_score": 4,
+  "benign_prostatic_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Note: I assumed that the number of samples is 14 based on the description of the samples (A-D, E-F, G-N, N-O). If this is not correct, please let me know. Also, I returned NA for sample size or weight and atypia since these values are not mentioned in the report.

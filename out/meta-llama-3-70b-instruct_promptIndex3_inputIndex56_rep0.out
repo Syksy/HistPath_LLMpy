@@ -1,0 +1,20 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 12,
+  "2. Size of samples": "150 mm",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "yes",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "NA"
+}
+```
+
+Note: 
+
+* The number of samples is explicitly mentioned as 12.
+* The size of the samples is given as 150 mm.
+* There is no mention of the Gleason score, so it's marked as NA (Not Available).
+* BPH (Benign Prostatic Hyperplasia) can be detected, as the text mentions "some undulating hyperplastic-like epithelium".
+* There is no mention of perineural growth or atypia, so they are marked as NA.

@@ -1,0 +1,12 @@
+{
+  "Biopsy": {
+    "Number of samples": 6,
+    "Sample size/weight": "NA",
+    "Gleason score": "4+4=8, 4+3=7, 3+4=7",
+    "Benign prostatic hyperplasia": "No",
+    "Perineural invasion": "No",
+    "Atypia": "Yes"
+  },
+  "Radical prostatectomy": "NA",
+  "TURP chip": "NA"
+}

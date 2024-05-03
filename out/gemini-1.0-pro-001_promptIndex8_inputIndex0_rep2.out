@@ -1,0 +1,10 @@
+```json
+{
+  "näytteiden_määrä": "1",
+  "näytteiden_koko": "100 mm",
+  "gleason_luokitus": "NA",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
+  "perineuraalinen_kasvu": "kyllä",
+  "atypia": "NA"
+}
+```

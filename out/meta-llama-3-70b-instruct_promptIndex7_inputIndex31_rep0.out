@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 7,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples": 6, because the report mentions "Six formalin-fixed preparations".
+* "sample_size_or_weight": NA, because the report does not provide information about the size or weight of the samples.
+* "Gleason_score": 7, because the report states that the majority of growth is seen in Gleason class 3 (about 60%), and the rest in class 4, so 3+4=7.
+* "benign_hyperplasia_only": false, because the report mentions glandular fusion and Gleason scores, indicating malignant growth.
+* "perineural_invasion": false, because the report explicitly states that there is no perineural invasion.
+* "atypia": NA, because the report does not provide information about atypia.

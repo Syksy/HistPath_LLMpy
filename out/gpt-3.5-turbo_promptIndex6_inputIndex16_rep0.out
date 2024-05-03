@@ -1,0 +1,11 @@
+{
+  "näytteiden_määrä": 6,
+  "näytteiden_koko": "Apexin fokusten koot n. 8mm ja basiksen fokusten koot n. 5mm",
+  "Gleason luokitus": {
+    "apex": "4+4",
+    "basiksessa": "3+4"
+  },
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
+  "atypia": false
+}

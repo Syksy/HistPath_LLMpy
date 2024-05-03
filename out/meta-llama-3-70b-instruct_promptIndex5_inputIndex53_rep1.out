@@ -1,0 +1,47 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "samples": [
+    {
+      "sample_id": 1,
+      "number_of_samples": 2,
+      "sample_size": "8+6mm",
+      "tumor_tissue_length": "4mm",
+      "gleason_score": 3,
+      "gleason_pattern_3_proportion": 0.6,
+      "gleason_pattern_4_proportion": 0.4,
+      "perineural_invasion": NA,
+      "atypia": true
+    },
+    {
+      "sample_id": 2,
+      "number_of_samples": 1,
+      "sample_size": "10mm",
+      "tumor_tissue_length": "5mm",
+      "gleason_score": 7,
+      "gleason_pattern_3_proportion": 0.7,
+      "gleason_pattern_4_proportion": 0.3,
+      "perineural_invasion": NA,
+      "atypia": true
+    },
+    {
+      "sample_id": 3,
+      "number_of_samples": 2,
+      "sample_size": "5+5mm",
+      "tumor_tissue_length": NA,
+      "gleason_score": NA,
+      "gleason_pattern_3_proportion": NA,
+      "gleason_pattern_4_proportion": NA,
+      "perineural_invasion": NA,
+      "atypia": false
+    }
+  ],
+  "diagnosis": {
+    "adenocarcinoma_found": true,
+    "gleason_score": 7
+  }
+}
+```
+
+Note: I assumed that the Gleason score of 7 is a summary score for the entire diagnosis, and not specific to each sample. If this is not the case, please let me know and I can adjust the output accordingly.

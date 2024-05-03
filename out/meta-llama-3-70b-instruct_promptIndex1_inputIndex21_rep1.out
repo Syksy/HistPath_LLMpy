@@ -1,0 +1,50 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 4
+}
+```
+The report mentions "Näytteinä yhteensä 4g höyläyslastuja", which indicates that there are 4 samples.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": 4,
+  "määre": "g"
+}
+```
+The report mentions "Näytteinä yhteensä 4g höyläyslastuja", which indicates that the samples are 4 grams each.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of Gleason classification in the report, so the answer is 'NA'.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+The report mentions "löydökset viittaisivat hienoisesti prostatahyperplasiaan", which indicates that there is evidence of benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report, so the answer is 'NA'.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report, so the answer is 'NA'.

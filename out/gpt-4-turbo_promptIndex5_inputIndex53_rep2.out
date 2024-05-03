@@ -1,0 +1,20 @@
+{
+  "Sample Count": 3,
+  "Sample Sizes or Weights": [
+    {
+      "Sample 1": "8mm + 6mm",
+      "Sample 2": "10mm",
+      "Sample 3": "5mm + 5mm"
+    }
+  ],
+  "Gleason Score": [
+    {
+      "Sample 1": "Gleason 3 (60%) and 4 (40%)",
+      "Sample 2": "Gleason 3 (70%) and 4 (30%)",
+      "Sample 3": "NA"
+    }
+  ],
+  "Benign Prostatic Hyperplasia": "No",
+  "Perineural Invasion": "NA",
+  "Atypia": "Yes, PIN changes in Samples 1 and 2"
+}

@@ -1,0 +1,8 @@
+{
+  "number_of_samples": 6,
+  "sample_size": "NA",
+  "Gleason_score": "NA",
+  "benign_prostatic_hyperplasia": "Yes",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}

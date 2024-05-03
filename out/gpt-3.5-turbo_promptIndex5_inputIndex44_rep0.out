@@ -1,0 +1,8 @@
+{
+  "Potilaalta otettujen näytteiden määrä": 4,
+  "Näytteiden koko tai paino": ["10mm", "8mm", "14mm", "14mm"],
+  "Näytteen Gleason luokitus": ["Gleason 3 (90%)", "Gleason 4 (10%)"],
+  "Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu": false,
+  "Onko näytteessä havaittu perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua": false,
+  "Onko näytteessä havaittu atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia": false
+}

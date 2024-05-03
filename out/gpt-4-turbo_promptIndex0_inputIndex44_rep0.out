@@ -1,0 +1,16 @@
+{
+  "Näytteiden määrä": 4,
+  "Näytteiden koko": [10, 8, 14, 14],
+  "Gleason-luokitus": {
+    "Sample 1": "NA",
+    "Sample 2": "NA",
+    "Sample 3": "NA",
+    "Sample 4": {
+      "Gleason 3": 90,
+      "Gleason 4": 10
+    }
+  },
+  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "NA"
+}

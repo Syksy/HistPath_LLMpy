@@ -1,0 +1,20 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 6,
+  "2. Size of samples": ["5mm", "10mm", "NA", "NA", "NA", "NA"],
+  "3. Gleason score": ["4+4=8", "4+3=7", "3+4=7", "NA", "NA", "NA"],
+  "4. BPH detection": "no",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "yes"
+}
+```
+
+Note: 
+
+* For question 2, only two sample sizes are mentioned in the text, so the rest are marked as "NA" (not available).
+* For question 3, only three Gleason scores are mentioned in the text, so the rest are marked as "NA" (not available).
+* For question 4, there is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so the answer is "no".
+* For question 5, there is no mention of perineural growth in the text, so the answer is "NA" (not available).
+* For question 6, atypia is mentioned in the text as "huonosti erilaistunutta atyyppista rauhasrakennetta" which translates to poorly differentiated atypical glandular structure, so the answer is "yes".

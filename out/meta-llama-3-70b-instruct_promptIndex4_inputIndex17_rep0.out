@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": ["10mm", "7mm", "15mm", "10mm"],
+  "Gleason_score": 3,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": true
+}
+```
+
+Here's a brief explanation for each field:
+
+* `sample_count`: The number of samples taken from the patient, which is 4 in this case (2 from the left side and 2 from the right side).
+* `sample_size_or_weight`: An array of sample sizes or weights, which are 10mm, 7mm, 15mm, and 10mm respectively.
+* `Gleason_score`: The Gleason score of the sample, which is 3 in this case.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false because the sample also shows malignant features.
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present. In this case, it's true because the report mentions "kasvustoa hermojen ja suonien ympärillä" (growth around nerves and vessels).
+* `atypia`: A boolean indicating whether atypia is present. In this case, it's true because the report mentions "matalalle erilaistunutta karsinoomasolukkoa" (low-grade differentiated carcinoma cells), which implies atypical changes.

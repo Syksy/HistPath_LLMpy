@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("1"),
+  "2. Näytteiden koko": ("12.3g"),
+  "3. Gleason-luokitus": ("NA"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("NA"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: The answers are based on the provided text, and since there is no mention of Gleason score, perineural growth, or atypia, I have marked them as "NA" (Not Available).

@@ -1,0 +1,27 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+The report mentions "eight cassettes" but not the exact number of samples. Therefore, I'll answer:
+```
+{
+  "näytteiden_määrä": "NA"
+}
+```
+
+**2. Näytteiden koko:**
+The report mentions "13g of planing chips". Therefore, I'll answer:
+```
+{
+  "näytteiden_koko": "13g"
+}
+```
+
+**3. Gleason-luokitus:**
+The report mentions "Gleason 3+3=6". Therefore, I'll answer:
+```
+{
+  "Gleason_luokitus": "3+3=6"
+}
+```
+
+Let me know when to proceed with the next questions!

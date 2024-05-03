@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("ei voida määrittää"),
+  "2. Näytteiden koko": ("noin 5g"),
+  "3. Gleason-luokitus": ("4+?=?8"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("NA"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: 
+
+* For question 1, it's not possible to determine the exact number of samples taken from the patient.
+* For question 4, since the diagnosis is adenocarcinoma (cancer), it's unlikely that there's benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu).
+* For questions 5 and 6, there's no mention of perineural growth or atypia in the given statement, so I've marked them as "NA" (not available).

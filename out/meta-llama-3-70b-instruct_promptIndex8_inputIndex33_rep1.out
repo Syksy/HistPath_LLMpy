@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": "2",
+  "sample_size_or_weight": "60mm, 80mm",
+  "Gleason_score": "9 (4+5)",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Explanation:
+
+* `sample_count`: Since there are two samples mentioned (right and left), I assumed it's 2.
+* `sample_size_or_weight`: The sizes of the samples are given in millimeters, so I reported them as such.
+* `Gleason_score`: The Gleason score is explicitly mentioned as 9 (4+5).
+* `benign_hyperplasia_only`: Since a carcinoma is found in one of the samples, this is set to "ei" (no).
+* `perineural_invasion` and `atypia`: These are not mentioned in the report, so I set them to NA.

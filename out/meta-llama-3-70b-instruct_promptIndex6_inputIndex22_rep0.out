@@ -1,0 +1,14 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 9, // A-C, D-E, F-G, H-I
+  "sample_size_or_weight": NA,
+  "Gleason_score": 3+4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": true // implied by the presence of a tumor with Gleason score
+}
+```
+
+Note: The number of samples is inferred from the description of the biopsy specimens (Apex näytteisiin A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä). The sample size or weight is not explicitly mentioned in the report, so it is marked as NA. The Gleason score is reported as 3+4, indicating a dominant pattern of grade 3 and a secondary pattern of grade 4. The report does not suggest that the lesion is purely benign hyperplasia, so this field is set to false. There is no mention of perineural invasion, so this field is also set to false. Finally, the presence of a tumor with a Gleason score implies atypia, so this field is set to true.

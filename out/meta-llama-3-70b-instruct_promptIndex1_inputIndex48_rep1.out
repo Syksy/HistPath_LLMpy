@@ -1,0 +1,22 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions that there are 3 samples from the left side and 3 samples from the right side, making a total of 6 samples.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": {
+    "left": "4+6+3 mm",
+    "right": "5+7+8 mm"
+  }
+}
+```
+The report mentions the size of each sample, but not a single overall size. I've provided the sizes for each side separately.
+
+Let me know when you're ready for me to proceed with the next questions!

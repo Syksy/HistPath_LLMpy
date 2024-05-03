@@ -1,0 +1,23 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 1,
+  "sample_size_or_weight": "19g",
+  "Gleason_score": {
+    "primary_pattern": 5,
+    "secondary_pattern": 4
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Note: 
+
+* The number of samples is assumed to be 1, as the report does not explicitly mention multiple samples.
+* The sample size or weight is reported as 19g, which is the total weight of the prostate shavings.
+* The Gleason score is reported with a primary pattern of 5 and a secondary pattern of 4.
+* Benign hyperplasia only is set to false, as the report mentions a malignant growth.
+* Perineural invasion and atypia are marked as NA (Not Available), as they are not mentioned in the report.

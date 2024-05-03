@@ -1,0 +1,18 @@
+{
+  "1": 4,
+  "2": {
+    "Sample 1": "10mm",
+    "Sample 2": "8mm",
+    "Sample 3": "14mm",
+    "Sample 4": "14mm"
+  },
+  "3": {
+    "Sample 1": "NA",
+    "Sample 2": "NA",
+    "Sample 3": "NA",
+    "Sample 4": "7"
+  },
+  "4": "no",
+  "5": "no",
+  "6": "no"
+}

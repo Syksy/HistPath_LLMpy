@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 4,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: The report mentions "Samples 1-4", so there are 4 samples.
+* `sample_size_or_weight`: There is no information about the size or weight of the samples, so the value is NA.
+* `Gleason_score`: The report mentions that the most prevalent Gleason grade is 4, although grade 3 is also present.
+* `benign_hyperplasia_only`: The report mentions adenocarcinoma, which is a malignant tumor, so this value is false.
+* `perineural_invasion` and `atypia`: There is no information about these features in the report, so the values are NA.

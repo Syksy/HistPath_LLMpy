@@ -1,0 +1,29 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": [
+    {"side": "left", "size": "10 mm"},
+    {"side": "left", "size": "7 mm"},
+    {"side": "right", "size": "15 mm"},
+    {"side": "right", "size": "10 mm"}
+  ],
+  "Gleason_score": {
+    "primary": 3,
+    "secondary": 4
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Note: 
+
+* `sample_count` is the total number of samples taken from the patient, which is 4 in this case.
+* `sample_size_or_weight` is an array of objects, each containing the size of a sample from either the left or right side of the prostate.
+* `Gleason_score` is an object with primary and secondary scores, which are 3 and 4, respectively, in this case.
+* `benign_hyperplasia_only` is set to false because the report mentions carcinoma cells, indicating that it's not just benign hyperplasia.
+* `perineural_invasion` is set to true because the report mentions growth around nerves.
+* `atypia` is set to NA (Not Available) because there is no mention of atypia in the report.

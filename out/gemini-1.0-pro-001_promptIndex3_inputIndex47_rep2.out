@@ -1,0 +1,10 @@
+```json
+{
+  "number_of_samples": 4,
+  "size_of_samples": ["10 and 7 mm", "15 and 10 mm"],
+  "Gleason_score": "3+4=7",
+  "BPH": "NA",
+  "perineural_growth": "yes",
+  "atypia": "NA"
+}
+```

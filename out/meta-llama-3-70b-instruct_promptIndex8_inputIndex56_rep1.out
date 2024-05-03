@@ -1,0 +1,14 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 12,
+  "sample_size_or_weight": "150 mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": "kyllä",
+  "perineural_invasion": "ei",
+  "atypia": "ei"
+}
+```
+
+Note: Since the original text does not mention Gleason score, I have marked it as NA (Not Available).

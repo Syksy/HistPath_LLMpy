@@ -1,0 +1,14 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 8,
+  "sample_size_or_weight": "13g",
+  "Gleason_score": "3+3=6",
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Note: The values for `perineural_invasion` and `atypia` are marked as NA (Not Available) since they are not mentioned in the original report.

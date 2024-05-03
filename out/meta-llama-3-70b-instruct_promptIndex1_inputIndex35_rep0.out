@@ -1,0 +1,51 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": "NA"
+}
+```
+There is no clear mention of the number of samples taken from the patient.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "5g"
+}
+```
+The sample size is approximately 5 grams.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": "4+?=?8"
+}
+```
+The Gleason score is 8, with the most representative being Gleason 4 and its various variants.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+There is no mention of benign prostatic hyperplasia (BPH) in the report.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you need further assistance!

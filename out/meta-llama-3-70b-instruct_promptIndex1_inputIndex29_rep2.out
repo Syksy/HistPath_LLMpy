@@ -1,0 +1,20 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 3
+}
+```
+The report mentions "Tutkittavana kolme fuusiobiopsiaa" which translates to "Three fusion biopsies are being examined".
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": 30,
+  "määre": "mm"
+}
+```
+The report mentions "Yhteispituudesta 30mm" which translates to "A total length of 30mm".
+
+Let me know when you're ready for me to proceed with the next questions!

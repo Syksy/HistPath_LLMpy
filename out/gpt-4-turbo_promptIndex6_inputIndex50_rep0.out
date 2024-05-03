@@ -1,0 +1,18 @@
+{
+  "Number_of_Specimens": 6,
+  "Specimen_Size_or_Weight": "NA",
+  "Gleason_Score": [
+    {
+      "Colony_1": "4+4=8"
+    },
+    {
+      "Colony_2": "4+3=7"
+    },
+    {
+      "Colony_3": "3+4=7"
+    }
+  ],
+  "Benign_Prostatic_Hyperplasia": "Yes",
+  "Perineural_Invasion": "No",
+  "Atypia": "Yes"
+}

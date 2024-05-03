@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": "30g",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": "kyllä",
+  "perineural_invasion": "ei",
+  "atypia": "ei"
+}
+```
+
+Explanation:
+
+* `sample_count`: Not mentioned in the report, so NA.
+* `sample_size_or_weight`: Mentioned as 30g.
+* `Gleason_score`: Not mentioned in the report, so NA.
+* `benign_hyperplasia_only`: The report mentions "benign prostate tissue" and "suitable for suspected benign hyperplasia", so kyllä (yes).
+* `perineural_invasion`: Not mentioned in the report, and no indication of malignancy, so ei (no).
+* `atypia`: The report explicitly states "no atypia", so ei (no).

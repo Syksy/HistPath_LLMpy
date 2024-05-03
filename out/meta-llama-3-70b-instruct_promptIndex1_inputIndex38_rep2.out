@@ -1,0 +1,61 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+The report mentions "six blocks" but does not explicitly state the number of samples. Therefore, the answer is:
+```
+{
+  "näytteiden_määrä": "NA"
+}
+```
+
+**2. Näytteiden koko:**
+The report mentions "About 30g of planing chips came in total". Therefore, the answer is:
+```
+{
+  "näytteiden_koko": "30g"
+}
+```
+
+**3. Gleason-luokitus:**
+There is no mention of Gleason score in the report. Therefore, the answer is:
+```
+{
+  "Gleason_luokitus": "NA"
+}
+```
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+The report mentions "The finding is therefore suitable for suspected benign hyperplasia." which implies that there is benign hyperplasia. Therefore, the answer is:
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+
+**5. Perineuraalinen kasvu:**
+There is no mention of perineural growth in the report. Therefore, the answer is:
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+
+**6. Atypia:**
+The report explicitly states "no atypia". Therefore, the answer is:
+```
+{
+  "atypia": "ei"
+}
+```
+
+Here are all the answers combined in a single JSON object:
+```
+{
+  "näytteiden_määrä": "NA",
+  "näytteiden_koko": "30g",
+  "Gleason_luokitus": "NA",
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä",
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "ei"
+}
+```

@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": "2mm",
+  "Gleason_score": "4+3=7",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Explanation:
+
+* `sample_count`: 4, because there are 4 samples mentioned in the report.
+* `sample_size_or_weight`: "2mm", because the report mentions a 2mm area of adenocarcinoma in sample 2.
+* `Gleason_score`: "4+3=7", because the report mentions that the dominant Gleason score is 4, but 3 is almost as prominent.
+* `benign_hyperplasia_only`: "ei", because the report mentions adenocarcinoma, which is a malignant tumor.
+* `perineural_invasion` and `atypia`: both are "NA" because there is no mention of these features in the report.

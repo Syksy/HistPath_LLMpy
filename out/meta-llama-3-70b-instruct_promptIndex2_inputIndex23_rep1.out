@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(3)",
+  "2. Näytteiden koko": "[(8+6)mm, 10mm, (5+5)mm]",
+  "3. Gleason-luokitus": "7 (3+4=7)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "kyllä (PIN-muutoksia)"
+}
+```
+
+Let me know if you need any further assistance!

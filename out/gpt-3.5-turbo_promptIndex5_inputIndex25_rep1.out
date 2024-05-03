@@ -1,0 +1,11 @@
+{
+  "Näytteet": 4,
+  "Näytteiden koko tai paino": "Näytteessä nro 2 noin 2mm kokoinen alue prostatan adenokarsinoomaa",
+  "Näytteen Gleason luokitus": {
+    "Vallitseva Gleason luokka": 4,
+    "Toiseksi yleisin Gleason luokka": 3
+  },
+  "Hyvänlaatuinen eturauhasen liikakasvu": false,
+  "Perineuraalinen kasvu": false,
+  "Atypia": true
+}

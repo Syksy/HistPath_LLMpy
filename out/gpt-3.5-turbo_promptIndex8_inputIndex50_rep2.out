@@ -1,0 +1,8 @@
+{
+  "biopsies_taken": 6,
+  "sample_size": "NA",
+  "Gleason_classification": "NA",
+  "benign_prostatic_hyperplasia": "ei",
+  "perineural_invasion": "ei",
+  "atypia": "kyllä"
+}

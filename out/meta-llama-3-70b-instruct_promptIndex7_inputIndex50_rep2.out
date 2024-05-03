@@ -1,0 +1,18 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_biopsies": 6,
+  "biopsy_size_or_weight": NA,
+  "Gleason_score": [
+    {"score": 8, "primary_grade": 4, "secondary_grade": 4},
+    {"score": 7, "primary_grade": 4, "secondary_grade": 3},
+    {"score": 7, "primary_grade": 3, "secondary_grade": 4}
+  ],
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia_present": true
+}
+```
+
+Note: I've assumed that the Gleason score is reported for each colony separately, so I've represented it as an array of objects. If this is not the case, please let me know and I'll adjust the output accordingly.

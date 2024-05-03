@@ -1,0 +1,16 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": "8mm and 5mm",
+  "Gleason_score": "4+4 and 3+4",
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Note: I've assumed that the number of samples refers to the six macrosections mentioned in the report. If this is not the case, please let me know.
+
+Also, I've returned NA for perineural invasion and atypia since these features are not explicitly mentioned in the report.

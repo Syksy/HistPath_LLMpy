@@ -1,0 +1,30 @@
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": [
+    {
+      "colony_number": 1,
+      "location": "left front",
+      "distance_away": "5mm",
+      "tissue_type": "adenocarcinoma",
+      "Gleason_score": "4+4=8"
+    },
+    {
+      "colony_number": 2,
+      "location": "left center",
+      "distance_away": "10mm",
+      "tissue_type": "carcinoma",
+      "Gleason_score": "4+3=7",
+      "proportion_of_grade_4": "80%"
+    },
+    {
+      "colony_number": 3,
+      "location": "right center",
+      "findings": "ratio of grades 3 and 4 is approx. 70:30%",
+      "sum_of_grades": 7
+    }
+  ],
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": "NA",
+  "atypia": true
+}

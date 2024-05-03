@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 6,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": "kyllä",
+  "perineural_invasion": "ei",
+  "atypia": "ei"
+}
+```
+
+Explanation:
+
+* `sample_count`: 6, because there are 6 prostate biopsies mentioned in the report.
+* `sample_size_or_weight`: NA, because no specific size or weight is mentioned in the report.
+* `Gleason_score`: NA, because no Gleason score is mentioned in the report.
+* `benign_hyperplasia_only`: "kyllä", because the report mentions that only benign prostate tissue is seen in the samples.
+* `perineural_invasion`: "ei", because there is no mention of perineural invasion in the report.
+* `atypia`: "ei", because the report explicitly states that no significant atypia is seen in the epithelial cells.

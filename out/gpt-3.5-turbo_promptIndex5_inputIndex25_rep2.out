@@ -1,0 +1,13 @@
+{
+  "Potilaan tiedot": {
+    "Näytteiden määrä": 4,
+    "Näytteiden koko/paino": "Näyte nro 2 noin 2mm",
+    "Gleason luokitus": {
+      "Vallitseva luokka": 4,
+      "Luokka 3 osuus": "lähes yhtä suuri %"
+    },
+    "Hyvänlaatuinen eturauhasen liikakasvu": false,
+    "Perineuraalinen kasvu": false,
+    "Atypia": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": "8mm and 5mm",
+  "Gleason_score": {
+    "apex": "4+4",
+    "base": "3+4"
+  },
+  "benign_prostatic_hyperplasia": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}

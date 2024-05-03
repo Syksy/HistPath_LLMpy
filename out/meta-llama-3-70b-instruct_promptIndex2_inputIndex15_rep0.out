@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(6)",
+  "2. Näytteiden koko": "(NA)",
+  "3. Gleason-luokitus": "(NA)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 6 biopsy samples.
+2. The size of the biopsy samples is not mentioned in the report, so it's marked as NA (Not Available).
+3. There is no mention of Gleason score in the report, so it's marked as NA.
+4. The report states that there is no carcinoma or PIN changes, and only benign prostate tissue is seen, so there is no evidence of high-grade prostate cancer or atypia.
+5. There is no mention of perineural growth in the report, so it's marked as NA.
+6. The report explicitly states that there is no significant atypia seen in the epithelial cells, so the answer is "ei" (no).

@@ -1,0 +1,11 @@
+{
+  "näytteiden määrä": 4,
+  "näytteiden koko/paino": "NA",
+  "Gleason luokitus": {
+    "yleisin": 4,
+    "toiseksi yleisin": 3
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": true
+}

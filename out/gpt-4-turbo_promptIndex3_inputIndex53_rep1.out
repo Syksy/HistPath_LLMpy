@@ -1,0 +1,16 @@
+{
+  "1. How many samples have been taken?": 3,
+  "2. What is the size of the samples taken?": {
+    "Sample 1": "8+6 mm",
+    "Sample 2": "10 mm",
+    "Sample 3": "5+5 mm"
+  },
+  "3. What is the Gleason score of the samples?": {
+    "Sample 1": "7 (3+4)",
+    "Sample 2": "7 (3+4)",
+    "Sample 3": "NA"
+  },
+  "4. Can BPH be detected in the samples taken?": "no",
+  "5. Can perineural growth be detected in the samples taken?": "no",
+  "6. Can atypia be detected in the samples taken?": "no"
+}

@@ -1,0 +1,18 @@
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko tai paino": "NA",
+  "Näytteen Gleason luokitus": [
+    {
+      "Pesäke 1": "4+4=8"
+    },
+    {
+      "Pesäke 2": "4+3=7"
+    },
+    {
+      "Pesäke 3": "3+4=7"
+    }
+  ],
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, vain epiteelissä hyperplastisia muutoksia",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "Kyllä, atyyppista rauhasrakennetta"
+}

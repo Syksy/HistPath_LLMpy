@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("about 5g of prostate shavings"),
+  "2. Näytteiden koko": ("about 5g"),
+  "3. Gleason-luokitus": ("4+4=8"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("NA"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: 
+
+* For question 1, I assumed that the number of samples is not explicitly stated, but rather the total weight of the samples is given as about 5g.
+* For question 4, I answered "ei" (no) because the report mentions adenocarcinoma, which is a type of cancer, not a benign growth.
+* For questions 5 and 6, I answered "NA" (not available) because there is no mention of perineural growth or atypia in the report.

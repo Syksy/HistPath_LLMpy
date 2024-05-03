@@ -1,0 +1,23 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "num_samples": 6,
+  "sample_size_or_weight": ["5mm", "10mm", null, null, null, null],
+  "Gleason_score": [8, 7, 7, null, null, null],
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": null,
+  "atypia": true
+}
+```
+
+Here's a brief explanation of each field:
+
+* `num_samples`: The number of biopsy samples taken from the patient.
+* `sample_size_or_weight`: An array of sample sizes or weights, where available. In this case, only two samples have reported sizes (5mm and 10mm).
+* `Gleason_score`: An array of Gleason scores for each sample, where available. In this case, three samples have reported Gleason scores (8, 7, and 7).
+* `benign_hyperplasia_only`: A boolean indicating whether the sample shows only benign hyperplasia (i.e., no cancer). In this case, it's false because cancer was detected.
+* `perineural_invasion`: A boolean indicating whether perineural invasion was detected. In this case, it's null because it's not mentioned in the report.
+* `atypia`: A boolean indicating whether atypia was detected. In this case, it's true because atypia was mentioned in the report.
+
+Note that I've used `null` to indicate missing values where the report doesn't provide information on a particular field.

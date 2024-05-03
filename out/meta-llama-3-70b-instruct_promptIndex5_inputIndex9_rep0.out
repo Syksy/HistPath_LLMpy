@@ -1,0 +1,24 @@
+Based on the provided histopathological report, I will convert it into a structured format in JSON. Here is the output:
+
+```
+{
+  "sample_type": "höyläyslastu",
+  "number_of_samples": 8,
+  "sample_size_or_weight": "13g",
+  "Gleason_score": "3+3=6",
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": null,
+  "atypia": null
+}
+```
+
+Here's a brief explanation of each field:
+
+* `sample_type`: The type of sample, which in this case is a höyläyslastu (TURP specimen).
+* `number_of_samples`: The number of samples taken, which is 8 (kasetilla).
+* `sample_size_or_weight`: The size or weight of the sample, which is 13g.
+* `Gleason_score`: The Gleason score of the tumor, which is 3+3=6.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (false in this case, since carcinoma was detected).
+* `perineural_invasion` and `atypia`: These fields are null because there is no mention of perineural invasion or atypia in the report.
+
+Let me know if you have any further questions or if you'd like me to process more reports!

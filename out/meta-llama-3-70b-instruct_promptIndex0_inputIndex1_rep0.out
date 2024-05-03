@@ -1,0 +1,19 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "a. Näytteiden määrä": 6,
+  "b. Näytteiden koko": NA,
+  "c. Gleason-luokitus": 7,
+  "d. Eturauhasen hyvälaatuinen liikakasvu": ei,
+  "e. Perineuraalinen kasvu": ei,
+  "f. Atypia": NA
+}
+```
+
+Note: 
+
+* For question b, there is no information about the size of the samples, so the answer is NA.
+* For question d, the text does not mention benign prostatic hyperplasia, so the answer is "ei" (no).
+* For question e, the text explicitly states that there is no perineural invasion, so the answer is "ei" (no).
+* For question f, there is no mention of atypia, so the answer is NA.

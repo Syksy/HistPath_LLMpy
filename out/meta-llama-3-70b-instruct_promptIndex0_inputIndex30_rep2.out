@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "a. Näytteiden määrä": "NA",
+  "b. Näytteiden koko": 100,
+  "c. Gleason-luokitus": "NA",
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "kyllä",
+  "f. Atypia": "NA"
+}
+```
+
+Note: 
+
+* For question a, the number of samples is not explicitly mentioned, so the answer is "NA".
+* For question b, the total length of the sample is 100mm, so that's the answer.
+* For question c, there is no mention of Gleason score, so the answer is "NA".
+* For question d, there is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+* For question e, perineural growth is mentioned as suspicious for malignancy, so the answer is "kyllä" (yes).
+* For question f, there is no mention of atypia, so the answer is "NA".

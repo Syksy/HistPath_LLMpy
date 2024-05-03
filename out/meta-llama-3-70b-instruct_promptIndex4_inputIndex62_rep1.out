@@ -1,0 +1,23 @@
+I'll do my best to extract the relevant information from the given text and provide a structured response in JSON format.
+
+Here is the extracted information:
+
+* Kuinka monta näytettä potilaalta on otettu: NA (not mentioned)
+* Näytteiden koko tai paino: 1000 kg (note: this seems like an error, as it's highly unlikely that a biopsy sample would weigh 1000 kg)
+* Näytteen Gleason luokitus: NA (not mentioned)
+* Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu: NA (not mentioned)
+* Onko näytteessä havaittu perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua: NA (not mentioned)
+* Onko näytteessä havaittu atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia: NA (not mentioned)
+
+Here is the response in JSON format:
+```
+{
+  "sample_count": "NA",
+  "sample_size_or_weight": "1000 kg",
+  "gleason_score": "NA",
+  "benign_hyperplasia_only": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+Please note that the sample size or weight seems to be an error, and the other fields are not mentioned in the provided text.

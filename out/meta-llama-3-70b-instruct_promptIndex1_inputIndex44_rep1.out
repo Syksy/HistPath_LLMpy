@@ -1,0 +1,54 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 4
+}
+```
+The report mentions four samples: "Sample 1", "Sample 2", "Sample 3", and "Sample 4".
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": [
+    {"sample": 1, "koko": 10, "määre": "mm"},
+    {"sample": 2, "koko": 8, "määre": "mm"},
+    {"sample": 3, "koko": 14, "määre": "mm"},
+    {"sample": 4, "koko": 14, "määre": "mm"}
+  ]
+}
+```
+The report mentions the size of each sample in millimeters.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": "3+4=90+10"
+}
+```
+The report mentions a Gleason score of 3 (about 90%) and 4 (10%).
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention any benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "ei"
+}
+```
+The report explicitly states that perineural invasion is not seen in the samples.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.

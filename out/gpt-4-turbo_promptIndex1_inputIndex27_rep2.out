@@ -1,0 +1,12 @@
+{
+  "1. Näytteiden määrä": "12",
+  "2. Näytteiden koko": {
+    "oikean basiksen 8mm pituinen biopsia": "8mm",
+    "oikean basiksen 7mm pituinen biopsia": "7mm",
+    "vasemmalla basiksessa 5mm pituinen biopsia": "5mm"
+  },
+  "3. Gleason-luokitus": "3+3=6",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "ei"
+}

@@ -1,0 +1,23 @@
+{
+  "Potilaalta otettujen näytteiden määrä": "Paksuneulalla otettu näytepurkki, jossa näytteitä eturauhasesta molemmilta puolilta",
+  "Näytteiden koko tai paino": {
+    "Vasemman puolen fragmentit": [
+      {"Pituus": "10 mm"},
+      {"Pituus": "7 mm"}
+    ],
+    "Oikean puolen fragmentit": [
+      {"Pituus": "15 mm"},
+      {"Pituus": "10 mm"}
+    ]
+  },
+  "Gleason luokitus": {
+    "Vasemman puolen fragmentit": {
+      "Pääasiallinen Gleason-kasvutyyppi": "3",
+      "Toiseksi yleisin Gleason-kasvutyyppi": "4"
+    },
+    "Oikean puolen fragmentit": "Ei pahanlaatuista kasvua"
+  },
+  "Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "Onko näytteessä havaittu perineuraalista kasvua": "Kyllä",
+  "Onko näytteessä havaittu atypiaa": "Ei"
+}

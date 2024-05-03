@@ -1,0 +1,12 @@
+{
+  "Biopsioiden lukumäärä": "6",
+  "Näytteiden koko tai paino": "NA",
+  "Näytteen Gleason luokitus": [
+    "4+4=8",
+    "4+3=7",
+    "3+4=7"
+  ],
+  "Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu": "ei",
+  "Onko näytteessä havaittu perineuraalista kasvua": "NA",
+  "Onko näytteessä havaittu atypiaa": "kyllä"
+}

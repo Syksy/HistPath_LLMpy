@@ -1,0 +1,28 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 12,
+  "sample_size_or_weight": [
+    {"location": "right base", "size": "8mm"},
+    {"location": "right base", "size": "7mm"},
+    {"location": "left base", "size": "5mm"}
+  ],
+  "Gleason_score": {
+    "right base": 3,
+    "left base": 3
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": false
+}
+```
+
+Here's a brief explanation of each field:
+
+* `sample_count`: The total number of biopsy samples taken from the patient.
+* `sample_size_or_weight`: An array of objects, each containing the location and size of a biopsy sample. Note that not all samples have a reported size.
+* `Gleason_score`: An object with location-specific Gleason scores. In this case, both right and left base samples have a Gleason score of 3.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (false in this case, since cancer was detected).
+* `perineural_invasion`: Since there is no mention of perineural invasion in the original report, this field is set to NA (not available).
+* `atypia`: A boolean indicating whether atypia was detected in the sample (false in this case).

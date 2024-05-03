@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": ["10mm", "7mm", "15mm", "10mm"],
+  "Gleason_score": 3,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: There are 4 samples taken from the patient, as indicated by the presence of fragments from both sides (left and right).
+* `sample_size_or_weight`: The sizes of the samples are listed as 10mm, 7mm, 15mm, and 10mm.
+* `Gleason_score`: The Gleason score is reported as 3, with a secondary pattern of 4.
+* `benign_hyperplasia_only`: This is set to false because the report mentions malignant growth patterns.
+* `perineural_invasion`: This is set to true because the report mentions growth around nerves and blood vessels.
+* `atypia`: This is set to NA because there is no mention of atypia in the report.

@@ -1,0 +1,19 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 8,
+  "sample_size_or_weight": "13g",
+  "Gleason_score": 6,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: The report mentions that the samples were spread across 8 cassettes, so I assume this is the number of samples.
+* `sample_size_or_weight`: The report mentions a total weight of 13g, so I assume this is the sample size or weight.
+* `Gleason_score`: The report explicitly mentions a Gleason score of 3+3=6.
+* `benign_hyperplasia_only`, `perineural_invasion`, and `atypia`: These values are not mentioned in the report, so I return NA (Not Available) for each.

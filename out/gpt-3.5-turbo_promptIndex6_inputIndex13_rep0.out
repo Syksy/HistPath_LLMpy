@@ -1,0 +1,11 @@
+{
+  "näytteiden_määrä": 1,
+  "näytteiden_koko": "10g",
+  "Gleason luokitus": {
+    "taso_5": "eniten",
+    "taso_4": "toiseksi eniten"
+  },
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": true,
+  "atypia": true
+}

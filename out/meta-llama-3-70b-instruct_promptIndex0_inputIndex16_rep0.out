@@ -1,0 +1,17 @@
+Here are the answers in JSON format:
+
+```
+{
+  "(Näytteiden määrä)": 6,
+  "(Näytteiden koko)": "NA",
+  "(Gleason-luokitus)": "4+4, 3+4",
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(Perineuraalinen kasvu)": "ei",
+  "(Atypia)": "NA"
+}
+```
+
+Note: 
+
+* For question b, I answered "NA" because the text does not provide a clear answer to the size of the samples.
+* For question f, I answered "NA" because the text does not mention atypia at all.

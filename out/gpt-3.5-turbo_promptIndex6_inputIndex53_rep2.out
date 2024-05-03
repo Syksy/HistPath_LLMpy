@@ -1,0 +1,35 @@
+{
+  "number_of_samples": 3,
+  "sample_details": [
+    {
+      "sample_number": 1,
+      "tissue_cylinders": 2,
+      "cylinder_length": "8+6mm",
+      "tumor_length": "4mm",
+      "gleason_score": {
+        "pattern_3": "60%",
+        "pattern_4": "40%"
+      },
+      "diagnosis": "Gleason 7 adenocarcinoma"
+    },
+    {
+      "sample_number": 2,
+      "tissue_cylinders": 1,
+      "cylinder_length": "10mm",
+      "tumor_length": "5mm",
+      "gleason_score": {
+        "pattern_3": "70%",
+        "pattern_4": "30%"
+      },
+      "diagnosis": "Gleason 7 adenocarcinoma"
+    },
+    {
+      "sample_number": 3,
+      "tissue_cylinders": 1,
+      "cylinder_length": "5+5mm",
+      "diagnosis": "Benign prostatic hyperplasia"
+    }
+  ],
+  "perineural_invasion": "NA",
+  "atypia": "Present"
+}

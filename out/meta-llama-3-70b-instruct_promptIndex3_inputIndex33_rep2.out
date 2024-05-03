@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 2,
+  "2. Size of samples": "60mm (right), 80mm (left)",
+  "3. Gleason score": "4+5=9",
+  "4. BPH detection": "NA",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "NA"
+}
+```
+
+Note: Since the text does not mention BPH, perineural growth, or atypia, the answers for these questions are 'NA' (not available).

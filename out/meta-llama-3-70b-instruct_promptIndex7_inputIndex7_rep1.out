@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": "n. 120mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples": 6, because the report mentions "6 kpl edustavia prostatabiopsioita" (6 representative prostate biopsies).
+* "sample_size_or_weight": "n. 120mm", because the report mentions "yhteensä n. 120mm" (total of approximately 120mm).
+* "Gleason_score": NA, because the report does not mention Gleason score.
+* "benign_hyperplasia_only": NA, because although the report mentions basaalisoluhyperplasiaa (basal cell hyperplasia), it does not explicitly state that it's only benign hyperplasia.
+* "perineural_invasion": NA, because the report does not mention perineural invasion.
+* "atypia": NA, because the report does not mention atypia or any other abnormal changes in the tissue.

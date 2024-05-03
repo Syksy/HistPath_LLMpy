@@ -1,0 +1,26 @@
+Based on the provided histopathological report, I will convert it into a structured format in JSON. Here is the output:
+
+```
+{
+  "sample_count": 14,
+  "sample_size_or_weight": NA,
+  "Gleason_score": {
+    "primary": 4,
+    "secondary": 3
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Here's a brief explanation for each field:
+
+* `sample_count`: The number of samples taken from the patient, which is 14 in this case (A-D, E-F, G-N, and N-O).
+* `sample_size_or_weight`: Since the report does not mention the size or weight of the samples, I've marked it as NA (Not Available).
+* `Gleason_score`: The Gleason score is reported as having a primary class of 4 and a secondary class of 3.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, since cancer is present, the value is set to false.
+* `perineural_invasion`: The report mentions that perineural invasion is abundantly observed, so this field is set to true.
+* `atypia`: There is no mention of atypia in the report, so I've marked it as NA (Not Available).
+
+Let me know if you have any further questions or if you'd like me to clarify any of these fields!

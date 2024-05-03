@@ -1,0 +1,29 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 4,
+  "sample_size_or_weight": [
+    {"side": "left", "size": "10 mm"},
+    {"side": "left", "size": "7 mm"},
+    {"side": "right", "size": "15 mm"},
+    {"side": "right", "size": "10 mm"}
+  ],
+  "Gleason_score": {
+    "primary_pattern": 3,
+    "secondary_pattern": 4
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia_present": NA
+}
+```
+
+Note: 
+
+* The number of samples is 4, as there are two fragments from each side of the prostate.
+* The sample size or weight is reported separately for each fragment.
+* The Gleason score is reported with primary and secondary patterns.
+* Benign hyperplasia only is set to false, as malignant cells are present in some fragments.
+* Perineural invasion is reported as true, as growth around nerves is mentioned.
+* Atypia present is reported as NA, as it is not explicitly mentioned in the original report.

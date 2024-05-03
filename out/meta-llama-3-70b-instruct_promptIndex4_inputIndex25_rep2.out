@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": "2mm",
+  "Gleason_score": 4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: The number of samples taken from the patient, which is 4 in this case.
+* `sample_size_or_weight`: The size or weight of the sample, which is approximately 2mm in this case.
+* `Gleason_score`: The Gleason score of the sample, which is 4 in this case, with a secondary score of 3.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia. In this case, it's false because the sample shows adenocarcinoma.
+* `perineural_invasion` and `atypia`: These fields are marked as NA (Not Available) because there is no mention of perineural invasion or atypia in the original report.

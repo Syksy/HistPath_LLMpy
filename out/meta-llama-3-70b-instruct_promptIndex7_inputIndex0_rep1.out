@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": "100mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `sample_count`: Not mentioned in the report, so NA.
+* `sample_size_or_weight`: The report mentions a total length of 100mm, so this value is used.
+* `Gleason_score`: Not mentioned in the report, so NA.
+* `benign_hyperplasia_only`: The report mentions suspect malignancy, so this is set to false.
+* `perineural_invasion`: The report explicitly mentions perineural growth, so this is set to true.
+* `atypia`: The report does not mention atypia, and the presence of inflammation changes does not necessarily imply atypia, so this is set to false.

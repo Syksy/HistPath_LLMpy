@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("6"),
+  "2. Size of samples": ("approx. 120mm"),
+  "3. Gleason score": ("NA"),
+  "4. Benign prostatic hyperplasia": ("kyllä"),
+  "5. Perineural growth": ("NA"),
+  "6. Atypia": ("NA")
+}
+```
+
+Note: The Gleason score, perineural growth, and atypia were not mentioned in the given report, so I marked them as "NA" (not available).

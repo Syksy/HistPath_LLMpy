@@ -1,0 +1,19 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": "NA"
+}
+```
+There is no clear mention of the number of samples taken from the patient.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "12.3g"
+}
+```
+The sample contains a total of 12.3g chips.
+
+Let me know when to proceed with the next questions!

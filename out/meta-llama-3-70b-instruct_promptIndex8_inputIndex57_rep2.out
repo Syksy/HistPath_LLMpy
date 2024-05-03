@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 12,
+  "sample_size_or_weight": NA,
+  "Gleason_score": "3+3",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "ei",
+  "atypia": "ei"
+}
+```
+
+Explanation:
+
+* `number_of_samples`: 12, as there are 12 biopsies mentioned in the report.
+* `sample_size_or_weight`: NA, as no specific size or weight is mentioned for each biopsy.
+* `Gleason_score`: "3+3", as the report mentions Gleason 3 architecture and summarizes it as type 3+3 adenocarcinoma.
+* `benign_hyperplasia_only`: "ei", as carcinoma was found in some of the biopsies.
+* `perineural_invasion`: "ei", as there is no mention of perineural invasion in the report.
+* `atypia`: "ei", as the report explicitly states that no nuclear atypia is observed.

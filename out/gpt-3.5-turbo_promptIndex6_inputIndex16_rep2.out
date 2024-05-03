@@ -1,0 +1,11 @@
+{
+  "näytteiden määrä": 6,
+  "näytteiden koko tai paino": "Apexin fokuksen koko n. 8mm, basiksen fokuksen koko n. 5mm",
+  "Gleason luokitus": {
+    "Apex": "4+4",
+    "Basiksessa": "3+4"
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": false
+}

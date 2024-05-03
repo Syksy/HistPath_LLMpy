@@ -1,0 +1,20 @@
+Here are the answers in JSON format:
+
+```
+{
+  "a. Näytteiden määrä": 1,
+  "b. Näytteiden koko": 19,
+  "c. Gleason-luokitus": 5,
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
+}
+```
+
+Note: 
+
+* For question a, the answer is 1 because there is only one prostate sample mentioned.
+* For question b, the answer is 19 because the total weight of the prostate sample is approximately 19g.
+* For question c, the answer is 5 because the Gleason score is mostly composed of grade 5 and secondly grade 4.
+* For question d, the answer is "ei" (no) because there is no mention of benign prostatic hyperplasia in the report.
+* For questions e and f, the answers are "NA" (not available) because there is no mention of perineural growth or atypia in the report.

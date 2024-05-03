@@ -1,0 +1,8 @@
+{
+  "number_of_samples": 2,
+  "sample_size": ["10 mm", "7 mm", "15 mm", "10 mm"],
+  "Gleason_classification": ["3", "4"],
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": true,
+  "atypia": false
+}

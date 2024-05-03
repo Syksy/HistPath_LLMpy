@@ -1,0 +1,14 @@
+{
+  "näytteiden määrä": 2,
+  "näytteiden koko tai paino": "vasen puoli: 10 mm ja 7 mm, oikea puoli: 15 mm ja 10 mm",
+  "Gleason luokitus": {
+    "vasen puoli": {
+      "pääsääntö": 3,
+      "toiseksi yleisin": 4
+    },
+    "oikea puoli": "NA"
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": true,
+  "atypia": true
+}

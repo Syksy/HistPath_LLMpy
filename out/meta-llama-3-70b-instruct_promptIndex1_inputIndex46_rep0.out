@@ -1,0 +1,49 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions that six macrosections were made from the prostatectomy resect.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": ["8mm", "5mm"]
+}
+```
+The report mentions that the sizes of the foci of the malignant samples are approximately 8mm and 5mm.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": ["4+4=8", "3+4=7"]
+}
+```
+The report mentions that the longitudinal section of the apex microscopically shows a Gleason score of 4+4, while in the base it is mostly class 3+4.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+There is no mention of benign prostatic hyperplasia in the report.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "ei"
+}
+```
+The report mentions that there is no outgrowth from the capsule, which implies that there is no perineural growth.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.

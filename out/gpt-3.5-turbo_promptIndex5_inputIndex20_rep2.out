@@ -1,0 +1,39 @@
+{
+  "Biopsianäytteet": {
+    "määrä": 6,
+    "koko/paino": "ei saatavilla",
+    "Gleason luokitus": [
+      {
+        "pesäke": "1. vasemmalta edestä",
+        "atyyppinen rauhasrakenne": true,
+        "adenokarsinooma": true,
+        "Gleason luokitus": "4+4=8",
+        "hyvänlaatuinen liikakasvu": false,
+        "perineuraalinen kasvu": false,
+        "atypia": true
+      },
+      {
+        "pesäke": "2. vasemmalta keskeltä",
+        "karsinoomakudos": true,
+        "Gleason luokitus": "4+3=7",
+        "graduksen 4 osuus": "n. 80%",
+        "hyvänlaatuinen liikakasvu": false,
+        "perineuraalinen kasvu": false,
+        "atypia": false
+      },
+      {
+        "pesäke": "3. oikealta keskeltä",
+        "Gleason luokitus": "3+4=7",
+        "gradusten suhde": "n. 70:30%",
+        "hyvänlaatuinen liikakasvu": false,
+        "perineuraalinen kasvu": false,
+        "atypia": false
+      },
+      {
+        "muut näytteet": "hyperplastisia muutoksia epiteelissä"
+      }
+    ]
+  },
+  "Radikaaliprostatektomianäytteet": "NA",
+  "TURP-hoidon höyläyslastut": "NA"
+}

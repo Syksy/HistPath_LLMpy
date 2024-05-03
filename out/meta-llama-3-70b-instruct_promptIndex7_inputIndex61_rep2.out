@@ -1,0 +1,16 @@
+I'll do my best to extract the relevant information from the given text and provide a structured response in JSON format.
+
+Here is the response:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+The reason for all `NA` values is that the provided text does not contain any relevant information related to the asked questions. The text appears to be a nonsensical sequence of words and numbers, without any mention of medical or histopathological terms.

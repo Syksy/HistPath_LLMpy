@@ -1,0 +1,16 @@
+{
+  "number_of_samples": 3,
+  "sample_sizes": [
+    "8+6mm",
+    "10mm",
+    "5+5mm"
+  ],
+  "gleason_score": [
+    "Gleason 7 (3+4)",
+    "Gleason 7 (3+4)",
+    "NA"
+  ],
+  "benign_prostatic_hyperplasia": false,
+  "perineural_invasion": false,
+  "atypia": true
+}

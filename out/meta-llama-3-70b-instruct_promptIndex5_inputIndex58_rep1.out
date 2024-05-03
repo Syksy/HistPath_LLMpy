@@ -1,0 +1,25 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_type": "Biopsianäytteet",
+  "number_of_samples": 6,
+  "sample_size_or_weight": NA,
+  "Gleason_score": {
+    "pattern": "4+3",
+    "total": 7
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Here's a brief explanation of each field:
+
+* `sample_type`: The type of sample, which in this case is a biopsy.
+* `number_of_samples`: The number of samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The size or weight of the samples, which is not mentioned in the report, so it's marked as NA (not available).
+* `Gleason_score`: The Gleason score of the sample, which is a combination of two patterns (4 and 3) with a total score of 7.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because Gleason patterns are present.
+* `perineural_invasion` and `atypia`: These fields are marked as NA because there is no mention of perineural invasion or atypia in the report.

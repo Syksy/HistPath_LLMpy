@@ -1,0 +1,55 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions that six macroscopic samples were taken from the prostatectomy resection.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": {
+    "apex": "8mm",
+    "basiksessa": "5mm"
+  }
+}
+```
+The report mentions that the malignant foci in the apex and basiks samples are approximately 8mm and 5mm in size, respectively.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": {
+    "apex": "4+4=8",
+    "basiksessa": "3+4=7"
+  }
+}
+```
+The report mentions that the Gleason score for the apex sample is 4+4=8 and for the basiks sample is 3+4=7.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention any benign prostatic hyperplasia (BPH), so I assume it's not present.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "ei"
+}
+```
+The report does not mention any perineural invasion, so I assume it's not present.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+The report does not mention anything about atypia, so I'll leave it as NA (not available).

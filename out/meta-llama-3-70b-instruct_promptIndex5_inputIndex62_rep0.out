@@ -1,0 +1,16 @@
+I'll do my best to extract the relevant information from the given text and convert it into a structured format in JSON.
+
+Here is the output:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+As you can see, I couldn't find any relevant information in the given text, so all fields are marked as "NA" (Not Available). The text seems to be a test sentence with no actual histopathological information. If you provide a real histopathological report, I'll be happy to help you extract the relevant information!

@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": ["5mm", "10mm"], // multiple values, not sure which one to choose
+  "Gleason_score": [8, 7, 7], // multiple values, one for each sample
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": null, // not mentioned in the report
+  "atypia": true
+}
+```
+
+Note: 
+
+* `number_of_samples` is 6, as there are six biopsialieriötä (biopsy samples) mentioned in the report.
+* `sample_size_or_weight` has multiple values, as there are different sizes mentioned for different samples. It's not clear which one to choose, so I've included both.
+* `Gleason_score` also has multiple values, one for each sample.
+* `benign_hyperplasia_only` is false, as there are malignant findings (adenokarsinooma) in addition to hyperplastic changes.
+* `perineural_invasion` is null, as it's not mentioned in the report.
+* `atypia` is true, as there are atypical glandular structures mentioned in the report.

@@ -1,0 +1,11 @@
+Here are the answers in JSON format:
+
+{
+"a. Näytteiden määrä": "1",
+"a. Näytteiden määrä (määre)": "kasetilla",
+"b. Näytteiden koko": "12.3g",
+"c. Gleason-luokitus": "NA",
+"d. Eturauhasen hyvälaatuinen liikakasvu": "kyllä",
+"e. Perineuraalinen kasvu": "ei",
+"f. Atypia": "ei"
+}

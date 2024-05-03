@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("3"),
+  "2. Näytteiden koko": ("90mm"),
+  "3. Gleason-luokitus": ("NA"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("kyllä"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Note: The Gleason score is not mentioned in the report, so I answered "NA" (not available).

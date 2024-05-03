@@ -1,0 +1,51 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 3
+}
+```
+The report mentions that the samples were launched into three tissue cassettes, implying that there are 3 samples.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "4g"
+}
+```
+The report states that a total of 4g of planing chips were obtained.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": "NA"
+}
+```
+There is no mention of Gleason score in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+The report suggests subtly prostatic hyperplasia, which implies that there is benign prostatic hyperplasia present.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you'd like me to proceed with anything else!

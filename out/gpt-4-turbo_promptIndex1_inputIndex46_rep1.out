@@ -1,0 +1,28 @@
+{
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": [
+    {
+      "koko": 8,
+      "määre": "mm"
+    },
+    {
+      "koko": 5,
+      "määre": "mm"
+    }
+  ],
+  "Gleason-luokitus": [
+    {
+      "major": 4,
+      "minor": 4,
+      "summa": 8
+    },
+    {
+      "major": 3,
+      "minor": 4,
+      "summa": 7
+    }
+  ],
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}

@@ -1,0 +1,27 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 6,
+  "sample_size_or_weight": [
+    {"side": "left", "size": "4mm"},
+    {"side": "left", "size": "6mm"},
+    {"side": "left", "size": "3mm"},
+    {"side": "right", "size": "5mm"},
+    {"side": "right", "size": "7mm"},
+    {"side": "right", "size": "8mm"}
+  ],
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Note: 
+
+* The sample count is 6, as there are 6 needle samples mentioned in the report.
+* The sample size or weight is reported separately for each sample, with the side (left or right) and size (in mm) specified.
+* The Gleason score is not mentioned in the report, so it is reported as NA (not available).
+* The report mentions malignant growth, so benign hyperplasia only is set to false.
+* There is no mention of perineural invasion or atypia in the report, so these are reported as NA.

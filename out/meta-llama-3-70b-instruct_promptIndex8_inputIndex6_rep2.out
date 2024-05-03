@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": "multiple",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "7 (3+4)",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "ei",
+  "atypia": "ei"
+}
+```
+
+Here's a brief explanation for each field:
+
+* `sample_count`: The report mentions multiple samples (D-G apex, basis K-P, seminaalivehikkeleitä O-Q), so I've entered "multiple" as the value.
+* `sample_size_or_weight`: There is no mention of sample size or weight in the report, so I've entered "NA".
+* `Gleason_score`: The report mentions Gleason 7-tasoista karsinoomaa, with a score of 3 in approximately 60% of the findings. I've entered this as "7 (3+4)".
+* `benign_hyperplasia_only`: The report mentions tuumori (tumor) and kasvainta (cancer), indicating that it's not just benign hyperplasia. So, I've entered "ei" (no).
+* `perineural_invasion`: There is no mention of perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua in the report, so I've entered "ei" (no).
+* `atypia`: There is no mention of atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia in the report, so I've entered "ei" (no).

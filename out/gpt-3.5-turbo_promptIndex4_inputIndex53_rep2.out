@@ -1,0 +1,41 @@
+{
+  "number_of_samples": 3,
+  "sample_details": [
+    {
+      "sample_number": 1,
+      "tissue_cylinder_count": 2,
+      "total_length_mm": 14,
+      "tumor_tissue_length_mm": 4,
+      "gleason_score": {
+        "gleason_3_percentage": 60,
+        "gleason_4_percentage": 40
+      },
+      "perineural_invasion": "NA",
+      "atypia": "NA"
+    },
+    {
+      "sample_number": 2,
+      "tissue_cylinder_count": 1,
+      "total_length_mm": 10,
+      "tumor_tissue_length_mm": 5,
+      "gleason_score": {
+        "gleason_3_percentage": 70,
+        "gleason_4_percentage": 30
+      },
+      "perineural_invasion": "NA",
+      "atypia": "NA"
+    },
+    {
+      "sample_number": 3,
+      "tissue_cylinder_count": 1,
+      "total_length_mm": 10,
+      "tumor_tissue_length_mm": 0,
+      "gleason_score": "NA",
+      "perineural_invasion": "NA",
+      "atypia": "NA"
+    }
+  ],
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": false,
+  "atypia": false
+}

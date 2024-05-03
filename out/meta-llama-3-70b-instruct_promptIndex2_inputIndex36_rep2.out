@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples taken": ("D-G" and "K-P" and "O-Q", so 12-15 samples),
+  "2. Size of the samples taken": (NA, no information provided),
+  "3. Gleason score of the samples": (3+4=7),
+  "4. Is there benign prostatic hyperplasia in the sample?": (ei, not mentioned),
+  "5. Is there perineural growth in the sample?": (ei, not mentioned),
+  "6. Is there atypia in the sample?": (ei, not mentioned)
+}
+```
+
+Note: NA stands for Not Available, as the information is not provided in the given text.

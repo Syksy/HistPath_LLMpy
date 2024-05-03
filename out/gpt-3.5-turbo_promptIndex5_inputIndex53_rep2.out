@@ -1,0 +1,10 @@
+{
+  "Biopsianäytteet": {
+    "Näytteiden määrä": 3,
+    "Näytteiden koot": ["8+6mm", "10mm", "5+5mm"],
+    "Gleason luokitus": [ {"Näyte": 1, "Gleason 3": "60%", "Gleason 4": "40%"}, {"Näyte": 2, "Gleason 3": "70%", "Gleason 4": "30%"} ],
+    "Hyvänlaatuinen liikakasvu": false,
+    "Perineuraalinen kasvu": "NA",
+    "Atypia": "NA"
+  }
+}

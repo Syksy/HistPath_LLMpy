@@ -1,0 +1,16 @@
+{
+  "samples_taken": 3,
+  "sample_size_or_weight": [
+    {"sample_1": "8+6mm"},
+    {"sample_2": "10mm"},
+    {"sample_3": "5+5mm"}
+  ],
+  "gleason_score": [
+    {"sample_1": "Gleason 3 (60%) and 4 (40%)"},
+    {"sample_2": "Gleason 3 (70%) and 4 (30%)"},
+    {"sample_3": "NA"}
+  ],
+  "benign_prostatic_hyperplasia": "No",
+  "perineural_invasion": "No",
+  "atypia": "Yes, PIN changes in samples (1) and (2)"
+}

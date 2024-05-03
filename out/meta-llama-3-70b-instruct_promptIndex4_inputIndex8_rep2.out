@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 6,
+  "sample_size_or_weight": "30g",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": true,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `sample_count`: The number of samples taken from the patient, which is 6 according to the text ("käynnistettiin kuudessa blokissa").
+* `sample_size_or_weight`: The total weight of the samples, which is approximately 30g.
+* `Gleason_score`: Not mentioned in the report, so it's marked as NA (Not Available).
+* `benign_hyperplasia_only`: True, since the report mentions that the finding is consistent with benign hyperplasia and no malignancy or carcinoma is seen.
+* `perineural_invasion`: False, since there is no mention of perineural invasion in the report.
+* `atypia`: False, since the report explicitly states that no atypia is seen.

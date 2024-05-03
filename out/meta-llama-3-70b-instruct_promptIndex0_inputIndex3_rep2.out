@@ -1,0 +1,20 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "(Näytteiden määrä)": 2,
+  "(Näytteiden koko)": ["60mm", "80mm"],
+  "(Gleason-luokitus)": 9,
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(Perineuraalinen kasvu)": "NA",
+  "(Atypia)": "NA"
+}
+```
+
+Note: 
+
+* For question a, the answer is 2, as there are two biopsy samples taken from the patient.
+* For question b, the answer is an array of two values, 60mm and 80mm, which are the lengths of the biopsy samples taken from the right and left sides, respectively.
+* For question c, the answer is 9, which is the Gleason score of the biopsy sample.
+* For question d, the answer is "ei" (no), as there is no mention of benign prostatic hyperplasia in the report.
+* For questions e and f, the answers are "NA" (not available), as there is no mention of perineural growth or atypia in the report.

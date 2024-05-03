@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 6,
+  "sample_size_or_weight": "120mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `sample_count`: 6, as mentioned in the report ("6 representative prostate biopsies")
+* `sample_size_or_weight`: "120mm", as mentioned in the report ("approx. 120mm in total")
+* `Gleason_score`: NA, as no Gleason score is mentioned in the report
+* `benign_hyperplasia_only`: false, as the report mentions "Suspicio finding on biopsies" which suggests that there may be something more than just benign hyperplasia
+* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report
+* `atypia`: false, as there is no mention of atypia in the report

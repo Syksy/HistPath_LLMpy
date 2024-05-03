@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": ["10mm", "8mm", "14mm", "14mm"],
+  "Gleason_score": "3+4=7",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "ei",
+  "atypia": "NA"
+}
+```
+
+Let me explain how I arrived at this structured report:
+
+* `sample_count`: There are 4 biopsy samples mentioned in the report.
+* `sample_size_or_weight`: The sizes of each sample are listed in millimeters.
+* `Gleason_score`: The Gleason score is reported as a combination of two scores, 3 and 4, with a total sum of 7.
+* `benign_hyperplasia_only`: Since the report mentions adenocarcinoma in one of the samples, this field is set to "ei" (no).
+* `perineural_invasion`: The report explicitly states that perineural invasion is not seen in any of the samples, so this field is set to "ei" (no).
+* `atypia`: There is no mention of atypia in the report, so this field is set to "NA" (not available).

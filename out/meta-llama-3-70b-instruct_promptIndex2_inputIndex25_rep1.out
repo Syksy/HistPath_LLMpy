@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(4)",
+  "2. Näytteiden koko": "(ei mainittu)",
+  "3. Gleason-luokitus": "(4+3=7)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(NA)",
+  "6. Atypia": "(NA)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 4 samples taken.
+2. The size of the samples is not mentioned.
+3. The Gleason score is 4+3=7, with Gleason 4 being the dominant score and Gleason 3 being almost as prominent.
+4. There is no benign prostatic hyperplasia (BPH) mentioned in the report, so the answer is "ei" (no).
+5. There is no mention of perineural growth in the report, so the answer is "NA" (not available).
+6. There is no mention of atypia in the report, so the answer is "NA" (not available).

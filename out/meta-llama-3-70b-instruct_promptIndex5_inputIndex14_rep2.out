@@ -1,0 +1,24 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": [
+    {"sample": 1, "size_or_weight": "10mm"},
+    {"sample": 2, "size_or_weight": "8mm"},
+    {"sample": 3, "size_or_weight": "14mm"},
+    {"sample": 4, "size_or_weight": "14mm"}
+  ],
+  "Gleason_score": {
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "percentage_primary_pattern": 90,
+    "percentage_secondary_pattern": 10
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": NA
+}
+```
+
+Note: I assumed that the Gleason score is reported for sample 4 only, as it is the only sample with cancerous tissue. If this is not the case, please let me know and I'll adjust the output accordingly. Also, since there was no mention of atypia in the original report, I marked it as NA (not available).

@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "a. Näytteiden määrä": 6,
+  "b. Näytteiden koko": "NA",
+  "c. Gleason-luokitus": [8, 7, 7],
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "kyllä"
+}
+```
+
+Note: For question c, there are multiple Gleason scores mentioned in the report, so I provided all of them in an array.

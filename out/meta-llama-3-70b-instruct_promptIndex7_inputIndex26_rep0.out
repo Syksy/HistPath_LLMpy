@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 12,
+  "sample_size_or_weight": "150mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": true,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples": 12, because the report mentions 12 needle biopsies.
+* "sample_size_or_weight": "150mm", because the report mentions a total length of 150mm for the samples.
+* "Gleason_score": NA, because the report does not mention a Gleason score.
+* "benign_hyperplasia_only": true, because the report concludes that the growth is benign and similar to hyperplastic epithelium.
+* "perineural_invasion" and "atypia": NA, because the report does not mention these specific features.

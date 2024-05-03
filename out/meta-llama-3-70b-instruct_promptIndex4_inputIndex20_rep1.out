@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": ["5mm", "10mm"], // multiple values, not sure which one to choose
+  "Gleason_score": [8, 7, 7], // multiple values, one for each sample
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": true
+}
+```
+
+Explanation:
+
+* `number_of_samples`: 6 biopsialieriötä (biopsy samples) were taken from the patient.
+* `sample_size_or_weight`: The sizes of the samples are mentioned as 5mm and 10mm, but it's not clear which one corresponds to which sample. I've included both values in an array.
+* `Gleason_score`: There are three Gleason scores mentioned: 4+4=8, 4+3=7, and 3+4=7. I've included all three values in an array.
+* `benign_hyperplasia_only`: The report mentions adenokarsinooma (adenocarcinoma) and karsinoomakudosta (cancerous tissue), so this is set to false.
+* `perineural_invasion`: There is no mention of perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua (perineural invasion) in the report, so this is set to NA (not available).
+* `atypia`: The report mentions huonosti erilaistunutta atyyppista rauhasrakennetta (poorly differentiated atypical glandular structure) and hyperplastisia muutoksia (hyperplastic changes), so this is set to true.

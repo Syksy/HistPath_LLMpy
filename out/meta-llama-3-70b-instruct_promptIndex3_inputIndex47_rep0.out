@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 4,
+  "2. Size of samples": "10 mm, 7 mm, 15 mm, 10 mm",
+  "3. Gleason score": "3+4=7",
+  "4. BPH detection": "NA",
+  "5. Perineural growth detection": "yes",
+  "6. Atypia detection": "NA"
+}
+```
+
+Let me know if you need any further assistance!

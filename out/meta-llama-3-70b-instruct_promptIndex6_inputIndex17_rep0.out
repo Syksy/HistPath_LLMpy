@@ -1,0 +1,22 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 4,
+  "sample_size_or_weight": [
+    {"side": "left", "size": "10mm"},
+    {"side": "left", "size": "7mm"},
+    {"side": "right", "size": "15mm"},
+    {"side": "right", "size": "10mm"}
+  ],
+  "Gleason_score": {
+    "primary_pattern": 3,
+    "secondary_pattern": 4
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia_present": NA
+}
+```
+
+Note: I assumed that the Gleason score is reported as a primary and secondary pattern, but if it's meant to be a single score, please let me know and I'll adjust accordingly. Also, since there was no mention of atypia in the original report, I returned NA for that field.

@@ -1,0 +1,20 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": 14,
+  "2. Size of samples": "NA",
+  "3. Gleason score": "4+3=7",
+  "4. BPH detection": "NA",
+  "5. Perineural growth detection": "yes",
+  "6. Atypia detection": "NA"
+}
+```
+
+Note: 
+
+* The number of samples is 14 because there are 4 samples labeled A-D, 2 samples labeled E-F, 7 samples labeled G-N, and 1 sample labeled N-O.
+* The size of the samples is not specified in the text, so it's marked as "NA".
+* The Gleason score is reported as having a major component of 4 and a minor component of 3, so the sum is 7.
+* There is no mention of BPH (Benign Prostatic Hyperplasia) or atypia in the text, so they are marked as "NA".
+* Perineural growth is mentioned as being detected ("havaitaan runsaasti").

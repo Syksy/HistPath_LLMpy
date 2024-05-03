@@ -1,0 +1,51 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": "NA"
+}
+```
+There is no clear mention of the number of samples taken from the patient.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": "19g"
+}
+```
+The sample size is mentioned as approximately 19g, with 10g sent for histology.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": "5+4"
+}
+```
+The Gleason score is mentioned as having mostly grade 5 and secondarily grade 4.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_liikakasvu": "ei"
+}
+```
+There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "kyllä"
+}
+```
+The report mentions malignant growth (pahanlaatuista kasvua), which implies atypia.
+
+Let me know if you'd like me to clarify or elaborate on any of these answers!

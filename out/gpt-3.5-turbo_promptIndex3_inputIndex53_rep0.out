@@ -1,0 +1,21 @@
+{
+  "number of samples": 3,
+  "size of samples": [
+    {
+      "sample": 1,
+      "size": "8+6mm"
+    },
+    {
+      "sample": 2,
+      "size": "10mm"
+    },
+    {
+      "sample": 3,
+      "size": "5+5mm"
+    }
+  ],
+  "Gleason score": "3+4=7",
+  "BPH detected": "no",
+  "perineural growth detected": "no",
+  "atypia detected": "yes"
+}

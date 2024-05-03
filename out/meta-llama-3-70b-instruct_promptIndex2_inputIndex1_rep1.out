@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(6)",
+  "2. Näytteiden koko": "(NA)",
+  "3. Gleason-luokitus": "(3+4=7)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(kyllä)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(NA)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 6 samples (näytteet) taken.
+2. The size of the samples is not specified (NA).
+3. The Gleason score is 3+4=7, which means the majority of the growth is grade 3 (about 60%) and the rest is grade 4.
+4. Yes, there is evidence of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the samples.
+5. No, there is no evidence of perineural invasion (perineuraalinen kasvu) in the samples.
+6. There is no mention of atypia in the report, so the answer is NA (not applicable).

@@ -1,0 +1,21 @@
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": [
+    {
+      "sample": "Colony 1",
+      "score": "4+4=8"
+    },
+    {
+      "sample": "Colony 2",
+      "score": "4+3=7"
+    },
+    {
+      "sample": "Colony 3",
+      "score": "3+4=7"
+    }
+  ],
+  "benign_prostatic_hyperplasia": "Yes",
+  "perineural_invasion": "No",
+  "atypia": "Yes"
+}

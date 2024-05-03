@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 13,
+  "sample_size_or_weight": "180mm",
+  "Gleason_score": "3+4=7",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Let me explain how I arrived at this structured report:
+
+* `sample_count`: The text mentions "Biopsioita yhteensä 13 kpl", so I extracted the number of biopsies as 13.
+* `sample_size_or_weight`: The text mentions "materiaalia noin 180mm", so I extracted the sample size as 180mm.
+* `Gleason_score`: The text mentions "luokkaa 3 ja pienempi osuus 4 (jälkimmäisen osuus noin 30% löydetystä tuumorista)", which implies a Gleason score of 3+4=7.
+* `benign_hyperplasia_only`: Since the text mentions "havaittiin karsinoomaa" (cancer was found), I concluded that it's not a case of benign hyperplasia only, so I set this field to "ei".
+* `perineural_invasion` and `atypia`: These fields were not mentioned in the original text, so I set them to "NA" (not available).

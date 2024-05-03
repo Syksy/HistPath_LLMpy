@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 9, 
+  "sample_size_or_weight": NA, 
+  "Gleason_score": 3+4, 
+  "benign_hyperplasia_only": false, 
+  "perineural_invasion": NA, 
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples": 9 (based on the text, there are 9 samples: A-C, D-E, F-G, H-I)
+* "sample_size_or_weight": NA (no information about sample size or weight is provided)
+* "Gleason_score": 3+4 ( Gleason grade 3 and grade 4 differentiation are almost equal)
+* "benign_hyperplasia_only": false (the report mentions a large tumor, so it's not just benign hyperplasia)
+* "perineural_invasion": NA (no information about perineural invasion is provided)
+* "atypia": NA (no information about atypia is provided)

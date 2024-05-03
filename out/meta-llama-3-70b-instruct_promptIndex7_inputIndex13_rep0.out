@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 1,
+  "sample_size_or_weight": "19g",
+  "Gleason_score": "5+4",
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: Only one sample is mentioned in the report, so the answer is 1.
+* `sample_size_or_weight`: The report mentions that the total weight of the prostate tissue is approximately 19g, and 10g was sent for histology.
+* `Gleason_score`: The report mentions that the Gleason score is mostly composed of grade 5 and secondarily grade 4, so the answer is "5+4".
+* `benign_hyperplasia_only`: The report mentions "pahanlaatuista kasvua" which means malignant growth, so it's not just benign hyperplasia. Therefore, the answer is false.
+* `perineural_invasion`: The report mentions "mattomaista pahanlaatuista kasvua stroomassa" which suggests perineural invasion, so the answer is true.
+* `atypia`: There is no mention of atypia in the report, so the answer is NA (not available).

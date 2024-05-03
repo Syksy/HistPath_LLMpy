@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 12,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 7,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: 12, as there are 12 tissue blocks from the TURP procedure.
+* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned in the report.
+* `Gleason_score`: 7, which is the Gleason sum mentioned in the report.
+* `benign_hyperplasia_only`: false, as the report mentions carcinoma (cancer) in a small part of the tissue.
+* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report.
+* `atypia`: NA, as there is no mention of atypia in the report.

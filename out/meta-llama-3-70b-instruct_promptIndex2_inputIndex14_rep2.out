@@ -1,0 +1,17 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(4)",
+  "2. Näytteiden koko": "[10mm, 8mm, 14mm, 14mm]",
+  "3. Gleason-luokitus": "(3+4=7)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "('ei')",
+  "5. Perineuraalinen kasvu": "('ei')",
+  "6. Atypia": "('NA')"
+}
+```
+
+Note: 
+
+* For question 4, the answer is 'ei' (no) because the biopsy shows adenocarcinoma, which is a malignant tumor, not a benign hyperplasia.
+* For question 6, the answer is 'NA' (not applicable) because there is no mention of atypia in the report.

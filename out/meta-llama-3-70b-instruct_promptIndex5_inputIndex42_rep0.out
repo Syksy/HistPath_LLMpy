@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 12,
+  "sample_size_or_weight": NA,
+  "Gleason_score": 7,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: The number of tissue blocks obtained from the shavings, which is 12.
+* `sample_size_or_weight`: Not mentioned in the report, so it's marked as NA (Not Available).
+* `Gleason_score`: The Gleason sum is 7, with a larger portion being class 3 (about 60% of the tumor).
+* `benign_hyperplasia_only`: False, because carcinoma is seen in a small part of the chips.
+* `perineural_invasion`: Not mentioned in the report, so it's marked as NA (Not Available).
+* `atypia`: Not mentioned in the report, so it's marked as NA (Not Available).

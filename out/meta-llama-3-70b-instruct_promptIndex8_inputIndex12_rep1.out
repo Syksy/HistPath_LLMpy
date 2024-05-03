@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 12,
+  "sample_size_or_weight": NA,
+  "Gleason_score": "3+4=7",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: 12, as there are 12 kudosblokkia (tissue blocks) mentioned in the report.
+* `sample_size_or_weight`: NA, as there is no mention of the size or weight of the samples.
+* `Gleason_score`: "3+4=7", as the report mentions a Gleason sum of 7, with a major component of 3 and a minor component of 4 (although not explicitly stated).
+* `benign_hyperplasia_only`: "ei", as the report mentions carcinoma (karsinoomaa) in addition to benign hyperplasia.
+* `perineural_invasion` and `atypia`: NA, as there is no mention of these features in the report.

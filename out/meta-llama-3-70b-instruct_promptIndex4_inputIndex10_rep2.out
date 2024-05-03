@@ -1,0 +1,14 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 14, // A-D, E-F, G-N, N-O
+  "sample_size_or_weight": NA,
+  "Gleason_score": 4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Note: The sample count is estimated based on the description of the samples (A-D, E-F, G-N, N-O), but the exact size or weight of the samples is not provided. Similarly, there is no mention of atypia in the original report, so it is marked as NA.

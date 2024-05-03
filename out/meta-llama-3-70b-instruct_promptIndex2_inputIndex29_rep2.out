@@ -1,0 +1,17 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(3)",
+  "2. Näytteiden koko": "(30mm)",
+  "3. Gleason-luokitus": "(3+4=7)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "('ei')",
+  "5. Perineuraalinen kasvu": "('NA')",
+  "6. Atypia": "('NA')"
+}
+```
+
+Note: 
+
+* Question 4: The report does not mention benign prostatic hyperplasia, so I answered 'ei' (no).
+* Questions 5 and 6: The report does not mention perineural growth or atypia, so I answered 'NA' (not available).

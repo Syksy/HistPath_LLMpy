@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": "5g",
+  "Gleason_score": "4+4=8",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `sample_count`: Not mentioned in the report, so NA.
+* `sample_size_or_weight`: Mentioned as "about 5g".
+* `Gleason_score`: Mentioned as "Gleason 4 and its various variants" with a total score of 8, so represented as "4+4=8".
+* `benign_hyperplasia_only`: Since adenocarcinoma is mentioned, it's not just benign hyperplasia, so "ei" (no).
+* `perineural_invasion` and `atypia`: Not mentioned in the report, so NA.

@@ -1,0 +1,12 @@
+{
+  "näytteiden määrä": 6,
+  "näytteiden koko tai paino": "NA",
+  "Gleason luokitus": {
+    "Colony 1": "4+4=8",
+    "Colony 2": "4+3=7",
+    "Colony 3": "3+4=7"
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": true
+}

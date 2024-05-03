@@ -1,0 +1,54 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions that there are 4+6+3 samples from the left side and 5+7+8mm samples from the right side, which makes a total of 6 samples.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": {
+    "left": "4+6+3 mm",
+    "right": "5+7+8 mm"
+  }
+}
+```
+The report mentions the size of the samples from both sides, but not a single overall size.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of Gleason classification in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention any benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "kyllä"
+}
+```
+The report mentions malignant growth, which implies atypia.
+
+Let me know if you'd like me to proceed with the next set of questions!

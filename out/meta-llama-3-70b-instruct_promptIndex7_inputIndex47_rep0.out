@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 4,
+  "sample_size_or_weight": ["10 mm", "7 mm", "15 mm", "10 mm"],
+  "Gleason_score": 3+4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": true,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* `number_of_samples`: There are 4 samples mentioned in the report, 2 from the left side and 2 from the right side.
+* `sample_size_or_weight`: The sizes of the samples are listed as an array, with each element representing the size of one sample.
+* `Gleason_score`: The Gleason score is reported as 3+4, indicating that type 3 is the main pattern and type 4 is the second most common.
+* `benign_hyperplasia_only`: This is set to false because the report mentions carcinoma cells, indicating that it's not just benign hyperplasia.
+* `perineural_invasion`: This is set to true because the report mentions growth around nerves.
+* `atypia`: This is set to NA (Not Available) because there is no mention of atypia in the report.

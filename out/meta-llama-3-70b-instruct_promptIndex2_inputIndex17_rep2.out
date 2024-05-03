@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(4)",
+  "2. Näytteiden koko": "10mm, 7mm, 15mm, 10mm",
+  "3. Gleason-luokitus": "3+4=7",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "kyllä",
+  "6. Atypia": "NA"
+}
+```
+
+Note: 
+
+* For question 1, there are 4 fragments (2 from the left side and 2 from the right side).
+* For question 2, the sizes of the fragments are 10mm, 7mm, 15mm, and 10mm.
+* For question 3, the Gleason score is 3+4=7, based on the description of the left-side fragments.
+* For question 4, there is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+* For question 5, perineural growth is mentioned in the description of the left-side fragments, so the answer is "kyllä" (yes).
+* For question 6, there is no mention of atypia, so the answer is "NA" (not applicable).

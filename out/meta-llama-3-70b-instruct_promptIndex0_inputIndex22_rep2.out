@@ -1,0 +1,26 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "(Näytteiden määrä)": 9,
+  "(Näytteiden koko)": "NA",
+  "(Gleason-luokitus)": 3-4,
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(Perineuraalinen kasvu)": "ei",
+  "(Atypia)": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+a. The number of samples taken is 9, as mentioned in the report (Apex näytteisiin A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä).
+
+b. The size of the samples is not explicitly mentioned in the report, so the answer is "NA".
+
+c. The Gleason score is 3-4, as mentioned in the report (Vallitseva Gleason luokka 3 ja luokan 4 erilaistumista melkein yhtä paljon).
+
+d. There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report, so the answer is "ei".
+
+e. There is no mention of perineural growth (perineuraalinen kasvu) in the report, so the answer is "ei".
+
+f. There is no mention of atypia in the report, so the answer is "NA".

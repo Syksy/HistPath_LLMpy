@@ -1,0 +1,14 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 1, // koko elin yhtenä näytteenä
+  "sample_size_or_weight": "5g", // grammoissa
+  "Gleason_score": "4+4=8", // major+minor=summa
+  "benign_hyperplasia_only": "ei", // ei
+  "perineural_invasion": "ei", // ei
+  "atypia": "kyllä" // kyllä, since adenokarsinooma is mentioned
+}
+```
+
+Note that I assumed the sample count to be 1, as the text mentions a single prostate tissue sample. If this is not correct, please let me know and I'll update the response accordingly.

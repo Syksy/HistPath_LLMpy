@@ -1,0 +1,56 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 6
+}
+```
+The report mentions that six biopsy samples were taken from the patient.
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteiden_koko": {
+    "pesäke_1": "5mm",
+    "pesäke_2": "10mm"
+  }
+}
+```
+The report mentions the size of two biopsy samples, 5mm and 10mm, but not all six samples.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": {
+    "pesäke_1": "4+4=8",
+    "pesäke_2": "4+3=7",
+    "pesäke_3": "3+4=7"
+  }
+}
+```
+The report provides the Gleason scores for three biopsy samples.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention any benign prostatic hyperplasia (BPH) or hyvälaatuinen eturauhasen liikakasvu.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+The report does not mention perineural growth.
+
+**6. Atypia:**
+```
+{
+  "atypia": "kyllä"
+}
+```
+The report mentions atypia in the biopsy samples.

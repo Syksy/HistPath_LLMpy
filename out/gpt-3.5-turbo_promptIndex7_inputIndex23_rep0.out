@@ -1,0 +1,8 @@
+{
+  "potilaan_näytteiden_määrä": 3,
+  "näytteiden_koko_tai_paino": ["8+6mm", "10mm", "5+5mm"],
+  "näytteiden_Gleason_luokitus": [7, 7, "NA"],
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_pahanlaatuinen_kasvu": false,
+  "atypia_tavallisesta_kudoksesta_poikkeavia_muutoksia": true
+}

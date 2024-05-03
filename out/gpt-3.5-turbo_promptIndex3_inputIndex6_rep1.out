@@ -1,0 +1,12 @@
+{
+  "number of samples": 16,
+  "size of samples": {
+    "D-G": "apexia",
+    "K-P": "basis",
+    "O-Q": "seminaalivehikkeleitä"
+  },
+  "Gleason score": "3+4=7",
+  "BPH": "no",
+  "perineural growth": "no",
+  "atypia": "no"
+}

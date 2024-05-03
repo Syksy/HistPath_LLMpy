@@ -1,0 +1,8 @@
+{
+  "näytteiden määrä": 2,
+  "näytteiden koko": ["10 mm", "7 mm", "15 mm", "10 mm"],
+  "Gleason luokitus": ["3", "4"],
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": true,
+  "atypia": true
+}

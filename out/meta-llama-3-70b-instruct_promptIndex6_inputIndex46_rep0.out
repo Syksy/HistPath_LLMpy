@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 6,
+  "sample_size_or_weight": "8mm and 5mm",
+  "Gleason_score": "4+4 (apex) and 3+4 (base)",
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Note: 
+
+* The number of samples is 6, as mentioned in the report.
+* The sample size or weight is reported as 8mm and 5mm, which are the sizes of the foci of the malignant samples.
+* The Gleason score is reported separately for the apex and base, as it varies between these two locations.
+* Benign hyperplasia only is set to false, as adenocarcinoma is found in the samples.
+* Perineural invasion and atypia are marked as NA, as there is no mention of these features in the report.

@@ -1,0 +1,20 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(8)",
+  "2. Näytteiden koko": "(NA)",
+  "3. Gleason-luokitus": "(NA)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(kyllä)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Note: 
+
+* The number of samples is 8, as mentioned in the text ("kahdeksassa blokissa").
+* The size of the samples is not mentioned, so it's marked as NA (Not Available).
+* There is no mention of Gleason score, so it's marked as NA.
+* The text states that the finding is benign, which means there is no malignant growth, so the answer to question 4 is "kyllä" (yes).
+* There is no mention of perineural growth or atypia, so the answers to questions 5 and 6 are both "ei" (no).

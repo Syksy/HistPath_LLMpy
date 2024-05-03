@@ -1,0 +1,46 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "samples": [
+    {
+      "sample_id": 1,
+      "number_of_samples": 2,
+      "size_or_weight": "8+6mm",
+      "gleason_score": 7,
+      "gleason_breakdown": {
+        "3": 60,
+        "4": 40
+      },
+      "benign_hyperplasia_only": false,
+      "perineural_invasion": NA,
+      "atypia": true
+    },
+    {
+      "sample_id": 2,
+      "number_of_samples": 1,
+      "size_or_weight": "10mm",
+      "gleason_score": 7,
+      "gleason_breakdown": {
+        "3": 70,
+        "4": 30
+      },
+      "benign_hyperplasia_only": false,
+      "perineural_invasion": NA,
+      "atypia": true
+    },
+    {
+      "sample_id": 3,
+      "number_of_samples": 2,
+      "size_or_weight": "5+5mm",
+      "gleason_score": NA,
+      "gleason_breakdown": NA,
+      "benign_hyperplasia_only": true,
+      "perineural_invasion": NA,
+      "atypia": false
+    }
+  ]
+}
+```
+
+Note: I assumed that the PIN-muutoksia mentioned in the report refers to atypia, and therefore marked it as true for samples 1 and 2. If this is not correct, please let me know. Also, since there was no mention of perineural invasion in the report, I marked it as NA (not available) for all samples.

@@ -1,0 +1,26 @@
+{
+  "Biopsianäytteet": {
+    "määrä": 3,
+    "koko": ["8+6mm", "10mm", "5+5mm"],
+    "Gleason luokitus": [7, 7, "NA"],
+    "hyvänlaatuinen liikakasvu": false,
+    "perineuraalinen kasvu": false,
+    "atypia": true
+  },
+  "Radikaaliprostatektomianäytteet": {
+    "määrä": "NA",
+    "koko": "NA",
+    "Gleason luokitus": "NA",
+    "hyvänlaatuinen liikakasvu": "NA",
+    "perineuraalinen kasvu": "NA",
+    "atypia": "NA"
+  },
+  "TURP-hoidon höyläyslastut": {
+    "määrä": "NA",
+    "koko": "NA",
+    "Gleason luokitus": "NA",
+    "hyvänlaatuinen liikakasvu": true,
+    "perineuraalinen kasvu": false,
+    "atypia": false
+  }
+}

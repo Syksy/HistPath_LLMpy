@@ -1,0 +1,21 @@
+{
+  "näytteiden määrä": 6,
+  "näytteiden koko/paino": "Ei saatavilla",
+  "Gleason luokitus": [
+    {
+      "pesäke": "1. vasemmalta edestä",
+      "luokitus": "4+4=8"
+    },
+    {
+      "pesäke": "2. vasemmalta keskeltä",
+      "luokitus": "4+3=7"
+    },
+    {
+      "pesäke": "3. oikealta keskeltä",
+      "luokitus": "3+4=7"
+    }
+  ],
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": true
+}

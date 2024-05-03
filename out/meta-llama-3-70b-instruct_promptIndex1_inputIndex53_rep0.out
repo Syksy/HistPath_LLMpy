@@ -1,0 +1,58 @@
+I'll go through the questions one by one and provide the answers in JSON format.
+
+**1. Näytteiden määrä:**
+```
+{
+  "näytteiden_määrä": 3
+}
+```
+The report mentions three samples: Sample (1), Sample (2), and Sample (3).
+
+**2. Näytteiden koko:**
+```
+{
+  "näytteen_koko": [
+    {"sample": 1, "koko": "8+6mm"},
+    {"sample": 2, "koko": "10mm"},
+    {"sample": 3, "koko": "5+5mm"}
+  ]
+}
+```
+The report provides the size of each sample.
+
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": [
+    {"sample": 1, "luokitus": "3+4=7"},
+    {"sample": 2, "luokitus": "3+4=7"}
+  ]
+}
+```
+The report provides the Gleason score for Samples (1) and (2).
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_liikakasvu": "ei"
+}
+```
+There is no mention of benign prostatic hyperplasia in the report.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "kyllä"
+}
+```
+The report mentions PIN changes, which are a type of atypia.
+
+Let me know if you need further assistance!

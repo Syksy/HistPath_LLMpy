@@ -1,0 +1,20 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_samples": 13,
+  "sample_size_or_weight": "about 180mm",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Explanation:
+
+* "number_of_samples" is 13, as stated in the report.
+* "sample_size_or_weight" is "about 180mm", which is the length of the material examined.
+* "Gleason_score" is NA, as it is not explicitly mentioned in the report.
+* "benign_hyperplasia_only" is false, as carcinoma was found in some biopsies.
+* "perineural_invasion" and "atypia" are both NA, as there is no mention of these features in the report.

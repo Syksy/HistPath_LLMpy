@@ -1,0 +1,24 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": 6,
+  "sample_size_or_weight": NA,
+  "Gleason_score": {
+    "apex": "4+4",
+    "base": "3+4"
+  },
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `sample_count`: The number of samples taken from the patient, which is 6 in this case (6 macroblocks).
+* `sample_size_or_weight`: Not mentioned in the report, so it's marked as NA (Not Available).
+* `Gleason_score`: A dictionary with two keys, `apex` and `base`, representing the Gleason scores for the apex and base regions, respectively.
+* `benign_hyperplasia_only`: False, because the report mentions adenocarcinoma, which is a malignant tumor.
+* `perineural_invasion`: False, because there is no mention of perineural invasion in the report.
+* `atypia`: False, because there is no mention of atypia in the report.

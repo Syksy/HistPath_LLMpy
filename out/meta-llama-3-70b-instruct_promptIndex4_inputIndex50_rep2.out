@@ -1,0 +1,23 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "number_of_biopsies": 6,
+  "biopsy_size_or_weight": NA,
+  "Gleason_score": [
+    {"colony": 1, "score": 8, "grade3": 0, "grade4": 4},
+    {"colony": 2, "score": 7, "grade3": 3, "grade4": 4},
+    {"colony": 3, "score": 7, "grade3": 3, "grade4": 4}
+  ],
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": NA,
+  "atypia_present": true
+}
+```
+
+Note: 
+
+* `biopsy_size_or_weight` is marked as NA since the original text does not provide this information.
+* `perineural_invasion` is marked as NA since the original text does not mention it.
+* `benign_hyperplasia_only` is set to false since the report mentions adenocarcinoma and Gleason scores.
+* `atypia_present` is set to true since the report mentions atypical glandular structure.

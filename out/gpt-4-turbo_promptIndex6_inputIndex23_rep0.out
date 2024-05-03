@@ -1,0 +1,16 @@
+{
+  "näytteiden_lukumäärä": 3,
+  "näytteiden_koko_tai_paino": [
+    {"näyte_1": "8+6mm"},
+    {"näyte_2": "10mm"},
+    {"näyte_3": "5+5mm"}
+  ],
+  "Gleason_luokitus": [
+    {"näyte_1": "Gleason 7 (3+4)"},
+    {"näyte_2": "Gleason 7 (3+4)"},
+    {"näyte_3": "NA"}
+  ],
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "kyllä, PIN-muutoksia näytteissä (1) ja (2)"
+}

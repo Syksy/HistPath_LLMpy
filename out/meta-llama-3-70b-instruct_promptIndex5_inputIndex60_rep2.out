@@ -1,0 +1,18 @@
+I'm happy to help!
+
+Since the provided text "Beep boop? Boop biip. Blarp!" doesn't seem to contain any relevant information about a histopathological report, I'll assume it's an invalid or incomplete input.
+
+In this case, I'll return a JSON object with all values set to "NA" (Not Available) to indicate that no relevant information was found in the input text:
+
+```
+{
+  "sample_count": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_hyperplasia_only": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Please provide a valid histopathological report, and I'll do my best to extract the relevant information and convert it into a structured format.

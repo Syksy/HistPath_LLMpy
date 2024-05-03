@@ -1,0 +1,21 @@
+Here is the structured report in JSON format:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": "30g",
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": true,
+  "perineural_invasion": false,
+  "atypia": false
+}
+```
+
+Explanation:
+
+* `sample_count`: Not mentioned in the report, so NA (Not Available) is returned.
+* `sample_size_or_weight`: The report mentions that the total weight of the tissue fragments is approximately 30g.
+* `Gleason_score`: Not mentioned in the report, so NA (Not Available) is returned.
+* `benign_hyperplasia_only`: The report concludes that the finding is consistent with benign hyperplasia, so this field is set to true.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to false.
+* `atypia`: The report explicitly states that there is no atypia, so this field is set to false.
