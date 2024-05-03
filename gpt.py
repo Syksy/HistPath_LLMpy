@@ -39,8 +39,8 @@ try:
                     )
                     # Write output to a suitable file
                     f = open("" + modelname + "_promptIndex" + str(promptIndex) + "_inputIndex" + str(inputIndex)
-                             + "_rep" + str(rep) + ".out", 'w')
-                    print(response.choices[0].message.content, file=f)
+                             + "_rep" + str(rep) + ".out", 'w', encoding="utf-8")
+                    f.write(response.choices[0].message.content)
                     f.close()
                     print("\n\n")
                     time.sleep(2) # Sleep 2 seconds

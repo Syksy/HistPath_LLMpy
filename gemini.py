@@ -29,13 +29,15 @@ safety_settings = {
 }
 
 # Working directory
-os.chdir("~/out/")
+os.chdir("/home/teemu_daniel_laajala/out/")
 
 try:
-    for rep in range(3):  # Run multiple repeats of the same setup to assess determinism
+    #for rep in range(3):  # Run multiple repeats of the same setup to assess determinism
+    for rep in range(2, 3):  # Run multiple repeats of the same setup to assess determinism
         for modelname in ["gemini-1.0-pro-001"]:
             model = GenerativeModel(modelname)
-            for promptIndex in range(prompts.getMaxPrompts()):
+            #for promptIndex in range(prompts.getMaxPrompts()):
+            for promptIndex in range(8, prompts.getMaxPrompts()):
                 for inputIndex in range(prompts.getMaxInputs()):
                     print("Model name " + modelname + " prompt index " + str(promptIndex) + " input index "
                         + str(inputIndex) + " repeat " + str(rep) + "\n")
@@ -56,12 +58,15 @@ try:
                         # Appears to be an issue particularly in gemini-1.0-pro-002 ... fallback to older release
                         # even with safety_settings put in
                         else:
+                            print("Retrying, caught in harm filters likely FinishReason.OTHER... retry index " + str(retries))
+                            if retries > 9:
+                                break
                             retries = retries + 1
-                            print("Retrying, caught in harm filters likely FinishReason.OTHER...")
                             time.sleep(11)
                     f = open("" + modelname + "_promptIndex" + str(promptIndex) + "_inputIndex" + str(inputIndex)
-                             + "_rep" + str(rep) + ".out", 'w')
-                    print(response.text, file=f)
+                             + "_rep" + str(rep) + ".out", 'w', encoding="utf-8")
+                    if retries < 10:
+                        f.write(response.text)
                     f.close()
                     print("\n\n")
                     time.sleep(11)
