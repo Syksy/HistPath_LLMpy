@@ -7,7 +7,7 @@ import numpy
 import prompts
 import numpy as np
 
-# Working directory for output files
+# Working directory for project
 os.chdir("D:\\Gits\\HistPath_LLMpy\\")
 
 modelnames = ["gpt-3.5-turbo", "gpt-4-turbo", "gemini-1.0-pro-001", "meta/meta-llama-3-70b-instruct"]
@@ -23,7 +23,7 @@ output = np.chararray(
         # Maximum number of statements
         prompts.getMaxInputs()
     ),
-    itemsize=1000
+    itemsize=2000
 )
 
 # Iterate over models
