@@ -1,10 +1,14 @@
+# Tabulate and collect results in a suitable format across all output files
 import os
 import re
+
+import numpy
+
 import prompts
 import numpy as np
 
 # Working directory for output files
-os.chdir("D:\\Gits\\HistPath_LLMpy\\out\\")
+os.chdir("D:\\Gits\\HistPath_LLMpy\\")
 
 modelnames = ["gpt-3.5-turbo", "gpt-4-turbo", "gemini-1.0-pro-001", "meta/meta-llama-3-70b-instruct"]
 
@@ -31,7 +35,7 @@ for modelIndex in range(len(modelnames)):
             # Iterate over replicates
             for rep in range(3):
                 # Aggregate into a multidim array
-                filename = ("" + re.sub("meta/", "", modelnames[modelIndex]) + "_promptIndex"
+                filename = ("out\\" + re.sub("meta/", "", modelnames[modelIndex]) + "_promptIndex"
                             + str(promptIndex) + "_inputIndex" + str(inputIndex) + "_rep" + str(rep) + ".out")
                 print("Processing filename " + filename)
                 if os.path.isfile(filename):
@@ -45,7 +49,7 @@ for modelIndex in range(len(modelnames)):
                         if lines[i].strip() == "```json" or lines[i].strip() == "```":
                             start = i+1
                             break
-                    # The ending to ``` sequence if one was detected; starting from start point
+                    # The ending to ``` sequence if one was detected; starting sequence from prior start point
                     for j in range(start, len(lines)):
                         if lines[j].strip() == "```":
                             end = j
@@ -67,3 +71,8 @@ print(output[0,0,0,0].decode("utf-8"))
 print("\n\nDimensions and shape of output: \n")
 print(str(output.ndim) + "\n")
 print(str(output.shape) + "\n")
+
+# Write out the 4-dim np char array as binary file
+file = open("data\\output.npy", 'wb')
+numpy.save(file=file, arr=output)
+file.close()
