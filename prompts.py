@@ -16,7 +16,29 @@ pre = [
     # Prompt 4 variant 3 (7)
     "Olet lääketieteellinen assistentti, jonka tehtävänä on muuttaa vapaamuotoisena tekstinä olevia histopatologisia lausuntoja rakenteelliseen muotoon. Kaikkia kysyttyjä kohtia ei välttämättä löydy lausunnosta, jolloin kuuluu palauttaa puuttuvaa arvoa kuvaava NA. Jos koet että jokin vastaus on epävarma, on tärkeämpää palauttaa puuttuva arvo NA kuin palauttaa arvo jonka tarkkuus on kyseenalainen. Huomaa myös, että vaikka lausunnosta puuttuisi tieto jostain kysytystä arvosta, vastauksen kuuluu olla NA eikä nolla tai ei. Palauta rakenteelliseksi tulkittu lausunto JSON-formaatissa. Hae seuraaviin kysymyksiin vastaus: \n- Kuinka monta näytettä potilaalta on otettu \n- Näytteiden koko tai paino \n- Näytteen Gleason luokitus \n- Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu \n- Onko näytteessä havaittu perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua \n- Onko näytteessä havaittu atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia \nRakenteelliseksi muutettava lausunto seuraa alla ""-merkkien sisällä:\n\"",
     # Prompt 4 variant 4 (8)
-    "Olet lääketieteellinen assistentti, jonka tehtävänä on muuttaa vapaamuotoisena tekstinä olevia histopatologisia lausuntoja rakenteelliseen muotoon. Kaikkia kysyttyjä kohtia ei välttämättä löydy lausunnosta, jolloin kuuluu palauttaa puuttuvaa arvoa kuvaava NA.  Palauta rakenteelliseksi tulkittu lausunto JSON-formaatissa. Hae seuraaviin kysymyksiin vastaus (suluissa on esimerkit sallituista arvoista eri kohtiin): \n- Kuinka monta näytettä potilaalta on otettu [(Biopsioiden lukumäärä, koko elin yhtenä näytteenä, tai NA)] \n- Näytteiden koko tai paino [(grammoissa tai millimetreissä tai NA)] \n- Näytteen Gleason luokitus [(major+minor=summa, pelkkä summa tai NA)] \n- Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu [(kyllä/ei/NA)] \n- Onko näytteessä havaittu perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua [(kyllä/ei/NA)] \n- Onko näytteessä havaittu atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia [(kyllä/ei/NA)] \nRakenteelliseksi muutettava lausunto seuraa alla ""-merkkien sisällä:\n\""
+    "Olet lääketieteellinen assistentti, jonka tehtävänä on muuttaa vapaamuotoisena tekstinä olevia histopatologisia lausuntoja rakenteelliseen muotoon. Kaikkia kysyttyjä kohtia ei välttämättä löydy lausunnosta, jolloin kuuluu palauttaa puuttuvaa arvoa kuvaava NA.  Palauta rakenteelliseksi tulkittu lausunto JSON-formaatissa. Hae seuraaviin kysymyksiin vastaus (suluissa on esimerkit sallituista arvoista eri kohtiin): \n- Kuinka monta näytettä potilaalta on otettu [(Biopsioiden lukumäärä, koko elin yhtenä näytteenä, tai NA)] \n- Näytteiden koko tai paino [(grammoissa tai millimetreissä tai NA)] \n- Näytteen Gleason luokitus [(major+minor=summa, pelkkä summa tai NA)] \n- Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu [(kyllä/ei/NA)] \n- Onko näytteessä havaittu perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua [(kyllä/ei/NA)] \n- Onko näytteessä havaittu atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia [(kyllä/ei/NA)] \nRakenteelliseksi muutettava lausunto seuraa alla ""-merkkien sisällä:\n\"",
+    # 9: May 8th prompt 0.0
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Vastaa esitettyihin kysymyksiin annetun lausunnon perusteella. Anna vastaukset JSON-formaatissa. Anna vastauksissa avaimena merkkien ( ) välissä oleva sisältö kysymyskohtaisesti.\n\""
+    # 10: May 8th prompt variant 0.1
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Olet erittäin kokenut histopatologiaan erikoistunut erikoislääkäri ja tehtäväsi on vastata esitettyihin kysymyksiin annetun lausunnon perusteella. Anna vastaukset JSON-formaatissa. Anna vastauksissa avaimena merkkien ( ) välissä oleva sisältö kysymyskohtaisesti.\n\"",
+    # 11: May 8th prompt variant 1.0
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Tehtäväsi on etsiä lausunnosta alla listatut tiedot. Käy kohdat läpi askel kerrallaan. Anna vastaukset yhtenä objektina JSON-formaatissa.\n\"",
+    # 12: May 8th prompt variant 1.1
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Olet erittäin kokenut histopatologiaan erikoistunut erikoislääkäri, jonka tehtävä on etsiä lausunnosta alla listatut tiedot. Käy kohdat läpi askel kerrallaan. Anna vastaukset yhtenä objektina JSON-formaatissa. \n\"",
+    # 13: May 8th prompt variant 1.2
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Tehtäväsi on etsiä lausunnosta alla listatut tiedot. Käy kohdat läpi askel kerrallaan. Anna vastaukset yhtenä objektina JSON-formaatissa. Älä selitä vastauksia enempää, anna vastauksena vain JSON-tiedosto.\n\"",
+    # 14: May 8th prompt variant 2.0
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Tehtäväsi on etsiä tietoa annetusta lausunnosta. Etsi vastaukset alla oleviin kysymyksiin. Lausunnosta ei välttämättä löydy vastauksia kaikkiin kysymyksiin, anna tällöin vastaukseksi ’NA’. Anna vastaukset JSON-formaatissa.\n\"",
+    # 15: May 8th prompt variant 2.1
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Tehtäväsi on etsiä tietoa annetusta lausunnosta. Etsi vastaukset alla oleviin kysymyksiin. Anna vastaukset () merkkien välissä olevien ohjeiden mukaan. Anna vastaukset JSON-formaatissa.\n\"",
+    # 16: May 8th prompt variant 2.2
+    "Merkkien \"\" välissä on annettu histopatologin kirjoittama lausunto eturauhassyöpänäytteestä. Olet erittäin kokenut histopatologiaan erikoistunut erikoislääkäri, jonka tehtävä on etsiä tietoa annetusta lausunnosta. Etsi vastaukset alla oleviin kysymyksiin. Anna vastaukset () merkkien välissä olevien ohjeiden mukaan. Anna vastaukset JSON-formaatissa.\n\"",
+    # 17: May 8th prompt variant 3.0
+    "You will be provided with text delimited by quotes. The text is a medical note written by a pathologist and it is in Finnish. Your job is to extract information from the given text. Find answers to the questions below and answer in Finnish. You might not be able to find answers to all the questions, in these cases give ‘NA’ as the answer. Give the answers in JSON-format.\n\"",
+    # 18: May 8th prompt variant 3.1
+    "You will be provided with text delimited by quotes. The text is a medical note written by a pathologist and it is in Finnish. Your job is to extract information from the given text. Find answers to the questions below. Give the answers based on the instructions given between the parenthesis. Give the answers in JSON-format.\n\"",
+    # 19: May 8th prompt variant 3.2
+    "You will be provided with text delimited by quotes. The text is a medical note written by a histopathologist and it is in Finnish. Your job is to act as a very experienced doctor that specializes in pathology and extract information from the given text. Find the answers to the questions below. Give the answers based on the instructions given between the parenthesis. Give the answers in JSON-format.\n\""
     ]
 post = [
     # End of prompt 0
@@ -36,9 +58,32 @@ post = [
     # End of prompt 4 variant 3 (7)
     "\"",
     # End of prompt 4 variant 4 (8)
-    "\""
+    "\"",
+    # 9: May 8th prompt 0.0
+    "\"\nAnalysoi annettua histopatologin kirjoittamaa lausuntoa, ja vastaa sen perusteella kysymyksiin 1.-3. Anna kaikkien lausunnosta löydettyjen arvojen kanssa niihin liittyvä määre, jos sellainen on. Anna vastauksena vain numeerisia arvoja. Jos patologisesta lausunnosta ei löydy selkeää vastausta, anna vastaukseksi ’NA’. \n1.	Kuinka monta näytettä potilaalta on otettu? (Näytteiden määrä) \n2.	Minkä kokoisia otetut näytteet ovat? (Näytteiden koko) \n3.	Mikä on näytteiden Gleason-luokitus? (Gleason-luokitus) \nAnalysoi annettua histopatologin kirjoittamaa lausuntoa, ja vastaa sen perusteella kysymyksiin 4.-6., Anna vastaukseksi ’kyllä’ tai ’ei’, jos lausunnosta löytyy selkeä vastaus. Jos potilaslausunnosta ei löydy selkeää vastausta, anna vastaukseksi ’NA’. \n4.	Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua? (Eturauhasen hyvälaatuinen liikakasvu) \n5.	Onko näytteessä havaittu perineuraalista kasvua? (Perineuraalinen kasvu) \n6.	Onko näytteessä havaittu atypiaa? (Atypia)",
+    # 10: May 8th prompt variant 0.1
+    "\"\nAnalysoi annettua histopatologin kirjoittamaa lausuntoa, ja vastaa sen perusteella kysymyksiin 1.-3. Anna kaikkien lausunnosta löydettyjen arvojen kanssa niihin liittyvä määre, jos sellainen on. Anna vastauksena vain numeerisia arvoja. Jos patologisesta lausunnosta ei löydy selkeää vastausta, anna vastaukseksi ’NA’. \n1.	Kuinka monta näytettä potilaalta on otettu? (Näytteiden määrä) \n2.	Minkä kokoisia otetut näytteet ovat? (Näytteiden koko) \n3.	Mikä on näytteiden Gleason-luokitus? (Gleason-luokitus) \nAnalysoi annettua histopatologin kirjoittamaa lausuntoa, ja vastaa sen perusteella kysymyksiin 4.-6., Anna vastaukseksi ’kyllä’ tai ’ei’, jos lausunnosta löytyy selkeä vastaus. Jos potilaslausunnosta ei löydy selkeää vastausta, anna vastaukseksi ’NA’. \n4.	Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua? (Eturauhasen hyvälaatuinen liikakasvu) \n5.	Onko näytteessä havaittu perineuraalista kasvua? (Perineuraalinen kasvu) \n6.	Onko näytteessä havaittu atypiaa? (Atypia)",
+    # 11: May 8th prompt variant 1.0
+    "\"\n1.Näytteiden määrä: \n- Etsi lausunnosta maininta siitä, kuinka monta näytettä potilaalta on otettu. \n- Anna vastaukseksi otettujen näytteiden määrä \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden määrästä, anna vastaukseksi ’NA’ \n\n2.Näytteiden koko: \n- Etsi lausunnosta maininta siitä, minkä kokoisia potilaalta otetut näytteet ovat \n- Anna vastaukseksi näytteiden koko numeerisena arvona. Anna numeerisen arvon lisäksi lausunnossa mainittu määre, jos sellainen on \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden koosta, anna vastaukseksi ’NA’ \n\n3. Gleason-luokitus: \n- Etsi lausunnosta maininta näytteiden Gleason-luokituksesta \n- Anna vastaukseksi näytteiden Gleason-luokitus muodossa major+minor=summa tai pelkkä summa \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden Gleason-luokituksesta, anna vastaukseksi ’NA’ \n\n4.Hyvälaatuinen eturauhasen liikakasvu: \n- Etsi maininta siitä, onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on hyvälaatuista eturauhasen liikakasvua, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole hyvälaatuista eturauhasen liikakasvua, anna vastaukseksi ’ei’. \n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’ \n\n5.Perineuraalinen kasvu: \n- Etsi maininta siitä, onko näytteessä havaittu perineuraalista kasvua vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on perineuraalista kasvua, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole perineuraalista kasvua, anna vastaukseksi ’ei’. \n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’ \n\n6.Atypia: \n- Etsi maininta siitä, onko näytteessä havaittu atypiaa vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on atypiaa, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole atypiaa, anna vastaukseksi ’ei’.\n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’",
+    # 12: May 8th prompt variant 1.1
+    "\"\n1.Näytteiden määrä: \n- Etsi lausunnosta maininta siitä, kuinka monta näytettä potilaalta on otettu. \n- Anna vastaukseksi otettujen näytteiden määrä \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden määrästä, anna vastaukseksi ’NA’ \n\n2.Näytteiden koko: \n- Etsi lausunnosta maininta siitä, minkä kokoisia potilaalta otetut näytteet ovat \n- Anna vastaukseksi näytteiden koko numeerisena arvona. Anna numeerisen arvon lisäksi lausunnossa mainittu määre, jos sellainen on \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden koosta, anna vastaukseksi ’NA’ \n\n3. Gleason-luokitus: \n- Etsi lausunnosta maininta näytteiden Gleason-luokituksesta \n- Anna vastaukseksi näytteiden Gleason-luokitus muodossa major+minor=summa tai pelkkä summa \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden Gleason-luokituksesta, anna vastaukseksi ’NA’ \n\n4.Hyvälaatuinen eturauhasen liikakasvu: \n- Etsi maininta siitä, onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on hyvälaatuista eturauhasen liikakasvua, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole hyvälaatuista eturauhasen liikakasvua, anna vastaukseksi ’ei’. \n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’ \n\n5.Perineuraalinen kasvu: \n- Etsi maininta siitä, onko näytteessä havaittu perineuraalista kasvua vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on perineuraalista kasvua, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole perineuraalista kasvua, anna vastaukseksi ’ei’. \n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’ \n\n6.Atypia: \n- Etsi maininta siitä, onko näytteessä havaittu atypiaa vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on atypiaa, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole atypiaa, anna vastaukseksi ’ei’.\n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’",
+    # 13: May 8th prompt variant 1.2
+    "\"\n1.Näytteiden määrä: \n- Etsi lausunnosta maininta siitä, kuinka monta näytettä potilaalta on otettu. \n- Anna vastaukseksi otettujen näytteiden määrä \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden määrästä, anna vastaukseksi ’NA’ \n\n2.Näytteiden koko: \n- Etsi lausunnosta maininta siitä, minkä kokoisia potilaalta otetut näytteet ovat \n- Anna vastaukseksi näytteiden koko numeerisena arvona. Anna numeerisen arvon lisäksi lausunnossa mainittu määre, jos sellainen on \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden koosta, anna vastaukseksi ’NA’ \n\n3. Gleason-luokitus: \n- Etsi lausunnosta maininta näytteiden Gleason-luokituksesta \n- Anna vastaukseksi näytteiden Gleason-luokitus muodossa major+minor=summa tai pelkkä summa \n- Jos lausunnosta ei löydy selvää mainintaa näytteiden Gleason-luokituksesta, anna vastaukseksi ’NA’ \n\n4.Hyvälaatuinen eturauhasen liikakasvu: \n- Etsi maininta siitä, onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on hyvälaatuista eturauhasen liikakasvua, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole hyvälaatuista eturauhasen liikakasvua, anna vastaukseksi ’ei’. \n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’ \n\n5.Perineuraalinen kasvu: \n- Etsi maininta siitä, onko näytteessä havaittu perineuraalista kasvua vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on perineuraalista kasvua, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole perineuraalista kasvua, anna vastaukseksi ’ei’. \n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’ \n\n6.Atypia: \n- Etsi maininta siitä, onko näytteessä havaittu atypiaa vai ei \n- Jos lausunnossa on selvästi kerrottu, että näytteessä on atypiaa, anna vastaukseksi ’kyllä’. Jos lausunnossa on selvästi kerrottu, että näytteessä ei ole atypiaa, anna vastaukseksi ’ei’.\n- Jos lausunnosta ei löydy selvää mainintaa, anna vastaukseksi ’NA’",
+    # 14: May 8th prompt variant 2.0
+    "\"\n1. Kuinka monta näytettä potilaalta on otettu? \n2. Minkä kokoisia otetut näytteet ovat?  \n3. Mikä on näytteiden Gleason-luokitus? \n4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua? \n5. Onko näytteessä havaittu perineuraalista kasvua? \n6. Onko näytteessä havaittu atypiaa?",
+    # 15: May 8th prompt variant 2.1
+    "\"\n1. Kuinka monta näytettä potilaalta on otettu? (näytteiden määrä) \n2. Minkä kokoisia otetutu näytteet ovat? (näytteiden koko) \n3. Mikä on näytteiden Gleason-luokitus? (major+minor=summa/summa/NA) \n4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua? (kyllä/ei/NA) \n5. Onko näytteessä havaittu perineuraalista kasvua? (kyllä/ei/tai/NA)  \n6. Onko näytteessä havaittu atypiaa? (kyllä/ei/NA)",
+    # 16: May 8th prompt variant 2.2
+    "\"\n1. Kuinka monta näytettä potilaalta on otettu? (näytteiden määrä) \n2. Minkä kokoisia otetutu näytteet ovat? (näytteiden koko) \n3. Mikä on näytteiden Gleason-luokitus? (major+minor=summa/summa/NA) \n4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua? (kyllä/ei/NA) \n5. Onko näytteessä havaittu perineuraalista kasvua? (kyllä/ei/tai/NA)  \n6. Onko näytteessä havaittu atypiaa? (kyllä/ei/NA)",
+    # 17: May 8th prompt variant 3.0
+    "\"\n1.	How many samples have been taken? \n2.	What is the size of the samples taken? \n3.	What is the Gleason score of the samples?  \n4.	Can BPH be detected in the samples taken? \n5.	Can perineural growth be detected in the samples taken?  \n6.	Can atypia be detected in the samples taken?",
+    # 18: May 8th prompt variant 3.1
+    "\"\n1. How many samples have been taken? (number of samples) \n2.What is the size of the samples taken? (size of samples) \n3.What is the Gleason score of the samples? (major+minor=sum/sum/NA) \n4.Can BPH be detected in the samples taken? (kyllä/ei/NA) \n5.Can perineural growth be detected in the samples taken? (kyllä/ei/NA/) \n6.Can atypia be detected in the samples taken? (kyllä/ei/NA)",
+    # 19: May 8th prompt variant 3.2
+    "\"\n1.	How many samples have been taken? (number of samples) \n2.	What is the size of the samples taken? (size of samples) \n3.	What is the Gleason score of the samples? (major+minor=sum/sum/NA) \n4.	Can BPH be detected in the samples taken? (kyllä/ei/NA) \n5.	Can perineural growth be detected in the samples taken? (yes/no/NA) \n6.	Can atypia be detected in the samples taken? (kyllä/ei/NA)"
 ]
-inputs = [
+# Statements in original Finnish
+inputs_fin = [
     # 0
     "Tutkittavana edustava näyte prostatan tyyppipaikoista, yhteispituudelta 100mm. Havaitaan perineuraalia kasvua, suspekti maligni. Kohtalaisesti tulehdusmuutoksia, mutta ei selkeää malignia tai PIN löydöstä.",
     # 1
@@ -98,7 +143,10 @@ inputs = [
     # 28
     "Prostatan paksuneulabiopsianäytteet tutkittavana rutiinikaavion mukaisesti: 1 basis oikea, 2 keski oikea, 3 apex oikea, 4 basis vasen, 5 keski vasen, 6 apex vasen. Histologisesti leikkeet onnistuneita. Näytteissä 5-6 pieneltä alueelta (<1mm) nähdään Gleason 5 kasvutapaa, mutta pääosin havaitaan huonosti erilaistunutta Gleason 4+3=7 kasvua.",
     # 29
-    "Tutkittavana kolme fuusiobiopsiaa prostatan suspektista fokuksesta. Yhteispituudesta 30mm nähdänä n. puolelta matkaa karsinoomafokuksia siten että pituudet noin 7, 6 ja 2mm. Näissä tason 3 graduksen kasvu promenttia kasvua, joskus jonkin verran myös Gleaosn 4 -tyypin silmukoituvaa rakenneta noin kolmasosalta karsinooman pituudelta. Yhteenvetona löydös score 7 yhteensä 15mm matkalta, jossa 3 arkkitehtuuri n. 2/3 ja 4 arkkitehtuuri n. 1/3 karsinooman osasta.",
+    "Tutkittavana kolme fuusiobiopsiaa prostatan suspektista fokuksesta. Yhteispituudesta 30mm nähdänä n. puolelta matkaa karsinoomafokuksia siten että pituudet noin 7, 6 ja 2mm. Näissä tason 3 graduksen kasvu promenttia kasvua, joskus jonkin verran myös Gleaosn 4 -tyypin silmukoituvaa rakenneta noin kolmasosalta karsinooman pituudelta. Yhteenvetona löydös score 7 yhteensä 15mm matkalta, jossa 3 arkkitehtuuri n. 2/3 ja 4 arkkitehtuuri n. 1/3 karsinooman osasta."
+]
+# Automatically translated version of the Finnish statements to examine effect of a mid-pipe translation step
+inputs_eng = [
     # 30 (0 - translated)
     "A representative sample of prostate type sites, with a total length of 100mm, is being investigated. A perineural growth is observed, suspicious for malignancy. Moderate inflammatory changes, but no clear malignant or PIN findings.",
     # 31 (1 - translated)
@@ -158,23 +206,65 @@ inputs = [
     # 58 (28 - translated)
     "Prostate core biopsy samples to be examined according to the routine chart: 1 base right, 2 center right, 3 apex right, 4 base left, 5 center left, 6 apex left. Histologically, the sections were successful. In samples 5-6 from a small area (<1mm), Gleason 5 growth patterns are seen, but mainly poorly differentiated Gleason 4+3=7 growth is observed.",
     # 59 (29 - translated)
-    "Three fusion biopsies of a suspicious prostate focus are being investigated. From the total length of 30mm, seen from the side, there are carcinoma foci, so that the lengths are about 7, 6 and 2mm. In these, level 3 grade growth promotes growth, sometimes also some Gleaosn type 4 spliced structure for about one third of the length of the carcinoma. In summary, the finding is score 7 for a total distance of 15 mm, with 3 architecture approx. 2/3 and 4 architecture approx. 1/3 of the carcinoma part.",
+    "Three fusion biopsies of a suspicious prostate focus are being investigated. From the total length of 30mm, seen from the side, there are carcinoma foci, so that the lengths are about 7, 6 and 2mm. In these, level 3 grade growth promotes growth, sometimes also some Gleaosn type 4 spliced structure for about one third of the length of the carcinoma. In summary, the finding is score 7 for a total distance of 15 mm, with 3 architecture approx. 2/3 and 4 architecture approx. 1/3 of the carcinoma part."
+]
+
+# Nonsensical independent gibberish statements (ought to produce e.g. NAs, test for false positives)
+inputs_gib = [
     # 60 - Gibberish 0
     "Beep boop? Boop biip. Blarp!",
     # 61 - Gibberish 1
     "Lorem ipsum, 1+2=9, foo bar -0% yks kaks kolme on yhteensä kuus.",
     # 62 - Gibberish 2
-    "Tämä on harhaanjohtava lause, jonka tehtävänä on testata uskoisiko kielimalli esimerkiksi löydetyn Gleason ryhmän olevan miinus sata ja että mukamas näyte painoi tuhat kiloa."
+    "Tämä on harhaanjohtava lause, jonka tehtävänä on testata uskoisiko kielimalli esimerkiksi löydetyn Gleason ryhmän olevan miinus sata ja että mukamas näyte painoi tuhat kiloa.",
+    # 63 - Gibberish 3
+    "Potilas saapuu kivuliaana ensiapuun, selkeä olkapään luksaatio lateraalisesti polkapyöräonnettomuudesta johtuen. Jonkin verran spontaania lihasspasmia, ja potilas selkeän kivulias. Tilataan akuutti röntgen mahdollisten murtumien arvioimiseksi, mutta kuvissa ei näy poikkeavaa. Yritetään luksaation korjaamista rentouttamalla ja rotatoimalla kättä, mutta siinä onnistumatta. Lopulta kipulääkkeiden avulla olkapää saadaan paikoilleen ja potilas jaa osastolle tarkkailtavaksi.",
+    #
+    "SYNTAX ERROR IN SQL QUERY; ERROR CODE 123 - Query parameters {sample_count, sample_amount, gleason_grade, patient_bph, sample_perineural_invasion, sample_atypia} not found - double check column names and queried MAIN_TABLE. RETURN*"
 ]
 
+# Language agnostic prompt construction
 def getPrompt(promptIndex, inputIndex):
-    return pre[promptIndex] + inputs[inputIndex] + post[promptIndex]
+    return pre[promptIndex] + (inputs_fin + inputs_eng + inputs_gib)[inputIndex] + post[promptIndex]
+
+# Language sensitive prompt construction
+def getFullPrompt(promptIndex, inputIndex):
+    if promptIndex in getFinPrompts():
+        return pre[promptIndex] + (inputs_fin + inputs_gib)[inputIndex] + post[promptIndex]
+    elif promptIndex in getEngPrompts():
+        return pre[promptIndex] + (inputs_eng + inputs_gib)[inputIndex] + post[promptIndex]
+
+# Printable formatted illustrative prompt construction
+def getPrintablePrompt(promptIndex, inputIndex):
+    return pre[promptIndex] + "<INPUT STATEMENT>" + post[promptIndex]
+
 
 def getInput(inputIndex):
-    return inputs[inputIndex]
+    return (inputs_fin + inputs_eng + inputs_gib)[inputIndex]
 
 def getMaxInputs():
-    return len(inputs)
+    return len(inputs_fin + inputs_eng + inputs_gib)
 
 def getMaxPrompts():
     return len(pre)
+
+# Return indices for the Finnish prompt formulations
+def getFinPrompts():
+    return [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+
+
+def getEngPrompts():
+    return [2, 17, 18, 19]
+
+# Return indices for the Finnish input statements
+def getFinInputs():
+    return list(range(0, 29))
+
+# Return indices for the Finnish to English machine translated input statements
+def getEngInputs():
+    return list(range(30, 59))
+
+# Return indices for the statements that are gibberish (and ideally should produce full sets of NA or similar)
+def getGibInputs():
+    return list(range(60, 62))
+
