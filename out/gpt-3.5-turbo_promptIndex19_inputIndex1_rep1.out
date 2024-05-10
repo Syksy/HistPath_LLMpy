@@ -1,0 +1,12 @@
+{
+  "number of samples": 6,
+  "size of samples": "small",
+  "Gleason score": {
+    "major": 3,
+    "minor": 4,
+    "sum": 7
+  },
+  "BPH detection": "ei",
+  "perineural growth detection": "no",
+  "atypia detection": "kyllä"
+}

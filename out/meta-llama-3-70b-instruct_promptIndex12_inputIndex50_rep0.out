@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 6,
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": ["4+4=8", "4+3=7", "3+4=7"],
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "kyllä"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of biopsy specimens taken is 6.
+2. There is no mention of the size of the biopsy specimens, so the answer is "NA".
+3. The Gleason scores are mentioned for three colonies: 4+4=8, 4+3=7, and 3+4=7.
+4. The report mentions "hyperplastic changes in the epithelium" in some samples, which suggests that there is no high-grade prostatic intraepithelial neoplasia (HGPIN) or high-grade dysplasia, so the answer is "ei".
+5. There is no mention of perineural invasion, so the answer is "NA".
+6. The report mentions "atypical glandular structure" in Colony 1, which suggests that atypia is present, so the answer is "kyllä".

@@ -12,7 +12,7 @@
       "Pesäke 3": "3+4=7"
     }
   ],
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, adenokarsinoomaa",
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": false,
   "Perineuraalinen kasvu": "NA",
-  "Atypia": "Kyllä, atyyppista rauhasrakennetta"
+  "Atypia": true
 }

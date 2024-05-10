@@ -1,12 +1,14 @@
 {
   "potilaalta_otetut_naytteet": 2,
-  "naytteiden_koko_tai_paino": "oikealta noin 60mm ja vasemmalta noin 80mm",
+  "naytteiden_koko_tai_paino": {
+    "oikea": "60mm",
+    "vasen": "80mm"
+  },
   "Gleason luokitus": {
     "nayte_B": {
-      "Gleason_taso": 9,
-      "Gleason_alataso": {
-        "alue_vasemmalla": 20
-      }
+      "taso": 9,
+      "alue": "vasen",
+      "prosenttiosuus": "20%"
     }
   },
   "hyvanlaatuinen_eturauhasen_liikakasvu": false,

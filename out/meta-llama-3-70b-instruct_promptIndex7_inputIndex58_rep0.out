@@ -13,8 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: 6, as there are 6 biopsy samples mentioned (1 base right, 2 center right, ..., 6 apex left).
-* `sample_size_or_weight`: NA, as no information about the size or weight of the samples is provided.
-* `Gleason_score`: "4+3=7", as the Gleason score is explicitly mentioned in the report.
-* `benign_hyperplasia_only`: false, as the report mentions Gleason 5 growth patterns and poorly differentiated Gleason 4+3=7 growth, indicating malignant changes.
-* `perineural_invasion` and `atypia`: NA, as there is no mention of these features in the report.
+* "number_of_samples": 6, because there are 6 biopsy samples mentioned in the report.
+* "sample_size_or_weight": NA, because the report does not provide information about the size or weight of the samples.
+* "Gleason_score": "4+3=7", because the report mentions Gleason 4+3=7 growth patterns in samples 5-6.
+* "benign_hyperplasia_only": false, because the report mentions Gleason 5 and 4+3=7 growth patterns, which are not benign.
+* "perineural_invasion": NA, because the report does not provide information about perineural invasion.
+* "atypia": NA, because the report does not provide information about atypia.

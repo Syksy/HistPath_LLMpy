@@ -1,8 +1,8 @@
 {
-  "potilaan_naytteiden_maara": 13,
-  "naytteiden_koko_tai_paino": "180mm",
+  "näytteiden määrä": 13,
+  "näytteiden koko tai paino": "180mm",
   "Gleason luokitus": "3+4",
-  "hyvanlaatuinen_eturauhasen_liikakasvu": "ei",
-  "perineuraalinen_kasvu": "ei",
+  "hyvänlaatuinen eturauhasen liikakasvu": "ei",
+  "perineuraalinen kasvu": "ei",
   "atypia": "ei"
 }

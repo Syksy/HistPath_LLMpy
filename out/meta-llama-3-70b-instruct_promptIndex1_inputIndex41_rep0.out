@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 13
 }
 ```
-The report mentions that a total of 13 biopsies were taken.
+The report mentions "A total of 13 biopsies".
 
 **2. Näytteiden koko:**
 ```
@@ -15,6 +15,6 @@ The report mentions that a total of 13 biopsies were taken.
   "määre": "mm"
 }
 ```
-The report mentions that the material is about 180mm in length.
+The report mentions "about 180mm of material".
 
-Let me know when you're ready for me to proceed with the next questions!
+Let me know when to proceed with the next questions!

@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 12
 }
 ```
-The report mentions that 3/12 biopsies showed adenocarcinoma, so we can infer that 12 biopsies were taken.
+The report mentions "3/12 biopsiosta" which implies that 12 biopsies were taken.
 
 **2. Näytteiden koko:**
 ```
@@ -20,4 +20,34 @@ The report mentions that 3/12 biopsies showed adenocarcinoma, so we can infer th
 ```
 The report mentions the sizes of the biopsies as 8mm, 7mm, and 5mm.
 
-Let me know when you're ready for me to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason_luokitus": "3+3"
+}
+```
+The report mentions the Gleason score as 3+3.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention any benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+The report does not mention perineural growth.
+
+**6. Atypia:**
+```
+{
+  "atypia": "ei"
+}
+```
+The report explicitly states that no atypia was found.

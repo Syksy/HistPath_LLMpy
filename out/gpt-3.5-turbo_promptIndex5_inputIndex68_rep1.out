@@ -1,0 +1,26 @@
+{
+  "Biopsianäyte": {
+    "Näytteiden määrä": 5,
+    "Koko/paino": "Ohuet näytteet",
+    "Gleason luokitus": 3,
+    "Hyvänlaatuinen eturauhasen liikakasvu": true,
+    "Perineuraalinen kasvu": false,
+    "Atypia": false
+  },
+  "Radikaaliprostatektomianäyte": {
+    "Näytteiden määrä": "NA",
+    "Koko/paino": "Koko eturauhanen",
+    "Gleason luokitus": 4,
+    "Hyvänlaatuinen eturauhasen liikakasvu": false,
+    "Perineuraalinen kasvu": true,
+    "Atypia": true
+  },
+  "TURP-hoitolastu": {
+    "Näytteiden määrä": 1,
+    "Koko/paino": "NA",
+    "Gleason luokitus": "NA",
+    "Hyvänlaatuinen eturauhasen liikakasvu": true,
+    "Perineuraalinen kasvu": false,
+    "Atypia": true
+  }
+}

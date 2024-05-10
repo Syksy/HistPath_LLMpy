@@ -1,5 +1,5 @@
 {
-  "number of samples": 16,
+  "number of samples": 4,
   "size of samples": {
     "D-G": "apexia",
     "K-P": "basis",
@@ -7,6 +7,6 @@
   },
   "Gleason score": "3+4=7",
   "BPH": "no",
-  "perineural growth": "no",
-  "atypia": "no"
+  "perineural growth": "NA",
+  "atypia": "NA"
 }

@@ -1,0 +1,16 @@
+I apologize, but the provided text does not appear to be a histopathological report. It seems to be a passage from a physics textbook, discussing the concept of work and kinetic energy.
+
+As a result, I cannot extract the requested information from the text. Instead, I will return a JSON object with NA values for each of the requested fields:
+
+```
+{
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_hyperplasia_only": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+If you could provide an actual histopathological report, I would be happy to assist you in extracting the relevant information and converting it into a structured format.

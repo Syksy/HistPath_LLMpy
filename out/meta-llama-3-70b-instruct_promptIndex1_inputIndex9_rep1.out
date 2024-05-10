@@ -16,4 +16,36 @@ The answer is 8, as the text mentions "kahdeksalla kasetilla" which means "with 
 ```
 The answer is 13g, as the text mentions "Yhteensä 13g edestä höyläyslastuja".
 
-Let me know when to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "3+3=6"
+}
+```
+The answer is 3+3=6, as the text mentions "kasvutapa oli Gleason 3+3=6".
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
+}
+```
+The answer is NA, as there is no clear mention of hyvälaatuinen eturauhasen liikakasvu in the text.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+The answer is NA, as there is no clear mention of perineuraalinen kasvu in the text.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+The answer is NA, as there is no clear mention of atypia in the text.
+
+Let me know if you need further assistance!

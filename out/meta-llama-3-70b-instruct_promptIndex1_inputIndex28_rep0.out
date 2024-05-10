@@ -3,31 +3,31 @@ I'll go through the questions one by one and provide the answers in JSON format.
 **1. Näytteiden määrä:**
 The answer is: `6`
 
-JSON: `{ "naytteiden_maara": 6 }`
+JSON: `{"Näytteiden määrä": 6}`
 
 **2. Näytteiden koko:**
-The answer is: `<1mm` (mentioned in the phrase "pieneltä alueelta (<1mm)")
+The answer is: `<1mm`
 
-JSON: `{ "naytteiden_koko": "<1mm" }`
+JSON: `{"Näytteiden koko": "<1mm"}`
 
 **3. Gleason-luokitus:**
-The answer is: `4+3=7` and `5` (mentioned in the phrases "Gleason 4+3=7 kasvua" and "Gleason 5 kasvutapaa")
+The answer is: `4+3=7` and `5`
 
-JSON: `{ "gleason_luokitus": ["4+3=7", "5"] }`
+JSON: `{"Gleason-luokitus": ["4+3=7", "5"]}`
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
-The answer is: `NA` (no clear mention of benign prostatic hyperplasia)
+The answer is: `NA`
 
-JSON: `{ "hyvalaatuisen_liikakasvu": "NA" }`
+JSON: `{"Hyvälaatuinen eturauhasen liikakasvu": "NA"}`
 
 **5. Perineuraalinen kasvu:**
-The answer is: `NA` (no clear mention of perineural growth)
+The answer is: `NA`
 
-JSON: `{ "perineuraalinen_kasvu": "NA" }`
+JSON: `{"Perineuraalinen kasvu": "NA"}`
 
 **6. Atypia:**
-The answer is: `NA` (no clear mention of atypia)
+The answer is: `NA`
 
-JSON: `{ "atypia": "NA" }`
+JSON: `{"Atypia": "NA"}`
 
 Let me know if you need anything else!

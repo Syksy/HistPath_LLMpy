@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+{
+"1. Sample count": "14",
+"2. Sample size": "NA",
+"3. Gleason score": "4, 3",
+"4. BPH detection": "NA",
+"5. Perineural growth detection": "Kyllä",
+"6. Atypia detection": "NA"
+}
+
+Translation:
+
+{
+"1. Sample count": "14",
+"2. Sample size": "NA",
+"3. Gleason score": "4, 3",
+"4. BPH detection": "NA",
+"5. Perineural growth detection": "Yes",
+"6. Atypia detection": "NA"
+}

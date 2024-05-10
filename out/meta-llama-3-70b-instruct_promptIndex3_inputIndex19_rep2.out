@@ -13,8 +13,8 @@ Here are the answers in JSON format:
 
 Note: 
 
-* The number of samples is assumed to be 1 since the text mentions "yhdellä kasetilla" which means "with one cassette".
-* The size of the samples is mentioned as 12.3g.
-* There is no mention of Gleason score, so it's marked as NA.
-* BPH (Benign Prostatic Hyperplasia) can be detected as the text mentions "strooman hyperplasiasta" which means "stromal hyperplasia".
-* There is no mention of perineural growth or atypia, so they are marked as NA.
+* The number of samples is assumed to be 1 since the text mentions "Näytteenä on" which means "The sample is".
+* The size of the samples is 12.3g as mentioned in the text.
+* The Gleason score is not mentioned in the text, so it's marked as "NA".
+* BPH (Benign Prostatic Hyperplasia) is detected in the samples as the text mentions "strooman hyperplasiasta" which means "stromal hyperplasia".
+* Perineural growth and atypia are not mentioned in the text, so they are marked as "NA".

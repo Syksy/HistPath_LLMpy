@@ -20,4 +20,4 @@ Here's a brief explanation for each field:
 * `perineural_invasion`: The report doesn't mention perineural invasion, so I return false.
 * `atypia`: The report doesn't mention any atypical changes, so I return false.
 
-Please let me know if you have any further questions or if you'd like me to clarify any of these points!
+Let me know if you have any further questions or if you'd like me to clarify any of the fields!

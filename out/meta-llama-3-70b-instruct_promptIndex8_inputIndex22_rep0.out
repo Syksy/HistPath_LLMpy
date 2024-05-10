@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Multiple samples were taken, but the exact number is not specified.
-* `sample_size_or_weight`: No information about the size or weight of the samples is provided.
-* `Gleason_score`: The Gleason score is reported as 3+4, which means the primary pattern is 3 and the secondary pattern is 4.
-* `benign_hyperplasia_only`: The report indicates that there is a large tumor, so it's not just benign hyperplasia (ei = no).
-* `perineural_invasion`: There is no mention of perineural invasion in the report (ei = no).
-* `atypia`: There is no mention of atypia in the report (ei = no).
+* `sample_count`: Since the report mentions multiple samples (Apex näytteisiin A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä), I've entered "multiple" as the value.
+* `sample_size_or_weight`: There is no mention of the sample size or weight in the report, so I've entered "NA" (not available).
+* `Gleason_score`: The report mentions a Gleason score of 3+4, which is a valid format.
+* `benign_hyperplasia_only`: The report mentions a "laaja kasvain" (large tumor), which implies that it's not just benign hyperplasia, so I've entered "ei" (no).
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've entered "ei" (no).
+* `atypia`: There is no mention of atypia in the report, so I've entered "ei" (no).

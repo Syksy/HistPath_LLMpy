@@ -15,6 +15,38 @@ The report mentions "6 representative prostate biopsies" were taken from the pat
   "määre": "mm"
 }
 ```
-The report mentions the total length of the biopsies is approximately 120mm.
+The report mentions the biopsies are "approx. 120mm in total".
 
-Let me know when to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of Gleason score in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+The report mentions "basal cell hyperplasia" which is a type of benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you'd like me to proceed with the next set of questions!

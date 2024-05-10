@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 3,
+  "2. Näytteiden koko": "4g",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 3, as mentioned in the phrase "which were launched into three tissue cassettes".
+2. The size of the samples is 4g, as mentioned in the phrase "a total of 4g of planing chips".
+3. There is no mention of Gleason score in the report, so the answer is "NA".
+4. The report mentions "subtly prostatic hyperplasia", which suggests that there is benign prostatic hyperplasia, so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the report, so the answer is "NA".
+6. There is no mention of atypia in the report, so the answer is "NA".

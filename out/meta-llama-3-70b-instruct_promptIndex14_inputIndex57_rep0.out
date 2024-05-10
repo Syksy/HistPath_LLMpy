@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 12,
+  "2. Minkä kokoisia otetut näytteet ovat?": ["8mm", "7mm", "5mm", "NA"],
+  "3. Mikä on näytteiden Gleason-luokitus?": "3+3",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "No"
+}
+```
+
+Note: For question 2, I listed the sizes of the biopsies mentioned in the report, but it's possible that not all biopsies were of these sizes. For questions 4 and 5, the report does not provide information on these specific topics, so I answered "NA" (not available).

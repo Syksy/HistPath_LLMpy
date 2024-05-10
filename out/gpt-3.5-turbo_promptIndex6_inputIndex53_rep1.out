@@ -1,19 +1,15 @@
 {
-  "näytteiden_määrä": 3,
-  "näytteiden_koko": [
-    "Sample (1): 8+6mm",
-    "Sample (2): 10mm",
-    "Sample (3): 5+5mm"
+  "näytteiden määrä": 3,
+  "näytteiden koko/paino": [
+    {"näyte": 1, "koko": "8+6mm"},
+    {"näyte": 2, "koko": "10mm"},
+    {"näyte": 3, "koko": "5+5mm"}
   ],
   "Gleason luokitus": [
-    {
-      "Sample (1)": "Gleason 3 growth pattern 60%, Gleason 4 proportion 40%"
-    },
-    {
-      "Sample (2)": "Gleason 3 differentiation 70%, Gleason 4 grade 30%"
-    }
+    {"näyte": 1, "Gleason 3": "60%", "Gleason 4": "40%"},
+    {"näyte": 2, "Gleason 3": "70%", "Gleason 4": "30%"}
   ],
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
   "atypia": true
 }

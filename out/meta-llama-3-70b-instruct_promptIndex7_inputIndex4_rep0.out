@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: The report mentions multiple samples, but it's not clear how many, so I assumed 1.
-* `sample_size_or_weight`: The report mentions a total length of 150mm, which I interpreted as the sample size or weight.
-* `Gleason_score`: There is no mention of Gleason score in the report, so I returned NA.
-* `benign_hyperplasia_only`: The report mentions adenocarcinoma-like morphology, so it's not just benign hyperplasia, hence false.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I returned NA.
-* `atypia`: The report mentions tumour-atypia, which I interpreted as atypia, hence true.
+* "number_of_samples": 1, because there is only one sample mentioned in the report.
+* "sample_size_or_weight": "150mm", because the report mentions the total length of the biopsy samples.
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": false, because the report mentions a focus with atypical glands and a morphological finding consistent with adenocarcinoma, indicating that it's not just benign hyperplasia.
+* "perineural_invasion": NA, because the report does not mention perineural invasion.
+* "atypia": true, because the report mentions tumour-atypia in the focus.

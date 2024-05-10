@@ -1,0 +1,11 @@
+{
+  "number of samples": 4,
+  "size of samples": {
+    "left side": [10, 7],
+    "right side": [15, 10]
+  },
+  "Gleason score": "3+4=7",
+  "BPH detected": "ei",
+  "perineural growth detected": "yes",
+  "atypia detected": "kyllä"
+}

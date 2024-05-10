@@ -1,8 +1,8 @@
 {
-  "samplesTaken": 3,
-  "sampleSize": "90mm",
-  "GleasonScore": "NA",
-  "benignProstaticHypertrophy": true,
-  "perineuralInvasion": false,
+  "näytteiden määrä": 3,
+  "näytteiden koko": "90mm",
+  "Gleason luokitus": "NA",
+  "hyvänlaatuinen eturauhasen liikakasvu": true,
+  "perineuraalinen kasvu": false,
   "atypia": false
 }

@@ -14,6 +14,36 @@ The report mentions "Samples 1-6", indicating that there are 6 samples.
   "näytteiden_koko": "NA"
 }
 ```
-There is no mention of the size of the samples in the report, so I'll answer with "NA".
+There is no mention of the size of the samples in the report.
 
-Let me know when to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of Gleason score in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+The report mentions "benign prostate tissue is seen", indicating that there is benign prostate hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "ei"
+}
+```
+The report mentions "No significant atypia is observed", indicating that there is no atypia.

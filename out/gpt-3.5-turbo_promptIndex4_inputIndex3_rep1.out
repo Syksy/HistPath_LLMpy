@@ -1,7 +1,18 @@
 {
   "näytteiden_määrä": 2,
-  "näytteiden_koko": ["oikea 60mm", "vasen 80mm"],
-  "Gleason luokitus": "9 (4+5)",
+  "näytteiden_koko": [
+    {
+      "oikea": "60mm",
+      "vasen": "80mm"
+    }
+  ],
+  "Gleason luokitus": {
+    "näyte_B": {
+      "taso": 9,
+      "alue": "vasen",
+      "prosenttiosuus": "20%"
+    }
+  },
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,
   "atypia": false

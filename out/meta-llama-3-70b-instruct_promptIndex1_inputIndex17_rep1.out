@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 4
 }
 ```
-The report mentions that there are two fragments from the left side and two fragments from the right side, so I assume there are 4 samples in total.
+The report mentions that there are two fragments from the left side and two fragments from the right side, so the total number of samples is 4.
 
 **2. Näytteiden koko:**
 ```
@@ -24,10 +24,10 @@ The report mentions the size of each fragment in millimeters.
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "3+4"
+  "Gleason-luokitus": "3+4"
 }
 ```
-The report mentions that the Gleason score is mainly 3 and secondly 4.
+The report mentions that the Gleason score is primarily 3 and secondarily 4.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -35,7 +35,7 @@ The report mentions that the Gleason score is mainly 3 and secondly 4.
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report does not mention any benign prostatic hyperplasia, and it focuses on malignant findings.
+The report does not mention any benign prostatic hyperplasia.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -43,7 +43,7 @@ The report does not mention any benign prostatic hyperplasia, and it focuses on 
   "perineuraalinen_kasvu": "kyllä"
 }
 ```
-The report mentions that there is growth around nerves and blood vessels.
+The report mentions that there is perineural growth.
 
 **6. Atypia:**
 ```
@@ -51,6 +51,6 @@ The report mentions that there is growth around nerves and blood vessels.
   "atypia": "NA"
 }
 ```
-There is no mention of atypia in the report.
+The report does not mention atypia.
 
-Let me know if you need further assistance!
+Let me know if you need any further assistance!

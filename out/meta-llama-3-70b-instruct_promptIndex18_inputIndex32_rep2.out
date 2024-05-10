@@ -1,0 +1,19 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": "90mm",
+  "3. Gleason score": "NA",
+  "4. Can BPH be detected": "kyllä",
+  "5. Can perineural growth be detected": "ei",
+  "6. Can atypia be detected": "ei"
+}
+```
+
+Note: 
+
+* For question 3, the Gleason score is not mentioned in the text, so the answer is "NA" (not available).
+* For question 4, the text mentions "hyperplasia" which is a characteristic of BPH (Benign Prostatic Hyperplasia), so the answer is "kyllä" (yes).
+* For question 5, there is no mention of perineural growth in the text, so the answer is "ei" (no).
+* For question 6, the text explicitly states "no atypia", so the answer is "ei" (no).

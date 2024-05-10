@@ -4,15 +4,17 @@ Here is the structured report in JSON format:
 {
   "number_of_samples": 13,
   "sample_size_or_weight": "180mm",
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4,
-    "percentage_of_secondary_pattern": 30
-  },
-  "benign_hyperplasia_only": NA,
+  "Gleason_score": "3+4",
+  "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-Note: I've assumed that the Gleason score is reported as a range (3 and 4) rather than a single value, so I've broken it down into primary and secondary patterns with a percentage of the secondary pattern. If this is not the case, please let me know and I'll adjust accordingly.
+Explanation:
+
+* "number_of_samples": 13, because the report mentions 13 biopsies.
+* "sample_size_or_weight": "180mm", because the report mentions the material is approximately 180mm.
+* "Gleason_score": "3+4", because the report mentions the Gleason score is 3 with a smaller component of 4 (approximately 30%).
+* "benign_hyperplasia_only": false, because the report mentions carcinoma in five biopsies.
+* "perineural_invasion" and "atypia": NA, because the report does not mention these specific features.

@@ -1,0 +1,18 @@
+I think there may be a problem here...
+
+It seems that the text you provided is not a histopathological report, but rather a passage from a science fiction novel or a poem. There is no relevant information about a patient's biopsy or tissue sample.
+
+As a result, I will return a JSON object with all values set to "NA", indicating that the information is not available.
+
+Here is the response:
+```
+{
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_prostatic_hyperplasia": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+Please provide a real histopathological report, and I'll be happy to help you extract the relevant information!

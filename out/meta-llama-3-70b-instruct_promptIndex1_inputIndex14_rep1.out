@@ -6,33 +6,33 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 4
 }
 ```
-The report mentions four biopsy samples (Näytteinä kohdennetut prostatabiopsiat eri puolilta).
+The report mentions four biopsy samples: "Näytteinä kohdennetut prostatabiopsiat eri puolilta. Näytteessä 1) 10mm, 2) 8mm, 3) 14mm ja 4) 14mm materiaalia."
 
 **2. Näytteiden koko:**
 ```
 {
-  "näytteen_koko": [
-    {"näyte": 1, "koko": "10mm"},
-    {"näyte": 2, "koko": "8mm"},
-    {"näyte": 3, "koko": "14mm"},
-    {"näyte": 4, "koko": "14mm"}
+  "näytteiden_koko": [
+    {"näyte": 1, "koko": 10, "määre": "mm"},
+    {"näyte": 2, "koko": 8, "määre": "mm"},
+    {"näyte": 3, "koko": 14, "määre": "mm"},
+    {"näyte": 4, "koko": 14, "määre": "mm"}
   ]
 }
 ```
-The report provides the size of each biopsy sample in millimeters.
+The report mentions the size of each biopsy sample in millimeters.
 
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "3+4=7"
+  "Gleason-luokitus": "3+4=7"
 }
 ```
-The report mentions a Gleason score of 3 (90%) and 4 (10%) for sample 4.
+The report mentions the Gleason score: "Gleason 3, noin 90% ja pienempi osuus rauhasten yhteensulautumista (Gleason 4, 10%)".
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
 {
-  "hyvälaatuinen_liikakasvu": "ei"
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
 The report does not mention any benign prostatic hyperplasia.
@@ -43,7 +43,7 @@ The report does not mention any benign prostatic hyperplasia.
   "perineuraalinen_kasvu": "ei"
 }
 ```
-The report explicitly states that there is no perineural invasion (Kapselin läpikasvua tai perineuraalista invaasiota ei näytteissä nähdä).
+The report explicitly states that there is no perineural invasion: "Kapselin läpikasvua tai perineuraalista invaasiota ei näytteissä nähdä."
 
 **6. Atypia:**
 ```
@@ -51,6 +51,4 @@ The report explicitly states that there is no perineural invasion (Kapselin läp
   "atypia": "NA"
 }
 ```
-There is no mention of atypia in the report.
-
-Let me know if you need further assistance!
+The report does not mention atypia.

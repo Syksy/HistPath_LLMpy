@@ -1,16 +1,17 @@
 {
   "näytteiden_määrä": 3,
   "näytteiden_koko_tai_paino": [
-    {"näyte_1": "8+6 mm"},
-    {"näyte_2": "10 mm"},
-    {"näyte_3": "5+5 mm"}
+    "8+6 mm",
+    "10 mm",
+    "5+5 mm"
   ],
   "gleason_luokitus": [
-    {"näyte_1": "Gleason 7 (3+4)"},
-    {"näyte_2": "Gleason 7 (3+4)"},
-    {"näyte_3": "NA"}
+    {
+      "näyte_1": "Gleason 3 - 60%, Gleason 4 - 40%",
+      "näyte_2": "Gleason 3 - 70%, Gleason 4 - 30%"
+    }
   ],
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "Ei mainintaa",
-  "perineuraalinen_kasvu": "Ei mainintaa",
-  "atypia": "Kyllä, PIN-muutoksia näytteissä (1) ja (2)"
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "PIN-muutokset näytteissä (1) ja (2)"
 }

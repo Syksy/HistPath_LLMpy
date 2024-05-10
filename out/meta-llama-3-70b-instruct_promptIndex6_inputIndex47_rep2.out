@@ -9,14 +9,18 @@ Here is the structured report in JSON format:
     {"side": "right", "size": "15 mm"},
     {"side": "right", "size": "10 mm"}
   ],
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4
-  },
+  "Gleason_score": {"primary": 3, "secondary": 4},
   "benign_hyperplasia_only": false,
   "perineural_invasion": true,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
-Note: I assumed that the Gleason score is reported as a primary and secondary pattern, which is a common way to report it. If this is not the case, please let me know and I can adjust the output accordingly. Also, since there was no mention of atypia in the original report, I returned NA for that field.
+Here's a brief explanation for each field:
+
+* `number_of_samples`: The number of samples taken from the patient, which is 4 in this case (2 from the left side and 2 from the right side).
+* `sample_size_or_weight`: An array of objects describing the size of each sample. Since the weight is not mentioned, I assumed the values are lengths in mm.
+* `Gleason_score`: An object with the primary and secondary Gleason scores, which are 3 and 4, respectively.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false because malignant cells are present.
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present. In this case, it's true because growth around nerves is mentioned.
+* `atypia`: Since there is no mention of atypia in the original report, I returned NA (Not Available) for this field.

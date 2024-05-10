@@ -1,8 +1,8 @@
 {
   "näytteiden_määrä": "Otoksia on otettu yhteensä 15 kappaletta",
-  "näytteiden_koko_tai_paino": "Näytteiden koko vaihtelee makroleikkeinä A-O",
+  "näytteiden_koko_tai_paino": "Näytteiden koko vaihtelee makroleikkeiden mukaan",
   "Gleason luokitus": "Useissa fokuksissa vallitseva Gleason luokka on 4, mukana myös luokkaa 3",
   "hyvänlaatuinen_eturauhasen_liikakasvu": "Ei, kyseessä on pahanlaatuinen kasvain",
-  "perineuraalinen_invaasio": "Perineuraalista invaasiota havaittu runsaasti",
+  "perineuraalinen_kasvu": "Perineuraalista invaasiota havaittu runsaasti",
   "atypia": "Atypiaa havaittu"
 }

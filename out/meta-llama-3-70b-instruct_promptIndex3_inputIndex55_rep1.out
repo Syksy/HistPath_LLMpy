@@ -13,6 +13,6 @@ Here are the answers in JSON format:
 
 Note: 
 
-* The size of the samples is not mentioned, so it's marked as "NA".
-* The Gleason score is reported as grade 4 being the most prevalent and grade 3 being almost as large a percentage, so I've written it as "4+3".
-* There is no mention of BPH, perineural growth, or atypia in the sample statement, so they are all marked as "NA".
+* The size of the samples is not mentioned in the text, so it's marked as "NA" (Not Available).
+* The Gleason score is mentioned as grade 4 being the most prevalent, and grade 3 being almost as large a percentage, so it's written as "4+3".
+* BPH, perineural growth, and atypia are not mentioned in the text, so they are marked as "NA" (Not Available).

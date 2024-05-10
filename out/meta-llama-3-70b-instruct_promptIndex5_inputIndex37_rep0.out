@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 6, as mentioned in the report ("6 representative prostate biopsies")
-* `sample_size_or_weight`: "120mm", as mentioned in the report ("approx. 120mm in total")
-* `Gleason_score`: NA, as no Gleason score is mentioned in the report
-* `benign_hyperplasia_only`: false, as the report mentions "Suspicio finding on biopsies" which suggests that there may be something more than just benign hyperplasia
-* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report
-* `atypia`: false, as there is no mention of atypia in the report
+* `sample_count`: The number of biopsies taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The total size or weight of the biopsies, which is approximately 120mm in this case.
+* `Gleason_score`: Since the report does not mention a specific Gleason score, the value is set to NA (Not Available).
+* `benign_hyperplasia_only`: The report mentions basal cell hyperplasia, but also suggests a suspicious finding, so this field is set to false, indicating that the sample is not only benign hyperplasia.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so the value is set to NA.
+* `atypia`: Although the report mentions a suspicious finding, it does not specifically mention atypia, so this field is set to false.

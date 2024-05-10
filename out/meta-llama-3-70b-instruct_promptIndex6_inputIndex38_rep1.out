@@ -13,11 +13,9 @@ Based on the provided histopathological report, I will convert it into a structu
 
 Here's a brief explanation for each field:
 
-* `number_of_samples`: The number of samples taken from the patient, which is 6 in this case.
-* `sample_size_or_weight`: The size or weight of the samples, which is approximately 20g.
-* `Gleason_score`: Since there is no mention of Gleason score in the report, I've marked it as NA (Not Available).
-* `benign_hyperplasia_only`: This field indicates whether the report only shows benign hyperplasia, which is true in this case.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked it as false.
-* `atypia`: The report explicitly states that no atypia is visible, so I've marked it as false.
-
-Let me know if you have any further questions or if there's anything else I can help you with!
+* `number_of_samples`: The report mentions that about 20g of tissue were divided into six blocks, so I assume there are 6 samples.
+* `sample_size_or_weight`: The report mentions that about 20g of tissue were started in six blocks.
+* `Gleason_score`: Since the report does not mention a Gleason score, I return NA (Not Available).
+* `benign_hyperplasia_only`: The report concludes that the finding is suitable for suspected benign hyperplasia, so I set this field to true.
+* `perineural_invasion`: The report does not mention perineural invasion, so I set this field to false.
+* `atypia`: The report explicitly states that no atypia is visible, so I set this field to false.

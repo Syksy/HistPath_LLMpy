@@ -1,8 +1,12 @@
 {
-  "samples_taken": 4,
-  "sample_size": "NA",
-  "gleason_score": "4",
-  "benign_prostatic_hyperplasia": false,
-  "perineural_invasion": false,
-  "atypia": true
+  "Samples": 4,
+  "Sample_size": "NA",
+  "Gleason_classification": {
+    "Grade_3": "NA",
+    "Grade_4": "Most prevalent",
+    "Grade_5": "NA"
+  },
+  "Benign_prostatic_hyperplasia": true,
+  "Perineural_invasion": false,
+  "Atypia": true
 }

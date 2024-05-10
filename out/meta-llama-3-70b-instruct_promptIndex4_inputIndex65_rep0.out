@@ -1,0 +1,14 @@
+Based on the provided text, I will extract the relevant information and convert it into a structured format in JSON. Here is the result:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_prostatic_hyperplasia": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+The reason for all values being NA (Not Available) is that the provided text does not contain any information related to the specific questions asked. The text appears to be a summary of a patient's medical history and treatment plan, but it does not include any histopathological information.

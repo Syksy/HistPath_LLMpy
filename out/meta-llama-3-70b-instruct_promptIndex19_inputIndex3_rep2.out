@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 2,
+  "2. Size of samples": "60mm (right), 80mm (left)",
+  "3. Gleason score": "4+5=9",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Note: 
+
+* "ei" means "no" in Finnish, indicating that BPH was not detected in the samples.
+* "kyllä" means "yes" in Finnish, indicating that atypia was detected in the samples (specifically, carcinoma was detected in sample B).
+* "NA" means "not available" or "not applicable", indicating that perineural growth was not mentioned in the medical note.

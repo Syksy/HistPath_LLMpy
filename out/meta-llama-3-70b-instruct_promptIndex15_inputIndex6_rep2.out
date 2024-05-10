@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("multiple"),
+  "2. Näytteiden koko": ("not specified"),
+  "3. Gleason-luokitus": ("3+4=7"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The report mentions multiple samples (D-G apex, basis K-P, seminaalivehikkeleitä O-Q), so the number of samples is multiple.
+2. The report does not specify the size of the samples.
+3. The Gleason score is 7, with a major component of 3 (60% of the findings) and a minor component of 4.
+4. There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth, so the answer is "ei" (no).
+5. There is no mention of perineural invasion, so the answer is "ei" (no).
+6. There is no mention of atypia, so the answer is "ei" (no).

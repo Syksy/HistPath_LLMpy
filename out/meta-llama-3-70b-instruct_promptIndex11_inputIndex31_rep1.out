@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "3+4=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions "Six formalin-fixed preparations", so the answer is 6.
+2. Näytteiden koko: There is no mention of the size of the samples, so the answer is "NA".
+3. Gleason-luokitus: The report mentions "Gleason class 3 (about 60%), the rest in class 4, so 3+4=7", so the answer is "3+4=7".
+4. Hyvälaatuinen eturauhasen liikakasvu: There is no mention of benign prostatic hyperplasia, so the answer is "NA".
+5. Perineuraalinen kasvu: The report mentions "there is no vesicle or perineural invasion", so the answer is "ei".
+6. Atypia: There is no mention of atypia, so the answer is "NA".

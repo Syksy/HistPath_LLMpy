@@ -2,7 +2,7 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "number_of_samples": 12,
+  "sample_count": 12,
   "sample_size_or_weight": NA,
   "Gleason_score": 7,
   "benign_hyperplasia_only": false,
@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: 12, as mentioned in the report ("12 kudosblokkia")
-* `sample_size_or_weight`: NA, as this information is not provided in the report
-* `Gleason_score`: 7, as mentioned in the report ("Gleason summana 7")
-* `benign_hyperplasia_only`: false, as the report mentions carcinoma ("karsinoomaa") and neoplastic growth
-* `perineural_invasion`: NA, as this information is not provided in the report
-* `atypia`: NA, as this information is not provided in the report
+* `sample_count`: 12 kudosblokkia (12 tissue blocks) were taken from the patient.
+* `sample_size_or_weight`: No information is provided about the size or weight of the samples, so NA is returned.
+* `Gleason_score`: The Gleason score is 7, which is mentioned in the report.
+* `benign_hyperplasia_only`: The report mentions that the growth is not only benign hyperplasia, so this field is set to false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so NA is returned.
+* `atypia`: There is no mention of atypia in the report, so NA is returned.

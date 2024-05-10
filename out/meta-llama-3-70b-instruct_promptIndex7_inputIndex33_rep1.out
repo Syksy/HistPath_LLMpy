@@ -3,20 +3,13 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 2,
-  "sample_size_or_weight": {"right": "60mm", "left": "80mm"},
+  "sample_size_or_weight": "60mm (right), 80mm (left)",
   "Gleason_score": 9,
-  "Gleason_breakdown": {"primary": 4, "secondary": 5},
+  "Gleason_breakdown": "4+5",
   "benign_prostatic_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": false
 }
 ```
 
-Note: 
-
-* The number of samples is assumed to be 2, as there are two separate measurements for the right and left sides.
-* The sample size or weight is reported separately for the right and left sides.
-* The Gleason score is reported as a total score of 9, with a breakdown of primary and secondary scores.
-* Benign prostatic hyperplasia only is set to false, as carcinoma is found in one of the samples.
-* Perineural invasion is marked as NA, as there is no mention of it in the report.
-* Atypia is set to false, as there is no mention of any atypical changes in the report.
+Note: I assumed that the "change in question" refers to the carcinoma, and since it's not explicitly stated to be benign, I set "benign_prostatic_hyperplasia_only" to false. Also, since there is no mention of perineural invasion or atypia, I set those values to NA and false, respectively.

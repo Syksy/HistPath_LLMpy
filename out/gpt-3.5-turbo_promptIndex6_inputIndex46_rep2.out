@@ -1,11 +1,8 @@
 {
   "näytteiden määrä": 1,
-  "näytteiden koko tai paino": "6 makroskooppista osaa ja normaaleja mikroskooppisia osia",
-  "Gleason luokitus": {
-    "apex": "4+4",
-    "base": "3+4"
-  },
+  "näytteiden koko tai paino": "N/A",
+  "Gleason luokitus": "Apex: 4+4, Base: 3+4",
   "hyvänlaatuinen eturauhasen liikakasvu": false,
   "perineuraalinen kasvu": false,
-  "atypia": false
+  "atypia": true
 }

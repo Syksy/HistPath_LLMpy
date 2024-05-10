@@ -1,0 +1,12 @@
+Here are the answers to the questions based on the provided histopathological report:
+
+{
+"(Näytteiden määrä)": 13,
+"(Näytteiden koko)": 180,
+"(Gleason-luokitus)": 3-4,
+"(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+"(Perineuraalinen kasvu)": "NA",
+"(Atypia)": "NA"
+}
+
+Note: The Gleason score is reported as 3-4, indicating that the majority of the tumor is composed of Gleason pattern 3, with a smaller component (approximately 30%) of Gleason pattern 4.

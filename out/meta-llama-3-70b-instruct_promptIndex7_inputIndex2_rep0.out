@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: 3, as mentioned in the report.
-* `sample_size_or_weight`: "90mm", which is the total length of the samples.
-* `Gleason_score`: NA, as there is no mention of Gleason score in the report.
-* `benign_hyperplasia_only`: true, as the report suggests that one of the samples may indicate hyperplasia, and there are no malignant findings.
-* `perineural_invasion`: false, as there is no mention of perineural invasion in the report.
-* `atypia`: false, as the report explicitly states that there is no atypia.
+* "number_of_samples": 3, because the report mentions "3 prostatan paksuneulabiopsioita" (3 prostate needle biopsies).
+* "sample_size_or_weight": "90mm", because the report mentions "Näytteiden yhteispituus 90mm" (total length of samples 90mm).
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": true, because the report suggests that the findings may indicate hyperplasia, and there is no mention of malignant findings.
+* "perineural_invasion": false, because the report does not mention perineural invasion.
+* "atypia": false, because the report explicitly states "ei atypiaa" (no atypia).

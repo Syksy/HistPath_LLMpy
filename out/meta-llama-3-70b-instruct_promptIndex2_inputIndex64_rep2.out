@@ -1,0 +1,16 @@
+It seems like there's an error in the SQL query, and the query parameters are not found. Unfortunately, this means that I won't be able to extract the information from the histopathologist's report.
+
+Here are the answers in JSON format, with "NA" indicating that the information is not available:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+If you could provide the correct SQL query or the actual histopathologist's report, I'd be happy to help you extract the information!

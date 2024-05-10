@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(14)",
+  "2. Näytteiden koko": "(makroleikkeinä, apex näytteinä, basiksessa)",
+  "3. Gleason-luokitus": "(4+3=7/7/NA)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(kyllä)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples taken from the patient is 14 (A-O).
+2. The size of the samples is not explicitly stated, but they are described as macrosections (makroleikkeinä), apex samples (apex näytteinä), and basal samples (basiksessa).
+3. The Gleason score is 4+3=7, with the major component being 4 and the minor component being 3.
+4. There is no evidence of benign prostatic hyperplasia (BPH) in the sample.
+5. Perineural invasion is present in the sample.
+6. There is no mention of atypia in the sample.

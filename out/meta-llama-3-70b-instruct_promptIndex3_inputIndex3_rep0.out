@@ -13,6 +13,6 @@ Here are the answers in JSON format:
 
 Note: 
 
-* For question 4, I answered 'NA' because there is no mention of BPH (Benign Prostatic Hyperplasia) in the text.
-* For question 5, I answered 'NA' because there is no mention of perineural growth in the text.
-* For question 6, I answered 'no' because the text mentions that there is no atypia detected in the samples taken.
+* For question 4, BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so the answer is "NA".
+* For question 5, perineural growth is not mentioned in the text, so the answer is "NA".
+* For question 6, atypia is not mentioned in the text, but it is mentioned that "Muissa näytteissä normaalia rauhasrakennetta" which means "In other samples, normal glandular structure", implying that there is no atypia.

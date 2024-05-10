@@ -1,8 +1,8 @@
 {
   "Näytteiden määrä": 3,
-  "Näytteiden koko tai paino": "90mm",
+  "Näytteiden koko tai paino": "90mm kokonaispituus",
   "Gleason luokitus": "NA",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä, viittaa hyperplasiaan",
   "Perineuraalinen kasvu": "Ei",
   "Atypia": "Ei"
 }

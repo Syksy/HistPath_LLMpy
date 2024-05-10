@@ -1,0 +1,8 @@
+{
+  "number of samples": 4,
+  "size of samples": ["10 mm", "7 mm", "15 mm", "10 mm"],
+  "Gleason score": "3+4=7",
+  "BPH": "ei",
+  "perineural growth": "kyllä",
+  "atypia": "kyllä"
+}

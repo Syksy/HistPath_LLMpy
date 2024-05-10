@@ -13,7 +13,8 @@ Here are the answers in JSON format:
 
 Note: 
 
-* The number of samples is assumed to be 1 since only one sample (1B) is mentioned in the text.
-* The size of the samples is given as 150mm.
-* The Gleason score, BPH detection, and perineural growth detection cannot be determined from the provided text, so they are marked as 'NA' (not available).
-* Atypia detection is marked as 'yes' since the text mentions "tuma-atypiaa" which means nuclear atypia in Finnish.
+* The number of samples is assumed to be 1 since the text only mentions one sample (1B).
+* The size of the samples is 150mm.
+* The Gleason score is not mentioned in the text, so it's marked as "NA".
+* There is no mention of BPH or perineural growth in the text, so they are marked as "NA".
+* Atypia is mentioned in the text, so it's marked as "yes".

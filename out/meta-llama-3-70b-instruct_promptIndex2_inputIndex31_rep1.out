@@ -2,17 +2,13 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Number of samples": ("6"),
-  "2. Size of samples": ("NA"),
-  "3. Gleason classification": ("3+4=7"),
-  "4. Benign prostatic hyperplasia": ("ei"),
-  "5. Perineural invasion": ("ei"),
+  "1. Näytteiden määrä": ("6"),
+  "2. Näytteiden koko": ("NA"),
+  "3. Gleason-luokitus": ("3+4=7"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("kyllä"),
+  "5. Perineuraalinen kasvu": ("ei"),
   "6. Atypia": ("NA")
 }
 ```
 
-Note: 
-
-* For question 2, the size of the samples is not mentioned in the report, so I answered "NA" (not available).
-* For question 4, there is no mention of benign prostatic hyperplasia, so I answered "ei" (no).
-* For question 6, there is no mention of atypia, so I answered "NA" (not available).
+Note: For question 2, the size of the samples is not mentioned in the report, so I answered "NA" (not available). For question 6, there is no mention of atypia in the report, so I answered "NA" as well.

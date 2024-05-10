@@ -2,13 +2,13 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "sample_count": 1, // koko elin yhtenä näytteenä
-  "sample_size_or_weight": "5g", // grammoissa
-  "Gleason_score": "4+4=8", // major+minor=summa
-  "benign_hyperplasia_only": "ei", // ei
-  "perineural_invasion": "ei", // ei
-  "atypia": "kyllä" // kyllä, since adenokarsinooma is mentioned
+  "sample_count": 1,  // koko elin yhtenä näytteenä
+  "sample_size_or_weight": "5g",  // näytteen koko tai paino
+  "Gleason_score": "4+4=8",  // Gleason luokitus
+  "benign_hyperplasia": "ei",  // vain hyvänlaatuinen eturauhasen liikakasvu
+  "perineural_invasion": "ei",  // perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua
+  "atypia": "kyllä"  // atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia
 }
 ```
 
-Note that I assumed the sample count to be 1, as the text mentions a single prostate tissue sample. If this is not correct, please let me know and I'll update the response accordingly.
+Note: Since the original text does not explicitly mention perineural invasion or atypia, I assumed they are not present (ei). If they were present, the text would likely mention it.

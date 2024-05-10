@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 12,
+  "2. Size of samples": "noin 150mm",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "kyllä",
+  "5. Perineural growth detection": "ei",
+  "6. Atypia detection": "ei"
+}
+```
+
+Note: 
+
+* The Gleason score is not mentioned in the text, so the answer is "NA" (not available).
+* BPH (Benign Prostatic Hyperplasia) is mentioned as "hyperplastisen kaltaista epiteeliä", which suggests that it can be detected, so the answer is "kyllä" (yes).
+* There is no mention of perineural growth or atypia in the text, so the answers are "ei" (no) for both.

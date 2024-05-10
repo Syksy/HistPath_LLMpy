@@ -1,0 +1,14 @@
+Based on the provided histopathological report, I will convert it into a structured format in JSON. Here is the output:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+The report does not contain any information about the number of samples, sample size or weight, Gleason score, or any specific histopathological features such as perineural invasion or atypia. Therefore, I have returned NA (Not Available) for all fields.

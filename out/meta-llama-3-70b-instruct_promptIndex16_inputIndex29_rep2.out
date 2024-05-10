@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(3)",
+  "2. Näytteiden koko": "(7mm, 6mm, 2mm)",
+  "3. Gleason-luokitus": "(3+4=7/15mm)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Note: The answers are based on the provided text and may not be exhaustive or definitive diagnoses. A thorough examination and evaluation by a qualified healthcare professional are necessary for accurate diagnosis and treatment.

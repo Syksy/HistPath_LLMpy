@@ -13,11 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `sample_count`: The number of samples taken from the patient is not explicitly stated, but since the report mentions "näytteenä" (meaning "as a sample"), I assume it's one sample.
-* `sample_size_or_weight`: The weight of the sample is given as 12.3g.
-* `Gleason_score`: There is no mention of Gleason score in the report, so I return NA.
-* `benign_hyperplasia_only`: The report mentions "strooman hyperplasiasta", which suggests that the sample shows benign hyperplasia only, so I return true.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I return false.
-* `atypia`: There is no mention of atypia in the report, so I return false.
-
-Note that I've followed the instructions to return NA when a value is not mentioned in the report, rather than returning a zero or an empty string.
+* "sample_count": 1, because the report mentions a single sample.
+* "sample_size_or_weight": "12.3g", because the report specifies the weight of the sample.
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": true, because the report suggests that the sample shows only benign hyperplasia.
+* "perineural_invasion": false, because the report does not mention perineural invasion.
+* "atypia": false, because the report does not mention any atypical changes.

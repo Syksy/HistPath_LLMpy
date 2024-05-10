@@ -1,8 +1,15 @@
 {
   "Näytteiden määrä": 4,
-  "Näytteiden koko tai paino": "1) 10mm, 2) 8mm, 3) 14mm, 4) 14mm",
-  "Gleason luokitus": "Gleason 3 (90%), Gleason 4 (10%)",
+  "Näytteiden koko tai paino": [
+    "10mm",
+    "8mm",
+    "14mm",
+    "14mm"
+  ],
+  "Gleason luokitus": {
+    "Sample 4": "Gleason 3 (90%), Gleason 4 (10%)"
+  },
   "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
   "Perineuraalinen kasvu": "Ei",
-  "Atypia": "Kyllä, adenokarsinooma näytteessä 4"
+  "Atypia": "NA"
 }

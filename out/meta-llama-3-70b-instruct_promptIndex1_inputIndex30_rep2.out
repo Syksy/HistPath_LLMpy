@@ -16,4 +16,36 @@ There is no mention of the number of samples taken from the patient.
 ```
 The sample has a total length of 100mm.
 
-Let me know when to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of the Gleason score in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report mentions "no clear malignant or PIN findings", which implies that there is no evidence of benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "kyllä"
+}
+```
+The report mentions "a perineural growth is observed, suspicious for malignancy", which indicates that perineural growth is present.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you'd like me to proceed with the next set of questions!

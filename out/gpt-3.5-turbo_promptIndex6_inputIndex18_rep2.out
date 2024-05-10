@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": 6,
-  "näytteiden koko tai paino": ["4+6+3mm vasemmalta", "5+7+8mm oikealta"],
-  "Gleason luokitus": "vahva adenokarsinooma-suspisio",
-  "hyvänlaatuinen eturauhasen liikakasvu": false,
-  "perineuraalinen kasvu": false,
+  "näytteiden_määrä": 6,
+  "näytteiden_koko": ["4+6+3mm vasemmalta", "5+7+8mm oikealta"],
+  "Gleason luokitus": "Vahva adenokarsinooma-suspisio",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
   "atypia": true
 }

@@ -27,7 +27,7 @@ The report mentions the size of each sample in millimeters.
   "Gleason_luokitus": "3+4=90+10"
 }
 ```
-The report mentions a Gleason score of 3 (about 90%) and 4 (10%).
+The report mentions the Gleason score as 3 (about 90%) and 4 (10%).
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -51,4 +51,4 @@ The report explicitly states that perineural invasion is not seen in the samples
   "atypia": "NA"
 }
 ```
-There is no mention of atypia in the report.
+The report does not mention atypia.

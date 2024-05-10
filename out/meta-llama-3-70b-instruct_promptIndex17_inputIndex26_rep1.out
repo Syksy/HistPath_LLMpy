@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "12",
+"2. What is the size of the samples taken?": "noin 150mm",
+"3. What is the Gleason score of the samples?": "NA",
+"4. Can BPH be detected in the samples taken?": "kyllä",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "NA"
+}
+
+Note: "kyllä" means "yes" in Finnish, indicating that BPH (hyperplastisen kaltaista epiteeliä) can be detected in the samples taken.

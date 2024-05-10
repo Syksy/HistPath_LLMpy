@@ -6,15 +6,16 @@ Here is the structured report in JSON format:
   "sample_size_or_weight": "5g",
   "Gleason_score": 8,
   "benign_hyperplasia_only": false,
-  "perineural_invasion": null,
-  "atypia": null
+  "perineural_invasion": false,
+  "atypia": false
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Since it's a TURP sample, I assume it's a single sample. If it were a biopsy, I would count the number of cores.
-* `sample_size_or_weight`: The weight of the prostate shavings is 5g.
-* `Gleason_score`: The Gleason score is 8, which is a combination of the primary and secondary patterns (in this case, Gleason 4 and its variants).
-* `benign_hyperplasia_only`: This is set to `false` because the report mentions adenocarcinoma, which is a malignant tumor.
-* `perineural_invasion` and `atypia`: These are set to `null` because there is no mention of perineural invasion or atypia in the report.
+* `sample_count`: Since the report mentions "prostate shavings" (plural), I assume it's a single sample with multiple shavings. If it were multiple separate samples, the report would likely mention the number of samples.
+* `sample_size_or_weight`: The report mentions "about 5g" of prostate shavings.
+* `Gleason_score`: The report states that the most representative Gleason score is 4, and the total score is 8.
+* `benign_hyperplasia_only`: The report mentions adenocarcinoma, which is a type of cancer, so this field is set to `false`.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to `false`.
+* `atypia`: There is no mention of atypia in the report, so this field is set to `false`.

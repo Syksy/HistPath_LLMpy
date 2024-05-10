@@ -11,10 +11,10 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 4, as there are 4 samples mentioned (Samples 1-4).
-* `sample_size_or_weight`: "2mm", as the size of the adenocarcinoma area is approximately 2mm.
-* `Gleason_score`: "4+3", as the most prevalent Gleason grade is 4, and grade 3 is almost as large a percentage.
-* `benign_hyperplasia_only`: "ei", as the report mentions adenocarcinoma, which is a malignant tumor.
-* `perineural_invasion` and `atypia`: both are "NA", as there is no mention of these features in the report.
+* `sample_count`: The number of samples taken from the patient, which is 4 in this case.
+* `sample_size_or_weight`: The size of the sample, which is 2mm in this case.
+* `Gleason_score`: The Gleason score, which is 4+3 in this case, indicating a major grade of 4 and a minor grade of 3.
+* `benign_hyperplasia_only`: Since the report mentions adenocarcinoma, which is a malignant tumor, this field is set to "ei" (no).
+* `perineural_invasion` and `atypia`: These fields are set to "NA" since there is no mention of perineural invasion or atypia in the report.

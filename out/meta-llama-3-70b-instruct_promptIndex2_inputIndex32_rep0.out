@@ -5,10 +5,17 @@ Here are the answers to the questions in JSON format:
   "1. Number of samples taken": ("3"),
   "2. Size of the samples": ("90mm"),
   "3. Gleason score": ("NA"),
-  "4. Benign prostatic hyperplasia found": ("kyllä"),
-  "5. Perineural growth found": ("ei"),
-  "6. Atypia found": ("ei")
+  "4. Benign prostatic hyperplasia": ("kyllä"),
+  "5. Perineural growth": ("NA"),
+  "6. Atypia": ("ei")
 }
 ```
 
-Note: The Gleason score is not mentioned in the report, so I answered "NA" (not available).
+Let me explain the answers:
+
+1. The patient has 3 prostatic core needle biopsies.
+2. The total length of the samples is 90mm.
+3. There is no Gleason score mentioned in the report, so the answer is "NA".
+4. The report mentions "glandular structures, which would perhaps indicate hyperplasia", so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the report, so the answer is "NA".
+6. The report explicitly states "no atypia or findings suggestive of malignancy", so the answer is "ei" (no).

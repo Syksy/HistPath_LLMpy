@@ -1,0 +1,12 @@
+{
+  "number of samples": 9,
+  "size of samples": {
+    "apex": "A-C",
+    "basista": "D-E, F-G",
+    "basis": "H-I"
+  },
+  "Gleason score": "3+4=7",
+  "BPH": "ei",
+  "perineural growth": "ei",
+  "atypia": "ei"
+}

@@ -2,18 +2,25 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "a. Näytteiden määrä": 6,
-  "b. Näytteiden koko": NA,
-  "c. Gleason-luokitus": 7,
-  "d. Eturauhasen hyvälaatuinen liikakasvu": ei,
-  "e. Perineuraalinen kasvu": ei,
-  "f. Atypia": NA
+  "(Näytteiden määrä)": 6,
+  "(Näytteiden koko)": "NA",
+  "(Gleason-luokitus)": 7,
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(Perineuraalinen kasvu)": "ei",
+  "(Atypia)": "NA"
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question b, there is no information about the size of the samples, so the answer is NA.
-* For question d, the text does not mention benign prostatic hyperplasia, so the answer is "ei" (no).
-* For question e, the text explicitly states that there is no perineural invasion, so the answer is "ei" (no).
-* For question f, there is no mention of atypia, so the answer is NA.
+a. The number of samples taken is 6, as mentioned in the report ("Kuusi formaliinifiksoitua preparaattia").
+
+b. The size of the samples is not mentioned in the report, so the answer is "NA".
+
+c. The Gleason score is 7, as mentioned in the report ("Gleason-luokkaa 3 (noin 60%), loput luokkaa 4, siis 3+4=7").
+
+d. There is no mention of benign prostatic hyperplasia in the report, so the answer is "ei".
+
+e. The report explicitly states that there is no perineural invasion ("eikä vesikkeli- tai perineuraali-invaasiota"), so the answer is "ei".
+
+f. There is no mention of atypia in the report, so the answer is "NA".

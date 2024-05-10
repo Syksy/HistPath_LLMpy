@@ -1,0 +1,20 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 6,
+  "2. Minkä kokoisia otetut näytteet ovat?": NA,
+  "3. Mikä on näytteiden Gleason-luokitus?": ["8", "7", "7"],
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": false,
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": NA,
+  "6. Onko näytteessä havaittu atypiaa?": true
+}
+```
+
+Note: 
+
+* Question 2: The size of the biopsy specimens is not mentioned in the report, so the answer is NA.
+* Question 3: There are three different Gleason scores mentioned in the report: 8, 7, and 7.
+* Question 4: The report does not mention benign hyperplasia, but rather hyperplastic changes in the epithelium, which is not the same thing. Therefore, the answer is false.
+* Question 5: There is no mention of perineural growth in the report, so the answer is NA.
+* Question 6: The report mentions "poorly differentiated atypical glandular structure", which implies atypia, so the answer is true.

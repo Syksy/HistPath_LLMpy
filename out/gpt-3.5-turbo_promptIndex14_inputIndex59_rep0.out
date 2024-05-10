@@ -1,0 +1,8 @@
+{
+  "Kuinka monta näytettä potilaalta on otettu?": 3,
+  "Minkä kokoisia otetut näytteet ovat?": ["7mm", "6mm", "2mm"],
+  "Mikä on näytteiden Gleason-luokitus?": "3+4",
+  "Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "Onko näytteessä havaittu atypiaa?": "NA"
+}

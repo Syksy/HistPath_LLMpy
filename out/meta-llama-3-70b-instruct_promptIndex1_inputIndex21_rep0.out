@@ -15,7 +15,7 @@ The report mentions "Näytteinä yhteensä 4g höyläyslastuja", which indicates
   "määre": "g"
 }
 ```
-The report mentions "Näytteinä yhteensä 4g höyläyslastuja", which indicates that the samples are 4 grams each.
+The report mentions "Näytteinä yhteensä 4g höyläyslastuja", which indicates that the samples are 4 grams in total.
 
 **3. Gleason-luokitus:**
 ```
@@ -23,6 +23,30 @@ The report mentions "Näytteinä yhteensä 4g höyläyslastuja", which indicates
   "Gleason-luokitus": "NA"
 }
 ```
-There is no mention of Gleason classification in the report, so I'll answer with "NA".
+There is no mention of Gleason classification in the report.
 
-Let me know when you're ready for me to proceed with the next questions!
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+The report mentions "löydökset viittaisivat hienoisesti prostatahyperplasiaan", which indicates that there is evidence of benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you'd like me to proceed with the next set of questions!

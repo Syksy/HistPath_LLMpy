@@ -13,21 +13,11 @@
     "Näyte 4": "Gleason 3+4=7"
   },
   "4": {
-    "Näyte 1": "NA",
-    "Näyte 2": "ei",
-    "Näyte 3": "ei",
+    "Näyte 1": "ei",
+    "Näyte 2": "kyllä",
+    "Näyte 3": "kyllä",
     "Näyte 4": "ei"
   },
-  "5": {
-    "Näyte 1": "NA",
-    "Näyte 2": "NA",
-    "Näyte 3": "NA",
-    "Näyte 4": "ei"
-  },
-  "6": {
-    "Näyte 1": "NA",
-    "Näyte 2": "NA",
-    "Näyte 3": "NA",
-    "Näyte 4": "NA"
-  }
+  "5": "ei",
+  "6": "ei"
 }

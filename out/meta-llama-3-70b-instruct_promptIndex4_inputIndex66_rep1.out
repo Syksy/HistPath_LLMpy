@@ -1,0 +1,16 @@
+I see what you did there! That's a beautiful poem, but I'm afraid it's not a histopathological report. As a medical assistant, I'm trained to extract information from medical reports, not poetry.
+
+Since this is not a valid histopathological report, I'll have to return a JSON object with NA (Not Available) values for all the requested fields. Here it is:
+
+```
+{
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_prostatic_hyperplasia": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+If you could provide a real histopathological report, I'd be happy to help you extract the relevant information!

@@ -14,20 +14,20 @@ There is no clear mention of the number of samples taken from the patient.
   "näytteiden_koko": "19g"
 }
 ```
-The sample size is mentioned as approximately 19g, with 10g sent for histology.
+The sample size is mentioned as 19g, with 10g sent for histology.
 
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "5+4"
+  "Gleason-luokitus": "5+4"
 }
 ```
-The Gleason score is mentioned as having mostly grade 5 and secondarily grade 4.
+The Gleason score is mentioned as having mostly grade 5 and secondly grade 4.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
 {
-  "hyvälaatuinen_liikakasvu": "ei"
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
 There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report.
@@ -43,9 +43,9 @@ There is no mention of perineural growth in the report.
 **6. Atypia:**
 ```
 {
-  "atypia": "kyllä"
+  "atypia": "NA"
 }
 ```
-The report mentions malignant growth (pahanlaatuista kasvua), which implies atypia.
+There is no mention of atypia in the report.
 
-Let me know if you'd like me to clarify or elaborate on any of these answers!
+Let me know if you need further assistance!

@@ -1,9 +1,8 @@
 {
-  "Näytetyyppi": "Radikaaliprostatektomianäyte",
   "Näytteiden määrä": "8",
   "Näytteiden koko tai paino": "NA",
   "Gleason luokitus": "3+4",
   "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "Perineuraalinen kasvu": "Kyllä, pieniä positiivisia reunaetäisyyksiä",
-  "Atypia": "Kyllä, suuri kasvain joka ulottuu apexista perusosaan"
+  "Perineuraalinen kasvu": "Ei mainittu",
+  "Atypia": "Kyllä, pienet positiiviset reunamarginaalit"
 }

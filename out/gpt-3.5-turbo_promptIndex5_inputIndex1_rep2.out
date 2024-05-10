@@ -1,8 +1,8 @@
 {
-  "Potilaalta otettujen näytteiden määrä": 6,
-  "Näytteiden koko tai paino": "Ei saatavilla",
-  "Näytteen Gleason luokitus": "3+4=7",
-  "Hyvänlaatuinen eturauhasen liikakasvu": true,
-  "Perineuraalinen kasvu havaittu": false,
-  "Atypia havaittu": false
+  "näytteiden määrä": 6,
+  "näytteiden koko tai paino": "Ei saatavilla",
+  "Gleason luokitus": "3+4=7",
+  "hyvänlaatuinen eturauhasen liikakasvu": true,
+  "perineuraalinen kasvu": false,
+  "atypia": false
 }

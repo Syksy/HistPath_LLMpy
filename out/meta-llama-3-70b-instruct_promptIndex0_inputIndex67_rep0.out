@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "(Näytteiden määrä)": "NA",
+  "(Näytteiden koko)": "NA",
+  "(Gleason-luokitus)": "NA",
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "NA",
+  "(Perineuraalinen kasvu)": "NA",
+  "(Atypia)": "NA"
+}
+```
+
+The reason for all "NA" answers is that the provided text does not contain a specific doctor's statement or report, but rather a general description of prostate cancer. Therefore, it is not possible to extract specific values or answers from the text.

@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": "9",
-  "näytteiden koko/paino": "Ei saatavilla",
+  "näytteiden määrä": "10",
+  "näytteiden koko/paino": "vaihteleva",
   "Gleason luokitus": "3+4",
-  "hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "perineuraalinen kasvu": "Ei",
-  "atypia": "Ei"
+  "hyvänlaatuinen eturauhasen liikakasvu": "ei",
+  "perineuraalinen kasvu": "ei havaittu",
+  "atypia": "ei havaittu"
 }

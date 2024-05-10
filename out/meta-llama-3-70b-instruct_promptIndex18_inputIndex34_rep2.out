@@ -1,0 +1,19 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": "multiple",
+  "2. Size of samples": "150mm (total length)",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Note: 
+
+* For question 1, the answer is "multiple" because the text mentions "sample 1B" and "other samples", implying that there are multiple samples, but the exact number is not specified.
+* For question 3, the answer is "NA" because the Gleason score is not mentioned in the text.
+* For question 4, the answer is "ei" because the text does not mention BPH (Benign Prostatic Hyperplasia).
+* For question 5, the answer is "NA" because the text does not mention perineural growth.

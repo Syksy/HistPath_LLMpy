@@ -1,0 +1,8 @@
+{
+    "samples_taken": 12.3,
+    "sample_size": "lastuja",
+    "gleason_score": "NA",
+    "BPH_detection": false,
+    "perineural_growth_detection": false,
+    "atypia_detection": false
+}

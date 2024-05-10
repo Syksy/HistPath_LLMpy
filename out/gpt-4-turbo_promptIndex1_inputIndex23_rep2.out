@@ -2,9 +2,9 @@
   "1. Näytteiden määrä": 3,
   "2. Näytteiden koko": [
     {
-      "näyte 1": "8+6mm",
-      "näyte 2": "10mm",
-      "näyte 3": "5+5mm"
+      "Näyte 1": "8+6 mm",
+      "Näyte 2": "10 mm",
+      "Näyte 3": "5+5 mm"
     }
   ],
   "3. Gleason-luokitus": "3+4=7",

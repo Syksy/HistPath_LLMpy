@@ -1,0 +1,20 @@
+I'm happy to help! However, I must point out that the provided text does not appear to be a medical report or a histopathological description of a prostate cancer sample. The text seems to be a passage from a science fiction novel or a poem.
+
+If you could provide the actual medical report or histopathological description, I would be happy to assist you in extracting the requested information.
+
+For now, I will respond with "NA" (Not Available) for each question, as there is no relevant information in the provided text.
+
+Here is the response in JSON format:
+
+```
+{
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "NA",
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Please provide the actual medical report, and I'll be happy to assist you in extracting the requested information.

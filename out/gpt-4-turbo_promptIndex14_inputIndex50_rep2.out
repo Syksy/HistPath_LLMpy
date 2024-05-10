@@ -1,0 +1,12 @@
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "6",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": [
+    "4+4=8",
+    "4+3=7",
+    "3+4=7"
+  ],
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "Kyllä, hyperplastisia muutoksia",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "Kyllä, huonosti erilaistunut atyyppinen rauhaskudos"
+}

@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 12,
+  "2. Size of samples": ["8mm", "7mm", "5mm"],
+  "3. Gleason score": "3+3",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "ei"
+}
+```
+
+Note: 
+
+* "ei" means "no" in Finnish.
+* "NA" means "not available" or "not applicable".
+* The Gleason score is reported as "3+3" which means the primary pattern is 3 and the secondary pattern is also 3.
+* BPH (Benign Prostatic Hyperplasia) is not mentioned in the report, so it's assumed to be not detected.
+* Perineural growth is not mentioned in the report, so it's marked as "NA".
+* Atypia is explicitly mentioned as not detected ("Ei havaita tuma-atypiaa").

@@ -13,8 +13,11 @@ Based on the provided histopathological report, I will convert it into a structu
 
 Here's a brief explanation for each field:
 
-* `number_of_samples`: The report mentions three fusion biopsies, so the answer is 3.
-* `sample_size_or_weight`: The total length of the samples is 30mm, which is mentioned in the report.
-* `Gleason_score`: The Gleason score is explicitly mentioned as 7 in the report.
-* `benign_hyperplasia_only`: Since the report mentions carcinoma foci and Gleason score, it's clear that this is not a case of benign hyperplasia only, so the answer is false.
-* `perineural_invasion` and `atypia`: These features are not mentioned in the report, so I've marked them as NA (Not Available).
+* `number_of_samples`: The report mentions "Three fusion biopsies", so the answer is 3.
+* `sample_size_or_weight`: The report states "From the total length of 30mm", so the answer is 30mm.
+* `Gleason_score`: The report mentions "score 7", so the answer is 7.
+* `benign_hyperplasia_only`: The report mentions "carcinoma foci", which indicates that it's not just benign hyperplasia, so the answer is false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so the answer is NA (Not Available).
+* `atypia`: There is no mention of atypia in the report, so the answer is NA (Not Available).
+
+Please note that I've assumed that the absence of information in the report means that the corresponding field should be marked as NA. If you have any further questions or clarifications, feel free to ask!

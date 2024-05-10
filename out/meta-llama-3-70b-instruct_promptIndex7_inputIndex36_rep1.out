@@ -6,16 +6,16 @@ Here is the structured report in JSON format:
   "sample_size_or_weight": NA,
   "Gleason_score": 7,
   "benign_prostatic_hyperplasia_only": false,
-  "perineural_invasion": false,
-  "atypia": false
+  "perineural_invasion": NA,
+  "atypia": NA
 }
 ```
 
 Explanation:
 
-* `number_of_samples`: NA, as the number of samples is not explicitly mentioned in the report.
-* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned in the report.
-* `Gleason_score`: 7, as mentioned in the report ("Gleason level 7 carcinoma").
-* `benign_prostatic_hyperplasia_only`: false, as the report mentions a Gleason level 7 carcinoma, which indicates malignant growth.
-* `perineural_invasion`: false, as there is no mention of perineural invasion in the report.
-* `atypia`: false, as there is no mention of atypia in the report.
+* "number_of_samples": NA, because the report does not mention the number of samples taken from the patient.
+* "sample_size_or_weight": NA, because the report does not mention the size or weight of the samples.
+* "Gleason_score": 7, because the report mentions "Gleason level 7 carcinoma".
+* "benign_prostatic_hyperplasia_only": false, because the report mentions "carcinoma", which is a malignant tumor, not a benign prostatic hyperplasia.
+* "perineural_invasion": NA, because the report does not mention perineural invasion.
+* "atypia": NA, because the report does not mention atypia.

@@ -1,0 +1,11 @@
+{
+  "samples_taken": 4,
+  "sample_size": "2mm",
+  "gleason_score": {
+    "dominant": 4,
+    "second_most_common": 3
+  },
+  "BPH_detection": "NA",
+  "perineural_growth_detection": "NA",
+  "atypia_detection": "NA"
+}

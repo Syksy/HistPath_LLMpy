@@ -1,8 +1,8 @@
 {
-	"number of samples": 12,
-	"size of samples": "small",
-	"major+minor=sum": 7,
-	"can BPH be detected": "no",
-	"can perineural growth be detected": "no",
-	"can atypia be detected": "yes"
+  "number of samples": 12,
+  "size of samples": "small",
+  "Gleason score": "3+4=7",
+  "BPH": "no",
+  "perineural growth": "no",
+  "atypia": "yes"
 }

@@ -13,4 +13,4 @@ Here are the answers in JSON format:
 }
 ```
 
-The reason for all the "NA" answers is that the provided text does not contain any relevant information about the histopathological report. If you provide a real report, I'll be happy to help you extract the necessary information.
+The reason for all "NA" answers is that the provided text does not contain any relevant information about the histopathological report. If you provide a real report, I'll be happy to help you extract the requested information.

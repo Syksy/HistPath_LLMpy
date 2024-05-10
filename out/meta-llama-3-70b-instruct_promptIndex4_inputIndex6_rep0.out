@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: The report mentions multiple samples (D-G apex, basis K-P, seminaalivehikkeleitä O-Q), but it's not clear how many individual samples were taken. Therefore, I've assumed it's a single sample with multiple parts.
-* `sample_size_or_weight`: There is no information about the size or weight of the samples, so I've returned NA.
-* `Gleason_score`: The report explicitly states that the tumor is Gleason score 7.
-* `benign_prostatic_hyperplasia_only`: The report mentions cancer (karsinoomaa) and Gleason score, which indicates that it's not just benign prostatic hyperplasia. Therefore, I've set this to false.
-* `perineural_invasion`: The report does not mention perineural invasion, so I've set this to false.
-* `atypia`: The report does not mention atypia, so I've set this to false.
+* `number_of_samples`: Since the report mentions multiple samples (e.g., D-G apex, basis, seminaalivehikkeleitä), I assume there is only one patient sample, but multiple fragments or sections from that sample.
+* `sample_size_or_weight`: There is no mention of the sample size or weight in the report, so I return NA (Not Available).
+* `Gleason_score`: The report explicitly states that the tumor is Gleason 7-tasoista karsinoomaa.
+* `benign_prostatic_hyperplasia_only`: The report mentions a tumor, so it's not just benign prostatic hyperplasia.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I return false.
+* `atypia`: There is no mention of atypia in the report, so I return false.

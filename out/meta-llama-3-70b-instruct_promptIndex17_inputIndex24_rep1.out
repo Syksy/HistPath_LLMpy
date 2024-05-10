@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. Näytteen lukumäärä": "8",
+"2. Näytteen koko": "NA",
+"3. Gleason-score": "NA",
+"4. BPH:n havaitseminen": "NA",
+"5. Perineuraalisen kasvun havaitseminen": "NA",
+"6. Atypian havaitseminen": "NA"
+}
+
+Note: The answer to question 1 is 8, because the text states that the samples were taken in 8 blocks ("kahdeksassa blokissa"). The answers to the other questions are NA, because the text does not provide the necessary information.

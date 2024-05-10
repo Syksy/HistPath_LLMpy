@@ -2,16 +2,15 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "sample_count": 9, // Apex näytteisiin A-C (3), kaksi makroleikettä kohti basista D-E (2), F-G basis (1), H-I kaksi näytettä seminaalivehikkeleistä (2)
-  "sample_size_or_weight": NA, // Not mentioned in the report
-  "Gleason_score": {
-    "primary": 3,
-    "secondary": 4
-  },
-  "benign_hyperplasia_only": false, // Laaja kasvain mentioned in the report
-  "perineural_invasion": false, // Not mentioned in the report
-  "atypia": false, // Not mentioned in the report
+  "sample_count": 9, // 9 näytettä (A-C, D-E, F-G, H-I)
+  "sample_size_or_weight": "NA", // ei mainita näytteiden kokoa tai painoa
+  "Gleason_score": 3+4, // vallitseva Gleason luokka 3 ja luokan 4 erilaistumista melkein yhtä paljon
+  "benign_hyperplasia_only": false, // ei vain hyvänlaatuinen eturauhasen liikakasvu
+  "perineural_invasion": false, // ei havaittu perineuraalista kasvua
+  "atypia": false, // ei havaittu atypiaa
+  "cancer_extension": false, // ei kasvaimen läpikasvua kapselin ulkopuolelle
+  "margin_status": "positive" // pienet positiiviset reunamarginaalit
 }
 ```
 
-Note: The sample count is based on the description of the samples taken from different regions of the prostate. The Gleason score is reported as a range (3-4) since both grades are mentioned to be present almost equally.
+Note: Since the report does not mention the size or weight of the samples, I have marked it as "NA" (Not Available).

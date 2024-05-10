@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "Näytteiden määrä": 12,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "3+4=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions "12 kudosblokkia" which translates to 12 tissue blocks, so the answer is 12.
+2. Näytteiden koko: There is no mention of the size of the samples, so the answer is "NA".
+3. Gleason-luokitus: The report mentions "Gleason summana 7, josta suuremman osuuden luokka 3 noin 60% tuumorista", which translates to a Gleason score of 7, with the majority (60%) being grade 3, so the answer is "3+4=7".
+4. Hyvälaatuinen eturauhasen liikakasvu: The report mentions "karsinoomaa" which is a malignant tumor, so the answer is "ei" (no benign hyperplasia).
+5. Perineuraalinen kasvu: There is no mention of perineural growth, so the answer is "NA".
+6. Atypia: There is no mention of atypia, so the answer is "NA".

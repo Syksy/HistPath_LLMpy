@@ -4,7 +4,9 @@
     "Vasen puoli": ["10 mm", "7 mm"],
     "Oikea puoli": ["15 mm", "10 mm"]
   },
-  "Gleason luokitus": "3 pääsääntöisesti, 4 toiseksi yleisin",
+  "Gleason luokitus": {
+    "Vasen puoli": "3 pääsääntöisesti, 4 toiseksi yleisin"
+  },
   "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
   "Perineuraalinen kasvu": "Kyllä",
   "Atypia": "Kyllä"

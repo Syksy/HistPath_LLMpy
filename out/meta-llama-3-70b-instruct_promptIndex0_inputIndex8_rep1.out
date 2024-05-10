@@ -1,10 +1,26 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
+```
 {
-"a. Näytteiden määrä": "NA",
-"b. Näytteiden koko": 30,
-"c. Gleason-luokitus": "NA",
-"d. Eturauhasen hyvälaatuinen liikakasvu": "kyllä",
-"e. Perineuraalinen kasvu": "ei",
-"f. Atypia": "ei"
+  "(a. Näytteiden määrä)": "NA",
+  "(b. Näytteiden koko)": "30g",
+  "(c. Gleason-luokitus)": "NA",
+  "(d. Eturauhasen hyvälaatuinen liikakasvu)": "kyllä",
+  "(e. Perineuraalinen kasvu)": "NA",
+  "(f. Atypia)": "ei"
 }
+```
+
+Here's a brief explanation for each answer:
+
+a. The number of samples taken is not explicitly mentioned, so the answer is "NA".
+
+b. The total weight of the samples is 30g, and 20g of it was used for further analysis.
+
+c. There is no mention of Gleason score in the report, so the answer is "NA".
+
+d. The report mentions "hyvänlaatuista prostatakudosta", which translates to "benign prostatic tissue", indicating that there is benign prostatic hyperplasia.
+
+e. There is no mention of perineural growth in the report, so the answer is "NA".
+
+f. The report explicitly states that there is no atypia, so the answer is "ei" (no).

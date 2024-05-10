@@ -1,0 +1,16 @@
+What a beautiful poem! However, I must inform you that it doesn't contain any histopathological information. It appears to be a heartfelt and emotional poem about loss and grief.
+
+As a result, I will return a JSON-formatted response with NA (Not Available) values for each of the requested questions, as there is no relevant information in the poem:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_prostatic_hyperplasia": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Please provide a histopathological report, and I'll be happy to assist you in extracting the relevant information!

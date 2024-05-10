@@ -1,8 +1,11 @@
 {
-  "Näytteiden määrä": "NA",
-  "Näytteiden koko": "19g, josta laitettu 10g histologiaan",
-  "Gleason-luokitus": "5+4=9",
-  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "kyllä"
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": {
+    "koko": 19,
+    "määre": "g"
+  },
+  "3. Gleason-luokitus": "5+4=9",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
 }

@@ -2,13 +2,20 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Näytteiden määrä": ("3"),
-  "2. Näytteiden koko": ("90mm"),
-  "3. Gleason-luokitus": ("NA"),
-  "4. Hyvälaatuinen eturauhasen liikakasvu": ("kyllä"),
-  "5. Perineuraalinen kasvu": ("ei"),
-  "6. Atypia": ("ei")
+  "1. Näytteiden määrä": "3",
+  "2. Näytteiden koko": "90mm",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "ei"
 }
 ```
 
-Note: The Gleason score is not mentioned in the report, so I answered "NA" (not available).
+Here's a brief explanation for each answer:
+
+1. The patient has 3 biopsy samples.
+2. The total length of the biopsy samples is 90mm.
+3. There is no Gleason score mentioned in the report, so the answer is "NA" (not available).
+4. The report mentions "rauhasrakenteita, mikä ehkä viittaisi hyperplasiaan", which suggests that there may be benign hyperplasia, so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the report, so the answer is "NA" (not available).
+6. The report explicitly states "ei atypiaa", so the answer is "ei" (no).

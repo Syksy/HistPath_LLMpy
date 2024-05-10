@@ -1,0 +1,11 @@
+{
+  "samples_taken": 19,
+  "size_of_samples": "10g",
+  "gleason_score": {
+    "level_5": "eniten",
+    "level_4": "toiseksi eniten"
+  },
+  "BPH_detected": "NA",
+  "perineural_growth_detected": "NA",
+  "atypia_detected": "NA"
+}

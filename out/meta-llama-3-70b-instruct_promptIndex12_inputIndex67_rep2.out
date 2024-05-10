@@ -1,0 +1,14 @@
+I'll go through the text and extract the requested information. Here is the response in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+The reason for all "NA" responses is that the provided text does not contain any specific information about the biopsy sample, such as the number of samples, their size, Gleason score, or any other requested details. The text appears to be a general description of prostate cancer and its diagnosis, rather than a specific pathology report.

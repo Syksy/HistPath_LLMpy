@@ -4,14 +4,23 @@ Here are the answers to the questions in JSON format:
 {
   "a. Näytteiden määrä": 6,
   "b. Näytteiden koko": 120,
-  "c. Gleason-luokitus": NA,
-  "d. Eturauhasen hyvälaatuinen liikakasvu": ei,
-  "e. Perineuraalinen kasvu": NA,
-  "f. Atypia": NA
+  "c. Gleason-luokitus": "NA",
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question c, the Gleason score is not mentioned in the report, so the answer is NA.
-* For questions d-f, the answers are based on the content of the report, and if there is no clear indication of a specific condition, the answer is NA.
+a. The number of samples taken is 6, as stated in the report.
+
+b. The total size of the samples is approximately 120mm.
+
+c. There is no mention of Gleason score in the report, so the answer is "NA".
+
+d. The report mentions basal cell hyperplasia, but not benign prostatic hyperplasia, so the answer is "ei" (no).
+
+e. There is no mention of perineural growth in the report, so the answer is "NA".
+
+f. There is no mention of atypia in the report, so the answer is "NA".

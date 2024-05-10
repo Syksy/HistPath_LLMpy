@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `sample_count`: 6, as there are six formalin-fixed preparations.
-* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned.
-* `Gleason_score`: "3+4=7", as the Gleason score is reported as a combination of major and minor scores.
+* `sample_size_or_weight`: NA, as there is no information about the size or weight of the samples.
+* `Gleason_score`: "3+4=7", as the Gleason score is reported as 3+4=7.
 * `benign_hyperplasia_only`: "ei", as the report mentions glandular fusion and Gleason class 3 and 4, indicating that it's not just benign hyperplasia.
 * `perineural_invasion`: "ei", as the report explicitly states that there is no perineural invasion.
 * `atypia`: NA, as there is no mention of atypia in the report.

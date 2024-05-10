@@ -6,6 +6,6 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 6
 }
 ```
-The report mentions that there are 6 prostate biopsies (Näytteenä 1-6 prostatabiopsiat).
+The report mentions "Näytteenä 1-6 prostatabiopsiat tyyppipaikoista", which indicates that 6 biopsy samples were taken.
 
 **Please let me know when to proceed to the next question!**

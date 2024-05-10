@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "4+6+3 mm (vasen) ja 5+7+8 mm (oikea)",
+  "Gleason-luokitus": "NA",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Let me explain how I arrived at these answers:
+
+1. Näytteiden määrä: The text mentions "4+6+3 vasemmalta ja 5+7+8mm oikealta", which implies that there are 6 samples in total (3 from the left and 3 from the right).
+2. Näytteiden koko: The text mentions the sizes of the samples as "4+6+3 mm (vasen) ja 5+7+8 mm (oikea)".
+3. Gleason-luokitus: There is no mention of Gleason classification in the text, so I answered "NA".
+4. Hyvälaatuinen eturauhasen liikakasvu: The text mentions "maligniin viittaavaa kasvua", which implies that there is no benign growth, so I answered "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the text, so I answered "NA".
+6. Atypia: There is no mention of atypia in the text, so I answered "NA".

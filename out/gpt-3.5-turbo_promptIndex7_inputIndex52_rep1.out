@@ -1,8 +1,8 @@
 {
-  "number_of_samples": "9",
-  "sample_size_or_weight": "NA",
-  "Gleason_score": "3+4",
-  "benign_prostatic_hyperplasia": "No",
-  "perineural_invasion": "No",
-  "atypia": "Yes"
+  "näytteiden määrä": "9",
+  "näytteiden koko tai paino": "NA",
+  "Gleason luokitus": "3+4",
+  "hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "perineuraalinen kasvu": "Ei",
+  "atypia": "Ei"
 }

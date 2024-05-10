@@ -13,22 +13,17 @@ Here is the structured report in JSON format:
     {"sample": 2, "Gleason_score": "3+4=7"},
     {"sample": 3, "Gleason_score": NA}
   ],
-  "benign_hyperplasia_only": [
-    {"sample": 1, "benign_hyperplasia_only": "ei"},
-    {"sample": 2, "benign_hyperplasia_only": "ei"},
-    {"sample": 3, "benign_hyperplasia_only": "kyllä"}
-  ],
-  "perineural_invasion": [
-    {"sample": 1, "perineural_invasion": NA},
-    {"sample": 2, "perineural_invasion": NA},
-    {"sample": 3, "perineural_invasion": NA}
-  ],
-  "atypia_present": [
-    {"sample": 1, "atypia_present": "kyllä"},
-    {"sample": 2, "atypia_present": "kyllä"},
-    {"sample": 3, "atypia_present": NA}
-  ]
+  "benign_hyperplasia": "kyllä",
+  "perineural_invasion": "ei",
+  "atypia": "kyllä"
 }
 ```
 
-Note: I assumed that the PIN changes mentioned in the report refer to atypia. If this is not the case, please let me know and I'll correct the output accordingly.
+Note: 
+
+* The number of samples is 3, as there are three samples mentioned in the report.
+* The sample size or weight is reported for each sample separately.
+* The Gleason score is reported for each sample separately, except for sample 3 where no tumor tissue was found.
+* Benign hyperplasia is reported as "kyllä" (yes) since PIN changes were observed in samples 1 and 2.
+* Perineural invasion is reported as "ei" (no) since it was not mentioned in the report.
+* Atypia is reported as "kyllä" (yes) since PIN changes were observed in samples 1 and 2.

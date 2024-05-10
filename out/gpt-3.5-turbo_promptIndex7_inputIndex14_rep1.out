@@ -1,8 +1,8 @@
 {
-  "potilaan_näytteiden_määrä": 4,
-  "näytteiden_koko_tai_paino": ["10mm", "8mm", "14mm", "14mm"],
-  "näytteen_Gleason_luokitus": ["3 (90%)", "4 (10%)"],
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
+  "näytteiden määrä": 4,
+  "näytteiden koko tai paino": ["10mm", "8mm", "14mm", "14mm"],
+  "Gleason luokitus": ["3", "4"],
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen invaasio": false,
   "atypia": false
 }

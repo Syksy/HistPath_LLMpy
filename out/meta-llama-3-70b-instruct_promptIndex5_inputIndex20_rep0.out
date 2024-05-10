@@ -13,11 +13,9 @@ Here is the structured report in JSON format:
 
 Here's a brief explanation of each field:
 
-* `num_samples`: The number of biopsy samples taken from the patient.
-* `sample_size_or_weight`: An array of sample sizes or weights, where available. In this case, only two samples have reported sizes (5mm and 10mm).
-* `Gleason_score`: An array of Gleason scores for each sample, where available. In this case, three samples have reported Gleason scores (8, 7, and 7).
-* `benign_hyperplasia_only`: A boolean indicating whether the sample shows only benign hyperplasia (i.e., no cancer). In this case, it's false because cancer was detected.
-* `perineural_invasion`: A boolean indicating whether perineural invasion was detected. In this case, it's null because it's not mentioned in the report.
-* `atypia`: A boolean indicating whether atypia was detected. In this case, it's true because atypia was mentioned in the report.
-
-Note that I've used `null` to indicate missing values where the report doesn't provide information on a particular field.
+* `num_samples`: The number of biopsy samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: An array of sample sizes or weights, where available. In this case, only samples 1 and 2 have reported sizes (5mm and 10mm, respectively).
+* `Gleason_score`: An array of Gleason scores, where available. In this case, samples 1, 2, and 3 have reported Gleason scores (8, 7, and 7, respectively).
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, the value is `false` because cancer is present in some samples.
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present. In this case, the value is `null` because it is not mentioned in the report.
+* `atypia`: A boolean indicating whether atypia is present. In this case, the value is `true` because atypia is mentioned in sample 1.

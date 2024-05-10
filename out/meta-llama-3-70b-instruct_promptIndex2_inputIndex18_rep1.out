@@ -11,4 +11,4 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: The Gleason score is not mentioned in the report, so I answered "NA" (not available). Similarly, there is no mention of perineural growth or atypia, so I answered "NA" for those questions as well.
+Note: The Gleason score, perineural growth, and atypia are not mentioned in the given report, so I've marked them as "NA" (not available).

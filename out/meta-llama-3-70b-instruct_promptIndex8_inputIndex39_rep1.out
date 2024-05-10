@@ -11,10 +11,10 @@ Here is the structured report in JSON format:
 }
 ```
 
-Let me explain how I arrived at this structured report:
+Let me explain the reasoning behind each field:
 
 * `sample_count`: The text mentions "eight cassettes", which implies that there are 8 samples.
-* `sample_size_or_weight`: The text mentions "13g of planing chips", which gives us the weight of the sample.
-* `Gleason_score`: The text explicitly states the Gleason score as "Gleason 3+3=6".
-* `benign_hyperplasia_only`: Since the text mentions "carcinoma", it implies that the sample is not just benign hyperplasia, so the answer is "ei" (no).
-* `perineural_invasion` and `atypia`: These are not mentioned in the original text, so I returned "NA" for both.
+* `sample_size_or_weight`: The text mentions "13g of planing chips", which is the total weight of the samples.
+* `Gleason_score`: The text mentions "Gleason 3+3=6", which is the Gleason score of the carcinoma.
+* `benign_hyperplasia_only`: Since the text mentions "carcinoma", it implies that the sample is not only benign hyperplasia, so the answer is "ei" (no).
+* `perineural_invasion` and `atypia`: These are not mentioned in the original text, so the answer is "NA" (not available) for both.

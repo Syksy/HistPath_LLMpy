@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 12,
+  "2. Size of samples": "NA",
+  "3. Gleason score": "3+4=7",
+  "4. BPH detection": "kyllä",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "ei"
+}
+```
+
+Explanation:
+
+1. The text states that 12 kudosblokkia (tissue blocks) were taken, so the answer is 12.
+2. The size of the samples is not mentioned in the text, so the answer is NA (not available).
+3. The Gleason score is mentioned as 7, with the majority (around 60%) being grade 3, so the answer is 3+4=7.
+4. The text mentions "rauhasrakennetta" which translates to "glandular structure", which is a characteristic of BPH (Benign Prostatic Hyperplasia), so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the text, so the answer is NA (not available).
+6. The text does not mention atypia, so the answer is "ei" (no).

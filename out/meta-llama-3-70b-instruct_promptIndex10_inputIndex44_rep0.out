@@ -1,0 +1,13 @@
+Here are the answers to the questions based on the provided histopathological report:
+
+**Numerical answers**
+
+1. (Näytteiden määrä) : 4
+2. (Näytteiden koko) : [10, 8, 14, 14]
+3. (Gleason-luokitus) : 3 (90%), 4 (10%)
+
+**Boolean answers**
+
+4. (Eturauhasen hyvälaatuinen liikakasvu) : ei
+5. (Perineuraalinen kasvu) : ei
+6. (Atypia) : NA

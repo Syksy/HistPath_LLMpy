@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("1"),
+  "2. Näytteiden koko": ("19g"),
+  "3. Gleason-luokitus": ("5+4=9/9/NA"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has one sample (prostatalastu).
+2. The sample weighs approximately 19g, with 10g sent for histology.
+3. The Gleason score is 5+4=9, with the majority of the tumor being grade 5 and the second most common being grade 4.
+4. There is no mention of benign prostatic hyperplasia (hyvälaatuinen liikakasvu), so the answer is "ei".
+5. There is no mention of perineural growth (perineuraalinen kasvu), so the answer is "ei".
+6. There is no mention of atypia, so the answer is "ei".

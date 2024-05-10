@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "13 kpl",
+"2. What is the size of the samples taken?": "noin 180mm",
+"3. What is the Gleason score of the samples?": "3 ja 4",
+"4. Can BPH be detected in the samples taken?": "NA",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "NA"
+}
+
+Note: "kpl" is an abbreviation for "kappaletta", which means "pieces" or "samples" in English. "Noin" is a Finnish word that means "approximately".

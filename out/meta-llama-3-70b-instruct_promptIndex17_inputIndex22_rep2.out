@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. How many samples have been taken?": "9 (A-I)",
+  "2. What is the size of the samples taken?": "NA",
+  "3. What is the Gleason score of the samples?": "Gleason luokka 3 ja luokan 4",
+  "4. Can BPH be detected in the samples taken?": "NA",
+  "5. Can perineural growth be detected in the samples taken?": "NA",
+  "6. Can atypia be detected in the samples taken?": "NA"
+}
+```
+
+Note: The number of samples taken is inferred from the text, which mentions apex näytteisiin A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä, which suggests 9 samples in total. However, the size of the samples is not mentioned in the text. The Gleason score is mentioned as Gleason luokka 3 ja luokan 4, but it's not clear if this is the overall score or if there are multiple scores for different samples. The other questions (4-6) cannot be answered based on the provided text.

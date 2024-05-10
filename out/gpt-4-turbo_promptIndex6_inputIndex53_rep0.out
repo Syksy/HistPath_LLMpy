@@ -14,18 +14,18 @@
       "size": "5+5mm"
     }
   ],
-  "gleason_scores": [
+  "gleason_score": [
     {
       "sample_id": 1,
-      "gleason_score": "3+4=7"
+      "score": "Gleason 7 (3+4)"
     },
     {
       "sample_id": 2,
-      "gleason_score": "3+4=7"
+      "score": "Gleason 7 (3+4)"
     },
     {
       "sample_id": 3,
-      "gleason_score": "NA"
+      "score": "NA"
     }
   ],
   "benign_prostatic_hyperplasia": "No",

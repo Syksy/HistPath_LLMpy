@@ -1,0 +1,19 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 4,
+  "2. Size of samples": ["10mm", "8mm", "14mm", "14mm"],
+  "3. Gleason score": "3+4=7/90%/10%",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "ei",
+  "6. Atypia detection": "NA"
+}
+```
+
+Note: 
+
+* "ei" means "no" in Finnish.
+* "NA" means "not available" or "not applicable".
+* BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so the answer is "ei".
+* Atypia is not mentioned in the text, so the answer is "NA".

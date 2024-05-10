@@ -1,0 +1,8 @@
+{
+  "samples_taken": 4,
+  "sample_sizes": ["10mm", "8mm", "14mm", "14mm"],
+  "Gleason_scores": [{"sample": 4, "Gleason_3": "90%", "Gleason_4": "10%"}],
+  "BPH_detection": "NA",
+  "perineural_growth_detection": "No",
+  "atypia_detection": "NA"
+}

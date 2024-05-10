@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "12",
+  "2. Näytteiden koko": "8mm, 7mm, 5mm",
+  "3. Gleason-luokitus": "3+3=6",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Let me explain each answer:
+
+1. The patient has 12 biopsies taken.
+2. The sizes of the biopsies are 8mm, 7mm, and 5mm.
+3. The Gleason score is 3+3=6, which means the major pattern is 3 and the minor pattern is also 3, summing up to 6.
+4. There is no evidence of benign prostatic hyperplasia (BPH) in the biopsies.
+5. There is no evidence of perineural invasion in the biopsies.
+6. There is no evidence of atypia in the biopsies.

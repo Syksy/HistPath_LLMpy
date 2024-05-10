@@ -1,8 +1,8 @@
 {
-  "1. How many samples have been taken?": 14,
-  "2. What is the size of the samples taken?": "NA",
-  "3. What is the Gleason score of the samples?": "4+3=7",
-  "4. Can BPH be detected in the samples taken?": "no",
-  "5. Can perineural growth be detected in the samples taken?": "yes",
-  "6. Can atypia be detected in the samples taken?": "no"
+  "1": 16,
+  "2": "macrosections",
+  "3": "4+3=7",
+  "4": "no",
+  "5": "yes",
+  "6": "no"
 }

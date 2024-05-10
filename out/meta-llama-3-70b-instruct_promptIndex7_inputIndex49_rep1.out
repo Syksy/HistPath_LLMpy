@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* "number_of_samples" is 1, as there is only one sample mentioned in the report.
-* "sample_size_or_weight" is "12.3g", which is the weight of the sample mentioned in the report.
-* "Gleason_score" is NA, as there is no mention of Gleason score in the report.
-* "benign_hyperplasia_only" is true, as the report mentions stromal hyperplasia and no malignancy.
-* "perineural_invasion" is false, as there is no mention of perineural invasion in the report.
-* "atypia" is false, as there is no mention of atypia or any abnormal changes in the report.
+* "number_of_samples": 1, because the report mentions "the sample" (singular), implying that only one sample was taken.
+* "sample_size_or_weight": "12.3g", as mentioned in the report.
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": true, because the report mentions "stromal hyperplasia" and "nothing directly suggestive of malignancy is visible", implying that the sample shows only benign hyperplasia.
+* "perineural_invasion": false, because the report does not mention perineural invasion.
+* "atypia": false, because the report does not mention atypia or any other abnormal changes.

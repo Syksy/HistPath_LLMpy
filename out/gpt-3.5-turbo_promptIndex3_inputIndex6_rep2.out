@@ -1,6 +1,6 @@
 {
-  "number of samples": 4,
-  "size of samples": "D-G, K-P, O-Q",
+  "number of samples": 16,
+  "size of samples": "D-G apex, K-P basis, O-Q seminaalivehikkeleitä",
   "Gleason score": "3+4=7",
   "BPH": "no",
   "perineural growth": "no",

@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 4
 }
 ```
-The report mentions four samples: "Sample 1", "Sample 2", "Sample 3", and "Sample 4".
+The report mentions four samples: "As samples, targeted prostate biopsies from different sides. In the sample 1) 10mm, 2) 8mm, 3) 14mm and 4) 14mm material."
 
 **2. Näytteiden koko:**
 ```
@@ -24,10 +24,10 @@ The report mentions the size of each sample in millimeters.
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "3+4=90+10"
+  "Gleason-luokitus": "3+4=90+10"
 }
 ```
-The report mentions a Gleason score of 3 (about 90%) and 4 (10%).
+The report mentions the Gleason score: "a larger proportion forming glandular structures (Gleason 3, about 90%) and a smaller proportion forming glands (Gleason 4, 10%)".
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -35,7 +35,7 @@ The report mentions a Gleason score of 3 (about 90%) and 4 (10%).
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report does not mention any benign prostatic hyperplasia.
+The report mentions that samples 2 and 3 represent healthy prostate tissue, indicating no benign prostatic hyperplasia.
 
 **5. Perineuraalinen kasvu:**
 ```

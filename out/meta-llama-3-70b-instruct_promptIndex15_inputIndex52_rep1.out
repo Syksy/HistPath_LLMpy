@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("9"),
+  "2. Sample size": ("macrosections"),
+  "3. Gleason score": ("3+4=7/7/NA"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 9, as mentioned in the text: "Apex to samples A-C, two macrosections per base D-E, F-G base and H-I two samples from seminal vesicles."
+2. The sample size is described as macrosections, which is a type of tissue sample.
+3. The Gleason score is 3+4=7, as mentioned in the text: "The prevailing Gleason grade 3 and grade 4 differentiation is almost equal."
+4. There is no mention of benign prostatic hyperplasia (BPH) in the text, so the answer is "ei" (no).
+5. There is no mention of perineural growth in the text, so the answer is "ei" (no).
+6. There is no mention of atypia in the text, so the answer is "ei" (no).

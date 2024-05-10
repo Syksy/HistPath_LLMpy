@@ -1,0 +1,17 @@
+{
+  "samples_taken": 4,
+  "sample_sizes": {
+    "left_side": [10, 7],
+    "right_side": [15, 10]
+  },
+  "Gleason_score": {
+    "left_side": {
+      "Gleason_3": "mainly",
+      "Gleason_4": "second most"
+    },
+    "right_side": "NA"
+  },
+  "BPH_detected": "NA",
+  "perineural_growth_detected": "yes",
+  "atypia_detected": "yes"
+}

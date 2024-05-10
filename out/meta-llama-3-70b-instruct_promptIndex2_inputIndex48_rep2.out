@@ -5,7 +5,7 @@ Here are the answers to the questions in JSON format:
   "1. Number of samples": ("6"),
   "2. Sample size": ("4+6+3 mm", "5+7+8 mm"),
   "3. Gleason score": ("NA"),
-  "4. Benign prostatic hyperplasia": ("ei"),
+  "4. Benign prostatic hyperplasia": ("NA"),
   "5. Perineural growth": ("NA"),
   "6. Atypia": ("NA")
 }
@@ -15,6 +15,5 @@ Note:
 
 * The number of samples is 6 (3 from the left and 3 from the right).
 * The sample sizes are 4+6+3 mm from the left and 5+7+8 mm from the right.
-* There is no mention of Gleason score, so it's marked as NA (Not Available).
-* There is no mention of benign prostatic hyperplasia, so it's marked as "ei" (no).
-* There is no mention of perineural growth or atypia, so they are both marked as NA (Not Available).
+* The Gleason score is not mentioned in the report, so it's marked as "NA" (not available).
+* There is no mention of benign prostatic hyperplasia, perineural growth, or atypia in the report, so they are all marked as "NA".

@@ -13,9 +13,9 @@ Here are the answers to the questions in JSON format:
 
 Here's a brief explanation for each answer:
 
-1. The number of samples taken is multiple, as it is mentioned that there are several biopsy samples (e.g., "Näytteessä 1B").
-2. The total length of the biopsy samples is approximately 150mm.
-3. There is no mention of Gleason score in the report, so the answer is NA (not available).
-4. There is no evidence of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report, so the answer is "ei" (no).
-5. There is no mention of perineural growth in the report, so the answer is NA (not available).
-6. Atypia is mentioned in the report as "tuma-atypiaa", which means that atypical cells were found, so the answer is "kyllä" (yes).
+1. The number of samples taken is multiple, as the text mentions "kaseteissa" (in the cassettes) and "näytteessä 1B" (in sample 1B), implying that there are multiple samples.
+2. The size of the samples is approximately 150mm.
+3. There is no Gleason score mentioned in the text, so the answer is "NA" (not available).
+4. There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the text, so the answer is "ei" (no).
+5. There is no mention of perineural growth (perineuraalinen kasvu) in the text, so the answer is "NA" (not available).
+6. The text mentions "tuma-atypiaa" (nuclear atypia), so the answer is "kyllä" (yes).

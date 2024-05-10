@@ -11,11 +11,16 @@ Here are the answers in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each answer:
 
-* a. The number of samples taken is not explicitly mentioned in the report, so the answer is "NA".
-* b. The size of the samples is not mentioned in the report, so the answer is "NA".
-* c. The Gleason score is mentioned as 7.
-* d. There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report, so the answer is "ei".
-* e. There is no mention of perineural growth (perineuraalinen kasvu) in the report, so the answer is "ei".
-* f. There is no mention of atypia in the report, so the answer is "NA".
+a. (Näytteiden määrä): The number of samples taken is not explicitly mentioned in the report, so the answer is "NA".
+
+b. (Näytteiden koko): The size of the samples is not mentioned in the report, so the answer is "NA".
+
+c. (Gleason-luokitus): The Gleason score is mentioned as 7, with a score of 3 in approximately 60% of the findings.
+
+d. (Eturauhasen hyvälaatuinen liikakasvu): The report does not mention benign prostatic hyperplasia, so the answer is "ei" (no).
+
+e. (Perineuraalinen kasvu): The report does not mention perineural growth, so the answer is "ei" (no).
+
+f. (Atypia): The report does not mention atypia, so the answer is "NA" (not available).

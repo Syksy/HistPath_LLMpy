@@ -15,5 +15,5 @@ Note:
 
 * The number of samples is 12, as mentioned in the text.
 * The size of samples is not mentioned in the text, so it's marked as "NA".
-* The Gleason score is 7, with a major portion being class 3 (about 60% of the tumor) and a minor portion being class 4.
-* There is no mention of BPH, perineural growth, or atypia in the text, so these are marked as "NA".
+* The Gleason score is 7, with a major portion of 3 and a minor portion of 4, making it 3+4=7.
+* There is no mention of BPH, perineural growth, or atypia in the text, so they are all marked as "NA".

@@ -3,27 +3,27 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 4,
-  "sample_size_or_weight": [
+  "sample_size": [
     {"side": "left", "size": "10 mm"},
     {"side": "left", "size": "7 mm"},
     {"side": "right", "size": "15 mm"},
     {"side": "right", "size": "10 mm"}
   ],
-  "Gleason_score": {
+  "gleason_score": {
     "primary": 3,
     "secondary": 4
   },
-  "benign_hyperplasia_only": false,
+  "benign_hyperplasia": NA,
   "perineural_invasion": true,
   "atypia": NA
 }
 ```
 
-Note: 
+Here's a brief explanation of each field:
 
-* `sample_count` is the total number of samples taken from the patient, which is 4 in this case.
-* `sample_size_or_weight` is an array of objects, each containing the size of a sample from either the left or right side of the prostate.
-* `Gleason_score` is an object with primary and secondary scores, which are 3 and 4, respectively, in this case.
-* `benign_hyperplasia_only` is set to false because the report mentions carcinoma cells, indicating that it's not just benign hyperplasia.
-* `perineural_invasion` is set to true because the report mentions growth around nerves.
-* `atypia` is set to NA (Not Available) because there is no mention of atypia in the report.
+* `sample_count`: The number of samples taken from the patient, which is 4 in this case.
+* `sample_size`: An array of objects, each describing the size of a sample from either the left or right side of the prostate.
+* `gleason_score`: An object with two properties, `primary` and `secondary`, which represent the primary and secondary Gleason scores, respectively.
+* `benign_hyperplasia`: Since the report does not mention benign hyperplasia, the value is set to NA (not available).
+* `perineural_invasion`: This field is set to `true` because the report mentions growth around nerves.
+* `atypia`: Since the report does not mention atypia, the value is set to NA (not available).

@@ -1,0 +1,11 @@
+{
+  "number_of_samples": 1,
+  "sample_size": {
+    "right": 60,
+    "left": 80
+  },
+  "Gleason_score": 9,
+  "BPH_detected": false,
+  "perineural_growth_detected": false,
+  "atypia_detected": false
+}

@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": ["8+6mm", "10mm", "5+5mm"],
+  "3. Gleason score": ["3+4=7", "3+4=7", "NA"],
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "yes",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Three samples have been taken, labeled as Näyte (1), Näyte (2), and Näyte (3).
+2. The sizes of the samples are 8+6mm, 10mm, and 5+5mm, respectively.
+3. The Gleason scores are 3+4=7 for samples 1 and 2, and NA (not applicable) for sample 3, which does not show any cancerous tissue.
+4. BPH (Benign Prostatic Hyperplasia) is not detected in any of the samples (ei).
+5. Perineural growth is detected in samples 1 and 2 (yes).
+6. Atypia (PIN-muutoksia) is detected in samples 1 and 2 (kyllä).

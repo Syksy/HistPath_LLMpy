@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": 12,
-  "näytteiden koko tai paino": "8mm ja 7mm oikeasta pohjasta, 5mm vasemmasta pohjasta",
+  "näytteiden_määrä": 12,
+  "näytteiden_koko_tai_paino": ["8mm", "7mm", "5mm"],
   "Gleason luokitus": "3+3",
-  "hyvänlaatuinen eturauhasen liikakasvu": false,
-  "perineuraalinen kasvu": false,
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
   "atypia": false
 }

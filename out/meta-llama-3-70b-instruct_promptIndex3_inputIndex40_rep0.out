@@ -1,4 +1,4 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
@@ -11,9 +11,11 @@ Here are the answers in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* The number of samples is 14 because there are samples A-D, E-F, and G-N, which makes a total of 14 samples.
-* The size of samples is not mentioned in the text, so it's marked as "NA" (Not Available).
-* The Gleason score is reported as class 4 prevailing and some class 3, so it's written as 4+3=7.
-* There is no mention of BPH (Benign Prostatic Hyperplasia) or atypia in the text, so they are marked as "NA".
+1. The number of samples is 14, as mentioned in the text: A-D, E-F, G-N, and N-O.
+2. The size of the samples is not mentioned in the text, so it's marked as "NA" (not available).
+3. The Gleason score is mentioned as having a prevailing class of 4 and some class 3, so the score is 4+3=7.
+4. There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so it's marked as "NA".
+5. Perineural invasion is mentioned as being "abundantly observed", so it's marked as "yes".
+6. There is no mention of atypia in the text, so it's marked as "NA".

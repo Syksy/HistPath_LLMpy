@@ -15,9 +15,9 @@ Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 1 in this case.
 * `sample_size_or_weight`: The size or weight of the sample, which is approximately 150mm in this case.
-* `Gleason_score`: Since the Gleason score is not explicitly mentioned in the report, I've marked it as NA (Not Available).
-* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia. In this case, since there's a suspicion of adenocarcinoma, I've marked it as false.
-* `perineural_invasion`: There's no mention of perineural invasion in the report, so I've marked it as NA.
-* `atypia`: The report mentions "tuma-atypiaa" which suggests atypical changes in the tissue, so I've marked it as true.
+* `Gleason_score`: The Gleason score is not mentioned in the report, so it is marked as NA (Not Available).
+* `benign_hyperplasia_only`: The report mentions a focus with tumor-atypia and morphological findings suggestive of adenocarcinoma, but it is not clear if it's only benign hyperplasia, so this field is marked as false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so it is marked as NA.
+* `atypia`: The report mentions tumor-atypia, so this field is marked as true.
 
 Please note that some fields may be marked as NA if the information is not available in the report.

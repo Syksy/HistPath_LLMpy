@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 12,
+  "2. Näytteiden koko": "8mm, 7mm, 5mm",
+  "3. Gleason-luokitus": "3+3",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 12, as mentioned in the phrase "3/12 biopsies".
+2. The sizes of the samples are 8mm, 7mm, and 5mm, as mentioned in the text.
+3. The Gleason score is 3+3, as mentioned in the summary.
+4. There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the text, so the answer is "ei".
+5. There is no mention of perineural growth (perineuraalinen kasvu) in the text, so the answer is "NA".
+6. The text explicitly states that "No nuclear atypia is observed", so the answer is "ei".

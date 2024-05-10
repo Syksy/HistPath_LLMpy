@@ -6,7 +6,7 @@
     "seminal vesicles": "N-O"
   },
   "Gleason score": "4+3=7",
-  "BPH detection": "no",
-  "perineural growth detection": "yes",
-  "atypia detection": "yes"
+  "BPH": "no",
+  "perineural growth": "yes",
+  "atypia": "yes"
 }

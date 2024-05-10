@@ -6,15 +6,16 @@ Here is the structured report in JSON format:
   "sample_size_or_weight": NA,
   "Gleason_score": 7,
   "benign_prostatic_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia": NA
+  "perineural_invasion": false,
+  "atypia": false
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is estimated based on the mention of multiple specimens (D-G, K-P, O-Q).
-* Sample size or weight is not mentioned in the report, so it's marked as NA.
-* Gleason score is explicitly mentioned as 7.
-* Benign prostatic hyperplasia only is set to false since the report mentions carcinoma.
-* Perineural invasion and atypia are not mentioned in the report, so they are marked as NA.
+* `number_of_samples`: 12 samples were taken from the patient, as indicated by the specimens labeled D-G, K-P, and O-Q.
+* `sample_size_or_weight`: No information is provided about the size or weight of the samples, so NA is returned.
+* `Gleason_score`: The Gleason score is 7, as stated in the report.
+* `benign_prostatic_hyperplasia_only`: The report mentions a Gleason level 7 carcinoma, which indicates that the sample is not only benign prostatic hyperplasia, so this field is set to false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to false.
+* `atypia`: There is no mention of atypia in the report, so this field is set to false.

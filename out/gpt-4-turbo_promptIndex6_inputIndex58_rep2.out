@@ -2,7 +2,7 @@
   "Näytteiden määrä": 6,
   "Näytteiden koko tai paino": "NA",
   "Näytteen Gleason luokitus": "4+3=7",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "Ei",
   "Perineuraalinen kasvu": "NA",
-  "Atypia": "NA"
+  "Atypia": "Kyllä"
 }

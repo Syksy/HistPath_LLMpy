@@ -2,17 +2,20 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "number_of_samples": 13,
+  "sample_count": 13,
   "sample_size_or_weight": "180mm",
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4,
-    "percentage_of_secondary_pattern": 30
-  },
+  "Gleason_score": "3+4",
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-Note: Since the original text does not mention perineural invasion or atypia, I have marked them as NA (Not Available).
+Here's a brief explanation for each field:
+
+* `sample_count`: The number of biopsy samples taken from the patient, which is 13 in this case.
+* `sample_size_or_weight`: The size or weight of the biopsy material, which is approximately 180mm in this case.
+* `Gleason_score`: The Gleason score of the tumor, which is 3+4 in this case, indicating that the majority of the tumor is grade 3 and a smaller portion is grade 4 (approximately 30%).
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because cancer was detected in five of the biopsy samples.
+* `perineural_invasion`: Since there is no mention of perineural invasion in the original report, the value is set to NA (not available).
+* `atypia`: Similarly, since there is no mention of atypia in the original report, the value is set to NA (not available).

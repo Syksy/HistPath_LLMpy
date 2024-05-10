@@ -1,8 +1,13 @@
 {
-  "potilaan_naytteiden_maara": 4,
-  "naytteiden_koko_tai_paino": "NA",
-  "Gleason luokitus": "4",
-  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
+  "näytteiden_määrä": 4,
+  "näytteiden_koko_tai_paino": [
+    "Näyte 2: 2mm"
+  ],
+  "Gleason luokitus": {
+    "vallitseva": 4,
+    "toinen suuri luokka": 3
+  },
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,
   "atypia": true
 }

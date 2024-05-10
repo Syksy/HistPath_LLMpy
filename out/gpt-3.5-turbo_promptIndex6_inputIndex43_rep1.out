@@ -6,6 +6,6 @@
     "toiseksi korkein taso": 4
   },
   "hyvänlaatuinen eturauhasen liikakasvu": false,
-  "perineuraalinen kasvu": true,
+  "perineuraalinen kasvu": false,
   "atypia": true
 }

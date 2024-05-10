@@ -2,20 +2,23 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Näytteiden määrä": "(6)",
-  "2. Näytteiden koko": "(ei mainittu)",
-  "3. Gleason-luokitus": "(4+4=8, 4+3=7, 3+4=7)",
-  "4. Hyvälaatuinen liikakasvu": "(ei)",
-  "5. Perineuraalinen kasvu": "(NA)",
-  "6. Atypia": "(kyllä)"
+  "1. Näytteiden määrä": "6",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": [
+    {"Pesäke 1": "4+4=8"},
+    {"Pesäke 2": "4+3=7"},
+    {"Pesäke 3": "3+4=7"}
+  ],
+  "4. Hyvälaatuinen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "kyllä"
 }
 ```
 
 Note: 
 
-* The number of samples is 6, as mentioned in the text.
-* The size of the samples is not explicitly mentioned in the text.
-* The Gleason scores are reported for each sample, with different scores for each one.
-* There is no mention of benign hyperplasia (hyvälaatuinen liikakasvu) in the text.
-* There is no mention of perineural growth (perineuraalinen kasvu) in the text, so it's marked as NA (not available).
-* Atypia is mentioned in the text as "huonosti erilaistunutta atyyppista rauhasrakennetta" which translates to poorly differentiated atypical glandular structure, so it's marked as "kyllä" (yes).
+* For question 2, the size of the biopsies is not explicitly mentioned, so I answered "NA" (not available).
+* For question 3, I listed the Gleason scores for each biopsy separately, as they are different.
+* For question 4, I answered "ei" (no) because the report mentions adenocarcinoma, which is a type of cancer, not a benign hyperplasia.
+* For question 5, I answered "NA" because there is no mention of perineural growth in the report.
+* For question 6, I answered "kyllä" (yes) because the report mentions "huonosti erilaistunutta atyyppista rauhasrakennetta" which translates to "poorly differentiated atypical glandular structure", indicating atypia.

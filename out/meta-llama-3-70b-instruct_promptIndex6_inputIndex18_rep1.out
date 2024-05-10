@@ -3,7 +3,7 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 6,
-  "sample_size_or_weight": ["4+6+3 mm", "5+7+8 mm"],
+  "sample_size_or_weight": "4+6+3 mm (left), 5+7+8 mm (right)",
   "Gleason_score": NA,
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: The number of samples taken from the patient is 6 (4+6+3 from the left and 5+7+8 from the right).
-* `sample_size_or_weight`: The sizes of the samples are provided as a list of strings, since there are multiple samples with different sizes.
-* `Gleason_score`: The Gleason score is not mentioned in the report, so it is marked as NA (Not Available).
-* `benign_hyperplasia_only`: The report mentions malignant growth and positive margins, indicating that it's not just benign hyperplasia, so this field is set to false.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so it is marked as NA.
-* `atypia`: There is no mention of atypia in the report, so it is marked as NA.
+* "number_of_samples": 6, because there are 6 samples mentioned in the report (4+6+3 on the left and 5+7+8 on the right).
+* "sample_size_or_weight": The sizes of the samples are provided, but it's noted that the indexing was incorrect and had to be corrected.
+* "Gleason_score": NA, because the Gleason score is not mentioned in the report.
+* "benign_hyperplasia_only": false, because the report mentions malignant growth and positive margins, indicating that it's not just benign hyperplasia.
+* "perineural_invasion": NA, because there is no mention of perineural invasion in the report.
+* "atypia": NA, because there is no mention of atypia in the report.

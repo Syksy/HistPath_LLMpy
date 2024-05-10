@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 2,
+  "2. Size of samples": "60mm (right), 80mm (left)",
+  "3. Gleason score": "4+5=9",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "ei"
+}
+```
+
+Note: 
+
+* "ei" means "no" in Finnish.
+* "kyllä" means "yes" in Finnish, but it was not needed in this case.
+* "NA" means "not available" or "not mentioned" in the text.

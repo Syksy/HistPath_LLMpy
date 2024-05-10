@@ -4,7 +4,7 @@ Here are the answers in JSON format:
 {
   "1. Number of samples": 12,
   "2. Size of samples": "NA",
-  "3. Gleason score": "7 (3+4)",
+  "3. Gleason score": "3+4=7",
   "4. BPH detection": "yes",
   "5. Perineural growth detection": "NA",
   "6. Atypia detection": "NA"
@@ -14,6 +14,5 @@ Here are the answers in JSON format:
 Note: 
 
 * The size of the samples is not mentioned in the text, so it's marked as "NA" (Not Available).
-* The Gleason score is mentioned as 7, and the major part is class 3, which is around 60% of the tumor. Assuming the minor part is class 4, the Gleason score can be written as 7 (3+4).
-* BPH (Benign Prostatic Hyperplasia) can be detected in the samples taken, as the text mentions "rauhasrakennetta" which translates to "glandular structure", indicating the presence of BPH.
+* BPH (Benign Prostatic Hyperplasia) is implied by the mention of "rauhasrakennetta" which translates to "glandular structure", so it's marked as "yes".
 * There is no mention of perineural growth or atypia in the text, so they are marked as "NA".

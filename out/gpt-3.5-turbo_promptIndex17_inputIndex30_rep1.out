@@ -1,0 +1,8 @@
+{
+  "samples_taken": 1,
+  "size_of_samples": "100mm",
+  "Gleason_score": "NA",
+  "BPH_detected": "NA",
+  "perineural_growth_detected": true,
+  "atypia_detected": false
+}

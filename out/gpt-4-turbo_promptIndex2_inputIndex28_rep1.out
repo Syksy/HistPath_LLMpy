@@ -6,7 +6,16 @@
     "näytteiden koko": "NA"
   },
   "3": {
-    "Gleason-luokitus": "4+3=7"
+    "Gleason-luokitus": [
+      {
+        "major": 4,
+        "minor": 3,
+        "summa": 7
+      },
+      {
+        "summa": 5
+      }
+    ]
   },
   "4": {
     "hyvälaatuinen eturauhasen liikakasvu": "ei"
@@ -16,5 +25,5 @@
   },
   "6": {
     "atypia": "ei"
-} 
+  }
 }

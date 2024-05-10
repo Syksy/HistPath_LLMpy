@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": "Otoksia on otettu yhteensä 15 kappaletta",
-  "näytteiden koko/paino": "Eri näytteiden koot vaihtelevat",
-  "Gleason luokitus": "Enimmäkseen Gleason-luokka 4, joitakin luokan 3 alueita",
-  "hyvänlaatuinen eturauhasen liikakasvu": "Ei, kyseessä on pahanlaatuinen kasvain",
-  "perineuraalinen kasvu": "Perineuraalista kasvua on runsaasti havaittavissa",
-  "atypia": "Atypiaa on havaittavissa"
+  "näytteiden määrä": "15",
+  "näytteiden koko tai paino": "Ei tiedossa",
+  "Gleason luokitus": "4 ja osittain 3",
+  "hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "perineuraalinen kasvu": "Kyllä",
+  "atypia": "Ei"
 }

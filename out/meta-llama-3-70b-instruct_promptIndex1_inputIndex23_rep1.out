@@ -11,30 +11,30 @@ The report mentions three samples: Näyte (1), Näyte (2), and Näyte (3).
 **2. Näytteiden koko:**
 ```
 {
-  "näytteen_koko": [
+  "näytteiden_koko": [
     {"näyte": 1, "koko": "8+6mm"},
     {"näyte": 2, "koko": "10mm"},
     {"näyte": 3, "koko": "5+5mm"}
   ]
 }
 ```
-The report provides the size of each sample.
+The report mentions the size of each sample.
 
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": [
+  "Gleason-luokitus": [
     {"näyte": 1, "luokitus": "3+4=7"},
     {"näyte": 2, "luokitus": "3+4=7"}
   ]
 }
 ```
-The report provides the Gleason score for samples 1 and 2.
+The report mentions the Gleason score for samples 1 and 2.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
 {
-  "hyvälaatuinen_liikakasvu": "ei"
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
 The report does not mention any benign prostatic hyperplasia.
@@ -53,4 +53,4 @@ The report does not mention perineural growth.
   "atypia": "kyllä"
 }
 ```
-The report mentions PIN-muutoksia (prostatic intraepithelial neoplasia) in samples 1 and 2, which is a type of atypia.
+The report mentions PIN-muutoksia (prostatic intraepithelial neoplasia), which is a type of atypia.

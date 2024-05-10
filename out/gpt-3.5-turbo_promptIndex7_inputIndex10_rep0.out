@@ -2,7 +2,7 @@
   "näytteiden_määrä": "O",
   "näytteiden_koko_tai_paino": "NA",
   "Gleason luokitus": "4",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "Ei",
-  "perineuraalinen_kasvu": "Kyllä",
-  "atypia": "NA"
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
+  "perineuraalinen_invaasio": "kyllä",
+  "atypia": "kyllä"
 }

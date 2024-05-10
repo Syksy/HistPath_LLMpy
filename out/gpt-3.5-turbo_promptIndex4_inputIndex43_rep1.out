@@ -1,8 +1,11 @@
 {
-  "näytteiden määrä": "1",
+  "näytteiden määrä": 1,
   "näytteiden koko tai paino": "19g",
-  "Gleason luokitus": "5",
-  "hyvänlaatuinen eturauhasen liikakasvu": "ei",
-  "perineuraalinen kasvu": "kyllä",
-  "atypia": "kyllä"
+  "Gleason luokitus": {
+    "korkein taso": 5,
+    "toiseksi korkein taso": 4
+  },
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
+  "atypia": true
 }

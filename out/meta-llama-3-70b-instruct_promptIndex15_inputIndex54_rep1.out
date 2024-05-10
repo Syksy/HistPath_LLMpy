@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("8"),
+  "2. Näytteiden koko": ("electrosection chips", "NA" as no specific size is mentioned),
+  "3. Gleason-luokitus": ("NA", as no Gleason score is mentioned),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei", as the finding is benign),
+  "5. Perineuraalinen kasvu": ("ei", as no perineural growth is mentioned),
+  "6. Atypia": ("ei", as no atypia is mentioned)
+}
+```
+
+Let me know if you need further assistance!

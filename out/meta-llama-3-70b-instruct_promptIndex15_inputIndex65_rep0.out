@@ -1,0 +1,16 @@
+Unfortunately, the provided text does not contain enough information to answer the questions. The text appears to be a summary of a patient's medical history and a plan for further action, but it does not provide specific details about the biopsy samples.
+
+Here are the answers in JSON format, with "NA" indicating that the information is not available:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+If you have access to the actual biopsy report or more detailed information, I would be happy to help you extract the relevant information.

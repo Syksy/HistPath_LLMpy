@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": "6",
-  "Näytteiden koko/paino": "4+6+3mm vasemmalta ja 5+7+8mm oikealta",
-  "Gleason luokitus": "Maligniin viittaavaa kasvua, marginaalit positiivit, vahva adenokarsinooma-suspisio",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "Perineuraalinen kasvu": "Ei mainintaa",
-  "Atypia": "Kyseenalainen laatu, suositellaan uudelleen biopsiointia"
+  "näytteiden_määrä": "6",
+  "näytteiden_koko": "4+6+3mm vasemmalta ja 5+7+8mm oikealta",
+  "Gleason luokitus": "maligniin viittaavaa kasvua, marginaalit positiivit",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "EI",
+  "perineuraalinen_kasvu": "KYLLÄ",
+  "atypia": "KYLLÄ"
 }

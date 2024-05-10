@@ -3,7 +3,7 @@ Here are the answers to the questions in JSON format:
 ```
 {
   "1. Number of samples": "NA",
-  "2. Size of samples": "19g (total), 10g (put into histology)",
+  "2. Size of samples": "19g",
   "3. Gleason score": "5+4=9",
   "4. BPH detection": "NA",
   "5. Perineural growth detection": "NA",
@@ -13,7 +13,7 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* The number of samples is not explicitly mentioned, so it's marked as 'NA'.
-* The size of samples is given in grams, both for the total amount and the amount put into histology.
-* The Gleason score is calculated by adding the highest level (5) and the second highest level (4).
-* There is no mention of BPH, perineural growth, or atypia in the given text, so they are all marked as 'NA'.
+* The number of samples is not explicitly mentioned in the text, so it's marked as "NA".
+* The size of the samples is 19g, which is the total weight of the prostate shavings.
+* The Gleason score is 5+4=9, which is the highest and second-highest levels mentioned in the text.
+* BPH, perineural growth, and atypia are not mentioned in the text, so they are marked as "NA".

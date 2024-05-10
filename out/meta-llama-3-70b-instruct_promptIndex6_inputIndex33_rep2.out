@@ -18,11 +18,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is assumed to be 2, as there are two separate measurements mentioned for the right and left sides.
-* The sample size or weight is reported separately for the right and left sides.
-* The Gleason score is broken down into primary, secondary, and total scores.
-* Benign hyperplasia only is set to false, as a carcinoma is found in one of the samples.
-* Perineural invasion is marked as NA, as it is not mentioned in the original report.
-* Atypia is set to false, as no atypical changes are mentioned in the original report.
+* `number_of_samples`: The number of samples taken from the patient, which is 2 in this case (one from the right and one from the left).
+* `sample_size_or_weight`: The size or weight of each sample, which is provided in millimeters (mm) for both the right and left samples.
+* `Gleason_score`: The Gleason score is broken down into its primary, secondary, and total components. In this case, the primary score is 4, the secondary score is 5, and the total score is 9 (4+5).
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, the answer is false, since a carcinoma was found in sample B.
+* `perineural_invasion`: This field indicates whether perineural invasion (i.e., cancer cells invading the nerves) is present. Since this information is not mentioned in the original report, the value is set to NA (not available).
+* `atypia`: This field indicates whether atypia (i.e., abnormal cell changes) is present. Since the report does not mention any atypia, the value is set to false.

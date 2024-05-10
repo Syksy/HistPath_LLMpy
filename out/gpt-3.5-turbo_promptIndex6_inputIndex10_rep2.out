@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": "Oletettavasti 15 näytettä",
-  "näytteiden koko tai paino": "Ei saatavilla",
+  "näytteiden_määrä": "O",
+  "näytteiden_koko_tai_paino": "Makroleikkeet",
   "Gleason luokitus": "Gleason luokka 4 pääosin, jonkin verran luokkaa 3",
-  "hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "perineuraalinen invaasio": "Kyllä, runsaasti havaittavissa",
-  "atypia": "Ei mainintaa atypiasta"
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "Ei",
+  "perineuraalinen_invaasio": "Kyllä",
+  "atypia": "Ei"
 }

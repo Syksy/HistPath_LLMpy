@@ -1,0 +1,10 @@
+Here is the JSON object with the extracted information:
+
+{
+"sample_count": 12,
+"sample_size": ["8mm", "7mm", "5mm"],
+"gleason_score": "3+3",
+"benign_hyperplasia": "NA",
+"perineural_growth": "NA",
+"atypia": "ei"
+}

@@ -11,11 +11,11 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* The number of samples is assumed to be 1, as there is no indication of multiple samples.
-* The size of the sample is 100mm.
-* There is no mention of Gleason score, so it's marked as NA (Not Available).
-* There is no clear indication of benign hyperplasia, so it's marked as "ei" (no).
-* Perineural growth is suspected, so it's marked as "kyllä" (yes).
-* There is no mention of atypia, so it's marked as NA (Not Available).
+1. The text only mentions one sample, so the answer is 1.
+2. The sample is 100mm in length.
+3. There is no mention of Gleason score, so the answer is NA (not available).
+4. The text does not mention any benign prostatic hyperplasia, so the answer is ei (no).
+5. The text explicitly mentions perineural growth, so the answer is kyllä (yes).
+6. There is no mention of atypia, so the answer is NA (not available).

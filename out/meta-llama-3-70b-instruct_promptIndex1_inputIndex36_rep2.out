@@ -1,7 +1,7 @@
 I'll go through the questions one by one and provide the answers in JSON format.
 
 **1. Näytteiden määrä:**
-The report mentions that the prostatectomy preparation has been tested, which is run on cassettes according to the normal formula, with Apex in specimens D-G, base in specimens K-P, and seminal vesicles O-Q. This implies that there are multiple specimens, but the exact number is not explicitly stated.
+The report mentions that the prostatectomy preparation has been tested, which is run on cassettes according to the normal formula. Apex in specimens D-G, base in specimens K-P, seminal vesicles O-Q. This implies that there are multiple specimens, but the exact number is not explicitly stated.
 
 Answer: `{"Näytteiden määrä": "NA"}`
 
@@ -29,3 +29,16 @@ Answer: `{"Perineuraalinen kasvu": "NA"}`
 There is no mention of atypia in the report.
 
 Answer: `{"Atypia": "NA"}`
+
+Here are the answers in a single JSON object:
+
+```
+{
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```

@@ -2,19 +2,25 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "(a. Näytteiden määrä)": 6,
-  "(b. Näytteiden koko)": [4, 6, 3, 5, 7, 8],
-  "(c. Gleason-luokitus)": "NA",
-  "(d. Eturauhasen hyvälaatuinen liikakasvu)": "ei",
-  "(e. Perineuraalinen kasvu)": "NA",
-  "(f. Atypia)": "NA"
+  "a. Näytteiden määrä": 6,
+  "b. Näytteiden koko": [4, 6, 3, 5, 7, 8],
+  "c. Gleason-luokitus": "NA",
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question a, the number of samples is 6 (3 from the left and 3 from the right).
-* For question b, the sizes of the samples are listed as an array.
-* For question c, there is no mention of Gleason score in the report, so the answer is "NA".
-* For question d, the report mentions malignant growth and adenocarcinoma suspicion, but not benign growth, so the answer is "ei" (no).
-* For questions e and f, there is no mention of perineural growth or atypia in the report, so the answers are "NA".
+a. The patient has 6 biopsy samples in total.
+
+b. The sizes of the samples are 4, 6, 3, 5, 7, and 8 mm.
+
+c. There is no mention of Gleason score in the report, so the answer is "NA".
+
+d. The report mentions "malignant growth" and "strong adenocarcinoma suspicion", but not "hyvälaatuinen liikakasvu" (benign growth), so the answer is "ei".
+
+e. There is no mention of perineural growth in the report, so the answer is "NA".
+
+f. There is no mention of atypia in the report, so the answer is "NA".

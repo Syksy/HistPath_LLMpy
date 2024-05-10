@@ -4,7 +4,7 @@
   "Gleason_luokitus": {
     "suurempi_osuus": 3,
     "pienempi_osuus": 4,
-    "pienemmän_osuuden_prosenttiosuus": 30
+    "pienemmän_osuuden_prosenttiosuus": "30%"
   },
   "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
   "perineuraalinen_kasvu": "NA",

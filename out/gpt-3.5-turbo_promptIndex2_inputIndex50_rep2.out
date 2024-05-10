@@ -1,7 +1,7 @@
 {
   "näytteiden määrä": 6,
-  "näytteiden koko": ["5mm", "10mm"],
-  "Gleason-luokitus": ["4+4=8", "4+3=7", "7"],
+  "näytteiden koko": "kolonit 1 ja 2 noin 5mm ja 10mm vasemmalta keskeltä, kolonit 3 ja 4 oikealta keskeltä",
+  "Gleason-luokitus": "4+4=8, 4+3=7, 7 (3+4)",
   "hyvälaatuinen eturauhasen liikakasvu": "kyllä",
   "perineuraalinen kasvu": "ei",
   "atypia": "kyllä"

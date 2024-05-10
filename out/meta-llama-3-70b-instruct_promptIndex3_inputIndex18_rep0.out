@@ -3,18 +3,12 @@ Here are the answers in JSON format:
 ```
 {
   "1. Number of samples": 6,
-  "2. Size of samples": "4+6+3 mm, 5+7+8 mm",
+  "2. Size of samples": "4+6+3 mm and 5+7+8 mm",
   "3. Gleason score": "NA",
   "4. BPH detection": "NA",
   "5. Perineural growth detection": "NA",
-  "6. Atypia detection": "yes"
+  "6. Atypia detection": "NA"
 }
 ```
 
-Note: 
-
-* The number of samples is 6 (4+6+3 from the left and 5+7+8 from the right).
-* The size of the samples is given as two separate measurements: 4+6+3 mm and 5+7+8 mm.
-* The Gleason score is not mentioned in the text, so it's marked as "NA".
-* There is no mention of BPH or perineural growth in the text, so they are marked as "NA".
-* Atypia is implied by the phrase "maligniin viittaavaa kasvua" which translates to "growth suggestive of malignancy", so it's marked as "yes".
+Note: The Gleason score, BPH detection, perineural growth detection, and atypia detection are not explicitly mentioned in the provided text, so I've marked them as "NA" (Not Available).

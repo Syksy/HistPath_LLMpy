@@ -10,7 +10,8 @@
         "gleason_3_percentage": "60%",
         "gleason_4_percentage": "40%"
       },
-      "diagnosis": "Gleason 7 adenocarcinoma"
+      "perineural_invasion": "NA",
+      "atypia": "NA"
     },
     {
       "sample_number": 2,
@@ -21,7 +22,8 @@
         "gleason_3_percentage": "70%",
         "gleason_4_percentage": "30%"
       },
-      "diagnosis": "Gleason 7 adenocarcinoma"
+      "perineural_invasion": "NA",
+      "atypia": "NA"
     },
     {
       "sample_number": 3,
@@ -29,9 +31,11 @@
       "tissue_cylinder_length": "5+5mm",
       "tumor_tissue_length": "NA",
       "gleason_score": "NA",
-      "diagnosis": "Benign prostatic hyperplasia"
+      "perineural_invasion": "NA",
+      "atypia": "NA"
     }
   ],
-  "perineural_invasion": "NA",
-  "atypia": "NA"
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": false,
+  "atypia": false
 }

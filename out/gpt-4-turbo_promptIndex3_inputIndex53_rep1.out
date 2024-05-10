@@ -6,8 +6,8 @@
     "Sample 3": "5+5 mm"
   },
   "3. What is the Gleason score of the samples?": {
-    "Sample 1": "7 (3+4)",
-    "Sample 2": "7 (3+4)",
+    "Sample 1": "3+4=7",
+    "Sample 2": "3+4=7",
     "Sample 3": "NA"
   },
   "4. Can BPH be detected in the samples taken?": "no",

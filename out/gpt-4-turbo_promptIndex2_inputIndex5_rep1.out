@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": "kaikki",
-  "näytteiden koko": "noin 5g",
-  "Gleason-luokitus": "8",
-  "hyvälaatuinen eturauhasen liikakasvu": "NA",
-  "perineuraalinen kasvu": "NA",
-  "atypia": "NA"
+  "1": "NA",
+  "2": "noin 5g",
+  "3": "8",
+  "4": "ei",
+  "5": "ei",
+  "6": "ei"
 }

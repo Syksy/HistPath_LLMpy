@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": "7, 6 and 2mm",
+  "3. Gleason score": "3+4=7",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "NA"
+}
+```
+
+Note: 
+
+* "ei" in Finnish means "no".
+* "NA" means "not available" or "not mentioned" in the text.
+* The Gleason score is reported as major+minor=sum, where major is the most common pattern and minor is the second most common pattern. In this case, the Gleason score is 3+4=7.

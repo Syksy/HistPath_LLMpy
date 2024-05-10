@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Here's a brief explanation for each field:
 
-* `sample_count`: The report mentions multiple samples (D-G apex, basis K-P, seminaalivehikkeleitä O-Q), so I've entered "multiple" as the value.
-* `sample_size_or_weight`: There is no mention of sample size or weight in the report, so I've entered "NA".
-* `Gleason_score`: The report mentions Gleason 7-tasoista karsinoomaa, with a score of 3 in approximately 60% of the findings. I've entered this as "7 (3+4)".
-* `benign_hyperplasia_only`: The report mentions tuumori (tumor) and kasvainta (cancer), indicating that it's not just benign hyperplasia. So, I've entered "ei" (no).
-* `perineural_invasion`: There is no mention of perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua in the report, so I've entered "ei" (no).
-* `atypia`: There is no mention of atypiaa eli tavallisesta kudoksesta poikkeavia muutoksia in the report, so I've entered "ei" (no).
+* `sample_count`: The report mentions multiple samples (D-G apex, basis, and seminaalivehikkeleitä), so I've entered "multiple" as the value.
+* `sample_size_or_weight`: There is no mention of the size or weight of the samples, so I've entered "NA" (not available).
+* `Gleason_score`: The report mentions a Gleason score of 7, with a major component of 3 and a minor component of 4 (although not explicitly stated, it can be inferred from the text).
+* `benign_hyperplasia_only`: The report mentions a tumor, so it's not a case of benign hyperplasia only, hence "ei" (no).
+* `perineural_invasion`: There is no mention of perineural invasion, so I've entered "ei" (no).
+* `atypia`: There is no mention of atypia, so I've entered "ei" (no).

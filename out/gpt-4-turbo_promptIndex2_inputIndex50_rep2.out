@@ -5,9 +5,7 @@
     {"Colony 1": "4+4=8"},
     {"Colony 2": "4+3=7"},
     {"Colony 3": "3+4=7"},
-    {"Colony 4": "NA"},
-    {"Colony 5": "NA"},
-    {"Colony 6": "NA"}
+    {"Rest of the samples": "NA"}
   ],
   "4": "kyllä",
   "5": "ei",

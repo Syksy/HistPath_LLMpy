@@ -1,8 +1,8 @@
 {
   "Biopsioiden lukumäärä": "koko elin yhtenä näytteenä",
-  "Näytteiden koko tai paino": "10 mm, 7 mm, 15 mm, 10 mm",
-  "Näytteen Gleason luokitus": "3+4=7",
-  "Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu": "ei",
-  "Onko näytteessä havaittu perineuraalista kasvua": "kyllä",
-  "Onko näytteessä havaittu atypiaa": "kyllä"
+  "Näytteiden koko tai paino": "vasen puoli: 10 mm ja 7 mm, oikea puoli: 15 mm ja 10 mm",
+  "Gleason luokitus": "3+4=7",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "kyllä",
+  "Atypia": "ei"
 }

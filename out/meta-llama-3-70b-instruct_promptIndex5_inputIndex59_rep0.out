@@ -3,9 +3,9 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 3,
-  "sample_size_or_weight": "30mm",
-  "Gleason_score": 7,
-  "benign_hyperplasia_only": false,
+  "sample_size": "30mm",
+  "gleason_score": 7,
+  "benign_hyperplasia": false,
   "perineural_invasion": false,
   "atypia": false
 }
@@ -13,11 +13,9 @@ Here is the structured report in JSON format:
 
 Here's a brief explanation for each field:
 
-* `sample_count`: The number of biopsies taken, which is 3 in this case.
-* `sample_size_or_weight`: The total length of the biopsies, which is 30mm.
-* `Gleason_score`: The Gleason score, which is 7 (with a breakdown of 3+4).
-* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia. In this case, it's false because carcinoma foci are present.
-* `perineural_invasion`: This field indicates whether perineural invasion is present. In this case, it's false because there's no mention of it in the report.
-* `atypia`: This field indicates whether atypia is present. In this case, it's false because there's no mention of it in the report.
-
-Let me know if you have any further questions or if you'd like me to clarify anything!
+* `sample_count`: The number of biopsies taken from the patient, which is 3 in this case.
+* `sample_size`: The total length of the biopsies, which is 30mm.
+* `gleason_score`: The Gleason score of the carcinoma, which is 7 (3+4).
+* `benign_hyperplasia`: This field indicates whether the sample shows only benign hyperplasia (i.e., no cancer). In this case, it's false because the sample shows carcinoma.
+* `perineural_invasion`: This field indicates whether the sample shows perineural invasion (i.e., cancer growth around nerves). In this case, it's false because there's no mention of perineural invasion in the report.
+* `atypia`: This field indicates whether the sample shows atypia (i.e., abnormal cell changes). In this case, it's false because there's no mention of atypia in the report.

@@ -3,6 +3,19 @@ I'll go through the questions one by one and provide the answers in JSON format.
 **1. Näytteiden määrä:**
 The answer is: {"näytteiden_määrä": 12}
 
-Reasoning: The report states "The shavings obtained from planing were cut into 12 tissue blocks."
+**2. Näytteiden koko:**
+The answer is: {"näytteiden_koko": "NA"}
 
-**Next question, please!**
+**3. Gleason-luokitus:**
+The answer is: {"Gleason-luokitus": "3+4=7"}
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+The answer is: {"hyvälaatuinen_eturauhasen_liikakasvu": "ei"}
+
+**5. Perineuraalinen kasvu:**
+The answer is: {"perineuraalinen_kasvu": "NA"}
+
+**6. Atypia:**
+The answer is: {"atypia": "NA"}
+
+Let me know if you need any further assistance!

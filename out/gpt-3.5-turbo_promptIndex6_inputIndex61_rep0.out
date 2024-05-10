@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": "Yksi näyte",
-  "näytteiden_koko_tai_paino": "Ei tietoa",
-  "Gleason luokitus": "NA",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "Kyllä",
-  "perineuraalinen_pahanlaatuinen_kasvu": "Ei havaittu",
-  "atypia": "Ei havaittu"
+  "näytteiden määrä": "Ei mainintaa",
+  "näytteiden koko tai paino": "Ei mainintaa",
+  "Gleason luokitus": "Ei mainintaa",
+  "hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
+  "perineuraalinen kasvu": "Ei",
+  "atypia": "Ei"
 }

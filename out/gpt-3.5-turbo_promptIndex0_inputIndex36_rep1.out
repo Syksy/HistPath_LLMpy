@@ -1,8 +1,8 @@
 {
-    "Näytteiden määrä": "7",
-    "Näytteiden koko": "Apex: D-G, Base: K-P, Seminal vesicles: O-Q",
-    "Gleason-luokitus": "7",
-    "Eturauhasen hyvälaatuinen liikakasvu": "Ei",
-    "Perineuraalinen kasvu": "Ei",
-    "Atypia": "Ei"
+  "Näytteiden määrä": "16",
+  "Näytteiden koko": "Apex: D-G, Base: K-P, Seminal vesicles: O-Q",
+  "Gleason-luokitus": "7",
+  "Eturauhasen hyvälaatuinen liikakasvu": "Ei",
+  "Perineuraalinen kasvu": "Ei",
+  "Atypia": "Ei"
 }

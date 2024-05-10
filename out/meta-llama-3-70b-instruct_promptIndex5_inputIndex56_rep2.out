@@ -11,13 +11,11 @@ Based on the provided free-text histopathological report, I will convert it into
 }
 ```
 
-Here's a brief explanation for each field:
+Here's a brief explanation of each field:
 
 * `sample_count`: The number of needle biopsies taken from the patient, which is 12 in this case.
 * `sample_size`: The total length of the samples, which is approximately 150 mm.
-* `gleason_score`: Since the Gleason score is not mentioned in the report, I've assigned it a value of NA (Not Available).
-* `benign_hyperplasia`: This field indicates whether the report suggests benign growth, which is true in this case.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've assigned it a value of false.
-* `atypia`: Similarly, there is no mention of atypia in the report, so I've assigned it a value of false.
-
-Let me know if you have any further questions or if you'd like me to process more reports!
+* `gleason_score`: Since the Gleason score is not mentioned in the report, it is marked as NA (Not Available).
+* `benign_hyperplasia`: This field is set to true, indicating that the report mentions "mostly benign growth" and "hyperplastic-like epithelium".
+* `perineural_invasion`: This field is set to false, as there is no mention of perineural invasion in the report.
+* `atypia`: This field is set to false, as there is no mention of atypia or any abnormal changes in the report.

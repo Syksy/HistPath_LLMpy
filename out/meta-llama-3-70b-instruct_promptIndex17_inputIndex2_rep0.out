@@ -1,0 +1,10 @@
+Here are the answers in JSON format:
+
+{
+"1. Näytteiden määrä": "3",
+"2. Näytteiden koko": "90mm",
+"3. Gleason-score": "NA",
+"4. BPH:n havaitseminen": "kyllä, mahdollisesti hyperplasia",
+"5. Perineuraalisen kasvun havaitseminen": "NA",
+"6. Atypian havaitseminen": "ei"
+}

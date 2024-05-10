@@ -7,10 +7,7 @@
     "14mm"
   ],
   "Gleason luokitus": {
-    "Näyte 4": {
-      "Gleason 3": "90%",
-      "Gleason 4": "10%"
-    }
+    "Näyte 4": "Gleason 3 (90%), Gleason 4 (10%)"
   },
   "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
   "Perineuraalinen invaasio": "Ei",

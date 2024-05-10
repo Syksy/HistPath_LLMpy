@@ -1,19 +1,26 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
+```
 {
-"a. Näytteiden määrä": "NA",
-"b. Näytteiden koko": 150,
-"c. Gleason-luokitus": "NA",
-"d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
-"e. Perineuraalinen kasvu": "NA",
-"f. Atypia": "kyllä"
+  "(Näytteiden määrä)": "NA",
+  "(Näytteiden koko)": 150,
+  "(Gleason-luokitus)": "NA",
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(Perineuraalinen kasvu)": "NA",
+  "(Atypia)": "kyllä"
 }
+```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question a, the number of samples is not explicitly stated, so I answered "NA".
-* For question b, the length of the biopsy sample is given as approximately 150mm.
-* For question c, there is no mention of Gleason score, so I answered "NA".
-* For question d, there is no indication of benign prostatic hyperplasia, so I answered "ei".
-* For question e, there is no mention of perineural growth, so I answered "NA".
-* For question f, atypia is mentioned in the report, so I answered "kyllä".
+a. The number of samples taken is not explicitly mentioned, so the answer is "NA".
+
+b. The length of the samples is mentioned as "n. 150mm", so the answer is 150.
+
+c. The Gleason score is not mentioned in the report, so the answer is "NA".
+
+d. There is no mention of benign prostatic hyperplasia, so the answer is "ei".
+
+e. There is no mention of perineural growth, so the answer is "NA".
+
+f. Atypia is mentioned in the report, so the answer is "kyllä".

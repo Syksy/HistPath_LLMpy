@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 6,
-  "sample_size_or_weight": null,
+  "sample_size_or_weight": "macrosections",
   "Gleason_score": "4+4",
   "benign_hyperplasia_only": false,
-  "perineural_invasion": null,
-  "atypia": null
+  "perineural_invasion": false,
+  "atypia": false
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 6, as there are six macrosections mentioned in the report.
-* `sample_size_or_weight`: NA, as no specific size or weight is mentioned for each sample.
-* `Gleason_score`: "4+4", as the Gleason score is reported to be 4+4 in the apex and mostly 3+4 in the base.
-* `benign_hyperplasia_only`: false, as adenocarcinoma (malignant) is found in the samples.
-* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report.
-* `atypia`: NA, as there is no mention of atypia in the report.
+* `sample_count`: The number of samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The size or weight of the samples, which is described as "macrosections" in this case.
+* `Gleason_score`: The Gleason score of the sample, which is 4+4 in this case.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because adenocarcinoma was found.
+* `perineural_invasion`: A boolean indicating whether perineural invasion (i.e., cancer growth around nerves) was found. In this case, it's false because there's no mention of it in the report.
+* `atypia`: A boolean indicating whether atypia (i.e., abnormal cell changes) was found. In this case, it's false because there's no mention of it in the report.

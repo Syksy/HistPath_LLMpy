@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": 3,
-  "Näytteiden koko tai paino": "90mm",
-  "Gleason luokitus": "NA",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Yes",
-  "Perineuraalinen kasvu": "No",
+  "Number_of_samples": 3,
+  "Sample_size_or_weight": "Total length of samples is 90mm",
+  "Gleason_score": "NA",
+  "Benign_prostatic_hyperplasia": "Yes",
+  "Perineural_invasion": "No",
   "Atypia": "No"
 }

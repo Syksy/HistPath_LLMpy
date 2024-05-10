@@ -4,7 +4,7 @@ Here is the structured report in JSON format:
 {
   "number_of_samples": 4,
   "sample_size_or_weight": ["10mm", "8mm", "14mm", "14mm"],
-  "Gleason_score": {"primary": 3, "secondary": 4},
+  "Gleason_score": "3+4",
   "benign_hyperplasia_only": false,
   "perineural_invasion": false,
   "atypia": NA
@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: There are 4 samples taken from the patient.
-* `sample_size_or_weight`: The sizes of the samples are 10mm, 8mm, 14mm, and 14mm.
-* `Gleason_score`: The Gleason score is reported as a combination of primary (3) and secondary (4) scores.
-* `benign_hyperplasia_only`: This is set to false because the report mentions adenocarcinoma in sample 4.
-* `perineural_invasion`: This is set to false because the report explicitly states that perineural invasion is not seen in any of the samples.
-* `atypia`: This is set to NA because there is no mention of atypia in the report.
+* "number_of_samples": 4, because there are 4 biopsy samples mentioned in the report.
+* "sample_size_or_weight": an array of sizes, because each sample has a different size.
+* "Gleason_score": "3+4", because the report mentions Gleason 3 (90%) and Gleason 4 (10%).
+* "benign_hyperplasia_only": false, because the report mentions adenocarcinoma in sample 4.
+* "perineural_invasion": false, because the report explicitly states that perineural invasion is not seen.
+* "atypia": NA, because the report does not mention atypia.

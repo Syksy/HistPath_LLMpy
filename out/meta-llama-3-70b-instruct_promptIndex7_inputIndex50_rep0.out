@@ -5,14 +5,21 @@ Here is the structured report in JSON format:
   "number_of_biopsies": 6,
   "biopsy_size_or_weight": NA,
   "Gleason_score": [
-    {"score": 8, "primary_grade": 4, "secondary_grade": 4},
-    {"score": 7, "primary_grade": 4, "secondary_grade": 3},
-    {"score": 7, "primary_grade": 3, "secondary_grade": 4}
+    {"score": 8, "primary": 4, "secondary": 4},
+    {"score": 7, "primary": 4, "secondary": 3},
+    {"score": 7, "primary": 3, "secondary": 4}
   ],
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
-  "atypia_present": true
+  "atypia": true
 }
 ```
 
-Note: I assumed that the presence of adenocarcinoma and atypical glandular structure indicates that the biopsy is not only benign hyperplasia. If this assumption is incorrect, please let me know.
+Note: 
+
+* The number of biopsies is 6, as stated in the report.
+* The biopsy size or weight is not mentioned in the report, so it is marked as NA.
+* The Gleason scores are reported for three colonies, with their corresponding primary and secondary grades.
+* The report mentions adenocarcinoma, which is a malignant tumor, so "benign_hyperplasia_only" is set to false.
+* There is no mention of perineural invasion in the report, so it is marked as NA.
+* Atypia is mentioned in the report, specifically in the description of Colony 1, so it is marked as true.

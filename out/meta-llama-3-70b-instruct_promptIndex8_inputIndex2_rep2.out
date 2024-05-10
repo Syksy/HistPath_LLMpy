@@ -5,10 +5,10 @@ Here is the structured report in JSON format:
   "sample_count": 3,
   "sample_size_or_weight": "90mm",
   "Gleason_score": NA,
-  "benign_hyperplasia_only": "kyllä",
+  "benign_hyperplasia": "kyllä",
   "perineural_invasion": "ei",
   "atypia": "ei"
 }
 ```
 
-Note: I assumed that the presence of hyperplasia and the absence of atypia or malignant findings indicate that the sample is benign, hence `benign_hyperplasia_only` is set to `"kyllä"`. If this assumption is incorrect, please let me know.
+Note: I assumed that the presence of hyperplasia-like features in one of the samples indicates benign hyperplasia, but this might not be a definitive conclusion. If you want to be more cautious, you could replace "kyllä" with "NA" for this field.

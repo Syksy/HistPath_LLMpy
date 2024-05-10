@@ -3,22 +3,17 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 4,
-  "sample_size_or_weight": {
-    "sample_1": "10mm",
-    "sample_2": "8mm",
-    "sample_3": "14mm",
-    "sample_4": "14mm"
-  },
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4,
-    "percentage_primary_pattern": 90,
-    "percentage_secondary_pattern": 10
-  },
+  "sample_size_or_weight": [
+    {"sample": 1, "size": 10, "unit": "mm"},
+    {"sample": 2, "size": 8, "unit": "mm"},
+    {"sample": 3, "size": 14, "unit": "mm"},
+    {"sample": 4, "size": 14, "unit": "mm"}
+  ],
+  "Gleason_score": {"sample": 4, "score": 3, "percentage": 90, "pattern": "glandular structures"},
   "benign_hyperplasia_only": false,
   "perineural_invasion": false,
   "atypia": NA
 }
 ```
 
-Note: Since there is no mention of atypia in the original report, I have returned NA (Not Available) for that field.
+Note: I assumed that the unit of measurement for sample size is millimeters (mm) based on the provided text. If this is not the case, please let me know and I'll adjust the response accordingly. Also, I returned NA for atypia since it was not mentioned in the original text.

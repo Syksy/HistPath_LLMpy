@@ -1,8 +1,8 @@
 {
-  "Näytteiden lukumäärä": "NA",
-  "Näytteiden koko tai paino": "NA",
+  "näytteiden lukumäärä": "NA",
+  "näytteiden koko tai paino": "NA",
   "Gleason luokitus": "NA",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu havaittu": "NA",
-  "Atypia havaittu": "NA"
+  "hyvänlaatuinen eturauhasen liikakasvu": "NA",
+  "perineuraalinen pahanlaatuinen kasvu": "NA",
+  "atypia": "NA"
 }

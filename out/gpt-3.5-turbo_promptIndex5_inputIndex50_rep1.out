@@ -2,11 +2,14 @@
   "Biopsy": {
     "Number of samples": 6,
     "Sample size/weight": "NA",
-    "Gleason score": "4+4=8, 4+3=7, 3+4=7",
-    "Benign prostatic hyperplasia": "No",
-    "Perineural invasion": "No",
-    "Atypia": "Yes"
-  },
-  "Radical prostatectomy": "NA",
-  "TURP chip": "NA"
+    "Gleason score": {
+      "Colony 1": "4+4=8",
+      "Colony 2": "4+3=7",
+      "Colony 3": "3+4=7",
+      "Other samples": "NA"
+    },
+    "Benign prostatic hyperplasia": false,
+    "Perineural invasion": false,
+    "Atypia": true
+  }
 }

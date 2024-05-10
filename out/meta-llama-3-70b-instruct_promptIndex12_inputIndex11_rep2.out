@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 13,
+  "Näytteiden koko": "180mm",
+  "Gleason-luokitus": "3+4",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The text mentions "Biopsioita yhteensä 13 kpl", which means there are 13 biopsy samples.
+2. Näytteiden koko: The text mentions "materiaalia noin 180mm", which indicates the size of the biopsy material.
+3. Gleason-luokitus: The text mentions "luokkaa 3 ja pienempi osuus 4 (jälkimmäisen osuus noin 30% löydetystä tuumorista)", which suggests a Gleason score of 3+4.
+4. Hyvälaatuinen eturauhasen liikakasvu: The text does not mention anything about benign prostatic hyperplasia, and since it mentions cancer (karsinoomaa), it's likely that there is no benign hyperplasia.
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the text, so the answer is NA.
+6. Atypia: There is no mention of atypia in the text, so the answer is NA.

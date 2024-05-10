@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Näytteen lukumäärä": "12",
+  "2. Näytteen koko": "8mm, 7mm, 5mm",
+  "3. Gleason-piste": "3",
+  "4. BPH:n havaitseminen": "NA",
+  "5. Perineuraalisen kasvun havaitseminen": "NA",
+  "6. Atypian havaitseminen": "Ei"
+}
+```
+
+Note: BPH (Benign Prostatic Hyperplasia) and perineural growth are not mentioned in the text, so the answers are NA (Not Available).

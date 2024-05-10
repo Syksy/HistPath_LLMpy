@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": "kolme kudoskasettia",
+  "näytteiden määrä": "4",
   "näytteiden koko/paino": "4g",
   "Gleason luokitus": "NA",
-  "hyvänlaatuinen eturauhasen liikakasvu": "kyllä",
-  "perineuraalinen kasvu": "ei havaittu",
-  "atypia": "ei havaittu"
+  "hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
+  "perineuraalinen kasvu": "Ei",
+  "atypia": "Ei"
 }

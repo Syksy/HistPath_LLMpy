@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": "NA",
+  "3. Gleason score": "3+4=7/60%/NA",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "ei",
+  "6. Atypia detection": "ei"
+}
+```
+
+Note: 
+
+* The number of samples is 3, as there are three types of samples mentioned: D-G apex, basis näytteissä K-P, and seminaalivehikkeleitä O-Q.
+* The size of samples is not mentioned, so it's marked as NA (Not Available).
+* The Gleason score is 7, with a major score of 3 and a minor score of 4, and 60% of the samples are affected.
+* BPH (Benign Prostatic Hyperplasia) is not mentioned, so it's marked as "ei" (no).
+* Perineural growth is not mentioned, so it's marked as "ei" (no).
+* Atypia is not mentioned, so it's marked as "ei" (no).

@@ -3,6 +3,6 @@
   "naytteiden_koko_tai_paino": "100mm",
   "Gleason luokitus": "NA",
   "hyvanlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu_havaittu": true,
-  "atypia_havaittu": false
+  "perineuraalinen_kasvu": true,
+  "atypia": false
 }

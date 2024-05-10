@@ -1,0 +1,8 @@
+{
+  "number of samples": 6,
+  "size of samples": "biopsy cylinders",
+  "Gleason score": "NA",
+  "BPH": "kyllä",
+  "perineural growth": "ei",
+  "atypia": "ei"
+}

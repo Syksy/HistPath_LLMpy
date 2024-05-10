@@ -1,0 +1,19 @@
+Here are the answers to the questions based on the histopathological report:
+
+**Numerical answers**
+
+{
+"(Näytteiden määrä)": 6,
+"(Näytteiden koko)": [5, 10], // multiple values, but no single answer
+"(Gleason-luokitus)": [8, 7, 7] // multiple values, but no single answer
+}
+
+**Boolean answers**
+
+{
+"(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+"(Perineuraalinen kasvu)": "NA",
+"(Atypia)": "kyllä"
+}
+
+Note: For questions 2 and 3, there are multiple values mentioned in the report, but no single answer can be provided. For question 5, there is no clear answer in the report, so "NA" is provided.

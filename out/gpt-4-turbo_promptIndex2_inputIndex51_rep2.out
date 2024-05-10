@@ -1,8 +1,8 @@
 {
-  "1. Kuinka monta näytettä potilaalta on otettu?": "3",
-  "2. Mikä on otettujen näytteiden koko?": "4g",
-  "3. Mikä on näytteiden Gleason-luokitus?": "NA",
-  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "kyllä",
-  "5. Onko näytteessä havaittu perineuraalista kasvua?": "ei",
-  "6. Onko näytteessä havaittu atypiaa?": "ei"
+  "1. Näytteiden määrä": 3,
+  "2. Näytteiden koko": "4g",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
 }

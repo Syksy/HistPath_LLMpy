@@ -1,7 +1,7 @@
 {
   "näytteiden määrä": 6,
-  "näytteiden koko": "kolonia 1: 5mm, kolonia 2: 10mm",
-  "Gleason-luokitus": "kolonia 1: 4+4=8, kolonia 2: 4+3=7, kolonia 3: 3+4=7",
+  "näytteiden koko": ["5mm", "10mm"],
+  "Gleason-luokitus": ["4+4=8", "4+3=7", "7"],
   "hyvälaatuinen eturauhasen liikakasvu": "kyllä",
   "perineuraalinen kasvu": "ei",
   "atypia": "kyllä"

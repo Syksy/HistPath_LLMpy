@@ -19,10 +19,10 @@ There is no mention of the size of the samples in the report.
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "3+4=7"
+  "Gleason-luokitus": "3+4=7"
 }
 ```
-The report mentions "E-F nähdään valtaosa kasvusta Gleason-luokkaa 3 (noin 60%), loput luokkaa 4, siis 3+4=7."
+The report mentions "E-F nähdään valtaosa kasvusta Gleason-luokkaa 3 (noin 60%), loput luokkaa 4, siis 3+4=7".
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -38,7 +38,7 @@ There is no clear mention of benign prostatic hyperplasia in the report.
   "perineuraalinen_kasvu": "ei"
 }
 ```
-The report explicitly states that there is no perineural invasion: "eikä vesikkeli- tai perineuraali-invaasiota".
+The report mentions "eikä vesikkeli- tai perineuraali-invaasiota", which means there is no perineural invasion.
 
 **6. Atypia:**
 ```

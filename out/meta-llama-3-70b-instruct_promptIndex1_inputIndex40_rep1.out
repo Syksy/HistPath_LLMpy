@@ -20,7 +20,7 @@ The report does not mention the size of the samples. Therefore, the answer is:
 The report mentions that the prevailing Gleason class is 4, and there is also some class 3. Therefore, the answer is:
 ```
 {
-  "Gleason_luokitus": "4+3=7"
+  "Gleason-luokitus": "4+3=7"
 }
 ```
 
@@ -48,4 +48,4 @@ The report does not mention atypia. Therefore, the answer is:
 }
 ```
 
-Let me know if you'd like me to proceed with anything else!
+Let me know if you'd like me to proceed with the next set of questions!

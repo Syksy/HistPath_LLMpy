@@ -7,15 +7,15 @@ Here is the structured report in JSON format:
   "Gleason_score": "4+4, 3+4",
   "benign_hyperplasia_only": "ei",
   "perineural_invasion": "ei",
-  "atypia": "NA"
+  "atypia": "ei"
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: The number of samples taken from the patient is 6 (macrosections).
-* `sample_size_or_weight`: The sizes of the foci of the malignant samples are approximately 8mm and 5mm.
-* `Gleason_score`: The Gleason scores are 4+4 and 3+4.
-* `benign_hyperplasia_only`: Since adenocarcinoma is found, this is not a case of benign hyperplasia only, so the answer is "ei" (no).
-* `perineural_invasion`: There is no mention of perineural invasion, so the answer is "ei" (no).
-* `atypia`: There is no mention of atypia, so the answer is "NA" (not available).
+* `sample_count`: 6, because the report mentions "six macrosections" were made.
+* `sample_size_or_weight`: "8mm, 5mm", because the report mentions the sizes of the foci of the malignant samples.
+* `Gleason_score`: "4+4, 3+4", because the report mentions the Gleason scores in different sections of the prostate.
+* `benign_hyperplasia_only`: "ei", because the report mentions adenocarcinoma, which is a malignant tumor.
+* `perineural_invasion`: "ei", because the report does not mention perineural invasion.
+* `atypia`: "ei", because the report does not mention atypia.

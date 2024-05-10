@@ -14,10 +14,10 @@ Based on the provided histopathological report, I will convert it into a structu
 Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 8 in this case.
-* `sample_size_or_weight`: There is no information about the size or weight of the samples, so I returned NA (Not Available).
-* `Gleason_score`: There is no Gleason score mentioned in the report, so I returned NA.
-* `benign_hyperplasia_only`: The report mentions that the finding is benign, and there is no indication of malignancy, so I set this to true.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I set this to false.
-* `atypia`: There is no mention of atypia in the report, so I set this to false.
+* `sample_size_or_weight`: The size or weight of the samples is not mentioned in the report, so I've marked it as NA (Not Available).
+* `Gleason_score`: The Gleason score is not mentioned in the report, so I've marked it as NA.
+* `benign_hyperplasia_only`: The report mentions that the finding is benign, indicating that only benign hyperplasia is present.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked it as false.
+* `atypia`: There is no mention of atypia in the report, so I've marked it as false.
 
-Please note that if any information is missing or not mentioned in the report, I will return NA as per your instructions.
+Please note that if any information is not available in the report, I will mark it as NA.

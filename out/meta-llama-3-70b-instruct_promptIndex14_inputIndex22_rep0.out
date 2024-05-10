@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "9 (A-C, D-E, F-G, H-I)",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "Gleason luokka 3 ja luokan 4 erilaistumista melkein yhtä paljon",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Note: The answers are based on the provided text and may not be exhaustive or definitive.

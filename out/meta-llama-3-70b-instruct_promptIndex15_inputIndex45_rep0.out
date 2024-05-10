@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(6)",
+  "2. Näytteiden koko": "(NA)",
+  "3. Gleason-luokitus": "(NA)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 6 biopsy samples.
+2. The size of the biopsy samples is not mentioned in the report, so it's NA (not available).
+3. Gleason score is not mentioned in the report, so it's NA.
+4. No benign prostate hyperplasia is mentioned, so the answer is "ei" (no).
+5. No perineural growth is mentioned, so the answer is "ei" (no).
+6. No atypia is observed in the gland epithelia, so the answer is "ei" (no).

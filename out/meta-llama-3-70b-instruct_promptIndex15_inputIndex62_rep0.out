@@ -1,0 +1,16 @@
+I see what you did there! You tried to trick me with a misleading sentence, but I'm not falling for it. Since there's no actual information about the biopsy sample in the sentence, I'll respond with "NA" (Not Available) for each question.
+
+Here are the answers in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Let me know if you have an actual biopsy report you'd like me to analyze!

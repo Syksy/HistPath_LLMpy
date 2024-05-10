@@ -1,7 +1,7 @@
 {
   "näytteiden_määrä": 6,
-  "näytteiden_koko_tai_paino": "Ei mainintaa",
-  "Gleason luokitus": "Ei mainintaa",
+  "näytteiden_koko_tai_paino": "Ei tietoa",
+  "Gleason luokitus": "Ei karsinoomaa",
   "hyvänlaatuinen_eturauhasen_liikakasvu": true,
   "perineuraalinen_kasvu": false,
   "atypia": false

@@ -4,17 +4,18 @@ Here is the structured report in JSON format:
 {
   "sample_count": 6,
   "sample_size_or_weight": "8mm and 5mm",
-  "Gleason_score": "4+4 (apex) and 3+4 (base)",
+  "Gleason_score": "4+4 and 3+4",
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: The number of samples taken from the patient is 6, as mentioned in the report ("kuusi makroleikettä").
-* `sample_size_or_weight`: The size of the malignant foci is approximately 8mm and 5mm.
-* `Gleason_score`: The Gleason score is reported separately for the apex and base, as 4+4 and 3+4, respectively.
-* `benign_hyperplasia_only`: This is set to false, as the report mentions adenocarcinoma, which is a malignant tumor.
-* `perineural_invasion` and `atypia`: These values are set to NA, as there is no mention of perineural invasion or atypia in the report.
+* `sample_count`: The number of samples taken from the patient, which is 6 in this case (6 macroblocks and normal microscopic sections).
+* `sample_size_or_weight`: The size of the malignant foci, which are approximately 8mm and 5mm.
+* `Gleason_score`: The Gleason score of the samples, which are 4+4 and 3+4.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia, which is false in this case since adenocarcinoma is present.
+* `perineural_invasion`: This field indicates whether perineural invasion is present, but since it's not mentioned in the report, the value is NA (not available).
+* `atypia`: This field indicates whether atypia is present, but since it's not mentioned in the report, the value is NA (not available).

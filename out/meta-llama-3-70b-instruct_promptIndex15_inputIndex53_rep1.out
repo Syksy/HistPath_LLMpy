@@ -1,0 +1,19 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("3"),
+  "2. Sample size": ("8+6mm", "10mm", "5+5mm"),
+  "3. Gleason score": ("3+4=7", "3+4=7", "NA"),
+  "4. Presence of PIN changes": ("kyllä", "kyllä", "ei"),
+  "5. Presence of perineural growth": ("ei", "ei", "ei"),
+  "6. Presence of atypia": ("kyllä", "kyllä", "ei")
+}
+```
+
+Note: 
+
+* For question 3, the Gleason score is reported as major+minor=summa, where summa is the total Gleason score.
+* For question 4, PIN (Prostatic Intraepithelial Neoplasia) changes are considered a type of atypia, so the answer is "kyllä" (yes) for samples 1 and 2, and "ei" (no) for sample 3.
+* For question 5, there is no mention of perineural growth in the report, so the answer is "ei" (no) for all samples.
+* For question 6, the answer is "kyllä" (yes) for samples 1 and 2, and "ei" (no) for sample 3, since PIN changes are a type of atypia.

@@ -1,13 +1,18 @@
 {
   "Näytteiden määrä": 4,
-  "Näytteiden koko tai paino": [
-    "10mm",
-    "8mm",
-    "14mm",
-    "14mm"
-  ],
-  "Näytteen Gleason luokitus": "Gleason 3 (90%) + Gleason 4 (10%)",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen invaasio": "Ei",
-  "Atypia": "NA"
+  "Näytteiden koko tai paino": {
+    "Näyte 1": "10mm",
+    "Näyte 2": "8mm",
+    "Näyte 3": "14mm",
+    "Näyte 4": "14mm"
+  },
+  "Näytteen Gleason luokitus": {
+    "Näyte 1": "NA",
+    "Näyte 2": "NA",
+    "Näyte 3": "NA",
+    "Näyte 4": "Gleason 3 (90%) ja Gleason 4 (10%)"
+  },
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "Perineuraalista invaasiota": "Ei",
+  "Atypiaa": "Kyllä, näytteessä 4"
 }

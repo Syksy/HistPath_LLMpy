@@ -1,0 +1,14 @@
+Based on the provided histopathological report, I will convert it into a structured format in JSON. Here is the response:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_prostatic_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+The reason for returning NA (Not Available) for all fields is that the provided report does not contain any information related to the specific questions asked. The report appears to be a summary of the patient's medical history and treatment plan, but it does not include any histopathological findings or results.

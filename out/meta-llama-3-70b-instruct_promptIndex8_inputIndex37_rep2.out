@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: 6, as there are 6 representative prostate biopsies.
-* `sample_size_or_weight`: "120mm", as the total size of the samples is approximately 120mm.
-* `Gleason_score`: NA, as there is no mention of a Gleason score in the report.
-* `benign_hyperplasia_only`: "ei", as the report mentions basal cell hyperplasia, but also notes that a definite cancer diagnosis cannot be given, indicating that it's not only benign hyperplasia.
-* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report.
-* `atypia`: NA, as there is no mention of atypia in the report.
+* "number_of_samples": 6, because the report mentions 6 representative prostate biopsies.
+* "sample_size_or_weight": "120mm", because the report mentions the total size of the samples as approximately 120mm.
+* "Gleason_score": NA, because the report does not mention a Gleason score.
+* "benign_hyperplasia_only": "ei", because the report mentions basal cell hyperplasia, but also mentions a suspicious finding, indicating that it's not only benign hyperplasia.
+* "perineural_invasion": NA, because the report does not mention perineural invasion.
+* "atypia": NA, because the report does not mention atypia.

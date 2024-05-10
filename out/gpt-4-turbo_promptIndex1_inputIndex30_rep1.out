@@ -1,11 +1,11 @@
 {
-  "1. Näytteiden määrä": "NA",
-  "2. Näytteiden koko": {
-    "koko": 100,
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": {
+    "numeerinen arvo": 100,
     "määre": "mm"
   },
-  "3. Gleason-luokitus": "NA",
-  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
-  "5. Perineuraalinen kasvu": "kyllä",
-  "6. Atypia": "NA"
+  "Gleason-luokitus": "NA",
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "kyllä",
+  "Atypia": "NA"
 }

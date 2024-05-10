@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 1,
-  "sample_size_or_weight": "150mm",
+  "sample_size_or_weight": "approx. 150mm",
   "Gleason_score": NA,
   "benign_hyperplasia_only": NA,
   "perineural_invasion": NA,
-  "atypia": true
+  "atypia": "yes"
 }
 ```
 
 Explanation:
 
-* `number_of_samples`: Although the report doesn't explicitly state the number of samples, it mentions "sample 1B" and "other samples", implying that there is at least one sample. Therefore, I've assumed the number of samples to be 1.
-* `sample_size_or_weight`: The report mentions the total length of the samples to be approximately 150mm.
-* `Gleason_score`: There is no mention of Gleason score in the report, so I've marked it as NA (Not Available).
-* `benign_hyperplasia_only`: The report doesn't explicitly state whether the sample shows only benign hyperplasia, so I've marked it as NA.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked it as NA.
-* `atypia`: The report mentions "nuclear atypia" in sample 1B, indicating the presence of atypia.
+* "number_of_samples": 1, because the report mentions "sample 1B" and does not indicate multiple samples.
+* "sample_size_or_weight": "approx. 150mm", because the report mentions the total length of the sample.
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": NA, because the report does not explicitly state that the sample only shows benign hyperplasia.
+* "perineural_invasion": NA, because the report does not mention perineural invasion.
+* "atypia": "yes", because the report mentions "nuclear atypia" in sample 1B.

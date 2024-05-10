@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: 6, as mentioned in the report ("Samples 1-6...").
-* `sample_size_or_weight`: NA, as this information is not provided in the report.
-* `Gleason_score`: NA, as this information is not provided in the report.
-* `benign_hyperplasia_only`: true, as the report states that only benign prostate tissue is seen and no carcinoma or PIN changes are found.
-* `perineural_invasion`: false, as there is no mention of perineural invasion in the report.
-* `atypia`: false, as the report states that no significant atypia is observed in the gland epithelia.
+* "number_of_samples": 6, because the report mentions "Samples 1-6".
+* "sample_size_or_weight": NA, because the report does not provide information about the size or weight of the samples.
+* "Gleason_score": NA, because the report does not mention a Gleason score.
+* "benign_hyperplasia_only": true, because the report states that "benign prostate tissue is seen" and "no carcinoma or PIN changes are found in the samples".
+* "perineural_invasion": false, because the report does not mention perineural invasion.
+* "atypia": false, because the report states that "no significant atypia is observed in the gland epithelia".

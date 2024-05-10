@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 13
 }
 ```
-The biopsy report mentions that there are 13 biopsies (näytteitä) in total.
+The biopsy report mentions that there are 13 biopsies in total.
 
 **2. Näytteiden koko:**
 ```
@@ -15,6 +15,38 @@ The biopsy report mentions that there are 13 biopsies (näytteitä) in total.
   "määre": "mm"
 }
 ```
-The biopsy report mentions that the material is approximately 180 mm in size.
+The biopsy report mentions that the material is approximately 180 mm.
 
-Let me know when you're ready for me to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "3+4"
+}
+```
+The biopsy report mentions that the Gleason score is 3+4, with a larger proportion of grade 3 and a smaller proportion of grade 4 (approximately 30%).
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The biopsy report does not mention benign prostatic hyperplasia, and instead, it mentions carcinoma in five biopsies.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+The biopsy report does not mention perineural growth.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+The biopsy report does not mention atypia.
+
+Let me know if you need further assistance!

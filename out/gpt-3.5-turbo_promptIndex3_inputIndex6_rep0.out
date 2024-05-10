@@ -1,9 +1,9 @@
 {
   "number of samples": 16,
   "size of samples": {
-    "apex": "D-G",
-    "basis": "K-P",
-    "seminaalivehikkeleitä": "O-Q"
+    "D-G": "apexia",
+    "K-P": "basis",
+    "O-Q": "seminaalivehikkeleitä"
   },
   "Gleason score": "3+4=7",
   "BPH": "no",

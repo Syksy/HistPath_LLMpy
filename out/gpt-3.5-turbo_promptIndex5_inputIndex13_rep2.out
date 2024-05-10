@@ -1,8 +1,8 @@
 {
   "Näytteiden määrä": "noin 19",
-  "Näytteiden koko tai paino": "19g, josta laitettu 10g histologiaan",
-  "Gleason luokitus": "eniten tasoa 5 ja toiseksi eniten tasoa 4",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "Perineuraalinen kasvu": "Kyllä",
-  "Atypia": "Kyllä"
+  "Näytteiden koko tai paino": "19g",
+  "Gleason luokitus": "5",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "EI",
+  "Perineuraalinen kasvu": "KYLLÄ",
+  "Atypia": "KYLLÄ"
 }

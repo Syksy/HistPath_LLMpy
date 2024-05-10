@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("6"),
+  "2. Sample size": ("NA"),
+  "3. Gleason score": ("4+3=7"),
+  "4. Well-differentiated growth": ("ei"),
+  "5. Perineural growth": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 6 biopsy samples (1 base right, 2 center right, 3 apex right, 4 base left, 5 center left, 6 apex left).
+2. The size of the samples is not specified, so the answer is NA (not available).
+3. The Gleason score is 4+3=7, which indicates poorly differentiated growth.
+4. There is no well-differentiated growth observed in the samples, so the answer is "ei" (no).
+5. There is no mention of perineural growth in the report, so the answer is "ei" (no).
+6. There is no mention of atypia in the report, so the answer is "ei" (no).

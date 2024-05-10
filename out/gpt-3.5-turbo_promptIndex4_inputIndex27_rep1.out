@@ -1,7 +1,7 @@
 {
   "näytteiden_määrä": 12,
-  "näytteiden_koko": ["oikean basiksen 8mm pituinen biopsia", "oikean basiksen 7mm pituinen biopsia", "vasemman basiksen 5mm biopsia"],
-  "Gleason luokitus": ["Gleason 3 arkkitehtuuri", "Gleason 3 arkkitehtuuri", "Gleason 3 arkkitehtuuri"],
+  "näytteiden_koko": ["oikean basiksen 8mm pituinen biopsia", "oikean basiksen 7mm pituinen biopsia", "vasemmalla basiksessa 5mm"],
+  "Gleason luokitus": ["Gleason 3 arkkitehtuuri"],
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,
   "atypia": false

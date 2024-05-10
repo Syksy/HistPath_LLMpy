@@ -1,0 +1,8 @@
+{
+  "number of samples": 4,
+  "size of samples": [10, 8, 14, 14],
+  "Gleason score": "3+4=7/7/NA",
+  "BPH detection": "ei",
+  "perineural growth detection": "no",
+  "atypia detection": "kyllä"
+}

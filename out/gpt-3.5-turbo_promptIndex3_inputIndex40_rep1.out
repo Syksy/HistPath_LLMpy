@@ -1,8 +1,8 @@
 {
-	"number of samples": 15,
-	"size of samples": "macrosections",
-	"major+minor=sum": "4+3=7",
-	"BPH": "no",
-	"perineural growth": "yes",
-	"atypia": "yes"
+  "number of samples": 15,
+  "size of samples": "macrosections",
+  "Gleason score": "4+3=7",
+  "BPH detection": "no",
+  "perineural growth detection": "yes",
+  "atypia detection": "yes"
 }

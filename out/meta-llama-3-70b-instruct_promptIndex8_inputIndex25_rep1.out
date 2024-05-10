@@ -4,17 +4,18 @@ Here is the structured report in JSON format:
 {
   "sample_count": 4,
   "sample_size_or_weight": "2mm",
-  "Gleason_score": "4+3=7",
+  "Gleason_score": "4+3",
   "benign_hyperplasia_only": "ei",
   "perineural_invasion": "NA",
   "atypia": "NA"
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 4, because there are 4 samples mentioned in the report.
-* `sample_size_or_weight`: "2mm", because the report mentions a 2mm area of adenocarcinoma in sample 2.
-* `Gleason_score`: "4+3=7", because the report mentions that the dominant Gleason score is 4, but 3 is almost as prominent.
-* `benign_hyperplasia_only`: "ei", because the report mentions adenocarcinoma, which is a malignant tumor.
-* `perineural_invasion` and `atypia`: both are "NA" because there is no mention of these features in the report.
+* `sample_count`: The number of samples taken from the patient, which is 4 in this case.
+* `sample_size_or_weight`: The size of the sample, which is 2mm in this case.
+* `Gleason_score`: The Gleason score, which is 4+3 in this case, indicating a dominant Gleason score of 4 and a secondary score of 3.
+* `benign_hyperplasia_only`: Whether the sample only shows benign hyperplasia, which is "ei" (no) in this case, since the sample shows adenocarcinoma.
+* `perineural_invasion`: Whether perineural invasion is present, which is "NA" (not available) in this case, since it's not mentioned in the report.
+* `atypia`: Whether atypia is present, which is "NA" (not available) in this case, since it's not mentioned in the report.

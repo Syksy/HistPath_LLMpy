@@ -1,8 +1,8 @@
 {
-  "näytteiden lukumäärä": "NA",
-  "näytteiden koko tai paino": "19g",
-  "Gleason luokitus": "5+4=9",
-  "hyvänlaatuinen eturauhasen liikakasvu": "ei",
-  "perineuraalinen kasvu": "kyllä",
-  "atypia": "kyllä"
+  "Biopsioiden lukumäärä": "NA",
+  "Näytteiden koko tai paino": "19g",
+  "Näytteen Gleason luokitus": "5+4=9",
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen pahanlaatuinen kasvu": "kyllä",
+  "Atypia": "kyllä"
 }

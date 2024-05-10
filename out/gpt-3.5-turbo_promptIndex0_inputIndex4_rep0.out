@@ -1,8 +1,8 @@
 {
   "Näytteiden määrä": 1,
-  "Näytteiden koko": 150,
-  "Gleason-luokitus": 3,
-  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "Näytteiden koko": "150mm",
+  "Gleason-luokitus": "Suspisio-asteelle",
+  "Eturauhasen hyvälaatuinen liikakasvu": "NA",
   "Perineuraalinen kasvu": "NA",
-  "Atypia": "kyllä"
+  "Atypia": "Kyllä"
 }

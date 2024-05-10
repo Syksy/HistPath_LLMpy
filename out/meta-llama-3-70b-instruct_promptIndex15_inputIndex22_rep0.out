@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(9)",
+  "2. Näytteiden koko": "(macro- ja seminaalivehikkeleitä)",
+  "3. Gleason-luokitus": "(3+4=7/7/NA)",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples taken is 9 (A-C, D-E, F-G, H-I).
+2. The samples are macro- and seminal vesicle samples.
+3. The Gleason score is 3+4=7, with a dominant Gleason 3 and a significant amount of Gleason 4.
+4. There is no benign prostatic hyperplasia (BPH) mentioned in the report, so the answer is "ei" (no).
+5. There is no perineural invasion mentioned in the report, so the answer is "ei" (no).
+6. There is no atypia mentioned in the report, so the answer is "ei" (no).

@@ -1,7 +1,7 @@
 {
   "näytteiden määrä": 2,
-  "näytteiden koko": "vasemman puolen fragmentit 10 ja 7 mm, oikean puolen fragmentit 15 ja 10 mm",
-  "Gleason luokitus": "3",
+  "näytteiden koko": ["vasen: 10 mm, 7 mm", "oikea: 15 mm, 10 mm"],
+  "Gleason luokitus": ["vasen: 3+4", "oikea: ei pahanlaatuista kasvua"],
   "hyvänlaatuinen eturauhasen liikakasvu": false,
   "perineuraalinen kasvu": true,
   "atypia": true

@@ -1,10 +1,7 @@
 {
   "näytteiden määrä": 13,
   "näytteiden koko/paino": "noin 180mm",
-  "Gleason luokitus": {
-    "luokka 3": "isompi osuus",
-    "luokka 4": "pienempi osuus (noin 30% tuumorista)"
-  },
+  "Gleason luokitus": "luokka 3 ja luokka 4 (30%)",
   "hyvänlaatuinen eturauhasen liikakasvu": false,
   "perineuraalinen kasvu": false,
   "atypia": true

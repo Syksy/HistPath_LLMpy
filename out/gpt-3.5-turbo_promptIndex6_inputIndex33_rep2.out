@@ -4,7 +4,10 @@
     "oikea": "60mm",
     "vasen": "80mm"
   },
-  "Gleason luokitus": 9,
+  "Gleason luokitus": {
+    "näyte_B": 9,
+    "muut_näytteet": 3
+  },
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,
   "atypia": false

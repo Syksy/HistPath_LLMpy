@@ -1,24 +1,19 @@
 {
   "Potilaan tiedot": {
     "Näytteiden määrä": "Kaseteissa normaalin tavan mukaan otetut prostatabiopsioat",
-    "Näytteiden kokonaispituus": "n. 150mm"
+    "Näytteiden koko tai paino": "Kokonaispituus n. 150mm"
   },
-  "Näyte 1B": {
-    "Kohta": "oikeasta basiksesta",
-    "Havainnot": "fokus, jossa pieniä rauhasrakenteita",
-    "Tulokset": {
-      "Tuma-atypia": "kyllä",
-      "Gleason luokitus": "suspisio-asteelle"
-    }
+  "Näyte 1": {
+    "Gleason luokitus": "Suspisio-asteelle",
+    "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+    "Perineuraalinen kasvu": "Ei havaittu",
+    "Atypia": "Tuma-atypiaa ja morfologinen löydös vastaisi adenokarsinoomaa"
   },
   "Muut näytteet": {
-    "Havainnot": "normaalia rauhaskudosta"
-  },
-  "Johtopäätös": {
-    "Diagnoosi": "adenokarsinooma",
-    "Hyvänlaatuinen eturauhasen liikakasvu": "ei mainintaa",
-    "Perineuraalinen kasvu": "ei havaittu",
-    "Atypia": "ei mainintaa"
+    "Gleason luokitus": "Ei mainittu",
+    "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
+    "Perineuraalinen kasvu": "Ei mainittu",
+    "Atypia": "Ei mainittu"
   },
   "Lääkärin tiedot": {
     "Nimi": "Lauri Lääkäri",

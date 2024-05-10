@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("2"),
+  "2. Sample size": ("60mm and 80mm"),
+  "3. Gleason score": ("4+5=9"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural invasion": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Note: 
+
+* Question 4: There is no mention of benign prostatic hyperplasia in the report, so the answer is "ei" (no).
+* Question 5: There is no mention of perineural invasion in the report, so the answer is "ei" (no).
+* Question 6: There is no mention of atypia in the report, so the answer is "ei" (no).

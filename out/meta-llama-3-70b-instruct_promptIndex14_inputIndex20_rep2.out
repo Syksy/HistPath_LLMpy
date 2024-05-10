@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 6,
+  "2. Minkä kokoisia otetut näytteet ovat?": NA,
+  "3. Mikä on näytteiden Gleason-luokitus?": [8, 7, 7],
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": false,
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": NA,
+  "6. Onko näytteessä havaittu atypiaa?": true
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 6 biopsy samples.
+2. The size of the biopsy samples is not specified in the report.
+3. The Gleason scores are 8, 7, and 7 for the three samples with cancerous tissue.
+4. There is no mention of benign prostatic hyperplasia (BPH) in the report, so it's assumed to be false.
+5. There is no mention of perineural invasion in the report, so it's marked as NA.
+6. The report mentions "huonosti erilaistunutta atyyppista rauhasrakennetta" which translates to "poorly differentiated atypical glandular tissue", so atypia is present.

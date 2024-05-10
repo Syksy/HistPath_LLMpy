@@ -2,19 +2,20 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "number_of_samples": 2,
+  "sample_count": 2,
   "sample_size_or_weight": {"right": "60mm", "left": "80mm"},
-  "Gleason_score": {"primary": 4, "secondary": 5, "total": 9},
+  "Gleason_score": {"primary": 5, "secondary": 4, "total": 9},
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: There are two samples mentioned in the report, one from the right side and one from the left side.
-* `sample_size_or_weight`: The sizes of the samples are given as 60mm for the right side and 80mm for the left side.
-* `Gleason_score`: The Gleason score is reported as 9 (4+5), with a primary score of 4 and a secondary score of 5.
-* `benign_hyperplasia_only`: This is set to false because the report mentions carcinoma (cancer) in sample B.
-* `perineural_invasion` and `atypia`: These values are set to NA (Not Available) because they are not mentioned in the report.
+* `sample_count`: The number of samples taken from the patient, which is 2 in this case (one from the right and one from the left).
+* `sample_size_or_weight`: The size or weight of each sample, which is 60mm for the right sample and 80mm for the left sample.
+* `Gleason_score`: The Gleason score of the sample, which is 9 (4+5) in this case, with a primary score of 5 and a secondary score of 4.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia, which is false in this case since cancer is present.
+* `perineural_invasion`: The presence of perineural invasion, which is not mentioned in the report, so it is marked as NA (not available).
+* `atypia`: The presence of atypia, which is not mentioned in the report, so it is marked as NA (not available).

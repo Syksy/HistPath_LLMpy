@@ -1,24 +1,21 @@
 {
-  "number_of_samples": 6,
-  "sample_size": "Not available",
-  "Gleason_classification": [
+  "näytteiden määrä": 6,
+  "näytteiden koko tai paino": "Ei tiedossa",
+  "Gleason luokitus": [
     {
-      "sample_number": 1,
-      "Gleason_score": "4+4=8",
-      "tissue_description": "Adenocarcinoma"
+      "näyte": "Colony 1",
+      "luokitus": "4+4=8"
     },
     {
-      "sample_number": 2,
-      "Gleason_score": "4+3=7",
-      "tissue_description": "Carcinoma with 80% grade 4"
+      "näyte": "Colony 2",
+      "luokitus": "4+3=7"
     },
     {
-      "sample_number": 3,
-      "Gleason_score": "3+4=7",
-      "tissue_description": "Find with 70:30% ratio of grades 3 and 4"
+      "näyte": "Colony 3",
+      "luokitus": "3+4=7"
     }
   ],
-  "benign_prostatic_hyperplasia": true,
-  "perineural_invasion": false,
+  "hyvänlaatuinen eturauhasen liikakasvu": false,
+  "perineuraalinen kasvu": false,
   "atypia": true
 }

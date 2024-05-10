@@ -1,49 +1,33 @@
 I'll go through the questions one by one and provide the answers in JSON format.
 
 **1. Näytteiden määrä:**
-The number of samples is mentioned in the report as 6.
-```
-{
-  "näytteiden_määrä": 6
-}
-```
+The number of samples is mentioned in the report: "Prostate core biopsy samples to be examined according to the routine chart: 1 base right, 2 center right, 3 apex right, 4 base left, 5 center left, 6 apex left."
+
+Answer: `{ "näytteiden_määrä": 6 }`
 
 **2. Näytteiden koko:**
-The size of the samples is mentioned as "<1mm" for samples 5-6.
-```
-{
-  "näytteiden_koko": "<1mm"
-}
-```
+The size of the samples is mentioned in the report: "In samples 5-6 from a small area (<1mm)..."
+
+Answer: `{ "näytteiden_koko": "<1mm" }`
 
 **3. Gleason-luokitus:**
-The Gleason score is mentioned as "Gleason 4+3=7" and also "Gleason 5".
-```
-{
-  "Gleason_luokitus": ["4+3=7", "5"]
-}
-```
+The Gleason score is mentioned in the report: "Gleason 5 growth patterns are seen, but mainly poorly differentiated Gleason 4+3=7 growth is observed."
+
+Answer: `{ "Gleason-luokitus": "4+3=7" }`
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 There is no mention of benign prostatic hyperplasia in the report.
-```
-{
-  "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
-}
-```
+
+Answer: `{ "hyvälaatuinen_eturauhasen_liikakasvu": "NA" }`
 
 **5. Perineuraalinen kasvu:**
 There is no mention of perineural growth in the report.
-```
-{
-  "perineuraalinen_kasvu": "NA"
-}
-```
+
+Answer: `{ "perineuraalinen_kasvu": "NA" }`
 
 **6. Atypia:**
 There is no mention of atypia in the report.
-```
-{
-  "atypia": "NA"
-}
-```
+
+Answer: `{ "atypia": "NA" }`
+
+Let me know if you need anything else!

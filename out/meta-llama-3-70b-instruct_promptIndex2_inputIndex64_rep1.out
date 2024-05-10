@@ -1,0 +1,16 @@
+It seems like there's an error in the SQL query, and the query parameters are not found. Unfortunately, this means that I won't be able to extract the information from the histopathological report.
+
+Here are the answers in JSON format, with "NA" indicating that the information is not available due to the error:
+
+```
+{
+  "sample_count": "NA",
+  "sample_amount": "NA",
+  "gleason_grade": "NA",
+  "patient_bph": "NA",
+  "sample_perineural_invasion": "NA",
+  "sample_atypia": "NA"
+}
+```
+
+If you could provide the correct histopathological report or fix the SQL query, I'd be happy to help you extract the information!

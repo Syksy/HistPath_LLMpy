@@ -13,6 +13,6 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* For question a, the number of samples is not explicitly mentioned, so I answered 'NA'.
-* For question d, the lausunto mentions adenokarsinoomaa, which is a type of cancer, so it's not a benign growth (hyvälaatuinen liikakasvu). Therefore, I answered 'ei'.
-* For questions e and f, there is no mention of perineuraalinen kasvu or atypia in the lausunto, so I answered 'NA'.
+* For question a, the number of samples is not explicitly mentioned, so the answer is "NA".
+* For question d, the lausunto mentions adenokarsinoomaa, which is a type of cancer, not a benign growth, so the answer is "ei".
+* For questions e and f, there is no mention of perineuraalinen kasvu or atypia in the lausunto, so the answers are "NA".

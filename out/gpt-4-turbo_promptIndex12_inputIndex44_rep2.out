@@ -1,0 +1,13 @@
+{
+  "Näytteiden määrä": 4,
+  "Näytteiden koko": [
+    {"sample": 1, "size": "10mm"},
+    {"sample": 2, "size": "8mm"},
+    {"sample": 3, "size": "14mm"},
+    {"sample": 4, "size": "14mm"}
+  ],
+  "Gleason-luokitus": "3+4=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "NA"
+}

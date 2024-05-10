@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": 4,
-  "Näytteiden koko tai paino": ["10mm", "8mm", "14mm", "14mm"],
-  "Näytteen Gleason luokitus": "Gleason 3 (90%), Gleason 4 (10%)",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "Ei",
-  "Atypia": "NA"
+  "number_of_samples": 4,
+  "sample_sizes": ["10mm", "8mm", "14mm", "14mm"],
+  "Gleason_score": "3+4=7",
+  "benign_prostatic_hyperplasia": false,
+  "perineural_invasion": false,
+  "atypia": true
 }

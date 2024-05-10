@@ -3,8 +3,8 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 2,
-  "sample_size_or_weight": {"right": "60mm", "left": "80mm"},
-  "Gleason_score": {"primary": 4, "secondary": 5, "total": 9},
+  "sample_size_or_weight": "60mm (right), 80mm (left)",
+  "Gleason_score": 9,
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
@@ -13,8 +13,8 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: The report mentions two samples, one from the right and one from the left.
-* `sample_size_or_weight`: The sizes of the samples are given as 60mm for the right sample and 80mm for the left sample.
-* `Gleason_score`: The Gleason score is reported as 9 (4+5), so I broke it down into primary, secondary, and total scores.
-* `benign_hyperplasia_only`: Since the report mentions carcinoma, this is set to false.
-* `perineural_invasion` and `atypia`: These values are not mentioned in the report, so I returned NA (Not Available) instead of making an uncertain assumption.
+* "number_of_samples": 2, because there are two biopsy samples mentioned (right and left).
+* "sample_size_or_weight": "60mm (right), 80mm (left)", because the sizes of the samples are given in millimeters.
+* "Gleason_score": 9, because the Gleason score is explicitly mentioned as 9 (4+5).
+* "benign_hyperplasia_only": false, because the report mentions carcinoma, which is a malignant tumor.
+* "perineural_invasion" and "atypia": NA, because there is no mention of these features in the report.

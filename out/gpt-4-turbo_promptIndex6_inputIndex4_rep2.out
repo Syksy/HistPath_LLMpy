@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": "NA",
-  "näytteiden_koko_tai_paino": "kokonaispituus n. 150mm",
-  "Gleason_luokitus": "NA",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei mainintaa",
-  "perineuraalinen_kasvu": "ei mainintaa",
-  "atypia": "kyllä, näytteessä 1B tuma-atypiaa"
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko tai paino": "kokonaispituus n. 150mm",
+  "Gleason luokitus": "NA",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "ei mainintaa, muissa näytteissä normaalia rauhaskudosta",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "kyllä, näytteessä 1B tuma-atypiaa"
 }

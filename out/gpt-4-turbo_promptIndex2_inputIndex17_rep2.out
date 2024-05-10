@@ -1,8 +1,20 @@
 {
-  "1": 4,
-  "2": "vasemman puolen fragmentit pituudeltaan 10 ja 7mm, oikean puolen 15 ja 10mm",
-  "3": "3+4=7",
-  "4": "ei",
-  "5": "kyllä",
-  "6": "ei"
+  "1": {
+    "näytteiden määrä": 4
+  },
+  "2": {
+    "näytteiden koko": "vasemman puolen fragmentit 10 mm ja 7 mm, oikean puolen fragmentit 15 mm ja 10 mm"
+  },
+  "3": {
+    "Gleason-luokitus": "3+4=7"
+  },
+  "4": {
+    "hyvälaatuinen eturauhasen liikakasvu": "ei"
+  },
+  "5": {
+    "perineuraalinen kasvu": "kyllä"
+  },
+  "6": {
+    "atypia": "ei"
+  }
 }

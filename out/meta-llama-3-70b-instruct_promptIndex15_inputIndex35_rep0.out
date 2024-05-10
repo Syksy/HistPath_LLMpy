@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("about 5g"),
+  "2. Näytteiden koko": ("not specified"),
+  "3. Gleason-luokitus": ("4+4=8"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Note: 
+
+* For question 2, the size of individual samples is not specified, only the total weight of 5g is mentioned.
+* For question 4, since the diagnosis is adenocarcinoma, it is a malignant tumor, so there is no benign hyperplasia.
+* For questions 5 and 6, there is no mention of perineural growth or atypia in the report, so the answer is "ei" (no).

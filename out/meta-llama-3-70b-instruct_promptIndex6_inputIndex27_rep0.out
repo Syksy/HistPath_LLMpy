@@ -4,9 +4,9 @@ Here is the structured report in JSON format:
 {
   "number_of_samples": 12,
   "sample_size_or_weight": [
-    {"location": "right base", "size": "8mm"},
-    {"location": "right base", "size": "7mm"},
-    {"location": "left base", "size": "5mm"}
+    {"sample": "Right base", "size": "8mm"},
+    {"sample": "Right base", "size": "7mm"},
+    {"sample": "Left base", "size": "5mm"}
   ],
   "Gleason_score": 3,
   "benign_hyperplasia_only": false,
@@ -15,11 +15,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is 12, as mentioned in the report.
-* The sample size or weight is reported for three locations: right base (8mm and 7mm) and left base (5mm).
-* The Gleason score is 3, as mentioned in the report.
-* Benign hyperplasia only is set to false, as the report mentions adenocarcinoma.
-* Perineural invasion is set to NA, as it is not mentioned in the report.
-* Atypia is set to false, as the report explicitly states that no atypia was found.
+* `number_of_samples`: The number of biopsies taken from the patient, which is 12 in this case.
+* `sample_size_or_weight`: An array of objects, each containing the size of a biopsy sample. Note that not all samples have a reported size, so only the ones with available information are included.
+* `Gleason_score`: The Gleason score of the cancerous tissue, which is 3 in this case.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because cancer was detected.
+* `perineural_invasion`: Since there is no mention of perineural invasion in the original report, the value is set to NA (not available).
+* `atypia`: A boolean indicating whether atypia (abnormal cell changes) was detected. In this case, it's false because the report explicitly states that no atypia was found.

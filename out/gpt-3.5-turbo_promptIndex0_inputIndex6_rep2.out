@@ -1,7 +1,7 @@
 {
-  "Näytteiden määrä": "16",
-  "Näytteiden koko": "D-G, K-P, O-Q",
-  "Gleason-luokitus": "7",
+  "Näytteiden määrä": 7,
+  "Näytteiden koko": "normaalikaava",
+  "Gleason-luokitus": 7,
   "Eturauhasen hyvälaatuinen liikakasvu": "ei",
   "Perineuraalinen kasvu": "ei",
   "Atypia": "ei"

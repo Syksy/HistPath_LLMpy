@@ -1,0 +1,11 @@
+{
+  "Samples": 4,
+  "Size": "2mm",
+  "Gleason_score": {
+    "Grade_3": "almost as large a %",
+    "Grade_4": "most prevalent"
+  },
+  "BPH_detection": "NA",
+  "Perineural_growth_detection": "NA",
+  "Atypia_detection": "NA"
+}

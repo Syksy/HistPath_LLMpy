@@ -5,7 +5,7 @@ Here are the answers to the questions in JSON format:
   "(a. Näytteiden määrä)": 9,
   "(b. Näytteiden koko)": NA,
   "(c. Gleason-luokitus)": 3-4,
-  "(d. Eturauhasen hyvälaatuinen liikakasvu)": ei,
+  "(d. Eturauhasen hyvälaatuinen liikakasvu)": NA,
   "(e. Perineuraalinen kasvu)": NA,
   "(f. Atypia)": NA
 }
@@ -15,12 +15,12 @@ Here's a brief explanation for each answer:
 
 a. The number of samples taken is 9, as mentioned in the report: "Apex to samples A-C, two macrosections per base D-E, F-G base and H-I two samples from seminal vesicles."
 
-b. There is no clear information about the size of the samples in the report, so the answer is NA.
+b. The size of the samples is not explicitly mentioned in the report, so the answer is NA.
 
-c. The Gleason grade is reported as 3 and 4, with almost equal differentiation, so the answer is 3-4.
+c. The Gleason score is 3-4, as mentioned in the report: "The prevailing Gleason grade 3 and grade 4 differentiation is almost equal."
 
-d. The report does not mention any benign prostatic hyperplasia (BPH), so the answer is "ei" (no).
+d. There is no mention of benign prostatic hyperplasia (BPH) in the report, so the answer is NA.
 
-e. There is no mention of perineural growth in the report, so the answer is NA.
+e. There is no mention of perineural invasion in the report, so the answer is NA.
 
 f. There is no mention of atypia in the report, so the answer is NA.

@@ -3,6 +3,6 @@
   "2. What is the size of the samples taken?": "about 5g",
   "3. What is the Gleason score of the samples?": "8",
   "4. Can BPH be detected in the samples taken?": "no",
-  "5. Can perineural growth be detected in the samples taken?": "NA",
-  "6. Can atypia be detected in the samples taken?": "NA"
+  "5. Can perineural growth be detected in the samples taken?": "no",
+  "6. Can atypia be detected in the samples taken?": "no"
 }

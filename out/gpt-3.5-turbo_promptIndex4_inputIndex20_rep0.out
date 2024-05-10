@@ -8,11 +8,13 @@
     },
     {
       "pesäke": "2. vasemmalta keskeltä",
-      "luokitus": "4+3=7"
+      "luokitus": "4+3=7",
+      "graduksen_4_osuus": "n. 80%"
     },
     {
       "pesäke": "3. oikealta keskeltä",
-      "luokitus": "3+4=7"
+      "luokitus": "3+4=7",
+      "gradusten_suhde": "n. 70:30%"
     }
   ],
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,

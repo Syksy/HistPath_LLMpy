@@ -1,21 +1,21 @@
 {
-  "näytteiden määrä": 6,
-  "näytteiden koko tai paino": "NA",
-  "Gleason luokitus": [
+  "number_of_samples": 6,
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": [
     {
-      "näyte": "Colony 1",
-      "luokitus": "4+4=8"
+      "sample_number": 1,
+      "classification": "4+4=8"
     },
     {
-      "näyte": "Colony 2",
-      "luokitus": "4+3=7"
+      "sample_number": 2,
+      "classification": "4+3=7"
     },
     {
-      "näyte": "Colony 3",
-      "luokitus": "3+4=7"
+      "sample_number": 3,
+      "classification": "3+4=7"
     }
   ],
-  "hyvänlaatuinen eturauhasen liikakasvu": false,
-  "perineuraalinen kasvu": false,
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": false,
   "atypia": true
 }

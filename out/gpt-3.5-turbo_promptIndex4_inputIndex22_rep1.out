@@ -3,6 +3,6 @@
   "näytteiden koko tai paino": "ei tiedossa",
   "Gleason luokitus": "3+4",
   "hyvänlaatuinen eturauhasen liikakasvu": false,
-  "perineuraalinen kasvu": true,
+  "perineuraalinen kasvu": false,
   "atypia": true
 }

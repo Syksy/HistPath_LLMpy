@@ -1,4 +1,4 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
@@ -11,8 +11,16 @@ Here are the answers in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question b, the size of the samples is not mentioned in the report, so I answered NA.
-* For questions e and f, there is no mention of perineural growth or atypia in the report, so I answered NA.
-* For question d, since the report mentions carcinoma (karsinoomaa) which is a type of cancer, I answered "ei" (no) to the question about benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu).
+a. The number of samples taken is 12, as stated in the report.
+
+b. The size of the samples is not explicitly mentioned in the report, so the answer is NA.
+
+c. The Gleason score is 7, as stated in the report.
+
+d. The report mentions "karsinoomaa" (carcinoma) which is a malignant tumor, so the answer is "ei" (no) for benign prostatic hyperplasia.
+
+e. There is no mention of perineural growth in the report, so the answer is NA.
+
+f. There is no mention of atypia in the report, so the answer is NA.

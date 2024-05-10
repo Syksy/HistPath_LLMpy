@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "2",
+  "2. Näytteiden koko": "60mm (oikea) ja 80mm (vasen)",
+  "3. Gleason-luokitus": "4+5=9",
+  "4. Hyvälaatuinen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has two biopsy samples, one from the right side and one from the left side.
+2. The lengths of the biopsy samples are approximately 60mm from the right side and 80mm from the left side.
+3. The Gleason score is 4+5=9, which indicates a high-grade cancer.
+4. There is no evidence of benign prostatic hyperplasia (BPH) in the sample.
+5. There is no mention of perineural invasion in the report, so it is assumed to be absent.
+6. There is no mention of atypia in the report, so it is assumed to be absent.

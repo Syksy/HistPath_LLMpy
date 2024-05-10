@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "4+4, 3+4",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The text mentions that six macrosections were made from the prostatectomy resection, so I assume that's the number of samples taken.
+2. Näytteiden koko: There is no clear mention of the size of the samples, so I answered "NA".
+3. Gleason-luokitus: The text mentions that the Gleason score is 4+4 in the apex and 3+4 in the base.
+4. Hyvälaatuinen eturauhasen liikakasvu: Since the text mentions adenocarcinoma, which is a type of cancer, I assume that there is no benign prostatic hyperplasia, so I answered "ei".
+5. Perineuraalinen kasvu: There is no clear mention of perineural growth, so I answered "NA".
+6. Atypia: There is no clear mention of atypia, so I answered "NA".

@@ -2,20 +2,20 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "sample_count": NA,
+  "sample_count": "6",
   "sample_size_or_weight": "30g",
-  "Gleason_score": NA,
-  "benign_hyperplasia_only": "kyllä",
+  "Gleason_score": "NA",
+  "benign_hyperplasia": "kyllä",
   "perineural_invasion": "ei",
   "atypia": "ei"
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Not mentioned in the report, so NA.
-* `sample_size_or_weight`: Mentioned as 30g.
-* `Gleason_score`: Not mentioned in the report, so NA.
-* `benign_hyperplasia_only`: The report mentions "benign prostate tissue" and "suitable for suspected benign hyperplasia", so kyllä (yes).
-* `perineural_invasion`: Not mentioned in the report, and no indication of malignancy, so ei (no).
-* `atypia`: The report explicitly states "no atypia", so ei (no).
+* `sample_count`: The number of samples taken from the patient is 6, as mentioned in the report ("six blocks").
+* `sample_size_or_weight`: The total weight of the samples is 30g, as mentioned in the report.
+* `Gleason_score`: Since there is no mention of Gleason score in the report, the value is set to "NA".
+* `benign_hyperplasia`: The report suggests that the finding is suitable for suspected benign hyperplasia, so the value is set to "kyllä" (yes).
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so the value is set to "ei" (no).
+* `atypia`: The report explicitly states that no atypia is visible, so the value is set to "ei" (no).

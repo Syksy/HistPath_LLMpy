@@ -1,8 +1,8 @@
 {
-  "Biopsioiden lukumäärä": "Kaseteissa normaalin tavan mukaan otetut prostatabiopsioat",
+  "Biopsioiden lukumäärä": "NA",
   "Näytteiden koko tai paino": "150mm",
   "Gleason luokitus": "NA",
   "Hyvänlaatuinen eturauhasen liikakasvu": "ei",
-  "Perineuraalinen kasvu": "NA",
+  "Perineuraalinen kasvu": "ei",
   "Atypia": "kyllä"
 }

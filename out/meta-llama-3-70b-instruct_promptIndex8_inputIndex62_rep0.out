@@ -7,10 +7,10 @@ Here's the result:
   "sample_count": NA,
   "sample_size_or_weight": NA,
   "Gleason_score": NA,
-  "benign_hyperplasia_only": NA,
+  "benign_hyperplasia": NA,
   "perineural_invasion": NA,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
-The reason for all `NA` values is that the provided text does not contain any relevant information about the histopathological findings. The text appears to be a test sentence with no actual data. If you provide a real histopathological report, I'll be happy to help you extract the information!
+The reason for all the `NA` values is that the given text does not contain any relevant information about the histopathological sample. The text appears to be a test sentence designed to confuse the language model, and it does not provide any actual data about the sample.

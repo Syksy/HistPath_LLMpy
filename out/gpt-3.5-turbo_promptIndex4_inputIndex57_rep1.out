@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": 12,
-  "näytteiden_koko_tai_paino": ["8mm", "7mm", "5mm"],
-  "Gleason luokitus": ["3+3"],
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
+  "number_of_samples": 12,
+  "sample_size": ["8mm", "7mm", "5mm"],
+  "Gleason_classification": "3+3",
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": false,
   "atypia": false
 }

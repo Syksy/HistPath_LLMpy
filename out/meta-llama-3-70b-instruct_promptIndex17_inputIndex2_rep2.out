@@ -1,0 +1,10 @@
+Here are the answers in JSON format:
+
+{
+"1. Näytteiden määrä": "3",
+"2. Näytteiden koko": "90mm",
+"3. Gleason-score": "NA",
+"4. BPH:n havaitseminen": "Kyllä, näytteistä yksi sisältää jonkin verran stroomaa (fibromuskulaari) ja rauhasrakenteita, mikä ehkä viittaisi hyperplasiaan",
+"5. Perineuraalisen kasvun havaitseminen": "NA",
+"6. Atypian havaitseminen": "Ei"
+}

@@ -3,17 +3,16 @@ Here are the answers to the questions in JSON format:
 ```
 {
   "1. Number of samples taken": ("19g of prostate shavings"),
-  "2. Size of the samples taken": ("10g were put into histology"),
+  "2. Size of the samples taken": ("19g"),
   "3. Gleason classification": ("5+4=9"),
-  "4. Is there benign prostatic hyperplasia?": ("ei"),
-  "5. Is there perineural growth?": ("NA"),
-  "6. Is there atypia?": ("kyllä")
+  "4. Is there benign prostatic hyperplasia in the sample?": ("ei"),
+  "5. Is there perineural growth in the sample?": ("NA"),
+  "6. Is there atypia in the sample?": ("NA")
 }
 ```
 
 Note: 
 
-* For question 1, I assumed that the total amount of prostate shavings (19g) represents the number of samples taken.
-* For question 4, I answered "ei" (no) because the text does not mention benign prostatic hyperplasia.
-* For question 5, I answered "NA" (not available) because the text does not mention perineural growth.
-* For question 6, I answered "kyllä" (yes) because the text describes a malignant growth with enlarged nuclei and varying sizes, which suggests atypia.
+* For question 1, the answer is not a direct number, but rather a description of the total amount of prostate shavings taken.
+* For question 4, the answer is "ei" (no) because the text does not mention benign prostatic hyperplasia.
+* For questions 5 and 6, the answer is "NA" (not available) because the text does not mention perineural growth or atypia.

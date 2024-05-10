@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: 9 samples were taken from the patient (A-C, D-E, F-G, H-I).
-* `sample_size_or_weight`: No information about the size or weight of the samples was provided, so NA is returned.
-* `Gleason_score`: The Gleason score is 3+4, indicating a dominant pattern of grade 3 and a secondary pattern of grade 4.
-* `benign_hyperplasia_only`: False, as the report mentions a large tumor with a Gleason score, indicating malignant growth.
-* `perineural_invasion`: False, as there is no mention of perineural invasion in the report.
-* `atypia`: False, as there is no mention of atypia in the report.
+* `number_of_samples`: 9 samples were taken from the patient, as indicated by the different labels (A-C, D-E, F-G, H-I).
+* `sample_size_or_weight`: No information is provided about the size or weight of the samples, so NA is returned.
+* `Gleason_score`: The Gleason score is 3+4, indicating a dominant pattern of 3 and a secondary pattern of 4.
+* `benign_hyperplasia_only`: The report mentions a "laaja kasvain" (large tumor), which suggests that the sample is not only benign hyperplasia, so this field is set to false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to false.
+* `atypia`: There is no mention of atypia in the report, so this field is set to false.

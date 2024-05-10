@@ -1,0 +1,21 @@
+Here is the response in JSON format:
+
+```
+{
+  "Näytteiden määrä": 3,
+  "Näytteiden koko": "30mm",
+  "Gleason-luokitus": "3+4=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Let me explain how I arrived at each answer:
+
+1. Näytteiden määrä: The text states "Three fusion biopsies...", so the answer is 3.
+2. Näytteiden koko: The text states "From the total length of 30mm...", so the answer is 30mm.
+3. Gleason-luokitus: The text states "In summary, the finding is score 7 for a total distance of 15 mm, with 3 architecture approx. 2/3 and 4 architecture approx. 1/3 of the carcinoma part.", so the answer is 3+4=7.
+4. Hyvälaatuinen eturauhasen liikakasvu: The text does not mention "hyvälaatuinen eturauhasen liikakasvu" explicitly, but it does mention "carcinoma foci" which implies that there is no benign growth, so the answer is "ei".
+5. Perineuraalinen kasvu: There is no mention of "perineuraalinen kasvu" in the text, so the answer is "NA".
+6. Atypia: There is no mention of "atypia" in the text, so the answer is "NA".

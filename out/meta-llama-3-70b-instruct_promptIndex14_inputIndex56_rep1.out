@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 12,
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "NA",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": true,
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Note: The answers are based on the provided text, and "NA" indicates that the information is not available in the text.

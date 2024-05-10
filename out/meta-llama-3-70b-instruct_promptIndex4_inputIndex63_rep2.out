@@ -1,0 +1,16 @@
+It seems like the provided text is not a histopathological report, but rather a medical report from an emergency department. It does not contain any information about tissue samples, Gleason scores, or other histopathological findings.
+
+Therefore, I will return a JSON object with NA values for all questions:
+
+```
+{
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_prostatic_hyperplasia": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Please provide a histopathological report, and I'll be happy to help you extract the relevant information.

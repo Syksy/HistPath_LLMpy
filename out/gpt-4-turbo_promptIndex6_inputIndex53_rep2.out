@@ -1,34 +1,16 @@
 {
-  "number_of_samples": 3,
-  "sample_sizes": [
-    {
-      "sample_id": 1,
-      "size": "8+6mm"
-    },
-    {
-      "sample_id": 2,
-      "size": "10mm"
-    },
-    {
-      "sample_id": 3,
-      "size": "5+5mm"
-    }
+  "Näytteiden määrä": 3,
+  "Näytteiden koko tai paino": [
+    "Sample 1: 8+6mm",
+    "Sample 2: 10mm",
+    "Sample 3: 5+5mm"
   ],
-  "gleason_scores": [
-    {
-      "sample_id": 1,
-      "score": "Gleason 7 (3+4)"
-    },
-    {
-      "sample_id": 2,
-      "score": "Gleason 7 (3+4)"
-    },
-    {
-      "sample_id": 3,
-      "score": "NA"
-    }
+  "Gleason luokitus": [
+    "Sample 1: Gleason 3 (60%) and 4 (40%)",
+    "Sample 2: Gleason 3 (70%) and 4 (30%)",
+    "Sample 3: NA"
   ],
-  "benign_prostatic_hyperplasia": "No",
-  "perineural_invasion": "NA",
-  "atypia": "Yes"
+  "Hyvänlaatuinen eturauhasen liikakasvu": "No",
+  "Perineuraalinen kasvu": "No",
+  "Atypia": "Yes, PIN changes in Samples 1 and 2"
 }

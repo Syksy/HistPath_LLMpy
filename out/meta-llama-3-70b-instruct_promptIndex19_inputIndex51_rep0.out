@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": "4g",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "kyllä",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "NA"
+}
+```
+
+Explanation:
+
+1. The text mentions that the samples were launched into three tissue cassettes, implying that there are 3 samples.
+2. The size of the samples is 4g.
+3. There is no mention of the Gleason score in the text, so it's NA (not available).
+4. The text suggests subtly prostatic hyperplasia, which is a synonym for BPH (Benign Prostatic Hyperplasia), so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the text, so it's NA (not available).
+6. There is no mention of atypia in the text, so it's NA (not available).

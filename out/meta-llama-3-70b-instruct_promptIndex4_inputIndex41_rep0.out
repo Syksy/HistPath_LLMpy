@@ -4,21 +4,17 @@ Here is the structured report in JSON format:
 {
   "number_of_samples": 13,
   "sample_size_or_weight": "about 180mm",
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4,
-    "percentage_of_secondary_pattern": 30
-  },
+  "Gleason_score": "3+4",
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is 13, as stated in the report.
-* The sample size or weight is approximately 180mm, as mentioned in the report.
-* The Gleason score is reported as a combination of primary pattern 3 and secondary pattern 4, with the secondary pattern accounting for about 30% of the tumor.
-* Benign hyperplasia only is set to false, as carcinoma was found in some of the biopsies.
-* Perineural invasion and atypia are marked as NA (Not Available), as they are not mentioned in the report.
+* `number_of_samples`: The number of biopsies taken from the patient, which is 13 in this case.
+* `sample_size_or_weight`: The size or weight of the samples, which is approximately 180mm in this case.
+* `Gleason_score`: The Gleason score is a combination of two scores, 3 and 4, which indicates the aggressiveness of the cancer.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., non-cancerous growth). In this case, it's false because carcinoma was found in some of the biopsies.
+* `perineural_invasion` and `atypia`: These fields are marked as NA (Not Available) because there is no mention of perineural invasion or atypia in the original report.

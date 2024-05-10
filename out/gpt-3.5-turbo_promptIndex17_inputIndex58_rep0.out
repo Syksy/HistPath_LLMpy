@@ -1,0 +1,8 @@
+{
+  "number_of_samples": 6,
+  "sample_size": "small area (<1mm)",
+  "gleason_score": "Gleason 5 growth patterns in samples 5-6, mainly poorly differentiated Gleason 4+3=7 growth observed",
+  "BPH_detection": "NA",
+  "perineural_growth_detection": "NA",
+  "atypia_detection": "NA"
+}

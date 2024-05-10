@@ -1,20 +1,8 @@
 {
-  "1": {
-    "näytteiden määrä": 12
-  },
-  "2": {
-    "näytteiden koko": "NA"
-  },
-  "3": {
-    "Gleason-luokitus": 7
-  },
-  "4": {
-    "hyvälaatuinen eturauhasen liikakasvu": "ei"
-  },
-  "5": {
-    "perineuraalinen kasvu": "ei"
-  },
-  "6": {
-    "atypia": "ei"
-} 
+  "1": 14,
+  "2": "D-G, K-P, O-Q",
+  "3": 7,
+  "4": "ei",
+  "5": "ei",
+  "6": "ei"
 }

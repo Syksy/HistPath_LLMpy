@@ -1,12 +1,11 @@
 {
-  "Näytteiden määrä": "12",
+  "Näytteiden määrä": 12,
   "Näytteiden koko tai paino": {
-    "1": "8mm",
-    "2": "7mm",
-    "3": "5mm"
+    "Oikea perusta": ["8mm", "7mm"],
+    "Vasen perusta": ["5mm"]
   },
   "Näytteen Gleason luokitus": "3+3",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "NA",
   "Perineuraalinen kasvu": "NA",
   "Atypia": "Ei havaittu"
 }

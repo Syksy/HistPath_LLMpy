@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples": ("4"),
+  "2. Sample size": ("10 mm, 7 mm, 15 mm, 10 mm"),
+  "3. Gleason score": ("3+4=7/7/NA"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("kyllä"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 4 samples taken (2 from the left side and 2 from the right side).
+2. The sample sizes are 10 mm, 7 mm, 15 mm, and 10 mm.
+3. The Gleason score is 3+4=7, where 3 is the main type and 4 is the second most common type.
+4. There is no benign prostatic hyperplasia (BPH) mentioned in the report.
+5. Perineural growth is mentioned in the report, which means the cancer cells have grown around nerves.
+6. There is no mention of atypia in the report.

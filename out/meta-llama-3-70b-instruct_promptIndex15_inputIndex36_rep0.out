@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples taken": ("D-G, K-P, O-Q", "Multiple samples, but exact number not specified"),
+  "2. Size of the samples taken": ("Not specified", "NA"),
+  "3. Gleason score of the samples": ("3+4=7", "7"),
+  "4. Is there benign prostatic hyperplasia in the sample?": ("ei", "No"),
+  "5. Is there perineural growth in the sample?": ("ei", "No"),
+  "6. Is there atypia in the sample?": ("ei", "No")
+}
+```
+
+Note: For question 1, I couldn't determine the exact number of samples taken, but it's clear that there are multiple samples (D-G, K-P, O-Q). For question 2, the size of the samples is not specified in the report.

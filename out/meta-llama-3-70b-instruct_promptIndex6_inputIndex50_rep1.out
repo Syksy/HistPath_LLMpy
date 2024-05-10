@@ -3,16 +3,23 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_biopsies": 6,
-  "biopsy_size_or_weight": NA,
+  "biopsy_size_or_weight": "NA",
   "Gleason_score": [
     {"location": "Colony 1", "score": "4+4=8"},
     {"location": "Colony 2", "score": "4+3=7"},
     {"location": "Colony 3", "score": "3+4=7"}
   ],
-  "benign_prostatic_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia_present": true
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": "NA",
+  "atypia": true
 }
 ```
 
-Note: I assumed that the presence of adenocarcinoma and atypical glandular structure indicates that the sample is not only benign prostatic hyperplasia. If this assumption is incorrect, please let me know and I'll correct the response.
+Note: 
+
+* "number_of_biopsies" is 6, as stated in the report.
+* "biopsy_size_or_weight" is "NA" since the report does not provide this information.
+* "Gleason_score" is an array of objects, each representing a Gleason score found in a different colony.
+* "benign_prostatic_hyperplasia" is true, as the report mentions "hyperplastic changes in the epithelium" in some samples.
+* "perineural_invasion" is "NA" since the report does not mention it.
+* "atypia" is true, as the report mentions "atypical glandular structure" in Colony 1.

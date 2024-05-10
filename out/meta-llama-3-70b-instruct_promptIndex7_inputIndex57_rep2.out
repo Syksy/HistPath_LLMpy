@@ -3,9 +3,9 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 12,
-  "sample_size_or_weight": NA,
+  "sample_size_or_weight": "8mm, 7mm, 5mm",
   "Gleason_score": 3+3,
-  "benign_prostatic_hyperplasia_only": false,
+  "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": false
 }
@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: 12, as mentioned in the report ("3/12 biopsies")
-* `sample_size_or_weight`: NA, as no specific size or weight is mentioned for each sample
-* `Gleason_score`: 3+3, as mentioned in the report
-* `benign_prostatic_hyperplasia_only`: false, as carcinoma was found in some samples
-* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report
-* `atypia`: false, as the report explicitly states "No nuclear atypia is observed"
+* "number_of_samples": 12, because the report mentions 12 biopsies in total.
+* "sample_size_or_weight": "8mm, 7mm, 5mm", because the report mentions the length of three biopsies.
+* "Gleason_score": 3+3, because the report mentions Gleason 3 architecture in multiple biopsies and summarizes the finding as type 3+3 adenocarcinoma.
+* "benign_hyperplasia_only": false, because the report mentions carcinoma findings in multiple biopsies.
+* "perineural_invasion": NA, because the report does not mention perineural invasion.
+* "atypia": false, because the report explicitly states that no nuclear atypia is observed.

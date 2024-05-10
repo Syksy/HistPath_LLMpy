@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: The number of biopsies taken from the patient, which is 12.
+* `number_of_samples`: The number of biopsies taken from the patient, which is 12 in this case.
 * `sample_size_or_weight`: The sizes of the biopsies, which are 8mm, 7mm, and 5mm.
-* `Gleason_score`: The Gleason score of the cancerous tissue, which is 3.
-* `benign_hyperplasia_only`: This is false because the report mentions adenocarcinoma, which is a malignant tumor.
-* `perineural_invasion`: This is NA (not available) because there is no mention of perineural invasion in the report.
-* `atypia`: This is false because the report explicitly states that there is no atypia.
+* `Gleason_score`: The Gleason score of the cancer, which is 3 in this case.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia, which is false in this case since cancer was detected.
+* `perineural_invasion`: This field indicates whether perineural invasion was detected, but since it's not mentioned in the report, the value is NA (not available).
+* `atypia`: This field indicates whether atypia was detected, which is false in this case since the report explicitly states that no atypia was found.

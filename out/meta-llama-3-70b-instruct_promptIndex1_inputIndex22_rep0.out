@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": "9"
 }
 ```
-The report mentions 9 samples: A-C, D-E, F-G, H-I.
+The report mentions 9 samples: A-C, D-E, F-G, H-I, and 2 macro samples.
 
 **2. Näytteiden koko:**
 ```
@@ -14,7 +14,7 @@ The report mentions 9 samples: A-C, D-E, F-G, H-I.
   "näytteiden_koko": "NA"
 }
 ```
-There is no mention of the size of the samples in the report.
+There is no clear mention of the size of the samples in the report.
 
 **3. Gleason-luokitus:**
 ```
@@ -22,7 +22,7 @@ There is no mention of the size of the samples in the report.
   "Gleason_luokitus": "3+4"
 }
 ```
-The report mentions that the dominant Gleason grade is 3 and there is almost as much grade 4 differentiation.
+The report mentions that the dominant Gleason grade is 3, and there is almost as much grade 4 differentiation.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -30,7 +30,7 @@ The report mentions that the dominant Gleason grade is 3 and there is almost as 
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-There is no mention of benign prostatic hyperplasia (BPH) in the report.
+There is no mention of benign prostatic hyperplasia in the report.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -48,4 +48,4 @@ There is no mention of perineural growth in the report.
 ```
 There is no mention of atypia in the report.
 
-Let me know if you'd like me to proceed with anything else!
+Let me know if you'd like me to proceed with the next set of questions!

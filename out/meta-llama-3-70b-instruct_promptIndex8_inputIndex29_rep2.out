@@ -6,15 +6,16 @@ Here is the structured report in JSON format:
   "sample_size_or_weight": "30mm",
   "Gleason_score": "7 (3+4)",
   "benign_hyperplasia_only": "ei",
-  "perineural_invasion": "NA",
-  "atypia": "NA"
+  "perineural_invasion": "ei",
+  "atypia": "ei"
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 3, because there are three fuusiobiopsiaa (biopsy samples) mentioned.
-* `sample_size_or_weight`: "30mm", because the total length of the samples is mentioned as 30mm.
-* `Gleason_score`: "7 (3+4)", because the Gleason score is mentioned as 7, with a breakdown of 3 and 4.
-* `benign_hyperplasia_only`: "ei", because the report mentions carcinoma foci, indicating that it's not just benign hyperplasia.
-* `perineural_invasion` and `atypia`: both are set to "NA" because there is no mention of these features in the report.
+* `sample_count`: 3, since there are three fuusiobiopsiaa (fusion biopsies) mentioned.
+* `sample_size_or_weight`: "30mm", which is the total length of the biopsies.
+* `Gleason_score`: "7 (3+4)", which is the Gleason score mentioned in the report.
+* `benign_hyperplasia_only`: "ei", since the report mentions carcinoma foci, indicating that it's not just benign hyperplasia.
+* `perineural_invasion`: "ei", since there is no mention of perineural invasion in the report.
+* `atypia`: "ei", since there is no mention of atypia in the report.

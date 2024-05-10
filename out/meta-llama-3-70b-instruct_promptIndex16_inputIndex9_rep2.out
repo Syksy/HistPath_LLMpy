@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "8",
+  "2. Näytteiden koko": "13g",
+  "3. Gleason-luokitus": "3+3=6",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 8 samples (kasetilla) taken.
+2. The total weight of the samples is 13g.
+3. The Gleason score is 3+3=6, which indicates a moderate-grade cancer.
+4. Yes, the sample shows evidence of carcinoma (karsinoomaa), which is a type of cancer.
+5. There is no mention of perineural growth in the report, so the answer is "ei" (no).
+6. There is no mention of atypia in the report, so the answer is "ei" (no).

@@ -7,7 +7,7 @@
       "Gleason 4": "10%"
     }
   },
-  "Vain hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalista kasvua": "Ei",
-  "Atypiaa": "NA"
+  "Hyvänlaatuinen eturauhasen liikakasvu": false,
+  "Perineuraalinen kasvu": false,
+  "Atypia": false
 }

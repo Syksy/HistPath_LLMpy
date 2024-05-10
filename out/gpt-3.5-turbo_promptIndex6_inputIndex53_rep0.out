@@ -1,36 +1,14 @@
 {
-  "number_of_samples": 3,
-  "sample_details": [
-    {
-      "sample_number": 1,
-      "tissue_cylinder_count": 2,
-      "tissue_cylinder_length": "8+6mm",
-      "tumor_tissue_length": "4mm",
-      "gleason_score": {
-        "gleason_3_percentage": "60%",
-        "gleason_4_percentage": "40%"
-      },
-      "diagnosis": "Gleason 7 adenocarcinoma of the prostate"
-    },
-    {
-      "sample_number": 2,
-      "tissue_cylinder_count": 1,
-      "tissue_cylinder_length": "10mm",
-      "tumor_tissue_length": "5mm",
-      "gleason_score": {
-        "gleason_3_percentage": "70%",
-        "gleason_4_percentage": "30%"
-      },
-      "diagnosis": "Gleason 7 adenocarcinoma of the prostate"
-    },
-    {
-      "sample_number": 3,
-      "tissue_cylinder_count": 1,
-      "tissue_cylinder_length": "5+5mm",
-      "diagnosis": "No unusual prostate tissue observed"
-    }
+  "näytteiden määrä": 3,
+  "näytteiden koko tai paino": [
+    "Näyte 1: 8+6mm, Näyte 2: 10mm, Näyte 3: 5+5mm"
   ],
-  "benign_prostatic_hyperplasia": false,
-  "perineural_invasion": false,
-  "atypia": true
+  "Gleason luokitus": [
+    "Näyte 1: Gleason 3 kasvutyyppi 60%, Gleason 4 kasvutyyppi 40%",
+    "Näyte 2: Gleason 3 differentiaatio 70%, Gleason 4 differentiaatio 30%"
+  ],
+  "hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
+  "perineuraalinen kasvu": "Ei havaittu",
+  "atypia": "PIN-muutoksia havaittu näytteissä 1 ja 2",
+  "muut löydökset": "Näytteissä 1 ja 2 havaittu Gleason 7 eturauhasen adenokarsinooma"
 }

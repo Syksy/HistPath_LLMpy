@@ -3,10 +3,10 @@ I'll go through the questions one by one and provide the answers in JSON format.
 **1. Näytteiden määrä:**
 ```
 {
-  "näytteiden_määrä": "NA"
+  "näytteiden_määrä": "9"
 }
 ```
-The report does not explicitly mention the number of samples taken from the patient.
+The report mentions that there are 9 samples: Apex to samples A-C (3), two macrosections per base D-E (2), F-G base (1), and H-I two samples from seminal vesicles (2).
 
 **2. Näytteiden koko:**
 ```
@@ -14,15 +14,15 @@ The report does not explicitly mention the number of samples taken from the pati
   "näytteiden_koko": "NA"
 }
 ```
-The report does not mention the size of the samples taken from the patient.
+There is no clear mention of the size of the samples in the report.
 
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "3+4"
+  "Gleason-luokitus": "3+4"
 }
 ```
-The report mentions that the prevailing Gleason grade is 3 and grade 4 differentiation, which is almost equal.
+The report mentions that the prevailing Gleason grade 3 and grade 4 differentiation is almost equal.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -30,7 +30,7 @@ The report mentions that the prevailing Gleason grade is 3 and grade 4 different
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report does not mention any benign prostatic hyperplasia (BPH) or hyvälaatuinen eturauhasen liikakasvu.
+There is no mention of benign prostatic hyperplasia in the report.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -38,7 +38,7 @@ The report does not mention any benign prostatic hyperplasia (BPH) or hyvälaatu
   "perineuraalinen_kasvu": "ei"
 }
 ```
-The report does not mention any perineural growth.
+There is no mention of perineural growth in the report.
 
 **6. Atypia:**
 ```
@@ -46,6 +46,6 @@ The report does not mention any perineural growth.
   "atypia": "NA"
 }
 ```
-The report does not mention atypia.
+There is no mention of atypia in the report.
 
 Let me know if you need further assistance!

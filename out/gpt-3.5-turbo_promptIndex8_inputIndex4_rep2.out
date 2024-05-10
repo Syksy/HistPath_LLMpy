@@ -1,8 +1,8 @@
 {
-  "näytteiden lukumäärä": "normaalin tavan mukaan otetut prostatabiopsioat",
-  "näytteiden koko tai paino": "n. 150mm",
-  "Gleason luokitus": "NA",
-  "hyvänlaatuinen eturauhasen liikakasvu": "ei",
-  "perineuraalinen kasvu": "ei",
-  "atypia": "kyllä"
+  "Biopsioiden lukumäärä": "NA",
+  "Näytteiden koko tai paino": "150mm",
+  "Näytteen Gleason luokitus": "NA",
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen pahanlaatuinen kasvu": "ei",
+  "Atypiaa havaittu": "kyllä"
 }

@@ -1,0 +1,14 @@
+I'll do my best to extract the information from the given text. Here are the answers in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "NA",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "NA",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Unfortunately, the provided text does not contain specific information about the patient's biopsy, such as the number of samples taken, their size, Gleason score, or the presence of certain characteristics like atypia or perineural growth. The text appears to be a general description of prostate cancer and its diagnosis.

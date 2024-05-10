@@ -14,6 +14,6 @@ Here are the answers in JSON format:
 Note: 
 
 * The number of samples is 13, as mentioned in the text.
-* The size of the samples is approximately 180mm, as mentioned in the text.
-* The Gleason score is calculated as 3+4=7, based on the text which mentions that the majority of the tumor is grade 3 and a smaller part (around 30%) is grade 4.
-* BPH, perineural growth, and atypia are not mentioned in the text, so the answers are marked as 'NA' (not available).
+* The size of the samples is 180mm, as mentioned in the text.
+* The Gleason score is 3+4=7, as the text mentions that the majority of the tumor is grade 3 and a smaller part (around 30%) is grade 4.
+* BPH, perineural growth, and atypia are not mentioned in the text, so the answers are "NA" (not available).

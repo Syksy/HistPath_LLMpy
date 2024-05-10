@@ -3,7 +3,7 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 6,
-  "sample_size_or_weight": ["4mm", "6mm", "3mm", "5mm", "7mm", "8mm"],
+  "sample_size_or_weight": "4+6+3 mm (left), 5+7+8 mm (right)",
   "Gleason_score": NA,
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `number_of_samples`: 6 samples were taken from the patient (3 from the left and 3 from the right).
-* `sample_size_or_weight`: The sizes of the samples are listed as an array.
-* `Gleason_score`: Not mentioned in the report, so NA is returned.
-* `benign_hyperplasia_only`: False, because the report mentions malignant growth and positive margins.
-* `perineural_invasion`: Not mentioned in the report, so NA is returned.
-* `atypia`: Not mentioned in the report, so NA is returned.
+* `sample_size_or_weight`: The sizes of the samples are provided in millimeters.
+* `Gleason_score`: The Gleason score is not mentioned in the report, so it's marked as NA (not available).
+* `benign_hyperplasia_only`: The report mentions "malignant growth" and "adenocarcinoma suspicion", so it's clear that the samples are not just benign hyperplasia.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so it's marked as NA.
+* `atypia`: There is no mention of atypia in the report, so it's marked as NA.

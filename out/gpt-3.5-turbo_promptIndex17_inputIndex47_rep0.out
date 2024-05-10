@@ -1,0 +1,17 @@
+{
+  "Number of samples taken": 2,
+  "Size of the samples taken": {
+    "Left side": [10, 7],
+    "Right side": [15, 10]
+  },
+  "Gleason score of the samples": {
+    "Left side": {
+      "Gleason growth type 3": "main rule",
+      "Gleason growth type 4": "second most common"
+    },
+    "Right side": "NA"
+  },
+  "BPH detected in the samples": "NA",
+  "Perineural growth detected in the samples": "Yes",
+  "Atypia detected in the samples": "Yes"
+}

@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "1",
+  "2. Näytteiden koko": "100mm",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "kyllä",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The report mentions a "representative sample", implying that only one sample was taken from the patient.
+2. The sample has a total length of 100mm.
+3. There is no mention of Gleason score in the report, so the answer is NA (not available).
+4. The report does not mention any benign prostatic hyperplasia (BPH) or PIN (prostatic intraepithelial neoplasia) findings, so the answer is "ei" (no).
+5. The report explicitly mentions "perineural growth", which is suspicious for malignancy, so the answer is "kyllä" (yes).
+6. There is no mention of atypia in the report, so the answer is "ei" (no).

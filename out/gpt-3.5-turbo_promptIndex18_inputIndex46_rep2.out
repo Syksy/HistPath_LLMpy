@@ -1,0 +1,12 @@
+{
+  "number of samples": 6,
+  "size of samples": ["8mm", "5mm"],
+  "Gleason score": {
+    "major": 4,
+    "minor": 4,
+    "sum": 8
+  },
+  "BPH": "NA",
+  "perineural growth": "ei",
+  "atypia": "ei"
+}

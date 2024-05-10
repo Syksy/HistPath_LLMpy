@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "6 kpl",
+"2. What is the size of the samples taken?": "n. 120mm",
+"3. What is the Gleason score of the samples?": "NA",
+"4. Can BPH be detected in the samples taken?": "NA",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "NA"
+}
+
+Note: BPH (Benign Prostatic Hyperplasia) is mentioned in the text as "basaalisoluhyperplasiaa", but it's not clear if it's detected in the samples or not. Therefore, I've marked it as "NA". Similarly, there is no mention of Gleason score, perineural growth, or atypia in the text, so I've marked them as "NA" as well.

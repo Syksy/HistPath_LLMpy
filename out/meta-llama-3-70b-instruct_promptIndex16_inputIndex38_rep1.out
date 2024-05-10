@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples taken": ("6"),
+  "2. Size of the samples taken": ("about 30g, of which about 20g were started in six blocks"),
+  "3. Gleason score": ("NA"),
+  "4. Is benign hyperplasia present?": ("kyllä"),
+  "5. Is perineural growth present?": ("ei"),
+  "6. Is atypia present?": ("ei")
+}
+```
+
+Note: NA stands for "Not Available" or "Not Applicable", as the information is not provided in the given report.

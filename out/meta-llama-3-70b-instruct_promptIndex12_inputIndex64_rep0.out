@@ -1,0 +1,5 @@
+I'm happy to help! However, I notice that the provided text is an error message from a SQL query, not a histopathology report. It seems that there is a syntax error in the SQL query, and the error message is indicating that the specified column names (sample_count, sample_amount, gleason_grade, patient_bph, sample_perineural_invasion, sample_atypia) are not found in the MAIN_TABLE.
+
+Since there is no actual histopathology report provided, I cannot extract the requested information. If you could provide the actual report, I'd be happy to assist you in extracting the required information.
+
+Please provide the histopathology report, and I'll do my best to extract the information and provide it in JSON format.

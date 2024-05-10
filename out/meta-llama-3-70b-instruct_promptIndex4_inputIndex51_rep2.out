@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* "number_of_samples" is 3, as the text mentions that the samples were launched into three tissue cassettes.
-* "sample_size_or_weight" is "4g", as the text mentions that a total of 4g of planing chips were obtained.
-* "Gleason_score" is NA, as there is no mention of Gleason score in the original text.
-* "benign_hyperplasia_only" is true, as the text suggests subtly prostatic hyperplasia, which is a benign condition.
-* "perineural_invasion" is false, as there is no mention of perineural invasion in the original text.
-* "atypia" is false, as there is no mention of atypia or any abnormal changes in the original text.
+* `number_of_samples`: The number of tissue cassettes, which is 3 in this case.
+* `sample_size_or_weight`: The total weight of the planing chips, which is 4g.
+* `Gleason_score`: Not mentioned in the report, so it's NA (Not Available).
+* `benign_hyperplasia_only`: The report suggests subtly prostatic hyperplasia, which is a benign condition, so this is true.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so it's false.
+* `atypia`: There is no mention of atypia in the report, so it's false.

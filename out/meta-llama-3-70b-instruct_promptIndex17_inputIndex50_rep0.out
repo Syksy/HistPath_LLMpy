@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "6",
+"2. What is the size of the samples taken?": "NA",
+"3. What is the Gleason score of the samples?": "4+4=8, 4+3=7, 3+4=7",
+"4. Can BPH be detected in the samples taken?": "NA",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "Kyllä" (Yes)
+}
+
+Note: The size of the samples is not explicitly mentioned in the text, so the answer is NA. Similarly, there is no mention of BPH or perineural growth, so the answers are NA. Atypia is mentioned in the text as "atypical glandular structure", so the answer is Kyllä (Yes).

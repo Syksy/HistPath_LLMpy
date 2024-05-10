@@ -11,10 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 6, because there are 6 biopsy samples mentioned (1 basis oikea, 2 keski oikea, 3 apex oikea, 4 basis vasen, 5 keski vasen, 6 apex vasen).
-* `sample_size_or_weight`: NA, because no size or weight is mentioned for the samples.
-* `Gleason_score`: "4+3=7", because the Gleason score is mentioned as 4+3=7.
-* `benign_hyperplasia_only`: "ei", because the report mentions Gleason scores, which indicate malignant growth.
-* `perineural_invasion` and `atypia`: NA, because these are not mentioned in the report.
+* `sample_count`: 6, since there are 6 biopsy samples mentioned in the report.
+* `sample_size_or_weight`: NA, since the report does not provide information about the size or weight of the samples.
+* `Gleason_score`: "4+3=7", which is the Gleason score mentioned in the report.
+* `benign_hyperplasia_only`: "ei", since the report mentions Gleason 4+3=7 and Gleason 5, indicating that the samples are not only benign hyperplasia.
+* `perineural_invasion`: NA, since the report does not mention perineural invasion.
+* `atypia`: NA, since the report does not mention atypia.

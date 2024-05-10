@@ -3,23 +3,21 @@ Based on the provided histopathological report, I will convert it into a structu
 ```
 {
   "sample_count": 4,
-  "sample_size_or_weight": NA,
-  "Gleason_score": {
-    "primary_grade": 4,
-    "secondary_grade": 3
-  },
+  "sample_size_or_weight": "NA",
+  "Gleason_score": 4,
   "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia": NA
+  "perineural_invasion": "NA",
+  "atypia": "NA"
 }
 ```
 
-Here's a brief explanation of each field:
+Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 4 in this case.
-* `sample_size_or_weight`: Since the report doesn't mention the size or weight of the samples, I've marked it as NA (Not Available).
-* `Gleason_score`: The Gleason score is a grading system used to evaluate the aggressiveness of prostate cancer. In this case, the primary grade is 4, and the secondary grade is 3.
-* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., non-cancerous growth). Since the report mentions adenocarcinoma, I've marked it as false.
-* `perineural_invasion` and `atypia`: These fields are marked as NA since there is no mention of perineural invasion or atypia in the report.
+* `sample_size_or_weight`: The size or weight of the samples is not mentioned in the report, so I've marked it as "NA" (Not Available).
+* `Gleason_score`: The Gleason score is 4, which is the most prevalent grade mentioned in the report.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, since adenocarcinoma is mentioned, the value is set to `false`.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked it as "NA".
+* `atypia`: Similarly, there is no mention of atypia in the report, so I've marked it as "NA".
 
-Please let me know if you have any further questions or if you'd like me to clarify any of these fields!
+Let me know if you have any further questions or if you'd like me to process more reports!

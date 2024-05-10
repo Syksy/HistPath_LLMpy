@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "NA",
+"2. What is the size of the samples taken?": "150mm",
+"3. What is the Gleason score of the samples?": "NA",
+"4. Can BPH be detected in the samples taken?": "NA",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "Kyllä"
+}
+
+Note: The answer to question 1 is "NA" because the text does not explicitly state the number of samples taken. The answer to question 6 is "Kyllä" (Yes) because the text mentions "tuma-atypiaa" which means atypia.

@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: 3, as mentioned in the report ("Samples of 3 prostatic core needle biopsies")
-* `sample_size_or_weight`: "90mm", as mentioned in the report ("The total length of the samples is 90mm")
-* `Gleason_score`: NA, as there is no mention of Gleason score in the report
-* `benign_hyperplasia_only`: true, as the report suggests hyperplasia ("glandular structures, which would perhaps indicate hyperplasia") and no malignancy
-* `perineural_invasion`: false, as there is no mention of perineural invasion in the report
-* `atypia`: false, as the report explicitly states that no atypia was found ("no atypia or findings suggestive of malignancy")
+* "number_of_samples": 3, because the report mentions "3 prostatic core needle biopsies".
+* "sample_size_or_weight": "90mm", because the report mentions "The total length of the samples is 90mm".
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": true, because the report mentions "hyperplasia" and does not suggest any malignancy.
+* "perineural_invasion": false, because the report does not mention any perineural invasion.
+* "atypia": false, because the report explicitly states "no atypia".

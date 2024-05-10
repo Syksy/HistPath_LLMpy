@@ -1,8 +1,8 @@
 {
   "number_of_samples": 2,
-  "sample_size": ["10 mm", "7 mm", "15 mm", "10 mm"],
-  "Gleason_classification": ["3", "4"],
-  "benign_prostatic_hyperplasia": true,
-  "perineural_invasion": true,
-  "atypia": "NA"
+  "sample_size": "Left side: 10 mm and 7 mm, Right side: 15 mm and 10 mm",
+  "Gleason_classification": "3 (main rule) and 4 (second most common)",
+  "benign_prostatic_hyperplasia": "Yes",
+  "perineural_invasion": "Present",
+  "atypia": "Not mentioned"
 }

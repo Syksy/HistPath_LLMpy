@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 4,
+  "2. Näytteiden koko": "2mm",
+  "3. Gleason-luokitus": "4+3",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 4, as mentioned in the phrase "Samples 1-4".
+2. The size of the samples is 2mm, as mentioned in the phrase "an approximately 2mm area of adenocarcinoma".
+3. The Gleason score is 4+3, as mentioned in the phrase "The most prevalent Gleason in the finding is grade 4, although grade 3 is almost as large a %".
+4. There is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+5. There is no mention of perineural growth, so the answer is "NA" (not available).
+6. There is no mention of atypia, so the answer is "NA" (not available).

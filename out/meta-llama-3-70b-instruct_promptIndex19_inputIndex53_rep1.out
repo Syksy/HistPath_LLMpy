@@ -1,0 +1,19 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": ["8+6mm", "10mm", "5+5mm"],
+  "3. Gleason score": ["3+4=7/60%/40%", "3+4=7/70%/30%", "NA"],
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Note: 
+
+* "kyllä" means "yes" in Finnish, and "ei" means "no".
+* PIN changes mentioned in the text are a type of atypia, so the answer to question 6 is "kyllä".
+* BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so the answer to question 4 is "ei".
+* Perineural growth is not mentioned in the text, so the answer to question 5 is "NA".

@@ -5,9 +5,9 @@ Here are the answers to the questions in JSON format:
   "1. Näytteiden määrä": "(6)",
   "2. Näytteiden koko": "(<1mm)",
   "3. Gleason-luokitus": "(4+3=7)",
-  "4. Hyvälaatuinen eturauhasen liikakasvu": "('ei')",
-  "5. Perineuraalinen kasvu": "('NA')",
-  "6. Atypia": "('NA')"
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(NA)",
+  "6. Atypia": "(NA)"
 }
 ```
 
@@ -15,7 +15,7 @@ Here's a brief explanation for each answer:
 
 1. The patient has 6 biopsy samples taken.
 2. The size of the samples is less than 1mm.
-3. The Gleason score is 4+3=7, which indicates a moderately differentiated tumor.
-4. There is no evidence of well-differentiated prostate cancer (i.e., 'ei' means 'no' in Finnish).
-5. There is no mention of perineural invasion in the report, so the answer is 'NA' (not available).
-6. There is no mention of atypia in the report, so the answer is 'NA' (not available).
+3. The Gleason score is 4+3=7.
+4. There is no well-differentiated prostate cancer growth (i.e., Gleason 5 is a high-grade cancer, and Gleason 4+3=7 is an intermediate-grade cancer).
+5. There is no mention of perineural invasion in the report, so the answer is NA (not available).
+6. There is no mention of atypia in the report, so the answer is NA (not available).

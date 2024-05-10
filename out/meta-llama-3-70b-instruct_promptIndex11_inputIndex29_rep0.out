@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 3,
+  "Näytteiden koko": "30mm",
+  "Gleason-luokitus": "7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The text mentions "kolme fuusiobiopsiaa" which means three biopsy samples.
+2. Näytteiden koko: The text mentions "yhteispituudesta 30mm" which means the total length of the samples is 30mm.
+3. Gleason-luokitus: The text mentions "löyös score 7" which means the Gleason score is 7.
+4. Hyvälaatuinen eturauhasen liikakasvu: The text does not mention anything about benign prostatic hyperplasia, so the answer is "ei" (no).
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the text, so the answer is "NA" (not available).
+6. Atypia: There is no mention of atypia in the text, so the answer is "NA" (not available).

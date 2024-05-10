@@ -1,0 +1,14 @@
+{
+  "Kuinka monta näytettä potilaalta on otettu?": "2",
+  "Minkä kokoisia otetut näytteet ovat?": {
+    "vasen puoli": ["10 mm", "7 mm"],
+    "oikea puoli": ["15 mm", "10 mm"]
+  },
+  "Mikä on näytteiden Gleason-luokitus?": {
+    "vasen puoli": ["3", "4"],
+    "oikea puoli": "NA"
+  },
+  "Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "Onko näytteessä havaittu perineuraalista kasvua?": "Kyllä",
+  "Onko näytteessä havaittu atypiaa?": "Kyllä"
+}

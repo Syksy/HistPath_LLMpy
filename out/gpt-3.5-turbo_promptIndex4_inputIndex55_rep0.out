@@ -1,11 +1,11 @@
 {
-  "näytteiden_määrä": 4,
-  "näytteiden_koko_tai_paino": "NA",
-  "Gleason luokitus": {
-    "yleisin": 4,
-    "toiseksi yleisin": 3
+  "samples_taken": 4,
+  "sample_size": "2mm",
+  "Gleason_classification": {
+    "grade_3": "almost as large a %",
+    "grade_4": "most prevalent"
   },
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
+  "benign_prostatic_hyperplasia": false,
+  "perineural_invasion": false,
   "atypia": true
 }

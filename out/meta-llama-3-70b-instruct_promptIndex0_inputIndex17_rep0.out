@@ -1,10 +1,11 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
   "(Näytteiden määrä)": 4,
   "(Näytteiden koko)": [10, 7, 15, 10],
   "(Gleason-luokitus)": [3, 4],
+
   "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
   "(Perineuraalinen kasvu)": "kyllä",
   "(Atypia)": "NA"

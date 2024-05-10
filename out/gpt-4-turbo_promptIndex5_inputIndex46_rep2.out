@@ -1,12 +1,11 @@
 {
-  "Näytetyyppi": "Radikaaliprostatektomianäyte",
   "Näytteiden määrä": "6 makrosektiota",
-  "Näytteiden koko tai paino": "NA",
+  "Näytteiden koko tai paino": "8mm ja 5mm fokukset",
   "Gleason luokitus": {
     "Apex": "4+4",
     "Base": "3+4"
   },
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "Perineuraalinen kasvu": "Ei mainittu",
-  "Atypia": "Kyllä, adenokarsinooma"
+  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
 }

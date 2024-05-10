@@ -1,0 +1,12 @@
+{
+    "Näytteiden määrä": 12,
+    "Näytteiden koko": {
+        "pituus": 1.2,
+        "leveys": 0.8,
+        "syvyys": 0.6
+    },
+    "Gleason-luokitus": 7,
+    "Eturauhasen hyvälaatuinen liikakasvu": "kyllä",
+    "Perineuraalinen kasvu": "ei",
+    "Atypia": "kyllä"
+}

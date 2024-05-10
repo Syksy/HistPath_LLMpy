@@ -12,7 +12,7 @@
       "Pesäke 3": "3+4=7"
     }
   ],
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, vain epiteelissä hyperplastisia muutoksia",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "Kyllä, atyyppista rauhasrakennetta"
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "Perineuraalinen kasvu": "Ei mainittu",
+  "Atypia": "Kyllä"
 }

@@ -1,0 +1,21 @@
+Here is the response in JSON format:
+
+```
+{
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": "100mm",
+  "Gleason-luokitus": "NA",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "kyllä",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: There is no clear mention of the number of samples taken, so the answer is "NA".
+2. Näytteiden koko: The sample size is mentioned as 100mm.
+3. Gleason-luokitus: There is no mention of Gleason classification, so the answer is "NA".
+4. Hyvälaatuinen eturauhasen liikakasvu: The text does not mention any benign prostatic hyperplasia, so the answer is "ei".
+5. Perineuraalinen kasvu: The text mentions "perineuraalia kasvua", so the answer is "kyllä".
+6. Atypia: There is no mention of atypia, so the answer is "NA".

@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": 4,
-  "Näytteiden koko tai paino": "NA",
-  "Näytteen Gleason luokitus": "Gleason 4 (vallitseva), Gleason 3 (lähes yhtä suuri %)",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, adenokarsinooma",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "Kyllä, fuusioituneita ja huonosti muodostuneita rauhasia"
+  "näytteiden_määrä": 4,
+  "näytteiden_koko_tai_paino": "NA",
+  "näytteen_Gleason_luokitus": "4",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "Ei",
+  "perineuraalinen_kasvu": "Ei mainintaa",
+  "atypia": "Kyllä"
 }

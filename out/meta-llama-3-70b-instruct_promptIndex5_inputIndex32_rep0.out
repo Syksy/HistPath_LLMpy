@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 3,
-  "sample_size_or_weight": "90mm",
+  "sample_size": "90mm",
   "gleason_score": NA,
-  "benign_hyperplasia_only": true,
+  "benign_hyperplasia": true,
   "perineural_invasion": false,
   "atypia": false
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 3 in this case.
-* `sample_size_or_weight`: The total length of the samples, which is 90mm.
-* `gleason_score`: Not applicable (NA) since there is no mention of Gleason score in the report.
-* `benign_hyperplasia_only`: True, since the report mentions hyperplasia and no findings suggestive of malignancy.
-* `perineural_invasion`: False, since there is no mention of perineural invasion in the report.
-* `atypia`: False, since the report explicitly states that no atypia was found.
+* `sample_size`: The total length of the samples, which is 90mm.
+* `gleason_score`: Since the Gleason score is not mentioned in the report, it is marked as NA (Not Available).
+* `benign_hyperplasia`: The report suggests that the sample contains glandular structures that may indicate hyperplasia, so this field is marked as true.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is marked as false.
+* `atypia`: The report explicitly states that no atypia or findings suggestive of malignancy were found, so this field is marked as false.

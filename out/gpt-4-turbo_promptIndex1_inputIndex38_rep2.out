@@ -1,8 +1,11 @@
 {
   "1. Näytteiden määrä": "NA",
-  "2. Näytteiden koko": "30g",
+  "2. Näytteiden koko": {
+    "kokonaispaino": 30,
+    "yksikkö": "g"
+  },
   "3. Gleason-luokitus": "NA",
   "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
-  "5. Perineuraalinen kasvu": "NA",
+  "5. Perineuraalinen kasvu": "ei",
   "6. Atypia": "ei"
 }

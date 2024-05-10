@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "NA",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "9",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Note that the only information available in the given text is the Gleason score, which is 9. The other questions cannot be answered based on the provided text, so the answer is "NA" (Not Available).

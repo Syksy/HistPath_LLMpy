@@ -2,13 +2,25 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "(a) Näytteiden määrä": 3,
-  "(b) Näytteiden koko": ["8+6mm", "10mm", "5+5mm"],
-  "(c) Gleason-luokitus": 7,
-  "(d) Eturauhasen hyvälaatuinen liikakasvu": "ei",
-  "(e) Perineuraalinen kasvu": "NA",
-  "(f) Atypia": "NA"
+  "(a)": 3,
+  "(b)": [8, 6, 10, 5, 5],
+  "(c)": 7,
+  "(d)": "ei",
+  "(e)": "NA",
+  "(f)": "kyllä"
 }
 ```
 
-Note: For question (b), I provided an array of values since there are multiple sample sizes mentioned in the report.
+Here's a brief explanation for each answer:
+
+a. The number of samples taken from the patient is 3.
+
+b. The sizes of the samples are 8mm, 6mm, 10mm, 5mm, and 5mm.
+
+c. The Gleason score is 7.
+
+d. There is no mention of benign prostatic hyperplasia (BPH) in the report, so the answer is "ei" (no).
+
+e. There is no mention of perineural growth in the report, so the answer is "NA" (not available).
+
+f. PIN changes are mentioned in the report, which can be considered as atypia, so the answer is "kyllä" (yes).

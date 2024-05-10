@@ -1,0 +1,14 @@
+Based on the provided text, I will extract the relevant information and convert it into a structured format in JSON. Here is the result:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+Since the provided text does not contain any information related to the histopathological examination, all fields are marked as NA (Not Available).

@@ -3,12 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 6,
-  "sample_size_or_weight": NA,
-  "Gleason_score": ["8 (4+4)", "7 (4+3)", "7 (3+4)"],
+  "sample_size_or_weight": "5mm, 10mm, NA",
+  "Gleason_score": "8, 7, 7",
   "benign_hyperplasia_only": "ei",
-  "perineural_invasion": NA,
+  "perineural_invasion": "NA",
   "atypia": "kyllä"
 }
 ```
 
-Note: Since there are multiple Gleason scores mentioned in the report, I have represented them as an array of values. If you would like to represent them differently, please let me know!
+Here's a brief explanation for each field:
+
+* `sample_count`: The number of biopsies taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The size or weight of each biopsy, which is 5mm for the first biopsy, 10mm for the second, and NA for the rest since the sizes are not specified.
+* `Gleason_score`: The Gleason scores for each biopsy, which are 8, 7, and 7 respectively.
+* `benign_hyperplasia_only`: Whether the biopsies show only benign hyperplasia, which is "ei" (no) in this case since adenocarcinoma is present.
+* `perineural_invasion`: Whether perineural invasion is present, which is NA since it's not mentioned in the report.
+* `atypia`: Whether atypia is present, which is "kyllä" (yes) since atypical glandular structures are mentioned in the report.

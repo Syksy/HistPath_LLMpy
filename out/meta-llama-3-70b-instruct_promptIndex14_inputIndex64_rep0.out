@@ -1,0 +1,16 @@
+It seems like there's a syntax error in the SQL query, and the error message doesn't contain the actual pathology report. Unfortunately, I won't be able to extract any information from this error message.
+
+Here are the answers in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "NA",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "NA",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+If you could provide the actual pathology report, I'd be happy to help you extract the information you need!

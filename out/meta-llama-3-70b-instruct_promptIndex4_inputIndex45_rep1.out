@@ -11,7 +11,7 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `number_of_samples`: 6, as mentioned in the report ("Samples 1-6...").
 * `sample_size_or_weight`: NA, as this information is not provided in the report.

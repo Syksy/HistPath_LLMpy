@@ -1,8 +1,8 @@
 {
   "näytteiden_määrä": "Otoksia on otettu yhteensä 15 kappaletta",
-  "näytteiden_koko_tai_paino": "Näytteiden koko vaihtelee makroskooppisesti A-N välillä",
-  "Gleason_luokitus": "Eniten esiintyy Gleason-luokkaa 4, mutta myös luokkaa 3 havaittu",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "Kyllä, kyseessä on vain hyvänlaatuinen eturauhasen liikakasvu",
-  "perineuraalinen_pahanlaatuinen_kasvu": "Kyllä, perineuraalista invaasiota havaittu",
-  "atypia": "Ei mainintaa atypiasta lausunnossa"
+  "näytteiden_koko_tai_paino": "Näytteiden koko vaihtelee, mutta ne on jaettu seuraavasti: A-D perusosasta huippuun makroskooppisina osioina, huippu E-F ja perusta G-N, sekä jäljellä olevat siemenrakkulat molemmilta puolilta N-O.",
+  "Gleason_luokitus": "Eniten esiintyvä Gleason-luokka on 4, mutta havaittavissa on myös luokkaa 3.",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "Kyllä, kyseessä on vain hyvänlaatuinen eturauhasen liikakasvu.",
+  "perineuraalinen_kasvu": "Perineuraalista invaasiota havaitaan runsaasti.",
+  "atypia": "Näytteessä havaitaan atypiaa, eli tavallisesta kudoksesta poikkeavia muutoksia."
 }

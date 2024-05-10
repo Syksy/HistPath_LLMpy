@@ -1,4 +1,4 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
@@ -11,11 +11,10 @@ Here are the answers in JSON format:
 }
 ```
 
-Explanation:
+Note: 
 
-1. The text mentions "Samples 1-6", so there are 6 samples taken.
-2. There is no information about the size of the samples, so it's "NA".
-3. There is no mention of Gleason score, so it's "NA".
-4. There is no mention of BPH (Benign Prostatic Hyperplasia), so it's "NA".
-5. There is no mention of perineural growth, so it's "NA".
-6. The text explicitly states "No significant atypia is observed", so atypia detection is "no".
+* The size of the samples is not mentioned in the text, so it's marked as "NA" (Not Available).
+* The Gleason score is not mentioned in the text, so it's marked as "NA" (Not Available).
+* BPH (Benign Prostatic Hyperplasia) is not explicitly mentioned in the text, so it's marked as "NA" (Not Available).
+* Perineural growth is not mentioned in the text, so it's marked as "NA" (Not Available).
+* Atypia is explicitly mentioned as not observed, so it's marked as "no".

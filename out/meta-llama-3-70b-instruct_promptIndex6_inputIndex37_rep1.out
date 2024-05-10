@@ -13,11 +13,11 @@ Based on the provided histopathological report, I will convert it into a structu
 
 Here's a brief explanation for each field:
 
-* `number_of_samples`: The number of biopsies taken from the patient, which is 6 in this case.
-* `sample_size_or_weight`: The total size or weight of the biopsies, which is approximately 120mm.
-* `Gleason_score`: Since the report does not mention a specific Gleason score, I have marked it as NA (Not Available).
-* `benign_hyperplasia_only`: Although the report mentions basal cell hyperplasia, it does not explicitly state that it's only benign hyperplasia. Therefore, I have marked it as NA.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I have marked it as NA.
-* `atypia`: Similarly, there is no mention of atypia in the report, so I have marked it as NA.
+* `number_of_samples`: The report mentions 6 representative prostate biopsies, so this field is populated with the value 6.
+* `sample_size_or_weight`: The report mentions the total size of the samples as approximately 120mm, so this field is populated with this value.
+* `Gleason_score`: There is no mention of Gleason score in the report, so this field is marked as NA (Not Available).
+* `benign_hyperplasia_only`: The report mentions basal cell hyperplasia, but it's not clear if it's only benign hyperplasia, so this field is marked as NA.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is marked as NA.
+* `atypia`: There is no mention of atypia in the report, so this field is marked as NA.
 
-Please note that some fields may be marked as NA if the information is not available in the original report.
+Please note that some fields are marked as NA because the information is not available in the provided report.

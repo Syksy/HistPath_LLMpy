@@ -17,4 +17,36 @@ The report mentions "Tutkittavana kolme fuusiobiopsiaa" which translates to "Thr
 ```
 The report mentions "Yhteispituudesta 30mm" which translates to "A total length of 30mm".
 
-Let me know when you're ready for me to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "3+4=7"
+}
+```
+The report mentions "Yhteenvetona löydös score 7" which translates to "The overall finding is a score of 7".
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention anything about benign prostatic hyperplasia, so the answer is "ei" (no).
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+The report does not mention anything about perineural growth, so the answer is "NA" (not available).
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+The report does not mention anything about atypia, so the answer is "NA" (not available).
+
+Let me know if you need anything else!

@@ -1,8 +1,11 @@
 {
-  "Näytteiden määrä": "2",
-  "Näytteiden koko tai paino": "Oikea 60mm, Vasen 80mm",
-  "Gleason luokitus": "9 (4+5)",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "Kyllä, karsinooma näytteessä B"
+  "näytteiden_lukumäärä": "NA",
+  "näytteiden_koko_tai_paino": {
+    "oikea": "60mm",
+    "vasen": "80mm"
+  },
+  "Gleason_luokitus": "9 (4+5)",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
+  "perineuraalinen_kasvu": "ei mainittu",
+  "atypia": "kyllä, karsinooma näytteessä B"
 }

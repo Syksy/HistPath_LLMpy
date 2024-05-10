@@ -2,46 +2,52 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "samples": [
+  "samples": 3,
+  "sample_details": [
     {
       "sample_id": 1,
-      "number_of_samples": 2,
-      "sample_size": "8+6mm",
-      "tumor_tissue_length": "4mm",
-      "gleason_score": 3,
-      "gleason_pattern_3_proportion": 0.6,
-      "gleason_pattern_4_proportion": 0.4,
-      "perineural_invasion": NA,
+      "size": "8+6mm",
+      "tumor_size": "4mm",
+      "gleason_score": 7,
+      "gleason_pattern": {
+        "3": 0.6,
+        "4": 0.4
+      },
+      "perineural_invasion": null,
       "atypia": true
     },
     {
       "sample_id": 2,
-      "number_of_samples": 1,
-      "sample_size": "10mm",
-      "tumor_tissue_length": "5mm",
+      "size": "10mm",
+      "tumor_size": "5mm",
       "gleason_score": 7,
-      "gleason_pattern_3_proportion": 0.7,
-      "gleason_pattern_4_proportion": 0.3,
-      "perineural_invasion": NA,
+      "gleason_pattern": {
+        "3": 0.7,
+        "4": 0.3
+      },
+      "perineural_invasion": null,
       "atypia": true
     },
     {
       "sample_id": 3,
-      "number_of_samples": 2,
-      "sample_size": "5+5mm",
-      "tumor_tissue_length": NA,
+      "size": "5+5mm",
+      "tumor_size": NA,
       "gleason_score": NA,
-      "gleason_pattern_3_proportion": NA,
-      "gleason_pattern_4_proportion": NA,
+      "gleason_pattern": NA,
       "perineural_invasion": NA,
-      "atypia": false
+      "atypia": NA
     }
   ],
-  "diagnosis": {
-    "adenocarcinoma_found": true,
-    "gleason_score": 7
-  }
+  "benign_hyperplasia": true,
+  "perineural_invasion": null,
+  "atypia": true
 }
 ```
 
-Note: I assumed that the Gleason score of 7 is a summary score for the entire diagnosis, and not specific to each sample. If this is not the case, please let me know and I can adjust the output accordingly.
+Note: 
+
+* `NA` is used to indicate that the value is not available or not applicable.
+* `gleason_pattern` is an object with keys representing the Gleason patterns and values representing the proportions.
+* `benign_hyperplasia` is set to `true` since the report mentions "no unusual prostate tissue" in Sample (3), indicating benign hyperplasia.
+* `perineural_invasion` is set to `null` since it is not mentioned in the report.
+* `atypia` is set to `true` since the report mentions "PIN changes" in Samples (1) and (2).

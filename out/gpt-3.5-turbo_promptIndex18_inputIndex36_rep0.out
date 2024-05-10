@@ -1,0 +1,16 @@
+{
+  "number of samples": 16,
+  "size of samples": {
+    "apex": "D-G",
+    "base": "K-P",
+    "seminal vesicles": "O-Q"
+  },
+  "Gleason score": {
+    "major": 3,
+    "minor": 4,
+    "sum": 7
+  },
+  "BPH": "ei",
+  "perineural growth": "ei",
+  "atypia": "ei"
+}

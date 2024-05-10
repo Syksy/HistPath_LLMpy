@@ -4,7 +4,7 @@
     "left side": ["10 mm", "7 mm"],
     "right side": ["15 mm", "10 mm"]
   },
-  "Gleason score": "7 (3+4)",
+  "Gleason score": "7",
   "BPH detected": "no",
   "perineural growth detected": "yes",
   "atypia detected": "no"

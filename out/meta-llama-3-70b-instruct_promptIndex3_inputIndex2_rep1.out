@@ -14,6 +14,6 @@ Here are the answers in JSON format:
 Note: 
 
 * The Gleason score is not mentioned in the text, so it's marked as "NA" (not available).
-* BPH (Benign Prostatic Hyperplasia) is suspected due to the presence of hyperplastic changes, so it's marked as "yes".
+* BPH (Benign Prostatic Hyperplasia) is suspected due to the presence of hyperplasia, so it's marked as "yes".
 * There is no mention of perineural growth, so it's marked as "NA".
 * Atypia is explicitly mentioned as not being present, so it's marked as "no".

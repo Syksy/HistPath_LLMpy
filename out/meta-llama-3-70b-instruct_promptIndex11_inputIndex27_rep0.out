@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 12,
+  "Näytteiden koko": "8mm, 7mm, 5mm",
+  "Gleason-luokitus": "3+3",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "ei"
+}
+```
+
+Let me explain how I arrived at these answers:
+
+1. Näytteiden määrä: The text mentions "3/12 biopsiosta", which implies that 12 biopsies were taken.
+2. Näytteiden koko: The text mentions three specific biopsy sizes: 8mm, 7mm, and 5mm.
+3. Gleason-luokitus: The text mentions "Gleason 3 arkkitehtuuri" multiple times, and finally summarizes it as "3+3 tyypin adenokarsinoomaa".
+4. Hyvälaatuinen eturauhasen liikakasvu: The text does not mention anything about hyvälaatuinen eturauhasen liikakasvu, but it does mention "adenokarsinoomaa", which implies that there is no hyvälaatuinen eturauhasen liikakasvu.
+5. Perineuraalinen kasvu: There is no mention of perineuraalinen kasvu in the text.
+6. Atypia: The text explicitly states "Ei havaita tuma-atypiaa", which means there is no atypia.

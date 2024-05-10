@@ -1,0 +1,12 @@
+Here are the answers to the questions based on the provided histopathological report:
+
+{
+"(Näytteiden määrä)": 13,
+"(Näytteiden koko)": 180,
+"(Gleason-luokitus)": 3,
+"(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+"(Perineuraalinen kasvu)": "NA",
+"(Atypia)": "NA"
+}
+
+Note: The Gleason score is not explicitly stated in the report, but based on the description of the tumor, it can be inferred that the Gleason score is 3, with a larger proportion of separate gland-forming class than class 3 and a smaller proportion of 4.

@@ -2,7 +2,7 @@
   "number of samples": 8,
   "size of samples": "elektrosektiolastut",
   "Gleason score": "NA",
-  "BPH": "yes",
-  "perineural growth": "no",
-  "atypia": "NA"
+  "BPH detected": "yes",
+  "perineural growth detected": "no",
+  "atypia detected": "no"
 }

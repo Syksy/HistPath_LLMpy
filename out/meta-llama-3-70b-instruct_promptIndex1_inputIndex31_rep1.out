@@ -14,7 +14,7 @@ The report mentions "Six formalin-fixed preparations", indicating that there are
   "näytteiden_koko": "NA"
 }
 ```
-There is no mention of the size of the samples in the report, so I'll answer with 'NA'.
+There is no mention of the size of the samples in the report, so I'll answer with "NA".
 
 **3. Gleason-luokitus:**
 ```
@@ -30,7 +30,7 @@ The report mentions "E-F, the majority of growth is seen in Gleason class 3 (abo
   "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
 }
 ```
-There is no clear mention of benign prostatic hyperplasia in the report, so I'll answer with 'NA'.
+There is no mention of benign prostatic hyperplasia in the report, so I'll answer with "NA".
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -38,7 +38,7 @@ There is no clear mention of benign prostatic hyperplasia in the report, so I'll
   "perineuraalinen_kasvu": "ei"
 }
 ```
-The report explicitly states "there is no perineural invasion", indicating that there is no perineural growth.
+The report mentions "there is no vesicle or perineural invasion", indicating that there is no perineural growth.
 
 **6. Atypia:**
 ```
@@ -46,4 +46,4 @@ The report explicitly states "there is no perineural invasion", indicating that 
   "atypia": "NA"
 }
 ```
-There is no mention of atypia in the report, so I'll answer with 'NA'.
+There is no mention of atypia in the report, so I'll answer with "NA".

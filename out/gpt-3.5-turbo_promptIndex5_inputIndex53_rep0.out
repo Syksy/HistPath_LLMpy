@@ -1,15 +1,26 @@
 {
   "Biopsianäytteet": {
     "Näytteiden määrä": 2,
-    "Näytteiden koko": "8+6mm ja 10mm",
-    "Gleason luokitus": {
-      "Näyte 1": {"Gleason 3": "60%", "Gleason 4": "40%"},
-      "Näyte 2": {"Gleason 3": "70%", "Gleason 4": "30%"}
-    },
+    "Näytteiden koko": ["8+6mm", "10mm"],
+    "Gleason luokitus": [3, 4],
     "Hyvänlaatuinen eturauhasen liikakasvu": false,
     "Perineuraalinen kasvu": false,
     "Atypia": true
   },
-  "Radikaaliprostatektomianäyte": "NA",
-  "TURP-hoitolastu": "NA"
+  "Radikaaliprostatektomianäyte": {
+    "Näytteiden määrä": "NA",
+    "Näytteiden koko": "NA",
+    "Gleason luokitus": "NA",
+    "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
+    "Perineuraalinen kasvu": "NA",
+    "Atypia": "NA"
+  },
+  "TURP-hoitolastu": {
+    "Näytteiden määrä": "NA",
+    "Näytteiden koko": "NA",
+    "Gleason luokitus": "NA",
+    "Hyvänlaatuinen eturauhasen liikakasvu": true,
+    "Perineuraalinen kasvu": false,
+    "Atypia": false
+  }
 }

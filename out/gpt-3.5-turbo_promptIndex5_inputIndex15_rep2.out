@@ -1,8 +1,8 @@
 {
   "Potilaalta otettujen näytteiden määrä": 6,
-  "Näytteiden koko tai paino": "Ei tietoa",
-  "Näytteen Gleason luokitus": "Ei karsinoomaa tai PIN-muutoksia",
-  "Hyvänlaatuinen eturauhasen liikakasvu": true,
-  "Perineuraalinen kasvu havaittu": false,
-  "Atypia havaittu": false
+  "Näytteiden koko tai paino": "Ei mainintaa",
+  "Näytteen Gleason luokitus": "Ei mainintaa",
+  "Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu": true,
+  "Perineuraalisen kasvun havaitseminen näytteessä": false,
+  "Atypian havaitseminen näytteessä": false
 }

@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 6,
-  "sample_size_or_weight": "n. 120mm",
+  "sample_size_or_weight": "120mm",
   "Gleason_score": NA,
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
-  "atypia": true
+  "atypia": NA
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 6, as there are 6 biopsy samples.
-* `sample_size_or_weight`: "n. 120mm", which is the total size of the samples.
-* `Gleason_score`: NA, as there is no mention of Gleason score in the report.
-* `benign_hyperplasia_only`: false, as although there is basaalisoluhyperplasia (basal cell hyperplasia), the report mentions a suspicious finding and an uncertain diagnosis.
-* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report.
-* `atypia`: true, as the report mentions that the findings are suspicious and cannot be definitively diagnosed as cancer, implying that there are atypical changes present.
+* `sample_count`: The number of samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The size or weight of the samples, which is approximately 120mm in this case.
+* `Gleason_score`: Since the Gleason score is not mentioned in the report, the value is set to NA (Not Available).
+* `benign_hyperplasia_only`: The report mentions basaalisoluhyperplasiaa (basal cell hyperplasia), which is a benign condition, but it also mentions a suspicious finding, so the value is set to false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so the value is set to NA.
+* `atypia`: There is no mention of atypia in the report, so the value is set to NA.

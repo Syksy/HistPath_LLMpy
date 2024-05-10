@@ -1,0 +1,11 @@
+{
+  "Number of samples": 4,
+  "Sample size": "2mm",
+  "Gleason score": {
+    "Grade 3": "almost as large a %",
+    "Grade 4": "most prevalent"
+  },
+  "BPH detection": "NA",
+  "Perineural growth detection": "NA",
+  "Atypia detection": "NA"
+}

@@ -1,18 +1,18 @@
-Based on the provided text, I will attempt to extract the relevant information and convert it into a structured format in JSON.
+I'll do my best to extract the relevant information from the given text and convert it into a structured format in JSON.
 
-Here is the output:
+Here is the parsed output:
 
 ```
 {
   "sample_count": NA,
   "sample_size_or_weight": NA,
-  "Gleason_score": NA,
-  "benign_hyperplasia_only": NA,
+  "gleason_score": NA,
+  "benign_hyperplasia": NA,
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-The reason for all values being `NA` is that the provided text does not contain any relevant information related to the questions asked. The text appears to be a nonsensical sequence of words and numbers, without any mention of biopsy samples, prostate tissue, or any other relevant medical terms.
+The reason for all the `NA` values is that the provided text does not contain any relevant information about the histopathological sample. The text appears to be a nonsensical sequence of words and numbers, and does not match any of the three types of histopathological reports you mentioned.
 
 If you could provide a real histopathological report, I would be happy to help you extract the relevant information and convert it into a structured format in JSON.

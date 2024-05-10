@@ -9,20 +9,21 @@ Here is the structured report in JSON format:
     {"sample": 3, "size": "5+5mm"}
   ],
   "Gleason_score": [
-    {"sample": 1, "score": 7, "pattern_3": 60, "pattern_4": 40},
-    {"sample": 2, "score": 7, "pattern_3": 70, "pattern_4": 30}
+    {"sample": 1, "Gleason_score": 3, "proportion": 0.6},
+    {"sample": 1, "Gleason_score": 4, "proportion": 0.4},
+    {"sample": 2, "Gleason_score": 3, "proportion": 0.7},
+    {"sample": 2, "Gleason_score": 4, "proportion": 0.3}
   ],
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
-  "atypia_present": true
+  "atypia": NA
 }
 ```
 
 Note: 
 
-* `number_of_samples` is the total number of samples taken from the patient.
-* `sample_size_or_weight` is an array of objects, each containing the sample number and its corresponding size or weight.
-* `Gleason_score` is an array of objects, each containing the sample number, Gleason score, and proportions of patterns 3 and 4.
-* `benign_hyperplasia_only` is a boolean indicating whether the sample shows only benign hyperplasia (false in this case).
-* `perineural_invasion` is marked as NA (Not Available) since it is not mentioned in the original report.
-* `atypia_present` is a boolean indicating whether atypia is present in the sample (true in this case, since PIN changes are mentioned).
+* `number_of_samples` is 3, as there are three samples mentioned in the report.
+* `sample_size_or_weight` is an array of objects, each containing the sample number and its corresponding size.
+* `Gleason_score` is an array of objects, each containing the sample number, Gleason score, and proportion.
+* `benign_hyperplasia_only` is false, as the report mentions Gleason 7 adenocarcinoma, which is a malignant tumor.
+* `perineural_invasion` and `atypia` are both NA, as there is no mention of these features in the report.

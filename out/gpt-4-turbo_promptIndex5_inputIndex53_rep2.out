@@ -1,20 +1,43 @@
 {
-  "Sample Count": 3,
-  "Sample Sizes or Weights": [
+  "samples": [
     {
-      "Sample 1": "8mm + 6mm",
-      "Sample 2": "10mm",
-      "Sample 3": "5mm + 5mm"
+      "sample_number": 1,
+      "tissue_cylinders": 2,
+      "lengths": ["8mm", "6mm"],
+      "tumor_tissue_length": "4mm",
+      "gleason_score": {
+        "pattern_3": "60%",
+        "pattern_4": "40%"
+      },
+      "PIN_changes": true,
+      "perineural_invasion": "NA",
+      "atypia": "NA"
+    },
+    {
+      "sample_number": 2,
+      "tissue_cylinders": 1,
+      "lengths": ["10mm"],
+      "tumor_tissue_length": "5mm",
+      "gleason_score": {
+        "pattern_3": "70%",
+        "pattern_4": "30%"
+      },
+      "PIN_changes": true,
+      "perineural_invasion": "NA",
+      "atypia": "NA"
+    },
+    {
+      "sample_number": 3,
+      "tissue_cylinders": 2,
+      "lengths": ["5mm", "5mm"],
+      "tumor_tissue_length": "NA",
+      "gleason_score": "NA",
+      "PIN_changes": false,
+      "perineural_invasion": "NA",
+      "atypia": "NA"
     }
   ],
-  "Gleason Score": [
-    {
-      "Sample 1": "Gleason 3 (60%) and 4 (40%)",
-      "Sample 2": "Gleason 3 (70%) and 4 (30%)",
-      "Sample 3": "NA"
-    }
-  ],
-  "Benign Prostatic Hyperplasia": "No",
-  "Perineural Invasion": "NA",
-  "Atypia": "Yes, PIN changes in Samples 1 and 2"
+  "total_samples": 3,
+  "benign_prostatic_hyperplasia": true,
+  "diagnosis": "Gleason 7 adenocarcinoma of the prostate"
 }

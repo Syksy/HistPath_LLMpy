@@ -7,14 +7,15 @@ Here are the answers to the questions in JSON format:
   "3. Gleason classification": ("4+4", "3+4"),
   "4. Is there benign prostatic hyperplasia?": ("ei"),
   "5. Is there perineural growth?": ("ei"),
-  "6. Is there atypia?": ("NA")
+  "6. Is there atypia?": ("ei")
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question 2, the size of the samples taken is not specified, so I answered "NA".
-* For question 3, there are two different Gleason classifications mentioned in the text (4+4 and 3+4), so I listed both.
-* For question 4, there is no mention of benign prostatic hyperplasia, so I answered "ei" (no).
-* For question 5, there is no mention of perineural growth, so I answered "ei" (no).
-* For question 6, there is no mention of atypia, so I answered "NA".
+1. The text mentions that "six macrosections and normal microscopic sections were made", so the number of samples taken is 6.
+2. The text does not provide information about the size of the samples taken, so the answer is "NA" (not available).
+3. The Gleason classification is mentioned as 4+4 in the apex and 3+4 in the base.
+4. There is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+5. The text states that "there is no outgrowth from the capsule", which implies that there is no perineural growth, so the answer is "ei" (no).
+6. There is no mention of atypia, so the answer is "ei" (no).

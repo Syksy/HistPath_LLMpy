@@ -1,0 +1,20 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": "4g",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "kyllä",
+  "5. Perineural growth detection": "ei",
+  "6. Atypia detection": "ei"
+}
+```
+
+Note: 
+
+* The number of samples is 3, as the text mentions that the planing chips were launched into three tissue cassettes.
+* The size of the samples is 4g.
+* The Gleason score is not mentioned in the text, so it's marked as NA (not available).
+* BPH (Benign Prostatic Hyperplasia) can be detected, as the text mentions "subtly prostatic hyperplasia".
+* Perineural growth and atypia are not mentioned in the text, so they are marked as ei (no).

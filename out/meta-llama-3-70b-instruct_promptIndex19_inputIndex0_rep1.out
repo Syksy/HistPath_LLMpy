@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 1,
+  "2. Size of samples": "100mm",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "yes",
+  "6. Atypia detection": "ei"
+}
+```
+
+Explanation:
+
+1. The text mentions "näyte" which is singular, indicating that only one sample has been taken.
+2. The size of the sample is 100mm, as mentioned in the text.
+3. There is no mention of the Gleason score in the text, so it's marked as NA (not available).
+4. There is no mention of BPH (benign prostatic hyperplasia) in the text, so it's marked as "ei" (no).
+5. The text explicitly mentions "perineuraalia kasvua" which means perineural growth, so it's marked as "yes".
+6. The text mentions "ei selkeää malignia tai PIN löydöstä" which means no clear malignancy or PIN (prostatic intraepithelial neoplasia) was found, so atypia detection is marked as "ei" (no).

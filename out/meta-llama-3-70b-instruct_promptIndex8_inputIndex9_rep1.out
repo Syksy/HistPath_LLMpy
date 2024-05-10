@@ -2,19 +2,19 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "sample_count": 8, 
-  "sample_size_or_weight": "13g", 
-  "Gleason_score": "3+3=6", 
-  "benign_hyperplasia_only": "ei", 
-  "perineural_invasion": "NA", 
+  "sample_count": 8,
+  "sample_size_or_weight": "13g",
+  "Gleason_score": "3+3=6",
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "NA",
   "atypia": "NA"
 }
 ```
 
-Let me explain how I arrived at this result:
+Let me explain the reasoning behind each field:
 
-* `sample_count`: The text mentions that the samples were spread across 8 cassettes, so I assume this is the number of samples.
-* `sample_size_or_weight`: The text mentions a total weight of 13g, so I use this value.
-* `Gleason_score`: The text explicitly states the Gleason score as 3+3=6.
-* `benign_hyperplasia_only`: Since the text mentions carcinoma (karsinoomaa), I assume this is not a case of benign hyperplasia only, so I set this to "ei" (no).
-* `perineural_invasion` and `atypia`: These are not mentioned in the original text, so I set them to "NA" (not available).
+* `sample_count`: The report mentions that the samples were spread across 8 cassettes, so I assume that's the number of samples.
+* `sample_size_or_weight`: The report mentions a total weight of 13g, so I use that as the sample size/weight.
+* `Gleason_score`: The report explicitly mentions a Gleason score of 3+3=6, so I use that.
+* `benign_hyperplasia_only`: Since the report mentions carcinoma, I assume it's not a case of benign hyperplasia only, so I set this to "ei" (no).
+* `perineural_invasion` and `atypia`: These are not mentioned in the report, so I set them to "NA" (not available).

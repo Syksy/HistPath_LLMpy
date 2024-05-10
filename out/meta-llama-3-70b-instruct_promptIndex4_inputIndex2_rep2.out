@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 3, as there are 3 prostate biopsy samples.
-* `sample_size_or_weight`: "90mm", as the total length of the samples is 90mm.
-* `Gleason_score`: NA, as there is no mention of Gleason score in the report.
-* `benign_hyperplasia_only`: true, as the report suggests that one of the samples may indicate hyperplasia, and there is no mention of malignant findings.
-* `perineural_invasion`: false, as there is no mention of perineural invasion in the report.
-* `atypia`: false, as the report explicitly states that there is no atypia or malignant findings.
+* `sample_count`: The number of samples taken from the patient, which is 3 in this case.
+* `sample_size_or_weight`: The total length of the samples, which is 90mm.
+* `Gleason_score`: Since the Gleason score is not mentioned in the report, the value is set to NA (Not Available).
+* `benign_hyperplasia_only`: This field is set to true, indicating that the report suggests only benign hyperplasia, with no signs of malignancy.
+* `perineural_invasion`: This field is set to false, as there is no mention of perineural invasion in the report.
+* `atypia`: This field is set to false, as the report explicitly states that there is no atypia or malignant findings.

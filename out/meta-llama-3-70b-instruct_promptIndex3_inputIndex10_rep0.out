@@ -11,10 +11,11 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* The number of samples is 14 because there are 4 samples labeled A-D, 2 samples labeled E-F, 7 samples labeled G-N, and 1 sample labeled N-O.
-* The size of samples is not mentioned in the text, so it's marked as "NA".
-* The Gleason score is reported as having a dominant class of 4 and some class 3, so it's written as "4+3".
-* There is no mention of BPH (Benign Prostatic Hyperplasia) or atypia in the text, so they are marked as "NA".
-* Perineural growth is explicitly mentioned in the text, so it's marked as "yes".
+1. The number of samples is 14, as there are 4 samples labeled A-D, 2 samples labeled E-F, 7 samples labeled G-N, and 1 sample labeled N-O.
+2. The size of the samples is not specified in the text, so the answer is "NA".
+3. The Gleason score is 4+3, as the dominant Gleason class is 4, and there is also some Gleason class 3 present.
+4. There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so the answer is "NA".
+5. Perineural growth is detected, as the text mentions "Perineuraalista invaasiota havaitaan runsaasti" which translates to "Perineural invasion is abundant".
+6. There is no mention of atypia in the text, so the answer is "NA".

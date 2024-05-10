@@ -1,0 +1,21 @@
+Here are the answers to each question in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 12,
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "3+4=7",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 12, as stated in the report: "The shavings obtained from planing were cut into 12 tissue blocks."
+2. There is no mention of the size of the samples, so the answer is "NA".
+3. The Gleason score is 7, with a major component of 3 and a minor component of 4, as stated in the report: "In the portion that can be interpreted as neoplastic, Gleason sum is 7, of which the larger portion is class 3, about 60% of the tumor."
+4. The report does not mention benign prostatic hyperplasia, and the carcinoma is described as a small part of the chips, so the answer is "ei" (no).
+5. There is no mention of perineural growth, so the answer is "NA".
+6. There is no mention of atypia, so the answer is "NA".

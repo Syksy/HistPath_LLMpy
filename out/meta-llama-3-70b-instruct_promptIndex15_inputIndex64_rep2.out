@@ -1,0 +1,16 @@
+It seems like there's a syntax error in the SQL query, and the error message doesn't provide the actual values for the requested information. Unfortunately, I won't be able to provide the answers to the questions based on the given text.
+
+However, I can provide a JSON response with "NA" (Not Available) values for each question, indicating that the information is not available due to the syntax error:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+If you could provide the correct SQL query or the actual histopathological report, I'd be happy to help you extract the necessary information!

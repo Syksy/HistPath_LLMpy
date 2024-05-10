@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "6",
+  "2. Näytteiden koko": "5mm, 10mm (ei tietoa kaikista näytteistä)",
+  "3. Gleason-luokitus": "4+4=8, 4+3=7, 3+4=7",
+  "4. Hyvälaatuinen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "kyllä"
+}
+```
+
+Note: For question 2, the sizes of only two samples are mentioned in the text, so I couldn't provide the sizes of all six samples. For question 5, there is no mention of perineural growth in the text, so I marked it as "NA" (not available).

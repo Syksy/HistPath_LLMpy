@@ -1,14 +1,14 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
-  "a. Näytteiden määrä": 13,
-  "b. Näytteiden koko": 180,
-  "c. Gleason-luokitus": 3-4,
-  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
-  "e. Perineuraalinen kasvu": "NA",
-  "f. Atypia": "NA"
+  "(a. Näytteiden määrä)": 13,
+  "(b. Näytteiden koko)": 180,
+  "(c. Gleason-luokitus)": "3 ja 4",
+  "(d. Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(e. Perineuraalinen kasvu)": "NA",
+  "(f. Atypia)": "NA"
 }
 ```
 
-Let me know if you have any further questions!
+Note: For question c, the Gleason score is reported as a combination of two scores (3 and 4) with the percentage of the latter being around 30%.

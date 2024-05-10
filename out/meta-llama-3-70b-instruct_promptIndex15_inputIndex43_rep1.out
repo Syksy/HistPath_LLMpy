@@ -1,0 +1,19 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples taken": ("About 19g of prostate shavings in total"),
+  "2. Size of the samples": ("10g were put into histology"),
+  "3. Gleason classification": ("5+4=9/9/NA"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("ei"),
+  "6. Atypia": ("kyllä")
+}
+```
+
+Note: 
+
+* For question 1, the answer is not a specific number, but rather a description of the total amount of prostate shavings taken.
+* For question 4, the answer is "ei" (no) because the text does not mention benign prostatic hyperplasia.
+* For question 5, the answer is "ei" (no) because the text does not mention perineural growth.
+* For question 6, the answer is "kyllä" (yes) because the text describes the nuclei as "enlarged" and "vary in size", which suggests atypia.

@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "3",
+  "2. Näytteiden koko": "4g",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 3 tissue cassettes, which implies that 3 samples were taken.
+2. The total weight of the samples is 4g.
+3. There is no mention of Gleason score in the given report, so the answer is NA (Not Available).
+4. The report suggests "subtly prostatic hyperplasia", which implies that there is evidence of benign prostatic hyperplasia, so the answer is "kyllä" (yes).
+5. There is no mention of perineural invasion in the report, so the answer is "ei" (no).
+6. There is no mention of atypia in the report, so the answer is "ei" (no).

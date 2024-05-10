@@ -1,8 +1,8 @@
 {
-  "samples_taken": 6,
-  "sample_size": "biopsy cylinders",
-  "Gleason_score": "NA",
-  "benign_prostate_hyperplasia": true,
-  "perineural_invasion": false,
+  "samplesTaken": 6,
+  "sampleSize": "biopsy cylinders",
+  "GleasonScore": "NA",
+  "benignProstateHyperplasia": true,
+  "perineuralInvasion": false,
   "atypia": false
 }

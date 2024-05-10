@@ -1,0 +1,19 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 4,
+  "Näytteiden koko": [
+    {"näyte": 1, "koko": 10, "määre": "mm"},
+    {"näyte": 2, "koko": 8, "määre": "mm"},
+    {"näyte": 3, "koko": 14, "määre": "mm"},
+    {"näyte": 4, "koko": 14, "määre": "mm"}
+  ],
+  "Gleason-luokitus": "3+4=90+10",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "NA"
+}
+```
+
+Let me know if you need any further assistance!

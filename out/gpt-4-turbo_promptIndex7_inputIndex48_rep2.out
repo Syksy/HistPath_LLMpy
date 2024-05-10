@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": "6",
-  "Näytteiden koko tai paino": "4+6+3 mm from the left, 5+7+8 mm from the right",
+  "Näytteiden määrä": 6,
+  "Näytteiden koko tai paino": "4+6+3 mm vasemmalta, 5+7+8 mm oikealta",
   "Gleason luokitus": "NA",
   "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
   "Perineuraalinen kasvu": "NA",
-  "Atypia": "Yes"
+  "Atypia": "Kyllä, adenokarsinooman vahva epäily"
 }

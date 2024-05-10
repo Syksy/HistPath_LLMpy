@@ -1,8 +1,8 @@
 {
   "Näytteiden määrä": 9,
   "Näytteiden koko tai paino": "NA",
-  "Gleason luokitus": "Grade 3 and Grade 4",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "No",
-  "Perineuraalinen kasvu": "No",
-  "Atypia": "Yes"
+  "Näytteen Gleason luokitus": "3 ja 4",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "Perineuraalinen kasvu": "Ei mainittu",
+  "Atypia": "Kyllä, pieniä positiivisia reunaetäisyyksiä"
 }

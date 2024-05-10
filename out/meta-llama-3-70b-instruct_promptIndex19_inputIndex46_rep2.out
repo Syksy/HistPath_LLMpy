@@ -1,0 +1,19 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 6,
+  "2. Size of samples": "8mm and 5mm",
+  "3. Gleason score": "4+4=8 and 3+4=7",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "no",
+  "6. Atypia detection": "NA"
+}
+```
+
+Note: 
+
+* "ei" means "no" in Finnish.
+* "kyllä" means "yes" in Finnish, but it was not needed in this case.
+* NA means "not available" or "not mentioned" in the text.
+* The Gleason score is reported as major+minor=sum, and two different scores are mentioned in the text, one for the apex and one for the base.

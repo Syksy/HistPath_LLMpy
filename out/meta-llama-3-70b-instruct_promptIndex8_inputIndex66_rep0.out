@@ -1,0 +1,18 @@
+What a beautiful poem! However, I must inform you that it doesn't contain any histopathological information. It appears to be a heartfelt and emotional poem about loss and grief.
+
+As a result, I will return a JSON object with all values set to "NA", indicating that the information is not available in the provided text.
+
+Here is the JSON object:
+
+```
+{
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_hyperplasia": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+If you could provide a histopathological report in a free-text format, I would be happy to help you convert it into a structured format.

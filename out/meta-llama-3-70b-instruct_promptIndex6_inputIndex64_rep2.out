@@ -1,0 +1,18 @@
+I see what's going on here!
+
+It seems like there's a syntax error in the SQL query, and the error message is indicating that the query parameters are not found. This means that the system is unable to extract the required information from the histopathological report.
+
+As a result, I'll provide a structured response in JSON format with the requested information, using "NA" to indicate that the values are not available due to the error.
+
+Here's the response:
+```json
+{
+  "sample_count": "NA",
+  "sample_amount": "NA",
+  "gleason_grade": "NA",
+  "patient_bph": "NA",
+  "sample_perineural_invasion": "NA",
+  "sample_atypia": "NA"
+}
+```
+Let me know if there's anything else I can help with!

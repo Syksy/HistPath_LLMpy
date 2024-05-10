@@ -6,7 +6,7 @@
     "5+5mm"
   ],
   "Gleason score": "3+4=7",
-  "BPH detected": "no",
-  "perineural growth detected": "no",
-  "atypia detected": "yes"
+  "BPH": "no",
+  "perineural growth": "NA",
+  "atypia": "yes"
 }

@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 6,
+  "2. Näytteiden koko": "120mm",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 6, as stated in the report.
+2. The size of the samples is approximately 120mm in total.
+3. There is no mention of Gleason score in the report, so the answer is "NA".
+4. The report mentions "basal cell hyperplasia" which is a type of benign hyperplasia, so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the report, so the answer is "NA".
+6. There is no mention of atypia in the report, so the answer is "NA".

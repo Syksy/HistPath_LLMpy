@@ -15,12 +15,10 @@ Here is the structured report in JSON format:
 }
 ```
 
-Let me explain how I arrived at this structured report:
+Here's a brief explanation of each field:
 
-* `sample_count`: The number of biopsies taken from the patient, which is 13 in this case.
+* `sample_count`: The number of biopsy samples taken from the patient, which is 13 in this case.
 * `sample_size_or_weight`: The size or weight of the biopsy material, which is approximately 180mm in this case.
-* `Gleason_score`: The Gleason score is a grading system used to evaluate the aggressiveness of prostate cancer. In this case, the primary grade is 3 and the secondary grade is 4, with the secondary grade making up about 30% of the tumor.
-* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, since cancer was detected in five biopsies, the value is `false`.
-* `perineural_invasion` and `atypia`: These fields were not mentioned in the original report, so I returned `NA` (Not Available) for both.
-
-Please let me know if you have any further questions or if you'd like me to clarify anything!
+* `Gleason_score`: The Gleason score is a grading system used to evaluate the aggressiveness of prostate cancer. In this case, the primary score is 3 and the secondary score is 4, with the secondary score making up approximately 30% of the tumor.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., non-cancerous growth) of the prostate. In this case, the answer is false, since cancer was detected in five of the biopsy samples.
+* `perineural_invasion` and `atypia`: These fields indicate whether perineural invasion (i.e., cancerous growth around nerves) and atypia (i.e., abnormal cell changes) were detected in the sample, respectively. Since these features are not mentioned in the original report, the value for both fields is NA (not available).

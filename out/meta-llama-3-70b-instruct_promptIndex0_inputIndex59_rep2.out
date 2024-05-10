@@ -3,7 +3,7 @@ Here are the answers to the questions in JSON format:
 ```
 {
   "a. Näytteiden määrä": 3,
-  "b. Näytteiden koko": 30,
+  "b. Näytteiden koko": "7, 6 and 2mm",
   "c. Gleason-luokitus": 7,
   "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
   "e. Perineuraalinen kasvu": "NA",

@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("ei voida määrittää"),
+  "2. Näytteiden koko": ("noin 5g"),
+  "3. Gleason-luokitus": ("4+4=8"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Note: The answer to question 1 is "ei voida määrittää" (cannot be determined) because the text does not specify the number of samples taken, only that all samples were examined.

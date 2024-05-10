@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 6,
-  "sample_size_or_weight": ["5mm", "10mm"], // multiple values, not sure which one to choose
-  "Gleason_score": [8, 7, 7], // multiple values, one for each sample
+  "sample_size_or_weight": ["5mm", "10mm", null, null, null, null],
+  "Gleason_score": [8, 7, 7, null, null, null],
   "benign_hyperplasia_only": false,
-  "perineural_invasion": null, // not mentioned in the report
+  "perineural_invasion": null,
   "atypia": true
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* `number_of_samples` is 6, as there are six biopsialieriötä (biopsy samples) mentioned in the report.
-* `sample_size_or_weight` has multiple values, as there are different sizes mentioned for different samples. It's not clear which one to choose, so I've included both.
-* `Gleason_score` also has multiple values, one for each sample.
-* `benign_hyperplasia_only` is false, as there are malignant findings (adenokarsinooma) in addition to hyperplastic changes.
-* `perineural_invasion` is null, as it's not mentioned in the report.
-* `atypia` is true, as there are atypical glandular structures mentioned in the report.
+* `number_of_samples`: The number of biopsy samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: An array of sample sizes or weights, where available. In this case, only samples 1 and 2 have reported sizes (5mm and 10mm, respectively).
+* `Gleason_score`: An array of Gleason scores, where available. In this case, samples 1, 2, and 3 have reported Gleason scores (8, 7, and 7, respectively).
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false, as there are malignant components present.
+* `perineural_invasion`: A value indicating whether perineural invasion is present. In this case, it's null, as there is no mention of perineural invasion in the report.
+* `atypia`: A boolean indicating whether atypia is present. In this case, it's true, as there is mention of "huonosti erilaistunutta atyyppista rauhasrakennetta" (poorly differentiated atypical glandular structure) in sample 1.

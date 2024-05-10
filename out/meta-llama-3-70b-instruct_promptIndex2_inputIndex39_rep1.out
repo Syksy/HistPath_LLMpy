@@ -11,10 +11,11 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* Question 1: The number of samples is 8, as indicated by "eight cassettes".
-* Question 2: The total weight of the samples is 13g.
-* Question 3: The Gleason score is 3+3=6.
-* Question 4: Since carcinoma was found histologically, it can be inferred that there is malignant growth, so the answer is "kyllä" (yes).
-* Questions 5 and 6: There is no information about perineural growth or atypia in the given text, so the answers are "NA" (not available).
+1. The number of samples taken is 8, as indicated by the phrase "eight cassettes".
+2. The total weight of the samples is 13g, as stated in the report.
+3. The Gleason score is 3+3=6, which indicates a moderate-grade cancer.
+4. Since carcinoma was found histologically, it can be inferred that there is malignant growth, so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the report, so the answer is "NA" (not available).
+6. There is no mention of atypia in the report, so the answer is "NA" (not available).

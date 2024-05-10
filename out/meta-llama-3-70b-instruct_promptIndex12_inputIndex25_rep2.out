@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 4,
+  "Näytteiden koko": "2mm",
+  "Gleason-luokitus": "4+3",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions "Näytteet 1-4", which implies that there are 4 samples.
+2. Näytteiden koko: The report mentions a 2mm area of prostate adenocarcinoma in sample 2.
+3. Gleason-luokitus: The report mentions that the dominant Gleason score is 4, but 3 is almost as prevalent, which can be interpreted as a Gleason score of 4+3.
+4. Hyvälaatuinen eturauhasen liikakasvu: The report does not mention any benign prostatic hyperplasia, so the answer is "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the report, so the answer is "NA".
+6. Atypia: There is no mention of atypia in the report, so the answer is "NA".

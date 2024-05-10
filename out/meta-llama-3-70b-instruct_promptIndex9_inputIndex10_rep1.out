@@ -1,0 +1,19 @@
+Here are the answers to the questions based on the histopathological report:
+
+{
+"(Näytteiden määrä)": 14,
+"(Näytteiden koko)": NA,
+"(Gleason-luokitus)": 4,
+"(Eturauhasen hyvälaatuinen liikakasvu)": ei,
+"(Perineuraalinen kasvu)": kyllä,
+"(Atypia)": NA
+}
+
+Note: 
+
+* The number of samples is 14, as there are 14 samples mentioned in the report (A-D, E-F, G-N, and N-O).
+* The size of the samples is not mentioned in the report, so the answer is NA.
+* The Gleason score is 4, as mentioned in the report.
+* There is no mention of benign prostatic hyperplasia in the report, so the answer is "ei".
+* Perineural invasion is mentioned in the report, so the answer is "kyllä".
+* There is no mention of atypia in the report, so the answer is NA.

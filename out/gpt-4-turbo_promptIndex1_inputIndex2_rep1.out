@@ -1,11 +1,11 @@
 {
   "1. Näytteiden määrä": 3,
   "2. Näytteiden koko": {
-    "pituus": 90,
-    "yksikkö": "mm"
+    "yhteispituus": 90,
+    "määre": "mm"
   },
   "3. Gleason-luokitus": "NA",
-  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ehkä",
   "5. Perineuraalinen kasvu": "NA",
   "6. Atypia": "ei"
 }

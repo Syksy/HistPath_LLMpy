@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "13",
+  "2. Näytteiden koko": "about 180mm",
+  "3. Gleason-luokitus": "3+4=7/7/NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 13 biopsies.
+2. The biopsies are about 180mm in size.
+3. The Gleason score is 3+4=7, indicating a moderate-grade cancer.
+4. There is no benign prostatic hyperplasia (BPH) mentioned in the report, so the answer is "ei" (no).
+5. There is no mention of perineural invasion, so the answer is "ei" (no).
+6. There is no mention of atypia, so the answer is "ei" (no).

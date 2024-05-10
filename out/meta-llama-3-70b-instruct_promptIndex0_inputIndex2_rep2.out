@@ -2,12 +2,12 @@ Here are the answers in JSON format:
 
 ```
 {
-  "a. Näytteiden määrä": 3,
-  "b. Näytteiden koko": 90,
-  "c. Gleason-luokitus": "NA",
-  "d. Eturauhasen hyvälaatuinen liikakasvu": "kyllä",
-  "e. Perineuraalinen kasvu": "ei",
-  "f. Atypia": "ei"
+  "(Näytteiden määrä)": 3,
+  "(Näytteiden koko)": 90,
+  "(Gleason-luokitus)": "NA",
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "kyllä",
+  "(Perineuraalinen kasvu)": "NA",
+  "(Atypia)": "ei"
 }
 ```
 

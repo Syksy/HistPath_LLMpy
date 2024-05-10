@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": 1,
-  "näytteiden_koko_tai_paino": "150mm",
-  "Gleason luokitus": "NA",
+  "näytteiden_määrä": "Useita näytteitä",
+  "näytteiden_koko_tai_paino": "Noin 150mm",
+  "Gleason luokitus": "Suspensiossa, mutta vastaa adenokarsinoomaa",
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
+  "perineuraalinen_kasvu": false,
   "atypia": true
 }

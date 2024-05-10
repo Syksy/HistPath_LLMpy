@@ -3,7 +3,7 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 6,
-  "sample_size_or_weight": [
+  "sample_size": [
     {"side": "left", "size": "4mm"},
     {"side": "left", "size": "6mm"},
     {"side": "left", "size": "3mm"},
@@ -11,17 +11,21 @@ Here is the structured report in JSON format:
     {"side": "right", "size": "7mm"},
     {"side": "right", "size": "8mm"}
   ],
-  "Gleason_score": NA,
-  "benign_hyperplasia_only": false,
+  "gleason_score": NA,
+  "benign_hyperplasia": false,
   "perineural_invasion": NA,
-  "atypia": NA
+  "atypia": NA,
+  "malignancy": true,
+  "margin_status": "positive"
 }
 ```
 
 Note: 
 
-* The sample count is 6, as there are 6 needle samples mentioned in the report.
-* The sample size or weight is reported separately for each sample, with the side (left or right) and size (in mm) specified.
-* The Gleason score is not mentioned in the report, so it is reported as NA (not available).
-* The report mentions malignant growth, so benign hyperplasia only is set to false.
-* There is no mention of perineural invasion or atypia in the report, so these are reported as NA.
+* `sample_count` is the total number of samples taken from the patient.
+* `sample_size` is an array of objects, each containing the side (left or right) and size of the sample.
+* `gleason_score` is not mentioned in the report, so it is marked as NA (Not Available).
+* `benign_hyperplasia` is false, as the report mentions malignant growth.
+* `perineural_invasion` and `atypia` are not mentioned in the report, so they are marked as NA.
+* `malignancy` is true, as the report mentions malignant growth.
+* `margin_status` is "positive", as the report mentions positive margins.

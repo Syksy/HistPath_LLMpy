@@ -5,26 +5,26 @@ The answer is: `8`
 JSON: `{"Näytteiden määrä": 8}`
 
 **2. Näytteiden koko:**
-The answer is: `NA` (no mention of sample size)
+The answer is: `NA`
 JSON: `{"Näytteiden koko": "NA"}`
 
 **3. Gleason-luokitus:**
-The answer is: `NA` (no mention of Gleason score)
+The answer is: `NA`
 JSON: `{"Gleason-luokitus": "NA"}`
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
-The answer is: `kyllä` (benign finding)
+The answer is: `kyllä`
 JSON: `{"Hyvälaatuinen eturauhasen liikakasvu": "kyllä"}`
 
 **5. Perineuraalinen kasvu:**
-The answer is: `NA` (no mention of perineural growth)
+The answer is: `NA`
 JSON: `{"Perineuraalinen kasvu": "NA"}`
 
 **6. Atypia:**
-The answer is: `ei` (no atypia mentioned)
+The answer is: `ei`
 JSON: `{"Atypia": "ei"}`
 
-Here are all the answers in a single JSON object:
+Here is the complete JSON output:
 ```
 {
   "Näytteiden määrä": 8,

@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 3
 }
 ```
-The report mentions "Näytteitä 3 prostatan paksuneulabiopsioita", which indicates that 3 samples were taken.
+The report mentions "3 prostatan paksuneulabiopsioita" which translates to 3 prostate needle biopsies.
 
 **2. Näytteiden koko:**
 ```
@@ -15,6 +15,6 @@ The report mentions "Näytteitä 3 prostatan paksuneulabiopsioita", which indica
   "määre": "mm"
 }
 ```
-The report mentions "Näytteiden yhteispituus 90mm", which indicates that the total length of the samples is 90 mm.
+The report mentions "Näytteiden yhteispituus 90mm" which translates to a total length of 90 millimeters.
 
 Let me know when you're ready for me to proceed with the next questions!

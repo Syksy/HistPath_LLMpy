@@ -2,19 +2,20 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "number_of_samples": 9, // A-C, D-E, F-G, H-I
-  "sample_size_or_weight": NA,
-  "Gleason_score": 3+4,
-  "benign_prostatic_hyperplasia_only": false,
-  "perineural_invasion": NA,
+  "number_of_samples": 9, 
+  "sample_size_or_weight": NA, 
+  "Gleason_score": 3+4, 
+  "benign_hyperplasia_only": false, 
+  "perineural_invasion": NA, 
   "atypia": NA
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is inferred from the text as 9 (A-C, D-E, F-G, H-I).
-* The sample size or weight is not mentioned in the report, so it's marked as NA.
-* The Gleason score is reported as 3+4, indicating that both grade 3 and grade 4 differentiation are present in almost equal proportions.
-* The report mentions a large tumor, so it's not a case of benign prostatic hyperplasia only.
-* There is no mention of perineural invasion or atypia in the report, so they are marked as NA.
+* `number_of_samples`: 9 samples were taken from the patient (A-C, D-E, F-G, H-I).
+* `sample_size_or_weight`: No information is provided about the size or weight of the samples, so NA is returned.
+* `Gleason_score`: The Gleason score is 3+4, indicating that the tumor has both grade 3 and grade 4 differentiation.
+* `benign_hyperplasia_only`: The report mentions a large tumor, so this field is set to false, indicating that the sample is not only benign hyperplasia.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so NA is returned.
+* `atypia`: There is no mention of atypia in the report, so NA is returned.

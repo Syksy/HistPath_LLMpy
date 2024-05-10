@@ -1,12 +1,26 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
+```
 {
-"a. Näytteiden määrä": 8,
-"b. Näytteiden koko": 13,
-"c. Gleason-luokitus": 6,
-"d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
-"e. Perineuraalinen kasvu": "NA",
-"f. Atypia": "NA"
+  "a. Näytteiden määrä": 8,
+  "b. Näytteiden koko": 13,
+  "c. Gleason-luokitus": 6,
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
 }
+```
 
-Let me know if you have any further questions!
+Here's a brief explanation for each answer:
+
+a. The number of samples taken is 8, as indicated by the phrase "eight cassettes".
+
+b. The size of the samples is 13g, as indicated by the phrase "A total of 13g of planing chips".
+
+c. The Gleason score is 6, as indicated by the phrase "Gleason 3+3=6".
+
+d. There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth, so the answer is "ei" (no).
+
+e. There is no mention of perineural growth, so the answer is "NA" (not available).
+
+f. There is no mention of atypia, so the answer is "NA" (not available).

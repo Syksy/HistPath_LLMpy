@@ -2,7 +2,7 @@
   "1. Näytteiden määrä": "NA",
   "2. Näytteiden koko": {
     "kokonaispituus": 150,
-    "yksikkö": "mm"
+    "määre": "mm"
   },
   "3. Gleason-luokitus": "NA",
   "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",

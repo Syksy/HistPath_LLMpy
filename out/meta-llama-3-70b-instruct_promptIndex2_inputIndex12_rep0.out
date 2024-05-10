@@ -14,8 +14,8 @@ Here are the answers to the questions in JSON format:
 Here's a brief explanation for each answer:
 
 1. The patient has 12 tissue blocks taken.
-2. The size of the tissue blocks is not specified, so I marked it as "NA" (not available).
+2. The size of the tissue blocks is not specified in the report, so I marked it as "NA" (not available).
 3. The Gleason score is 7, with a major component of 3 (60% of the tumor) and a minor component of 4.
-4. There is no benign hyperplasia mentioned in the report, so I marked it as "ei" (no).
-5. There is no mention of perineural growth in the report, so I marked it as "NA" (not available).
-6. There is no mention of atypia in the report, so I marked it as "NA" (not available).
+4. There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth, so I marked it as "ei" (no).
+5. There is no mention of perineural invasion, so I marked it as "NA" (not available).
+6. There is no mention of atypia, so I marked it as "NA" (not available).

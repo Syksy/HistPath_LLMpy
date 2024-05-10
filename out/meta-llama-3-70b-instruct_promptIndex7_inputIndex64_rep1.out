@@ -1,0 +1,16 @@
+It looks like there's a syntax error in the SQL query, and the required parameters are not found. In this case, I'll return a JSON-formatted response with NA values for all the requested fields, as we can't extract the necessary information from the provided text.
+
+Here's the response:
+
+```
+{
+  "sample_count": "NA",
+  "sample_amount": "NA",
+  "gleason_grade": "NA",
+  "patient_bph": "NA",
+  "sample_perineural_invasion": "NA",
+  "sample_atypia": "NA"
+}
+```
+
+Let me know if you have any further questions or if there's anything else I can help you with!

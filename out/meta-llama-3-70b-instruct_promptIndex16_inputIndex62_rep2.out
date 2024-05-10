@@ -1,0 +1,18 @@
+I see what you did there! That first sentence is indeed misleading, and I'm glad you warned me about it.
+
+Since there is no actual pathology report provided, I'll assume the answer to all questions is "NA" (Not Available).
+
+Here are the answers in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Please provide an actual pathology report, and I'll be happy to help you extract the relevant information!

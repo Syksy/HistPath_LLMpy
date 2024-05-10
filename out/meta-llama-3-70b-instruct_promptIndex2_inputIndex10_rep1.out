@@ -14,8 +14,8 @@ Here are the answers to the questions in JSON format:
 Here's a brief explanation for each answer:
 
 1. The number of samples taken is 14 (A-D, E-F, G-N, and N-O).
-2. The size of the samples is not specified in the report.
+2. The size of the samples is not specified in the report, so it's marked as NA (Not Available).
 3. The Gleason score is 4+3=7, where 4 is the dominant grade and 3 is the minor grade.
-4. There is no evidence of benign prostatic hyperplasia (BPH) in the sample.
-5. Perineural invasion is present in the sample.
-6. Atypia is not mentioned in the report, so it's marked as NA (not available).
+4. There is no evidence of benign prostatic hyperplasia (BPH) in the report, so it's marked as "ei" (no).
+5. Perineural invasion is mentioned in the report, so it's marked as "kyllä" (yes).
+6. Atypia is not mentioned in the report, so it's marked as NA (Not Available).

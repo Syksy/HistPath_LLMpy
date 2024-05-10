@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": 12,
-  "näytteiden_koko_tai_paino": "noin 150 mm",
+  "näytteiden määrä": 12,
+  "näytteiden koko tai paino": "noin 150 mm",
   "Gleason luokitus": "NA",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": true,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
-  "atypia": false
+  "hyvänlaatuinen eturauhasen liikakasvu": "kyllä",
+  "perineuraalinen kasvu": "ei havaittu",
+  "atypia": "ei havaittu"
 }

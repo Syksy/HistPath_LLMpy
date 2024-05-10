@@ -1,12 +1,8 @@
 {
-  "näytteiden_lukumäärä": 12,
-  "näytteiden_koko_tai_paino": {
-    "oikea_basiksen_biopsia_1": "8mm",
-    "oikea_basiksen_biopsia_2": "7mm",
-    "vasen_basiksen_biopsia": "5mm"
-  },
-  "Gleason_luokitus": "3+3",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
-  "perineuraalinen_kasvu": "NA",
-  "atypia": "Ei"
+  "Näytteiden määrä": 12,
+  "Näytteiden koko tai paino": "1) 8mm, 2) 7mm, 3) 5mm",
+  "Gleason luokitus": "3+3",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "Ei"
 }

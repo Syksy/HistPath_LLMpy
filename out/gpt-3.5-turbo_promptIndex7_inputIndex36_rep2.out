@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": "NA",
-  "näytteiden koko tai paino": "NA",
-  "Gleason luokitus": "7",
-  "hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-  "perineuraalinen kasvu": "Ei",
-  "atypia": "Ei"
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": "Gleason level 7 carcinoma",
+  "benign_prostatic_hyperplasia": "Yes",
+  "perineural_invasion": "No",
+  "atypia": "No"
 }

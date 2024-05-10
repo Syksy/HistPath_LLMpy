@@ -1,8 +1,8 @@
 {
   "näytteiden_määrä": "6",
   "näytteiden_koko": ["4+6+3mm vasemmalta", "5+7+8mm oikealta"],
-  "Gleason luokitus": "ei mainittu",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
-  "perineuraalinen_kasvu": "ei mainittu",
-  "atypia": "kyllä"
+  "Gleason luokitus": "korkea",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "kyllä",
+  "perineuraalinen_kasvu": "ei havaittu",
+  "atypia": "ei havaittu"
 }

@@ -2,13 +2,13 @@ Based on the provided histopathological report, I will convert it into a structu
 
 ```
 {
-  "number_of_samples": 12, // assuming 12 samples based on the mention of specimens D-G and K-P
-  "sample_size_or_weight": NA, // no information available
+  "number_of_samples": 12, // assuming 12 samples based on the mention of specimens D-G, K-P, and O-Q
+  "sample_size_or_weight": NA, // no information provided
   "Gleason_score": 7,
   "benign_hyperplasia_only": false, // since carcinoma is mentioned
-  "perineural_invasion": NA, // no information available
-  "atypia": NA // no information available
+  "perineural_invasion": NA, // no information provided
+  "atypia": NA // no information provided
 }
 ```
 
-Note that I had to make an assumption about the number of samples based on the mention of specimens D-G and K-P, but this may not be entirely accurate. Additionally, there was no information available regarding sample size or weight, perineural invasion, or atypia, so I returned NA for those fields.
+Note that I had to make an assumption about the number of samples based on the mention of specimens, but this may not be entirely accurate. Additionally, there was no information provided about the sample size or weight, perineural invasion, or atypia, so I had to return NA for those fields.

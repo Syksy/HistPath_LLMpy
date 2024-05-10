@@ -5,7 +5,7 @@
     "oikea": ["5mm", "7mm", "8mm"]
   },
   "Gleason_luokitus": "NA",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
-  "atypia": true
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "NA"
 }

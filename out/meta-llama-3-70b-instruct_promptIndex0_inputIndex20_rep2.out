@@ -1,14 +1,14 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
-  "(Näytteiden määrä)": 6,
-  "(Näytteiden koko)": ["5mm", "10mm"],
-  "(Gleason-luokitus)": [8, 7, 7],
-  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
-  "(Perineuraalinen kasvu)": "NA",
-  "(Atypia)": "kyllä"
+  "a. Näytteiden määrä": 6,
+  "b. Näytteiden koko": ["5mm", "10mm", "NA", "NA", "NA", "NA"],
+  "c. Gleason-luokitus": ["8", "7", "7", "NA", "NA", "NA"],
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "kyllä"
 }
 ```
 
-Let me know if you have any further questions!
+Note: For question b, the sizes of the samples are only mentioned for the first two samples, so the rest are marked as "NA" (not available). Similarly, for question c, the Gleason scores are only mentioned for the first three samples, so the rest are marked as "NA".

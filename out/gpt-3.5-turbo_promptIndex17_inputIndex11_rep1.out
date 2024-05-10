@@ -1,0 +1,11 @@
+{
+    "samples_taken": 13,
+    "size_of_samples": "180mm",
+    "Gleason_score": {
+        "class_3": "isompi osuus",
+        "class_4": "pienempi osuus (noin 30% löydetystä tuumorista)"
+    },
+    "BPH_detected": "NA",
+    "perineural_growth_detected": "NA",
+    "atypia_detected": "NA"
+}

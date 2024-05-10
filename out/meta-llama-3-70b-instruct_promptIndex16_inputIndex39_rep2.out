@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "8",
+  "2. Näytteiden koko": "13g",
+  "3. Gleason-luokitus": "3+3=6",
+  "4. Hyvälaatuinen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples taken is 8, as indicated by the phrase "eight cassettes".
+2. The size of the samples is 13g, as stated in the report.
+3. The Gleason score is 3+3=6, which is a measure of the aggressiveness of the cancer.
+4. Since the report mentions "carcinoma" and provides a Gleason score, it can be inferred that there is malignant growth present, so the answer is "kyllä" (yes).
+5. There is no mention of perineural growth in the report, so the answer is "ei" (no).
+6. There is no mention of atypia in the report, so the answer is "ei" (no).

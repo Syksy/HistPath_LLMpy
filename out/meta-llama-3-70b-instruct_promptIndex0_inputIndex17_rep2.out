@@ -1,13 +1,14 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
-  "(a. Näytteiden määrä)": 4,
-  "(b. Näytteiden koko)": [10, 7, 15, 10],
-  "(c. Gleason-luokitus)": [3, 4],
-  "(d. Eturauhasen hyvälaatuinen liikakasvu)": "ei",
-  "(e. Perineuraalinen kasvu)": "kyllä",
-  "(f. Atypia)": "NA"
+  "(Näytteiden määrä)": 4,
+  "(Näytteiden koko)": [10, 7, 15, 10],
+  "(Gleason-luokitus)": [3, 4],
+
+  "(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+  "(Perineuraalinen kasvu)": "kyllä",
+  "(Atypia)": "NA"
 }
 ```
 

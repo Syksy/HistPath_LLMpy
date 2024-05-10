@@ -11,9 +11,10 @@ The number of samples is mentioned as "Näytteet 1-4", indicating that there are
 **2. Näytteiden koko:**
 ```
 {
-  "näytteiden_koko": "2mm"
+  "näytteiden_koko": 2,
+  "määre": "mm"
 }
 ```
-The size of the sample is mentioned as "noin 2mm kokoinen alue", indicating that the size is approximately 2mm.
+The size of the sample is mentioned as "noin 2mm kokoinen alue", indicating that the size is approximately 2 mm.
 
 Let me know when to proceed with the next questions!

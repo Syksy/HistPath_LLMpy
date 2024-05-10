@@ -13,11 +13,11 @@ Based on the provided histopathological report, I will convert it into a structu
 
 Here's a brief explanation for each field:
 
-* `sample_count`: Since the report mentions "yhteensä noin 5g edestä prostatan höylälastuja", I assume there is only one sample.
-* `sample_size_or_weight`: The weight of the sample is approximately 5g.
-* `Gleason_score`: The Gleason score is 8, which is calculated from the dominant pattern (Gleason 4) and its variants.
-* `benign_hyperplasia_only`: This field is set to `false` because the report mentions adenocarcinoma, which indicates malignant growth.
-* `perineural_invasion`: This field is set to `true` because the report mentions adenocarcinoma, which implies perineural invasion.
-* `atypia`: This field is set to `false` because there is no mention of atypia in the report.
+* `sample_count`: Since the report mentions "yhteensä noin 5g edestä prostatan höylälastuja", I assume it's a single sample.
+* `sample_size_or_weight`: The report mentions the weight of the sample as "5g".
+* `Gleason_score`: The report mentions "Gleason 4:ää" and "pistesumma 8", so I assume the Gleason score is 8.
+* `benign_hyperplasia_only`: Since the report mentions "adenokarsinoomaa", which is a type of cancer, I assume it's not a case of benign hyperplasia only.
+* `perineural_invasion`: Although the report doesn't explicitly mention perineural invasion, the presence of adenocarcinoma and Gleason score 8 suggests that it's likely to be present.
+* `atypia`: The report doesn't mention atypia, so I assume it's not present.
 
-Note that some fields may not be applicable or may require additional information to determine their values accurately. If you have any further questions or need clarification, please let me know!
+Note that some fields may not have explicit information in the report, and I've made assumptions based on the context. If you need further clarification or have any doubts, please let me know!

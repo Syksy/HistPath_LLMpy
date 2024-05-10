@@ -4,5 +4,5 @@
   "Gleason_classification": ["3", "4"],
   "benign_prostatic_hyperplasia": true,
   "perineural_invasion": false,
-  "atypia": false
+  "atypia": "NA"
 }

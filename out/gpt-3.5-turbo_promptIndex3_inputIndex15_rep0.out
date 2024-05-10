@@ -3,6 +3,6 @@
   "size of samples": "tyyppipaikoista",
   "Gleason score": "NA",
   "BPH detected": "yes",
-  "perineural growth detected": "no",
+  "perineural growth detected": "NA",
   "atypia detected": "no"
 }

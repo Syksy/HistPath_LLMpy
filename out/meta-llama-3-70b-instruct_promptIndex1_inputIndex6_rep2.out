@@ -30,7 +30,7 @@ The Gleason score is mentioned as 7, with a major component of 3 and a minor com
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth in the sample.
+There is no mention of benign prostatic hyperplasia (hyvälaatuinen eturauhasen liikakasvu) in the report.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -38,7 +38,7 @@ There is no mention of benign prostatic hyperplasia (BPH) or any other type of b
   "perineuraalinen_kasvu": "ei"
 }
 ```
-There is no mention of perineural growth in the sample.
+There is no mention of perineural growth in the report.
 
 **6. Atypia:**
 ```
@@ -46,6 +46,6 @@ There is no mention of perineural growth in the sample.
   "atypia": "NA"
 }
 ```
-There is no mention of atypia in the sample.
+There is no mention of atypia in the report.
 
 Let me know if you'd like me to proceed with the next set of questions!

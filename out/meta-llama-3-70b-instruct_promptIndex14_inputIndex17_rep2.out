@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 4,
+  "2. Minkä kokoisia otetut näytteet ovat?": ["10mm", "7mm", "15mm", "10mm"],
+  "3. Mikä on näytteiden Gleason-luokitus?": "3, 4",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": true,
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Note: 
+
+* Question 4: There is no mention of benign prostatic hyperplasia in the report, so the answer is "NA".
+* Question 6: There is no mention of atypia in the report, so the answer is "NA".
+* Question 5: The report mentions "hermojen ja suonien ympärillä kasvustoa", which translates to "growth around nerves and vessels", which is likely referring to perineural growth, so the answer is true.

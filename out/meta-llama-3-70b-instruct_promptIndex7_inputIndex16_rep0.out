@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 6,
-  "sample_size_or_weight": NA,
-  "Gleason_score": "4+4",
-  "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia": NA
+  "sample_size_or_weight": "8mm and 5mm",
+  "Gleason_score": "4+4 and 3+4",
+  "benign_hyperplasia_only": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
 }
 ```
 
 Explanation:
 
-* `number_of_samples`: The report mentions that six macroblocks were made from the prostatectomy resection, so I assume this is the number of samples.
-* `sample_size_or_weight`: There is no information about the size or weight of the samples, so I return NA.
-* `Gleason_score`: The report mentions a Gleason score of 4+4 for the apex and 3+4 for the base, but I will return only one value. If you want to return both values, we can discuss how to represent them.
-* `benign_hyperplasia_only`: The report mentions adenocarcinoma, which is a malignant tumor, so this is set to false.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I return NA.
-* `atypia`: There is no mention of atypia in the report, so I return NA.
+* "number_of_samples": 6, because the report mentions that six macroblocks were made from the prostatectomy resection.
+* "sample_size_or_weight": "8mm and 5mm", because the report mentions the size of the malignant foci in the apex and base.
+* "Gleason_score": "4+4 and 3+4", because the report mentions the Gleason scores for the apex and base.
+* "benign_hyperplasia_only": "NA", because the report does not mention that the sample only shows benign hyperplasia.
+* "perineural_invasion": "NA", because the report does not mention perineural invasion.
+* "atypia": "NA", because the report does not mention atypia.

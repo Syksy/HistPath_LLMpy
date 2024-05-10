@@ -1,8 +1,8 @@
 {
-  "näytteiden määrä": 13,
-  "näytteiden koko/paino": "noin 180mm",
-  "Gleason luokitus": "luokka 4",
-  "hyvänlaatuinen eturauhasen liikakasvu": false,
-  "perineuraalinen kasvu": false,
+  "näytteiden_määrä": 13,
+  "näytteiden_koko": "noin 180mm",
+  "Gleason luokitus": "3+4",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": false,
   "atypia": true
 }

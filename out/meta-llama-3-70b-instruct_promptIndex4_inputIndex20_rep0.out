@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 6,
-  "sample_size_or_weight": ["5mm", "10mm"], // multiple values, not sure which one to choose
-  "Gleason_score": [8, 7, 7], // multiple values, one for each sample
+  "sample_size_or_weight": ["5mm", "10mm", NA, NA, NA, NA],
+  "Gleason_score": [8, 7, 7, NA, NA, NA],
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": true
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: 6 biopsialieriötä (biopsy samples) were taken from the patient.
-* `sample_size_or_weight`: The sizes of the samples are mentioned as 5mm and 10mm, but it's not clear which one corresponds to which sample. I've included both values in an array.
-* `Gleason_score`: There are three Gleason scores mentioned: 4+4=8, 4+3=7, and 3+4=7. I've included all three values in an array.
-* `benign_hyperplasia_only`: The report mentions adenokarsinooma (adenocarcinoma) and karsinoomakudosta (cancerous tissue), so this is set to false.
-* `perineural_invasion`: There is no mention of perineuraalista eli neuronien ympäröivää pahanlaatuista kasvua (perineural invasion) in the report, so this is set to NA (not available).
-* `atypia`: The report mentions huonosti erilaistunutta atyyppista rauhasrakennetta (poorly differentiated atypical glandular structure) and hyperplastisia muutoksia (hyperplastic changes), so this is set to true.
+* `number_of_samples`: The number of biopsy samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The size or weight of each sample. Only two samples have a specified size (5mm and 10mm), so the rest are marked as NA (Not Available).
+* `Gleason_score`: The Gleason score for each sample. Only three samples have a specified Gleason score (8, 7, and 7), so the rest are marked as NA.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false because some samples show adenocarcinoma.
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present. Since it's not mentioned in the report, it's marked as NA.
+* `atypia`: A boolean indicating whether atypia is present. In this case, it's true because some samples show atypia.

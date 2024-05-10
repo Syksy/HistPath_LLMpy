@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(3)",
+  "2. Näytteiden koko": "(30mm)",
+  "3. Gleason-luokitus": "(3+4=7)",
+  "4. Hyvälaatuinen liikakasvu": "(ei)",
+  "5. Perineuraalinen kasvu": "(ei)",
+  "6. Atypia": "(ei)"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has undergone 3 fusion biopsies.
+2. The total length of the biopsies is 30mm.
+3. The Gleason score is 7, with a primary pattern of 3 and a secondary pattern of 4.
+4. There is no evidence of benign prostatic hyperplasia (BPH) in the biopsies.
+5. There is no evidence of perineural invasion in the biopsies.
+6. There is no evidence of atypia in the biopsies.

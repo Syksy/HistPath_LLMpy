@@ -1,0 +1,16 @@
+I see what you did there! That's a clever test sentence. Since it's a misleading sentence, I'll provide the answers as 'NA' (Not Available) for all questions, as there's no relevant information in the sentence.
+
+Here are the answers in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "NA",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "NA",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Let me know if you have a real histopathology report you'd like me to analyze!

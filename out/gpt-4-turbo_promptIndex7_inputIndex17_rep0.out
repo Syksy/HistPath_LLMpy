@@ -1,11 +1,11 @@
 {
-  "Näytteiden määrä": "4",
-  "Näytteiden koko tai paino": {
-    "Vasen puoli": ["10 mm", "7 mm"],
-    "Oikea puoli": ["15 mm", "10 mm"]
+  "näytteiden_määrä": "4",
+  "näytteiden_koko_tai_paino": {
+    "vasen_puoli": ["10 mm", "7 mm"],
+    "oikea_puoli": ["15 mm", "10 mm"]
   },
-  "Näytteen Gleason luokitus": "3+4",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "Kyllä",
-  "Atypia": "Kyllä"
+  "Gleason_luokitus": "3+4",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
+  "perineuraalinen_kasvu": "Kyllä",
+  "atypia": "Kyllä"
 }

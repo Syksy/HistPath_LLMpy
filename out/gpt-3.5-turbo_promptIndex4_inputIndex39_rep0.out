@@ -4,5 +4,5 @@
   "Gleason luokitus": "3+3=6",
   "hyvänlaatuinen eturauhasen liikakasvu": false,
   "perineuraalinen kasvu": false,
-  "atypia": false
+  "atypia": true
 }

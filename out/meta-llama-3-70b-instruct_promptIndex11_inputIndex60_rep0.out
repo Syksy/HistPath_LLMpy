@@ -1,0 +1,18 @@
+I'm happy to help! However, I have to inform you that the provided text "Beep boop? Boop biip. Blarp!" does not contain any relevant information about the requested data. It appears to be a nonsensical sequence of words.
+
+As a result, I will provide a JSON object with all values set to 'NA' (Not Available) since there is no relevant information to extract.
+
+Here is the response:
+
+```
+{
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "NA",
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+If you could provide a real histopathological report, I would be happy to assist you in extracting the requested information.

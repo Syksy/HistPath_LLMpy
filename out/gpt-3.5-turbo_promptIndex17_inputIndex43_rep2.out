@@ -1,0 +1,11 @@
+{
+  "samples_taken": 2,
+  "size_of_samples": "19g total, 10g for histology",
+  "Gleason_score": {
+    "highest_level": 5,
+    "second_highest_level": 4
+  },
+  "BPH_detected": "NA",
+  "perineural_growth_detected": "NA",
+  "atypia_detected": "NA"
+}

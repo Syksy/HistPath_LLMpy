@@ -1,10 +1,8 @@
 {
-  "Potilaan tiedot": {
-    "Näytteiden määrä": 6,
-    "Näytteiden koko/paino": "Ei mainintaa",
-    "Gleason luokitus": "Ei mainintaa",
-    "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
-    "Perineuraalinen kasvu": "Ei",
-    "Atypia": "Ei"
-  }
+  "potilaalta_otetut_naytteet": 6,
+  "naytteiden_koko_tai_paino": "Ei saatavilla",
+  "Gleason luokitus": "Ei löydetty",
+  "hyvanlaatuinen_eturauhasen_liikakasvu": true,
+  "perineuraalinen_kasvu": false,
+  "atypia": false
 }

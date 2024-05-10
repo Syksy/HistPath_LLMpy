@@ -11,10 +11,10 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Since there are two samples mentioned (right and left), I assumed it's 2.
-* `sample_size_or_weight`: The sizes of the samples are given in millimeters, so I reported them as such.
-* `Gleason_score`: The Gleason score is explicitly mentioned as 9 (4+5).
-* `benign_hyperplasia_only`: Since a carcinoma is found in one of the samples, this is set to "ei" (no).
-* `perineural_invasion` and `atypia`: These are not mentioned in the report, so I set them to NA.
+* `sample_count`: Since there are two samples mentioned (right and left), I assumed the count is 2.
+* `sample_size_or_weight`: The sizes of the samples are given in millimeters, so I listed them both.
+* `Gleason_score`: The Gleason score is explicitly mentioned as 9, with a breakdown of 4+5.
+* `benign_hyperplasia_only`: Since a carcinoma is found in one of the samples, this field is set to "ei" (no).
+* `perineural_invasion` and `atypia`: These fields are set to "NA" since there is no mention of them in the original report.

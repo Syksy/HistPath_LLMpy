@@ -1,18 +1,33 @@
 {
   "1": 4,
   "2": {
-    "Näyte 1": "10mm",
-    "Näyte 2": "8mm",
-    "Näyte 3": "14mm",
-    "Näyte 4": "14mm"
+    "näyte 1": "10mm",
+    "näyte 2": "8mm",
+    "näyte 3": "14mm",
+    "näyte 4": "14mm"
   },
   "3": {
-    "Näyte 1": "NA",
-    "Näyte 2": "NA",
-    "Näyte 3": "NA",
-    "Näyte 4": "Gleason 3+4=7"
+    "näyte 1": "NA",
+    "näyte 2": "NA",
+    "näyte 3": "NA",
+    "näyte 4": "Gleason 3+4=7"
   },
-  "4": "ei",
-  "5": "ei",
-  "6": "ei"
+  "4": {
+    "näyte 1": "NA",
+    "näyte 2": "ei",
+    "näyte 3": "ei",
+    "näyte 4": "ei"
+  },
+  "5": {
+    "näyte 1": "NA",
+    "näyte 2": "NA",
+    "näyte 3": "NA",
+    "näyte 4": "ei"
+  },
+  "6": {
+    "näyte 1": "NA",
+    "näyte 2": "NA",
+    "näyte 3": "NA",
+    "näyte 4": "NA"
+  }
 }

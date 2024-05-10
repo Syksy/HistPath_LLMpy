@@ -11,7 +11,11 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question 4, I assumed that "hyvälaatuista eturauhasen liikakasvua" refers to benign prostatic hyperplasia (BPH), which is not mentioned in the report.
-* For question 6, I answered "NA" since atypia is not mentioned in the report.
+1. The patient has 4 samples taken.
+2. The sizes of the samples are 10mm, 8mm, 14mm, and 14mm.
+3. The Gleason score is 3+4=7, with 90% of the glands forming Gleason 3 structures and 10% forming Gleason 4 structures.
+4. There is no benign prostatic hyperplasia (BPH) seen in the samples.
+5. There is no perineural invasion seen in the samples.
+6. Atypia is not mentioned in the report, so the answer is "NA" (not applicable).

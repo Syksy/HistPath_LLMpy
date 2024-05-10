@@ -1,11 +1,11 @@
 {
-  "number_of_samples": 6,
-  "sample_size_or_weight": "8mm and 5mm",
-  "Gleason_score": {
-    "apex": "4+4",
-    "base": "3+4"
+  "Näytteiden määrä": 6,
+  "Näytteiden koko tai paino": "8mm ja 5mm",
+  "Gleason luokitus": {
+    "Apex": "4+4",
+    "Base": "3+4"
   },
-  "benign_prostatic_hyperplasia": "NA",
-  "perineural_invasion": "NA",
-  "atypia": "NA"
+  "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
 }

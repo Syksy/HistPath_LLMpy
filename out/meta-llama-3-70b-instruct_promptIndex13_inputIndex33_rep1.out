@@ -1,0 +1,10 @@
+Here is the JSON object with the extracted information:
+
+{
+"näytteiden_määrä": 2,
+"näytteiden_koko": {"right": 60, "left": 80, "unit": "mm"},
+"Gleason-luokitus": "4+5=9",
+"hyvälaatuinen_eturauhasen_liikakasvu": "ei",
+"perineuraalinen_kasvu": "NA",
+"atypia": "NA"
+}

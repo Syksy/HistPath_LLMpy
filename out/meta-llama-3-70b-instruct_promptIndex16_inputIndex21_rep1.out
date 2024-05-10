@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "4",
+  "2. Näytteiden koko": "4g",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Note: 
+
+* Gleason score is not mentioned in the report, so I marked it as "NA" (not available).
+* The report mentions "hienoisesti prostatahyperplasiaan" which suggests that there is some evidence of benign prostatic hyperplasia, so I answered "kyllä" (yes) to question 4.
+* There is no mention of perineural growth or atypia in the report, so I answered "ei" (no) to questions 5 and 6.

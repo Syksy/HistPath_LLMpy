@@ -3,12 +3,12 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 1, // koko elin yhtenä näytteenä
-  "sample_size_or_weight": NA,
-  "Gleason_score": "3+4=7",
-  "benign_hyperplasia_only": "ei",
-  "perineural_invasion": "ei",
-  "atypia": "ei"
+  "sample_size_or_weight": NA, // ei löydy lausunnosta
+  "Gleason_score": "3+4=7", // major+minor=summa
+  "benign_hyperplasia_only": "ei", // ei ole vain hyvänlaatuinen eturauhasen liikakasvu
+  "perineural_invasion": "ei", // ei ole perineuraalista pahanlaatuista kasvua
+  "atypia": "ei" // ei ole atypiaa
 }
 ```
 
-Note: Since the original text does not mention the number of biopsies or the weight/size of the samples, I have assumed it to be a single sample (the entire prostate) and marked the size/weight as NA.
+Note: Since the original text does not mention the number of biopsies or the size/weight of the samples, I have returned NA for those fields.

@@ -1,0 +1,26 @@
+{
+  "Biopsy": {
+    "Number of samples": 5,
+    "Sample size/weight": "NA",
+    "Gleason score": 7,
+    "Benign prostatic hyperplasia only": false,
+    "Perineural invasion present": true,
+    "Atypia present": false
+  },
+  "Radical prostatectomy": {
+    "Number of samples": "NA",
+    "Sample size/weight": "45 grams",
+    "Gleason score": 9,
+    "Benign prostatic hyperplasia only": false,
+    "Perineural invasion present": true,
+    "Atypia present": true
+  },
+  "TURP chip": {
+    "Number of samples": 3,
+    "Sample size/weight": "NA",
+    "Gleason score": 6,
+    "Benign prostatic hyperplasia only": true,
+    "Perineural invasion present": false,
+    "Atypia present": true
+  }
+}

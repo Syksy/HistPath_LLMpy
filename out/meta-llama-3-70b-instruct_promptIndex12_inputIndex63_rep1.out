@@ -1,0 +1,14 @@
+I'll go through the text and extract the requested information. Here is the response in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+The reason for all "NA" responses is that the provided text does not contain any information about the requested topics. The text appears to be a medical report describing a patient's symptoms and treatment, but it does not mention anything about histopathological samples or their characteristics.

@@ -4,11 +4,18 @@ Here is the structured report in JSON format:
 {
   "number_of_biopsies": 6,
   "biopsy_size_or_weight": NA,
-  "Gleason_score": ["8 (4+4)", "7 (4+3)", "7 (3+4)"],
+  "Gleason_score": "4+4=8",
   "benign_hyperplasia_only": "ei",
   "perineural_invasion": NA,
   "atypia": "kyllä"
 }
 ```
 
-Note: Since there are multiple Gleason scores mentioned in the report, I have represented them as an array of values. If you would like to represent them differently, please let me know!
+Note: 
+
+* The number of biopsies is 6, as stated in the report.
+* The biopsy size or weight is not mentioned in the report, so it is marked as NA.
+* The Gleason score is reported as 4+4=8, 4+3=7, and 3+4=7 in different colonies, but I have only included one of them in the structured report. If you want to include all of them, we can modify the report to include an array of Gleason scores.
+* The report mentions adenocarcinoma, which is a malignant tumor, so benign hyperplasia only is marked as "ei".
+* Perineural invasion is not mentioned in the report, so it is marked as NA.
+* Atypia is mentioned in the report as "atypical glandular structure", so it is marked as "kyllä".

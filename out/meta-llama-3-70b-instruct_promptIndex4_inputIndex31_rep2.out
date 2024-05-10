@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `number_of_samples`: 6, as mentioned in the report ("Six formalin-fixed preparations").
-* `sample_size_or_weight`: NA, as this information is not provided in the report.
-* `Gleason_score`: 7, calculated from the report ("Gleason class 3 (about 60%), the rest in class 4, so 3+4=7").
-* `benign_hyperplasia_only`: false, as the report mentions Gleason scores, indicating malignant growth.
-* `perineural_invasion`: false, as explicitly stated in the report ("no perineural invasion").
-* `atypia`: NA, as this information is not provided in the report.
+* `sample_size_or_weight`: NA, as the report does not provide information on the size or weight of the samples.
+* `Gleason_score`: 7, calculated from the report as 3+4=7.
+* `benign_hyperplasia_only`: false, as the report mentions Gleason classes 3 and 4, indicating malignant growth.
+* `perineural_invasion`: false, as the report explicitly states "no perineural invasion".
+* `atypia`: NA, as the report does not mention atypia or any other term related to abnormal cellular changes.

@@ -1,11 +1,12 @@
 {
-  "Näytteiden määrä": 4,
+  "Näytteiden määrä": "2",
   "Näytteiden koko tai paino": {
     "Vasen puoli": ["10 mm", "7 mm"],
     "Oikea puoli": ["15 mm", "10 mm"]
   },
   "Gleason luokitus": {
-    "Vasen puoli": "3 pääsääntöisesti, 4 toiseksi yleisin"
+    "Vasen puoli": "Pääsääntöisesti 3, toiseksi yleisin 4",
+    "Oikea puoli": "NA"
   },
   "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
   "Perineuraalinen kasvu": "Kyllä",

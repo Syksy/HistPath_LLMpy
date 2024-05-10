@@ -1,17 +1,14 @@
 {
   "näytteiden_määrä": 2,
-  "näytteiden_koko": {
-    "oikea": "60mm",
-    "vasen": "80mm"
-  },
+  "näytteiden_koko": ["oikea 60mm", "vasen 80mm"],
   "Gleason luokitus": {
     "näyte_B": {
-      "taso": 9,
-      "prosenttiosuus": "20%",
-      "tarkempi_luokitus": "4+5"
+      "karsinooma": "kyllä",
+      "Gleason taso": 9,
+      "Gleason taso_erikseen": {"4": "80%", "5": "20%"}
     }
   },
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
-  "atypia": false
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
+  "perineuraalinen_kasvu": "ei",
+  "atypia": "ei"
 }

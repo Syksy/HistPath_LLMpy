@@ -5,7 +5,7 @@ Based on the provided histopathological report, I will convert it into a structu
   "sample_count": NA,
   "sample_size_or_weight": "30g",
   "Gleason_score": NA,
-  "benign_hyperplasia_only": true,
+  "benign_hyperplasia": true,
   "perineural_invasion": false,
   "atypia": false
 }
@@ -14,10 +14,10 @@ Based on the provided histopathological report, I will convert it into a structu
 Here's a brief explanation for each field:
 
 * `sample_count`: Since the report doesn't mention the exact number of samples taken, I've marked it as NA (Not Available).
-* `sample_size_or_weight`: The report mentions that about 30g of planing chips were received.
-* `Gleason_score`: There is no mention of Gleason score in the report, so I've marked it as NA.
-* `benign_hyperplasia_only`: The report concludes that the finding is suitable for suspected benign hyperplasia, indicating that only benign tissue was found.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked it as false.
-* `atypia`: The report explicitly states that no atypia was visible, so I've marked it as false.
+* `sample_size_or_weight`: The report mentions that about 30g of planing chips were received, so I've filled in this field with that value.
+* `Gleason_score`: Since the report doesn't mention a Gleason score, I've marked it as NA.
+* `benign_hyperplasia`: The report concludes that the finding is suitable for suspected benign hyperplasia, so I've marked this field as true.
+* `perineural_invasion`: The report doesn't mention perineural invasion, so I've marked this field as false.
+* `atypia`: The report explicitly states that no atypia is visible, so I've marked this field as false.
 
 Let me know if you have any further questions or if you'd like me to process more reports!

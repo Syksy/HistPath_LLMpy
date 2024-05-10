@@ -4,7 +4,7 @@ Here are the answers to the questions in JSON format:
 {
   "1. Number of samples": "NA",
   "2. Size of samples": "NA",
-  "3. Gleason score": "7 (3+4)",
+  "3. Gleason score": "3+4=7",
   "4. BPH detection": "NA",
   "5. Perineural growth detection": "NA",
   "6. Atypia detection": "NA"
@@ -13,6 +13,6 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* The number of samples and size of samples cannot be determined from the given text, so I've marked them as "NA" (Not Available).
-* The Gleason score is mentioned as 7, with a larger proportion having a score of 3, which can be interpreted as 3+4=7.
-* There is no mention of BPH, perineural growth, or atypia in the given text, so I've marked them as "NA" (Not Available).
+* The number of samples and size of samples cannot be determined from the given text, so the answer is "NA".
+* The Gleason score is 3+4=7, which is mentioned in the text.
+* There is no mention of BPH, perineural growth, or atypia in the text, so the answer is "NA" for these questions.

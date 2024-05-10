@@ -16,6 +16,6 @@ Note:
 * The number of samples is not explicitly mentioned in the text, so it's marked as "NA" (Not Available).
 * The size of the samples is mentioned as 100mm.
 * The Gleason score is not mentioned in the text, so it's marked as "NA".
-* There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so it's marked as "NA".
-* Perineural growth is mentioned as "havaitaan perineuraalia kasvua", which translates to "perineural growth is detected", so it's marked as "yes".
-* Atypia is not explicitly mentioned, but the text mentions "ei selkeää malignia tai PIN löydöstä", which means "no clear malignancy or PIN found", implying that atypia is not detected, so it's marked as "no".
+* BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so it's marked as "NA".
+* Perineural growth is mentioned as "havaitaan perineuraalia kasvua", which means it can be detected, so it's marked as "yes".
+* Atypia is not mentioned explicitly, but "ei selkeää malignia tai PIN löydöstä" suggests that there is no clear atypia or malignancy, so it's marked as "no".

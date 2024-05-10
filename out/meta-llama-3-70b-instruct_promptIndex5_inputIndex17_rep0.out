@@ -3,27 +3,24 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 4,
-  "sample_size_or_weight": [
+  "sample_size": [
     {"side": "left", "size": "10mm"},
     {"side": "left", "size": "7mm"},
     {"side": "right", "size": "15mm"},
     {"side": "right", "size": "10mm"}
   ],
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4
-  },
-  "benign_hyperplasia_only": false,
+  "gleason_score": {"primary": 3, "secondary": 4},
+  "benign_hyperplasia": true,
   "perineural_invasion": true,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
 Here's a brief explanation of each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 4 in this case.
-* `sample_size_or_weight`: An array of objects describing the size of each sample. In this case, we have four samples with sizes ranging from 7mm to 15mm.
-* `Gleason_score`: An object describing the Gleason score, which is a measure of the aggressiveness of prostate cancer. The primary pattern is 3, and the secondary pattern is 4.
-* `benign_hyperplasia_only`: A boolean indicating whether the sample shows only benign hyperplasia (i.e., no cancer). In this case, it's false because cancer is present.
-* `perineural_invasion`: A boolean indicating whether perineural invasion (i.e., cancer growth around nerves) is present. In this case, it's true.
-* `atypia_present`: A value indicating whether atypia (i.e., abnormal cell changes) is present. Since this information is not mentioned in the original report, I've marked it as NA (not available).
+* `sample_size`: An array of objects, each describing the size of a sample. The `side` field indicates whether the sample is from the left or right side of the prostate.
+* `gleason_score`: An object with two fields, `primary` and `secondary`, which represent the primary and secondary Gleason scores, respectively.
+* `benign_hyperplasia`: A boolean indicating whether the sample shows benign hyperplasia, which is true in this case.
+* `perineural_invasion`: A boolean indicating whether the sample shows perineural invasion, which is true in this case.
+* `atypia`: A field indicating whether the sample shows atypia, which is not mentioned in the report, so it is set to NA (Not Available).

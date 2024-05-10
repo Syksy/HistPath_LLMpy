@@ -1,12 +1,12 @@
 {
   "number_of_samples": 6,
-  "sample_size_or_weight": "NA",
+  "sample_size_or_weight": "Not available",
   "Gleason_classification": [
     {
       "colony_number": 1,
       "location": "left front",
       "findings": "poorly differentiated atypical glandular structure",
-      "distance": "5mm away",
+      "distance_away": "5mm",
       "adenocarcinoma": true,
       "Gleason_score": "4+4=8",
       "perineural_invasion": false,
@@ -17,23 +17,16 @@
       "location": "left center",
       "findings": "carcinoma tissue",
       "Gleason_score": "4+3=7",
-      "proportion_of_grade_4": "approx. 80%",
+      "proportion_of_grade_4": "80%",
       "perineural_invasion": false,
       "atypia": false
     },
     {
       "colony_number": 3,
       "location": "right center",
-      "findings": "find where the ratio of grades 3 and 4 is approx. 70:30%",
-      "Gleason_score": "7 (3+4)",
-      "perineural_invasion": false,
-      "atypia": false
-    },
-    {
-      "colony_number": "4-6",
-      "location": "NA",
       "findings": "mainly hyperplastic changes in the epithelium",
-      "Gleason_score": "NA",
+      "ratio_of_grades_3_and_4": "70:30%",
+      "Gleason_score": "3+4=7",
       "perineural_invasion": false,
       "atypia": false
     }

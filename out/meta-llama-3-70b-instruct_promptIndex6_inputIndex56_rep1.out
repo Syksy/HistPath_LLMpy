@@ -13,11 +13,9 @@ Based on the provided histopathological report, I will convert it into a structu
 
 Here's a brief explanation for each field:
 
-* `number_of_samples`: The number of needle biopsies taken from the patient, which is 12.
+* `number_of_samples`: The number of needle biopsies taken from the patient, which is 12 in this case.
 * `sample_size_or_weight`: The total length of the samples, which is approximately 150 mm.
 * `Gleason_score`: Since the Gleason score is not mentioned in the report, I've marked it as NA (Not Available).
 * `benign_hyperplasia_only`: Based on the report, the growth is mostly benign, so this field is set to true.
 * `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to false.
 * `atypia`: There is no mention of atypia or any abnormal changes in the report, so this field is set to false.
-
-Please note that if any information is missing or unclear in the original report, I will mark it as NA to ensure accuracy and avoid making assumptions.

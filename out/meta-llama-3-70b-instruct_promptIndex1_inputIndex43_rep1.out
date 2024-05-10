@@ -1,7 +1,7 @@
 I'll go through the questions one by one and provide the answers in JSON format.
 
 **1. Näytteiden määrä:**
-The report does not mention the number of samples taken from the patient, so the answer is:
+The report does not mention the number of samples taken from the patient. Therefore, the answer is:
 ```
 {
   "näytteiden_määrä": "NA"
@@ -9,7 +9,7 @@ The report does not mention the number of samples taken from the patient, so the
 ```
 
 **2. Näytteiden koko:**
-The report mentions that "About 19g of prostate shavings in total" were taken, so the answer is:
+The report mentions that "About 19g of prostate shavings in total" were taken from the patient. Therefore, the answer is:
 ```
 {
   "näytteiden_koko": "19g"
@@ -17,7 +17,7 @@ The report mentions that "About 19g of prostate shavings in total" were taken, s
 ```
 
 **3. Gleason-luokitus:**
-The report mentions that "the highest level 5 and the second highest level 4 in the Gleason classification", so the answer is:
+The report mentions that "the highest level 5 and the second highest level 4 in the Gleason classification" were found in the samples. Therefore, the answer is:
 ```
 {
   "Gleason_luokitus": "5+4"
@@ -25,7 +25,7 @@ The report mentions that "the highest level 5 and the second highest level 4 in 
 ```
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
-The report does not mention anything about benign prostatic hyperplasia, so the answer is:
+The report does not mention anything about benign prostatic hyperplasia. Therefore, the answer is:
 ```
 {
   "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
@@ -33,7 +33,7 @@ The report does not mention anything about benign prostatic hyperplasia, so the 
 ```
 
 **5. Perineuraalinen kasvu:**
-The report does not mention anything about perineural growth, so the answer is:
+The report does not mention anything about perineural growth. Therefore, the answer is:
 ```
 {
   "perineuraalinen_kasvu": "NA"
@@ -41,11 +41,11 @@ The report does not mention anything about perineural growth, so the answer is:
 ```
 
 **6. Atypia:**
-The report does not mention anything about atypia, so the answer is:
+The report does not mention anything about atypia. Therefore, the answer is:
 ```
 {
   "atypia": "NA"
 }
 ```
 
-Let me know if you'd like me to combine all the answers into a single JSON object!
+Let me know if you'd like me to proceed with the next set of questions!

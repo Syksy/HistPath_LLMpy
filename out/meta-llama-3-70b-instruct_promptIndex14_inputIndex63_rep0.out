@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "NA",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "NA",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+The text does not contain any information about the number of samples taken, their size, Gleason score, or any specific findings related to prostate cancer (e.g., atypia, perineural growth, or benign prostatic hyperplasia). The text appears to describe a patient's visit to the emergency room due to a shoulder injury, and there is no mention of a biopsy or any pathology report.

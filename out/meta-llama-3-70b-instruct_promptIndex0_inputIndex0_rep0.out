@@ -11,11 +11,16 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question a, the number of samples is not explicitly mentioned, so the answer is 'NA'.
-* For question b, the size of the sample is mentioned as 100mm.
-* For question c, the Gleason score is not mentioned, so the answer is 'NA'.
-* For question d, there is no mention of benign prostatic hyperplasia, so the answer is 'ei' (no).
-* For question e, perineural growth is suspected, so the answer is 'kyllä' (yes).
-* For question f, there is no mention of atypia, so the answer is 'NA'.
+a. The number of samples taken is not explicitly mentioned in the report, so the answer is "NA".
+
+b. The report mentions that the sample is 100mm in length, so that's the answer.
+
+c. There is no mention of Gleason score in the report, so the answer is "NA".
+
+d. The report does not mention benign prostatic hyperplasia, so the answer is "ei" (no).
+
+e. The report explicitly mentions perineural growth, so the answer is "kyllä" (yes).
+
+f. There is no mention of atypia in the report, so the answer is "NA".

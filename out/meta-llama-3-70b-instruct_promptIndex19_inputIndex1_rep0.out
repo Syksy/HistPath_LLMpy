@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 6,
+  "2. Size of samples": "NA",
+  "3. Gleason score": "3+4=7",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "no",
+  "6. Atypia detection": "NA"
+}
+```
+
+Explanation:
+
+1. The text mentions "Kuusi formaliinifiksoitua preparaattia", which means "Six formalin-fixed preparations", so there are 6 samples.
+2. The size of the samples is not mentioned in the text, so it's NA (Not Available).
+3. The Gleason score is mentioned as 3+4=7, which means the major component is 3 and the minor component is 4, with a total score of 7.
+4. There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so it's "ei" (no).
+5. The text explicitly states "eikä vesikkeli- tai perineuraali-invaasiota", which means "no vesicular or perineural invasion", so perineural growth is not detected.
+6. There is no mention of atypia in the text, so it's NA (Not Available).

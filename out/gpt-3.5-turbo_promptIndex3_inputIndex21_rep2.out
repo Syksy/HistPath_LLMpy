@@ -3,6 +3,6 @@
   "size of samples": "4g",
   "Gleason score": "NA",
   "BPH detected": "yes",
-  "perineural growth detected": "NA",
-  "atypia detected": "no"
+  "perineural growth detected": "no",
+  "atypia detected": "NA"
 }

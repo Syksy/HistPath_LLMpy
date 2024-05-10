@@ -1,0 +1,12 @@
+{
+  "samples_taken": 9,
+  "sample_size": "laaja",
+  "gleason_score": {
+    "apex": "NA",
+    "basis": 3,
+    "basiksen puolella": "3 ja 4"
+  },
+  "BPH_detected": false,
+  "perineural_growth_detected": false,
+  "atypia_detected": false
+}

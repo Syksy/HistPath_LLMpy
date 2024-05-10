@@ -1,0 +1,16 @@
+I apologize, but the text you provided does not seem to be a histopathological report, but rather a poetic passage. It does not contain any information about a patient's biopsy samples or their characteristics.
+
+If you could provide the actual histopathological report, I would be happy to help you extract the information you need.
+
+However, since you asked, I'll provide a JSON response with "NA" (Not Available) for each question, indicating that the information is not available in the provided text.
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```

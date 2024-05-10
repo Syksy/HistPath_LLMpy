@@ -1,0 +1,26 @@
+{
+  "samples_taken": 12,
+  "sample_sizes": [
+    {
+      "location": "right base",
+      "sizes": ["8mm", "7mm"]
+    },
+    {
+      "location": "left base",
+      "sizes": ["5mm"]
+    }
+  ],
+  "gleason_scores": [
+    {
+      "location": "right base",
+      "score": "Gleason 3"
+    },
+    {
+      "location": "left base",
+      "score": "Gleason 3"
+    }
+  ],
+  "BPH_detected": "NA",
+  "perineural_growth_detected": "NA",
+  "atypia_detected": "No"
+}

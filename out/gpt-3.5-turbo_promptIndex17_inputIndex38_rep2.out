@@ -1,0 +1,8 @@
+{
+  "samples_taken": 6,
+  "size_of_samples": "about 20g",
+  "Gleason_score": "NA",
+  "BPH_detection": true,
+  "perineural_growth_detection": false,
+  "atypia_detection": false
+}

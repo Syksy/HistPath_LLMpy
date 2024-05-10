@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. How many samples have been taken?": "4",
+  "2. What is the size of the samples taken?": "10mm, 8mm, 14mm, 14mm",
+  "3. What is the Gleason score of the samples?": "Gleason 3 (90%) ja Gleason 4 (10%)",
+  "4. Can BPH be detected in the samples taken?": "NA",
+  "5. Can perineural growth be detected in the samples taken?": "Ei",
+  "6. Can atypia be detected in the samples taken?": "NA"
+}
+```
+
+Note: "Ei" means "No" in Finnish.

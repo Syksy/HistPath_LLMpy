@@ -3,7 +3,7 @@ Here is the structured report in JSON format:
 ```
 {
   "number_of_samples": 1,
-  "sample_size_or_weight": "10g",
+  "sample_size_or_weight": "19g",
   "Gleason_score": "5+4",
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
@@ -13,8 +13,8 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: The text mentions "prostate shavings" which implies a single sample.
-* `sample_size_or_weight`: The text states that 10g of the material was sent for histology.
-* `Gleason_score`: The text explicitly mentions the Gleason score as 5 and 4, so I combined them into a single value.
-* `benign_hyperplasia_only`: The text describes a "carpet-like malignant growth", which indicates that it's not just benign hyperplasia.
-* `perineural_invasion` and `atypia`: These values are not mentioned in the original text, so I returned NA (Not Available) instead of making an uncertain assumption.
+* "number_of_samples": 1, because the report mentions "prostate shavings" in plural form, but it's likely that it's a single sample.
+* "sample_size_or_weight": "19g", because the report mentions the total weight of the shavings.
+* "Gleason_score": "5+4", because the report mentions the highest level 5 and the second highest level 4 in the Gleason classification.
+* "benign_hyperplasia_only": false, because the report mentions a "carpet-like malignant growth" which indicates cancer.
+* "perineural_invasion" and "atypia": NA, because there is no mention of these features in the report.

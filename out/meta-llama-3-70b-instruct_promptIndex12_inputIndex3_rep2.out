@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": {"oikea": 60, "vasen": 80, "yksikkö": "mm"},
+  "3. Gleason-luokitus": "4+5=9",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: There is no explicit mention of the number of samples taken, so the answer is "NA".
+2. Näytteiden koko: The report mentions that the samples are approximately 60mm from the right side and 80mm from the left side, so the answer is an object with the sizes and units.
+3. Gleason-luokitus: The report explicitly mentions the Gleason score as 4+5=9, so the answer is in the format major+minor=summa.
+4. Hyvälaatuinen eturauhasen liikakasvu: The report does not mention any benign prostatic hyperplasia, and instead mentions carcinoma, so the answer is "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the report, so the answer is "NA".
+6. Atypia: There is no mention of atypia in the report, so the answer is "NA".

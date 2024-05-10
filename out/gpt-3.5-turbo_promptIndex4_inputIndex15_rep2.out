@@ -3,6 +3,6 @@
   "naytteiden_koko_tai_paino": "Ei saatavilla",
   "Gleason luokitus": "Ei saatavilla",
   "hyvanlaatuinen_eturauhasen_liikakasvu": true,
-  "perineuraalinen_kasvu": false,
-  "atypia": false
+  "perineuraalinen_kasvu_havaittu": false,
+  "atypia_havaittu": false
 }

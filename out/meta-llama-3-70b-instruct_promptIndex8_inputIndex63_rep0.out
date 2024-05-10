@@ -1,0 +1,16 @@
+It seems like the provided text is not a histopathological report, but rather a medical report from an emergency department. There is no information about biopsies, Gleason scores, or other histopathological findings.
+
+Here is the structured report in JSON format, with NA values for all fields:
+
+```
+{
+  "number_of_biopsies": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_prostatic_hyperplasia": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Please provide a histopathological report, and I'll be happy to help you structure it!

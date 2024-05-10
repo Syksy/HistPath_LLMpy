@@ -1,0 +1,14 @@
+Based on the provided text, I will extract the relevant information and convert it into a structured format in JSON. Here is the result:
+
+```
+{
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+The reason for the NA values is that the provided text does not contain specific information about the patient's biopsy samples, Gleason score, or other histopathological features. The text appears to be a general information article about prostate cancer, rather than a specific pathology report.

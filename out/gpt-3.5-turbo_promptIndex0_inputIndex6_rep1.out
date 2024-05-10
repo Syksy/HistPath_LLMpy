@@ -1,8 +1,8 @@
 {
-    "Näytteiden määrä": "1",
-    "Näytteiden koko": "D-G apexia, basis näytteissä K-P, seminaalivehikkeleitä O-Q",
-    "Gleason-luokitus": "7",
-    "Eturauhasen hyvälaatuinen liikakasvu": "NA",
-    "Perineuraalinen kasvu": "NA",
-    "Atypia": "NA"
+  "Näytteiden määrä": 16,
+  "Näytteiden koko": "normaalikaava",
+  "Gleason-luokitus": 7,
+  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "NA"
 }

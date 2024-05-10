@@ -1,8 +1,20 @@
 {
-  "1. Kuinka monta näytettä potilaalta on otettu?": 13,
-  "2. Mikä on otettujen näytteiden koko?": "180mm",
-  "3. Mikä on näytteiden Gleason-luokitus?": "3+4=7",
-  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "ei",
-  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
-  "6. Onko näytteessä havaittu atypiaa?": "NA"
+  "1": {
+    "näytteiden määrä": 13
+  },
+  "2": {
+    "näytteiden koko": "noin 180mm"
+  },
+  "3": {
+    "Gleason-luokitus": "3+4=7"
+  },
+  "4": {
+    "hyvälaatuinen eturauhasen liikakasvu": "NA"
+  },
+  "5": {
+    "perineuraalinen kasvu": "NA"
+  },
+  "6": {
+    "atypia": "NA"
+  }
 }

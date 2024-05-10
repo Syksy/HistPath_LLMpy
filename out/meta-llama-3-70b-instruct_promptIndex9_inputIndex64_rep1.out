@@ -1,0 +1,14 @@
+I apologize, but the provided text is not a histopathological report, but rather an error message from a SQL query. It does not contain any information about a patient's sample or diagnosis.
+
+Therefore, I will respond with 'NA' (Not Available) for all questions, as there is no relevant information to provide.
+
+Here are the answers in JSON format:
+
+{
+"(Näytteiden määrä)": "NA",
+"(Näytteiden koko)": "NA",
+"(Gleason-luokitus)": "NA",
+"(Eturauhasen hyvälaatuinen liikakasvu)": "NA",
+"(Perineuraalinen kasvu)": "NA",
+"(Atypia)": "NA"
+}

@@ -7,15 +7,15 @@ Here is the structured report in JSON format:
   "Gleason_score": NA,
   "benign_hyperplasia_only": false,
   "perineural_invasion": true,
-  "atypia_present": false
+  "atypia": false
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `sample_count`: Not mentioned in the report, so NA.
-* `sample_size_or_weight`: The report mentions a total length of 100mm, so this value is used.
+* `sample_size_or_weight`: The report mentions a total length of 100mm, so that's the value used.
 * `Gleason_score`: Not mentioned in the report, so NA.
-* `benign_hyperplasia_only`: The report mentions suspicious malignancy, so this is set to false.
-* `perineural_invasion`: The report explicitly mentions perineural growth, so this is set to true.
-* `atypia_present`: The report does not mention atypia, and only mentions moderate inflammatory changes, so this is set to false.
+* `benign_hyperplasia_only`: The report mentions "suspicious for malignancy", so it's not just benign hyperplasia, hence false.
+* `perineural_invasion`: The report explicitly mentions "perineural growth", so true.
+* `atypia`: The report doesn't mention atypia, and the "no clear malignant or PIN findings" suggests that there are no atypical changes, so false.

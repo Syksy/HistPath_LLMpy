@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "<1mm",
+  "Gleason-luokitus": "4+3=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The biopsy samples are listed as 1-6, so there are 6 samples in total.
+2. Näytteiden koko: The size of the samples is mentioned as "<1mm" in the context of Gleason 5 growth patterns.
+3. Gleason-luokitus: The Gleason score is mentioned as "4+3=7" in the report.
+4. Hyvälaatuinen eturauhasen liikakasvu: The report does not mention any well-differentiated prostate cancer, so the answer is "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the report, so the answer is "NA".
+6. Atypia: There is no mention of atypia in the report, so the answer is "NA".

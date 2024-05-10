@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("3"),
+  "2. Näytteiden koko": ("30mm"),
+  "3. Gleason-luokitus": ("3+4=7"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 3 fusion biopsies.
+2. The total length of the biopsies is 30mm.
+3. The Gleason score is 7, with a primary grade of 3 and a secondary grade of 4.
+4. There is no benign prostatic hyperplasia (BPH) mentioned in the report, so the answer is "ei" (no).
+5. There is no mention of perineural invasion in the report, so the answer is "ei" (no).
+6. There is no mention of atypia in the report, so the answer is "ei" (no).

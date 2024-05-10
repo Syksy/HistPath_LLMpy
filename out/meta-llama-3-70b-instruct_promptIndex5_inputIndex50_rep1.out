@@ -5,11 +5,11 @@ Here is the structured report in JSON format:
   "num_samples": 6,
   "sample_size_or_weight": NA,
   "Gleason_score": [
-    {"colony": 1, "score": 8, "grade3": 0, "grade4": 100},
-    {"colony": 2, "score": 7, "grade3": 20, "grade4": 80},
-    {"colony": 3, "score": 7, "grade3": 30, "grade4": 70}
+    {"colony": 1, "score": 8, "grade3": 0, "grade4": 4},
+    {"colony": 2, "score": 7, "grade3": 3, "grade4": 4},
+    {"colony": 3, "score": 7, "grade3": 3, "grade4": 4}
   ],
-  "benign_hyperplasia_only": false,
+  "benign_hyperplasia": true,
   "perineural_invasion": NA,
   "atypia": true
 }
@@ -17,9 +17,12 @@ Here is the structured report in JSON format:
 
 Here's a brief explanation of each field:
 
-* `num_samples`: The number of biopsy specimens taken from the patient.
-* `sample_size_or_weight`: Not mentioned in the report, so it's marked as NA (Not Available).
-* `Gleason_score`: An array of objects, each representing a colony with its corresponding Gleason score and grade proportions.
-* `benign_hyperplasia_only`: False, since there are malignant findings in the report.
-* `perineural_invasion`: Not mentioned in the report, so it's marked as NA.
-* `atypia`: True, since atypical glandular structures were found in the report.
+* `num_samples`: The number of biopsy specimens taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: Since the report doesn't mention the size or weight of the samples, this field is set to NA (Not Available).
+* `Gleason_score`: This is an array of objects, each representing a colony with a Gleason score. The fields are:
+	+ `colony`: The colony number (1, 2, or 3 in this case).
+	+ `score`: The Gleason score (8, 7, or 7 in this case).
+	+ `grade3` and `grade4`: The proportion of grade 3 and grade 4, respectively, in the Gleason score.
+* `benign_hyperplasia`: This field is set to `true` because the report mentions "mainly hyperplastic changes in the epithelium" in the rest of the samples.
+* `perineural_invasion`: Since the report doesn't mention perineural invasion, this field is set to NA.
+* `atypia`: This field is set to `true` because the report mentions "atypical glandular structure" in Colony 1.

@@ -2,7 +2,7 @@
   "number of samples": 8,
   "size of samples": "electrosection chips",
   "Gleason score": "NA",
-  "BPH": "no",
-  "perineural growth": "no",
-  "atypia": "no"
+  "BPH detection": "no",
+  "perineural growth detection": "no",
+  "atypia detection": "no"
 }

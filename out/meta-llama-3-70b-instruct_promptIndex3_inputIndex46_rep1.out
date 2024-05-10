@@ -3,8 +3,8 @@ Here are the answers in JSON format:
 ```
 {
   "1. Number of samples": 6,
-  "2. Size of samples": ["8mm", "5mm"],
-  "3. Gleason score": ["4+4=8", "3+4=7"],
+  "2. Size of samples": "8mm and 5mm",
+  "3. Gleason score": "4+4=8 and 3+4=7",
   "4. BPH detection": "NA",
   "5. Perineural growth detection": "NA",
   "6. Atypia detection": "NA"
@@ -14,6 +14,6 @@ Here are the answers in JSON format:
 Note: 
 
 * The number of samples is 6, as mentioned in the text ("six macrosections").
-* The sizes of the samples are 8mm and 5mm, as mentioned in the text.
-* The Gleason scores are 4+4=8 and 3+4=7, as mentioned in the text.
-* BPH (Benign Prostatic Hyperplasia), perineural growth, and atypia are not mentioned in the text, so the answers are 'NA' (Not Available).
+* The size of the samples is given as 8mm and 5mm, which are the sizes of the foci of the malignant samples.
+* The Gleason score is given as 4+4=8 for the apex and 3+4=7 for the base.
+* BPH (Benign Prostatic Hyperplasia), perineural growth, and atypia are not mentioned in the text, so the answers are "NA" (Not Available).

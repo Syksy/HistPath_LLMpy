@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("1"),
+  "2. Näytteiden koko": ("100mm"),
+  "3. Gleason-luokitus": ("NA"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("kyllä"),
+  "6. Atypia": ("ei")
+}
+```
+
+Note: 
+
+* The number of samples is not explicitly stated, but based on the text, it can be inferred that there is only one sample.
+* The size of the sample is 100mm.
+* There is no Gleason score mentioned in the text, so the answer is NA (not available).
+* There is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+* Perineural growth is mentioned, so the answer is "kyllä" (yes).
+* There is no mention of atypia, so the answer is "ei" (no).

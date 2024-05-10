@@ -17,7 +17,7 @@ The report mentions that there are 4+6+3 samples from the left side and 5+7+8mm 
   }
 }
 ```
-The report mentions the size of the samples from both sides, but not a single overall size.
+The report mentions the size of the samples from both the left and right sides.
 
 **3. Gleason-luokitus:**
 ```
@@ -33,7 +33,7 @@ There is no mention of Gleason classification in the report.
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report does not mention any benign prostatic hyperplasia.
+The report mentions that there is a suspicion of adenocarcinoma, which implies that there is no benign prostatic hyperplasia.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -46,9 +46,9 @@ There is no mention of perineural growth in the report.
 **6. Atypia:**
 ```
 {
-  "atypia": "kyllä"
+  "atypia": "NA"
 }
 ```
-The report mentions malignant growth, which implies atypia.
+There is no mention of atypia in the report.
 
 Let me know if you'd like me to proceed with the next set of questions!

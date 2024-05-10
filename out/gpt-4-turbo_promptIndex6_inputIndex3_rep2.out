@@ -4,8 +4,8 @@
     "oikea": "60mm",
     "vasen": "80mm"
   },
-  "Gleason_luokitus": "9 (4+5)",
+  "gleason_luokitus": "9 (4+5)",
   "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
-  "perineuraalinen_kasvu": "ei mainittu",
-  "atypia": "kyllä, karsinooma näytteessä B"
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "kyllä"
 }

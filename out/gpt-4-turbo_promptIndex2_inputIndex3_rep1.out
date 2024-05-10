@@ -1,8 +1,8 @@
 {
-  "1": "Näytteiden määrä: 2 (oikealta ja vasemmalta)",
-  "2": "Näytteiden koko: yhteispituus oikealta noin 60mm ja vasemmalta noin 80mm",
-  "3": "Gleason-luokitus: 9 (4+5)",
-  "4": "Hyvälaatuinen eturauhasen liikakasvu: 'ei'",
-  "5": "Perineuraalinen kasvu: 'NA'",
-  "6": "Atypia: 'NA'"
+  "1": "NA",
+  "2": "yhteispituus oikealta noin 60mm ja vasemmalta noin 80mm",
+  "3": "4+5=9",
+  "4": "ei",
+  "5": "ei",
+  "6": "ei"
 }

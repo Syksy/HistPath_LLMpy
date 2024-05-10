@@ -1,0 +1,14 @@
+I'll do my best to extract the information from the given histopathological report. Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples taken": ("2"),
+  "2. Size of the samples taken": ("Right lobe: 15 mm, Left lobe: 18 mm"),
+  "3. Gleason score": ("4+3=7"),
+  "4. Presence of benign prostatic hyperplasia": ("kyllä"),
+  "5. Presence of perineural growth": ("kyllä"),
+  "6. Presence of atypia": ("ei")
+}
+```
+
+Please note that the answers are based on the assumption that the report is in a standard format and the information is present. If the report is incomplete or unclear, the answers may not be accurate.

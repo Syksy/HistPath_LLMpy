@@ -1,8 +1,8 @@
 {
-  "potilaalta_otetut_naytteet": 4,
-  "naytteiden_koko_tai_paino": ["10mm", "8mm", "14mm", "14mm"],
-  "Gleason luokitus": {"alue1": 3, "alue2": 4},
-  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
-  "atypia": false
+  "Potilaalta otettujen näytteiden määrä": 4,
+  "Näytteiden koot/painot": ["10mm", "8mm", "14mm", "14mm"],
+  "Näytteen Gleason luokitus": ["3", "4"],
+  "Hyvänlaatuinen eturauhasen liikakasvu": false,
+  "Perineuraalinen invaasio": false,
+  "Atypia": false
 }

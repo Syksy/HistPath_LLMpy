@@ -3,21 +3,25 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 6,
-  "sample_size_or_weight": ["4mm", "6mm", "3mm", "5mm", "7mm", "8mm"],
-  "Gleason_score": NA,
-  "benign_hyperplasia_only": false,
+  "sample_size": ["4mm", "6mm", "3mm", "5mm", "7mm", "8mm"],
+  "gleason_score": NA,
+  "benign_hyperplasia": NA,
   "perineural_invasion": NA,
   "atypia": NA,
-  "malignancy_suspicion": true
+  "malignancy": true,
+  "margin_status": "positive"
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: The number of samples taken from the patient, which is 6 in this case (3 from the left and 3 from the right).
-* `sample_size_or_weight`: An array of sample sizes or weights, which are 4mm, 6mm, 3mm, 5mm, 7mm, and 8mm.
-* `Gleason_score`: Not mentioned in the report, so it's marked as NA (Not Available).
-* `benign_hyperplasia_only`: False, because the report mentions malignant growth suspicion.
+* `sample_count`: The number of samples taken from the patient, which is 6 in this case.
+* `sample_size`: An array of sample sizes, which are 4mm, 6mm, 3mm, 5mm, 7mm, and 8mm.
+* `gleason_score`: Not mentioned in the report, so it's marked as NA (Not Available).
+* `benign_hyperplasia`: Not mentioned in the report, so it's marked as NA.
 * `perineural_invasion`: Not mentioned in the report, so it's marked as NA.
 * `atypia`: Not mentioned in the report, so it's marked as NA.
-* `malignancy_suspicion`: True, because the report mentions malignant growth suspicion.
+* `malignancy`: The report suggests malignant growth, so it's marked as true.
+* `margin_status`: The report mentions that the margins are positive, so it's marked as "positive".
+
+Note that some fields are marked as NA because the information is not available in the report.

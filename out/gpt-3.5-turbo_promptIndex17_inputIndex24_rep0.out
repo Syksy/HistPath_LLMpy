@@ -1,0 +1,10 @@
+{
+  "Näytteeksi saadut prostatan elektrosektiolastut": {
+    "samples_taken": 8,
+    "size": "NA",
+    "Gleason_score": "NA",
+    "BPH_detected": true,
+    "perineural_growth_detected": false,
+    "atypia_detected": false
+  }
+}

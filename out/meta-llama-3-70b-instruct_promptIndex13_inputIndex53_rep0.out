@@ -1,0 +1,12 @@
+Here is the JSON object with the extracted information:
+
+```
+{
+  "Näytteiden määrä": 3,
+  "Näytteiden koko": ["8+6mm", "10mm", "5+5mm"],
+  "Gleason-luokitus": ["3+4=7", "3+4=7", "NA"],
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "kyllä"
+}
+```

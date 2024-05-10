@@ -1,0 +1,11 @@
+{
+  "samples_taken": 15,
+  "sample_size": "A-D: base to apex, E-F: apex, G-N: base, N-O: seminal vesicles",
+  "gleason_score": {
+    "prevailing_class": 4,
+    "other_class": 3
+  },
+  "BPH_detection": "NA",
+  "perineural_growth_detection": "abundantly observed",
+  "atypia_detection": "NA"
+}

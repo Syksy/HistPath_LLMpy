@@ -1,0 +1,14 @@
+I'll do my best to extract the information from the given histopathological report. Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Unfortunately, the provided text does not contain specific information about the patient's biopsy report, so I couldn't extract any concrete answers. The text appears to be a general description of prostate cancer, its diagnosis, and staging. If you could provide the actual biopsy report, I'd be happy to help you extract the necessary information.

@@ -4,11 +4,11 @@ Here are the answers to the questions in JSON format:
 {
   "a. Näytteiden määrä": 13,
   "b. Näytteiden koko": 180,
-  "c. Gleason-luokitus": "3-4",
+  "c. Gleason-luokitus": "3+4",
   "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
   "e. Perineuraalinen kasvu": "NA",
   "f. Atypia": "NA"
 }
 ```
 
-Note: For question c, I assumed that the Gleason score is a combination of the two classes mentioned in the text, i.e., class 3 and class 4. If this is not correct, please let me know and I'll update the answer accordingly.
+Note: For question c, the Gleason score is reported as "3+4" since the text mentions "a larger proportion of the separate gland-forming class than class 3 and a smaller proportion of 4". This suggests that the Gleason score is 3+4, but the exact proportion of each component is not specified.

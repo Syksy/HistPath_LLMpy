@@ -1,8 +1,12 @@
 {
   "number of samples": 9,
-  "size of samples": "varying from apex to basis",
+  "size of samples": {
+    "Apex": "A-C",
+    "Basista": "D-E, F-G",
+    "Seminaalivehikkeleistä": "H-I"
+  },
   "Gleason score": "3+4=7",
-  "BPH detection": "no",
-  "perineural growth detection": "no",
-  "atypia detection": "yes"
+  "BPH": "no",
+  "perineural growth": "no",
+  "atypia": "NA"
 }

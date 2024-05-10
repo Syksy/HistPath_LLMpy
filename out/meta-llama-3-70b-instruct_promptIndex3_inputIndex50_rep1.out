@@ -1,13 +1,13 @@
-Here are the answers to the questions in JSON format:
+Here are the answers in JSON format:
 
 ```
 {
   "1. Number of samples": 6,
   "2. Size of samples": "NA",
   "3. Gleason score": [
-    {"Sample 1": "4+4=8"},
-    {"Sample 2": "4+3=7"},
-    {"Sample 3": "3+4=7"}
+    "4+4=8",
+    "4+3=7",
+    "3+4=7"
   ],
   "4. BPH detection": "yes",
   "5. Perineural growth detection": "NA",
@@ -17,8 +17,8 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* The size of the samples is not explicitly mentioned, so it's marked as "NA".
-* The Gleason score is provided for three samples, and it's presented as an array of objects.
-* BPH (Benign Prostatic Hyperplasia) is detected in the form of "hyperplastic changes in the epithelium", so the answer is "yes".
-* There is no mention of perineural growth, so it's marked as "NA".
-* Atypia is detected in the form of "atypical glandular structure", so the answer is "yes".
+* The size of the samples is not explicitly mentioned in the text, so I've marked it as "NA" (not available).
+* The Gleason score is reported for three different colonies, so I've listed all three scores.
+* BPH (Benign Prostatic Hyperplasia) is detected in the samples, as "hyperplastic changes in the epithelium" are mentioned.
+* There is no mention of perineural growth in the text, so I've marked it as "NA".
+* Atypia is detected in the samples, as "atypical glandular structure" is mentioned in the text.

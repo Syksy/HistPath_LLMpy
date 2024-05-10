@@ -1,7 +1,7 @@
 {
   "samples_taken": 3,
   "sample_size": "90mm",
-  "gleason_score": "NA",
+  "Gleason_score": "NA",
   "benign_prostatic_hyperplasia": true,
   "perineural_invasion": false,
   "atypia": false

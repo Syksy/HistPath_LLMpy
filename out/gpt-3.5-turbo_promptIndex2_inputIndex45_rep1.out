@@ -2,7 +2,7 @@
   "näytteiden määrä": 6,
   "näytteiden koko": "prostate biopsies",
   "Gleason-luokitus": "NA",
-  "hyvälaatuista eturauhasen liikakasvua": "kyllä",
-  "perineuraalista kasvua": "NA",
-  "atypiaa": "ei"
+  "hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "perineuraalinen kasvu": "NA",
+  "atypia": "ei"
 }

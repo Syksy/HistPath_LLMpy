@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": "NA",
+  "2. Minkä kokoisia otetut näytteet ovat?": "NA",
+  "3. Mikä on näytteiden Gleason-luokitus?": "7",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "NA",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples taken from the patient is not specified in the report, so the answer is "NA".
+2. The size of the samples is not mentioned in the report, so the answer is "NA".
+3. The Gleason score of the tumors is 7, with a larger proportion having a score of 3 (approximately 60% of the findings).
+4. There is no mention of benign prostatic hyperplasia (BPH) in the report, so the answer is "NA".
+5. There is no mention of perineural invasion in the report, so the answer is "NA".
+6. There is no mention of atypia in the report, so the answer is "NA".

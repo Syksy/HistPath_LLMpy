@@ -1,8 +1,8 @@
 {
   "number of samples": 6,
-  "size of samples": "formalin-fixed",
+  "size of samples": "small",
   "Gleason score": "3+4=7",
-  "BPH detected": "no",
-  "perineural growth detected": "no",
-  "atypia detected": "NA"
+  "BPH detection": "NA",
+  "perineural growth detection": "no",
+  "atypia detection": "NA"
 }

@@ -2,16 +2,20 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Näytteiden määrä": "(13)",
-  "2. Näytteiden koko": "(about 180mm)",
-  "3. Gleason-luokitus": "(3+4=7)",
-  "4. Hyvälaatuinen eturauhasen liikakasvu": "('ei')",
-  "5. Perineuraalinen kasvu": "('NA')",
-  "6. Atypia": "('NA')"
+  "1. Näytteiden määrä": "13",
+  "2. Näytteiden koko": "about 180mm",
+  "3. Gleason-luokitus": "3+4=7",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question 3, I assumed that the Gleason score is 3+4=7 based on the text, but it's not explicitly stated.
-* For questions 4, 5, and 6, I answered 'ei' or 'NA' because there is no mention of benign prostatic hyperplasia, perineural growth, or atypia in the given text.
+1. The patient has 13 biopsies.
+2. The total material is about 180mm.
+3. The Gleason score is 3+4=7, which means the major pattern is 3 and the minor pattern is 4, with a total score of 7.
+4. There is no benign prostatic hyperplasia (BPH) mentioned in the report, so the answer is "ei" (no).
+5. There is no mention of perineural invasion in the report, so the answer is "NA" (not available).
+6. There is no mention of atypia in the report, so the answer is "NA" (not available).

@@ -3,10 +3,10 @@ Based on the provided histopathological report, I will convert it into a structu
 ```
 {
   "sample_count": 1,
-  "sample_size_or_weight": "150mm",
-  "Gleason_score": NA,
-  "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
+  "sample_size": "150mm",
+  "gleason_score": NA,
+  "benign_hyperplasia": false,
+  "perineural_invasion": false,
   "atypia": true
 }
 ```
@@ -14,10 +14,10 @@ Based on the provided histopathological report, I will convert it into a structu
 Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 1 in this case.
-* `sample_size_or_weight`: The total length of the sample, approximately 150mm.
-* `Gleason_score`: Not mentioned in the report, so it's marked as NA (Not Available).
-* `benign_hyperplasia_only`: False, because the report mentions adenocarcinoma, which is a malignant tumor.
-* `perineural_invasion`: Not mentioned in the report, so it's marked as NA (Not Available).
-* `atypia`: True, because the report mentions nuclear atypia in sample 1B.
+* `sample_size`: The total length of the sample, which is approximately 150mm.
+* `gleason_score`: Since the Gleason score is not explicitly mentioned in the report, I've marked it as NA (Not Available).
+* `benign_hyperplasia`: The report does not indicate that the sample only shows benign hyperplasia, so I've set this to false.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've set this to false.
+* `atypia`: The report mentions nuclear atypia in sample 1B, which corresponds to adenocarcinoma, so I've set this to true.
 
-Please note that some fields are marked as NA because they are not explicitly mentioned in the report.
+Please note that the Gleason score is not provided in this report, and it's not possible to determine it from the given information.

@@ -3,6 +3,6 @@
   "näytteiden koko": ["8mm", "7mm", "5mm"],
   "Gleason-luokitus": "3+3=6",
   "hyvälaatuinen eturauhasen liikakasvu": "ei",
-  "perineuraalinen kasvu": "ei",
-  "atypia": "ei"
+  "perineuraalinen kasvu": "NA",
+  "atypiaa": "ei"
 }

@@ -1,0 +1,18 @@
+I apologize, but the provided text does not appear to be a histopathological report. It seems to be a passage from a physics textbook, discussing the concept of work and kinetic energy.
+
+As a result, I cannot extract the requested information from the text. Instead, I will return a JSON object with NA values for each of the requested fields, indicating that the information is not available in the provided text.
+
+Here is the JSON object:
+
+```
+{
+  "number_of_samples": "NA",
+  "sample_size_or_weight": "NA",
+  "Gleason_score": "NA",
+  "benign_hyperplasia_only": "NA",
+  "perineural_invasion": "NA",
+  "atypia": "NA"
+}
+```
+
+Please provide a valid histopathological report, and I will be happy to assist you in extracting the requested information.

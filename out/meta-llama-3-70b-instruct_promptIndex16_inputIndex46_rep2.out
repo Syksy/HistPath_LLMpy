@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Number of samples taken": ("6"),
+  "2. Size of the samples": ("macrosections and normal microscopic sections (no specific size mentioned)"),
+  "3. Gleason score": ("4+4=8" and "3+4=7"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Note: 
+
+* For question 2, the size of the samples is not explicitly mentioned, but it is stated that six macrosections and normal microscopic sections were made.
+* For question 3, there are two different Gleason scores mentioned in the text, one for the apex (4+4) and one for the base (3+4).
+* For questions 4, 5, and 6, the answers are "ei" (no) because there is no mention of benign prostatic hyperplasia, perineural growth, or atypia in the text.

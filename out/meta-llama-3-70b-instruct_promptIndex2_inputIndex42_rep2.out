@@ -13,6 +13,6 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* For question 2, the size of the samples is not specified in the report, so I answered "NA" (not available).
-* For question 4, since the report mentions carcinoma and Gleason score, it implies that there is no benign prostatic hyperplasia in the sample, so I answered "ei" (no).
-* For questions 5 and 6, there is no mention of perineural growth or atypia in the report, so I answered "NA" (not available).
+* For question 2, the size of the samples taken is not specified in the report, so I answered "NA" (not available).
+* For question 4, the report does not mention benign prostatic hyperplasia, so I answered "ei" (no).
+* For questions 5 and 6, the report does not mention perineural growth or atypia, so I answered "NA" (not available) for both.

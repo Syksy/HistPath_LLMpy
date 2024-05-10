@@ -1,21 +1,11 @@
 {
   "Potilaan tiedot": {
-    "Näytteiden määrä": "Kaseteissa normaalin tavan mukaan otetut prostatabiopsioat",
-    "Näytteiden kokonaispituus": "n. 150mm"
-  },
-  "Näyte 1B": {
-    "Kohta": "oikeasta basiksesta",
-    "Havainnot": "fokus, jossa pieniä rauhasrakenteita",
-    "Tulokset": {
-      "Tuma-atypia": "kyllä",
-      "Gleason luokitus": "suspisio-asteelle",
-      "Hyvänlaatuinen liikakasvu": "ei",
-      "Perineuraalinen kasvu": "ei",
-      "Atypia": "kyllä"
-    }
-  },
-  "Muut näytteet": {
-    "Havainnot": "normaalia rauhaskudosta"
+    "Näytteiden määrä": 1,
+    "Näytteiden koko/paino": "Kokonaispituus n. 150mm",
+    "Gleason luokitus": "Suspisio-asteelle",
+    "Hyvänlaatuinen eturauhasen liikakasvu": false,
+    "Perineuraalinen kasvu": false,
+    "Atypia": true
   },
   "Lääkärin tiedot": {
     "Nimi": "Lauri Lääkäri",

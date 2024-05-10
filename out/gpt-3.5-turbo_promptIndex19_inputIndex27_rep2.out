@@ -1,0 +1,15 @@
+{
+  "number of samples": 12,
+  "size of samples": {
+    "right basix": [8, 7],
+    "left basix": [5]
+  },
+  "Gleason score": {
+    "right basix": "3+3",
+    "left basix": "3",
+    "other samples": "NA"
+  },
+  "BPH detection": "ei",
+  "perineural growth detection": "NA",
+  "atypia detection": "ei"
+}

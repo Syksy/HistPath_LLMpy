@@ -6,47 +6,15 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 6
 }
 ```
-The report mentions that there are 6 biopsy samples.
+The report mentions "6 kpl edustavia prostatabiopsioita" which translates to 6 representative prostate biopsies.
 
 **2. Näytteiden koko:**
 ```
 {
   "näytteiden_koko": 120,
-  "yksikkö": "mm"
+  "määre": "mm"
 }
 ```
-The report mentions that the total length of the biopsy samples is approximately 120 mm.
+The report mentions "yhteensä n. 120mm" which indicates that the total length of the biopsies is approximately 120 millimeters.
 
-**3. Gleason-luokitus:**
-```
-{
-  "Gleason-luokitus": "NA"
-}
-```
-There is no mention of Gleason classification in the report.
-
-**4. Hyvälaatuinen eturauhasen liikakasvu:**
-```
-{
-  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
-}
-```
-The report mentions basaalisoluhyperplasia, which is a type of benign prostatic hyperplasia.
-
-**5. Perineuraalinen kasvu:**
-```
-{
-  "perineuraalinen_kasvu": "NA"
-}
-```
-There is no mention of perineural growth in the report.
-
-**6. Atypia:**
-```
-{
-  "atypia": "NA"
-}
-```
-There is no clear mention of atypia in the report.
-
-Let me know if you'd like me to proceed with the next set of questions!
+Let me know when you're ready for me to proceed with the next questions!

@@ -15,6 +15,7 @@ Explanation:
 
 * "number_of_samples": 12, because the report mentions that the shavings were cut into 12 tissue blocks.
 * "sample_size_or_weight": NA, because the report does not provide information about the size or weight of the samples.
-* "Gleason_score": 7, because the report explicitly states that the Gleason sum is 7.
-* "benign_hyperplasia_only": false, because the report mentions carcinoma, which indicates that it's not just benign hyperplasia.
-* "perineural_invasion" and "atypia": NA, because the report does not provide any information about these specific features.
+* "Gleason_score": 7, because the report mentions that the Gleason sum is 7.
+* "benign_hyperplasia_only": false, because the report mentions that carcinoma is seen in a small part of the chips, indicating that it's not just benign hyperplasia.
+* "perineural_invasion": NA, because the report does not provide information about perineural invasion.
+* "atypia": NA, because the report does not provide information about atypia.

@@ -1,17 +1,11 @@
 {
   "1. Näytteiden määrä": "NA",
   "2. Näytteiden koko": {
-    "vasen": [
-      {"pituus": 10, "määre": "mm"},
-      {"pituus": 7, "määre": "mm"}
-    ],
-    "oikea": [
-      {"pituus": 15, "määre": "mm"},
-      {"pituus": 10, "määre": "mm"}
-    ]
+    "vasen": ["10 mm", "7 mm"],
+    "oikea": ["15 mm", "10 mm"]
   },
   "3. Gleason-luokitus": "3+4=7",
   "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
   "5. Perineuraalinen kasvu": "kyllä",
-  "6. Atypia": "ei"
+  "6. Atypia": "NA"
 }

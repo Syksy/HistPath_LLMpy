@@ -11,7 +11,11 @@ Here are the answers in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question 2, the size of the samples is not mentioned, but the size of the malignant foci is mentioned as 8mm and 5mm.
-* For questions 4, 5, and 6, there is no mention of BPH, perineural growth, or atypia in the given text, so the answer is 'NA' (not available).
+1. The text mentions "kuusi makroleikettä" which means 6 macroscopic samples.
+2. The size of the samples is not explicitly mentioned, so I've marked it as "NA".
+3. The Gleason score is mentioned as 4+4 for the apex sample and 3+4 for the base sample.
+4. There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so I've marked it as "NA".
+5. There is no mention of perineural growth in the text, so I've marked it as "NA".
+6. There is no mention of atypia in the text, so I've marked it as "NA".

@@ -17,7 +17,7 @@ The report does not explicitly mention the number of samples taken.
   }
 }
 ```
-The report mentions that the total length of the samples is approximately 60mm on the right side and 80mm on the left side.
+The report mentions the length of the samples taken from the right and left sides.
 
 **3. Gleason-luokitus:**
 ```
@@ -25,7 +25,7 @@ The report mentions that the total length of the samples is approximately 60mm o
   "Gleason_luokitus": "4+5=9"
 }
 ```
-The report mentions that the Gleason score is 9, with a primary grade of 4 and a secondary grade of 5.
+The report mentions the Gleason score as 4+5=9.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -33,7 +33,7 @@ The report mentions that the Gleason score is 9, with a primary grade of 4 and a
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report does not mention any benign prostatic hyperplasia (BPH).
+The report does not mention any benign prostatic hyperplasia.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -51,4 +51,4 @@ The report does not mention perineural growth.
 ```
 The report does not mention atypia.
 
-Let me know if you'd like me to proceed with anything else!
+Let me know if you'd like me to proceed with the next set of questions!

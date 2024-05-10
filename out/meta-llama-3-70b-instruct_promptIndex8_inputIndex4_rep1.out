@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Since the report mentions that the biopsies were taken from the prostate, I assume it's a single sample (the whole prostate).
-* `sample_size_or_weight`: The report mentions the total length of the biopsies as approximately 150mm.
-* `Gleason_score`: There is no mention of Gleason score in the report, so I return NA.
-* `benign_hyperplasia_only`: The report mentions adenocarcinoma-like morphology, so it's not just benign hyperplasia.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I return NA.
-* `atypia`: The report mentions tumour-atypia, which indicates atypical changes.
+* `sample_count`: Since the report mentions "kaseteissa normaalin tavan mukaan otetut prostatabiopsioat", I assume it's a single sample from the entire prostate, so I filled in "koko elin yhtenä näytteenä".
+* `sample_size_or_weight`: The report mentions "kokonaispituus n. 150mm", so I filled in the sample size in millimeters.
+* `Gleason_score`: There is no mention of Gleason score in the report, so I filled in "NA".
+* `benign_hyperplasia_only`: The report mentions "hyppää esiin fokus, jossa pieniä rauhasrakenteita, missä tuma-atypiaa ja morfologinen löydös vastaisi adenokarsinoomaa", which suggests that there is malignant growth, so I filled in "ei".
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I filled in "NA".
+* `atypia`: The report mentions "tuma-atypiaa", which suggests that there is atypia, so I filled in "kyllä".

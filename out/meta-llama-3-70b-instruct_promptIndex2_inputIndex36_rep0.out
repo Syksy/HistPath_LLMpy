@@ -2,13 +2,20 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Number of samples taken": ("D-G" and "K-P" and "O-Q", so 12-15 samples),
-  "2. Size of the samples taken": (NA, no information provided),
-  "3. Gleason score of the samples": (3+4=7),
-  "4. Is there benign prostatic hyperplasia in the sample?": (ei, not mentioned),
-  "5. Is there perineural growth in the sample?": (ei, not mentioned),
-  "6. Is there atypia in the sample?": (ei, not mentioned)
+  "1. Number of samples taken": ("D-G" + "K-P" + "O-Q" = 12),
+  "2. Size of the samples": ("NA"),
+  "3. Gleason score": ("3+4=7"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("ei"),
+  "6. Atypia": ("NA")
 }
 ```
 
-Note: NA stands for Not Available, as the information is not provided in the given text.
+Here's a brief explanation for each answer:
+
+1. The number of samples taken is 12, as there are 4 samples from the apex (D-G), 7 samples from the base (K-P), and 3 samples from the seminal vesicles (O-Q).
+2. The size of the samples is not specified in the report, so the answer is "NA" (not available).
+3. The Gleason score is 7, with a primary score of 3 and a secondary score of 4.
+4. There is no mention of benign prostatic hyperplasia in the report, so the answer is "ei" (no).
+5. There is no mention of perineural growth in the report, so the answer is "ei" (no).
+6. There is no mention of atypia in the report, so the answer is "NA" (not available).

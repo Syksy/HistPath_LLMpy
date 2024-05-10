@@ -9,16 +9,11 @@ Here is the structured report in JSON format:
     {"sample": 3, "size_or_weight": "14mm"},
     {"sample": 4, "size_or_weight": "14mm"}
   ],
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4,
-    "percentage_primary_pattern": 90,
-    "percentage_secondary_pattern": 10
-  },
+  "Gleason_score": {"sample": 4, "score": "3+4"},
   "benign_hyperplasia_only": false,
   "perineural_invasion": false,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
-Note: I assumed that the Gleason score is reported as a primary and secondary pattern with corresponding percentages. If this is not the case, please let me know and I'll adjust the output accordingly. Also, since there was no mention of atypia in the original report, I returned NA (Not Available) for that field.
+Note: I assumed that the Gleason score is reported as a sum of two scores (3+4) as it is commonly done. If you need a different format, please let me know. Also, I reported "atypia" as NA since it was not mentioned in the original report.

@@ -1,7 +1,7 @@
 {
-  "number_of_samples": 6,
+  "samples_taken": 6,
   "sample_size_or_weight": "NA",
-  "Gleason_score": "NA",
+  "Gleason_classification": "NA",
   "benign_prostate_hyperplasia": true,
   "perineural_invasion": false,
   "atypia_observed": false

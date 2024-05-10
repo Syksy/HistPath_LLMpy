@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: 6, as there are six formalin-fixed samples (A-F).
-* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned.
-* `Gleason_score`: 7, as the Gleason score is reported as 3+4=7.
-* `benign_hyperplasia_only`: false, as the report mentions Gleason scores and invasive growth, indicating that it's not just benign hyperplasia.
+* `number_of_samples`: 6, as there are 6 formalin-fixed samples (A-F).
+* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned in the report.
+* `Gleason_score`: 7, which is the sum of the primary and secondary patterns (3+4).
+* `benign_hyperplasia_only`: false, as the report mentions Gleason scores, indicating malignant growth.
 * `perineural_invasion`: false, as the report explicitly states that there is no perineural invasion.
 * `atypia`: NA, as there is no mention of atypia in the report.

@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "NA",
+"2. What is the size of the samples taken?": "noin 150mm",
+"3. What is the Gleason score of the samples?": "NA",
+"4. Can BPH be detected in the samples taken?": "NA",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "kyllä"
+}
+
+Note: The answer to question 1 is "NA" because the text does not explicitly state the number of samples taken. However, it does mention "sample 1B", which suggests that there may be multiple samples, but the exact number is not specified.

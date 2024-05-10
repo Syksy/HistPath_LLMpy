@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 6,
-  "sample_size_or_weight": NA,
+  "sample_size_or_weight": "NA",
   "Gleason_score": "4+3=7",
   "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia": false
+  "perineural_invasion": "NA",
+  "atypia": "NA"
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 6, because there are 6 biopsy samples mentioned (1 basis oikea, 2 keski oikea, 3 apex oikea, 4 basis vasen, 5 keski vasen, 6 apex vasen).
-* `sample_size_or_weight`: NA, because the size or weight of the samples is not mentioned.
-* `Gleason_score`: "4+3=7", because the Gleason score is mentioned as 4+3=7, with a small area of Gleason 5.
-* `benign_hyperplasia_only`: false, because the report mentions Gleason scores, which indicate malignant growth.
-* `perineural_invasion`: NA, because perineural invasion is not mentioned in the report.
-* `atypia`: false, because atypia is not mentioned in the report.
+* `sample_count`: The number of samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: The size or weight of the samples is not mentioned in the report, so it's marked as "NA" (Not Available).
+* `Gleason_score`: The Gleason score is reported as 4+3=7, with a small area (<1mm) showing Gleason 5 pattern.
+* `benign_hyperplasia_only`: Since the report mentions Gleason scores, it's clear that the sample is not just benign hyperplasia, so this field is set to `false`.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so it's marked as "NA".
+* `atypia`: There is no mention of atypia in the report, so it's marked as "NA".

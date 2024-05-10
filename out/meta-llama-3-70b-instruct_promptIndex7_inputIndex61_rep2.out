@@ -1,6 +1,6 @@
 I'll do my best to extract the relevant information from the given text and provide a structured response in JSON format.
 
-Here is the response:
+Here's the response:
 
 ```
 {
@@ -13,4 +13,4 @@ Here is the response:
 }
 ```
 
-The reason for all `NA` values is that the provided text does not contain any relevant information related to the asked questions. The text appears to be a nonsensical sequence of words and numbers, without any mention of medical or histopathological terms.
+The reason for all NA values is that the provided text does not contain any relevant information related to the asked questions. The text appears to be a nonsensical sequence of words and numbers, and it does not provide any meaningful information about the patient's samples or histopathological findings.

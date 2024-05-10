@@ -3,21 +3,24 @@ Based on the provided histopathological report, I will convert it into a structu
 ```
 {
   "sample_count": 4,
-  "sample_size_or_weight": NA,
+  "sample_size_or_weight": "2mm",
   "Gleason_score": {
     "primary": 4,
     "secondary": 3
   },
   "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia": NA
+  "perineural_invasion": null,
+  "atypia": null
 }
 ```
 
 Here's a brief explanation of each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 4 in this case.
-* `sample_size_or_weight`: Since the report doesn't mention the size or weight of the samples, I've marked it as NA (Not Available).
-* `Gleason_score`: The Gleason score is reported as having a primary score of 4 and a secondary score of 3.
-* `benign_hyperplasia_only`: Since the report mentions adenocarcinoma, which is a malignant tumor, I've marked this field as false, indicating that it's not just benign hyperplasia.
-* `perineural_invasion` and `atypia`: These fields are marked as NA since there is no mention of perineural invasion or atypia in the report.
+* `sample_size_or_weight`: The size or weight of the sample, which is 2mm in this case.
+* `Gleason_score`: An object containing the primary and secondary Gleason scores. In this case, the primary score is 4, and the secondary score is 3.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false, as the sample shows adenocarcinoma.
+* `perineural_invasion`: A field indicating whether perineural invasion is present. Since it's not mentioned in the report, it's set to null.
+* `atypia`: A field indicating whether atypia is present. Since it's not mentioned in the report, it's set to null.
+
+Note that I've used null to represent missing values, as per your request.

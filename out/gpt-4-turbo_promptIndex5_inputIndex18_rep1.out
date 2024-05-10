@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": "6",
-  "näytteiden_koko_tai_paino": "4+6+3 mm vasemmalta, 5+7+8 mm oikealta",
-  "gleason_luokitus": "NA",
-  "hyvänlaatuinen_liikakasvu": "NA",
-  "perineuraalinen_kasvu": "Kyllä, maligniin viittaavaa kasvua ensimmäisessä ja kolmannessa näytteessä oikealla",
-  "atypia": "NA"
+  "Näytteiden määrä": "6",
+  "Näytteiden koko tai paino": "4+6+3 mm vasemmalta, 5+7+8 mm oikealta",
+  "Gleason luokitus": "NA",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "Kyllä, maligniin viittaavaa kasvua"
 }

@@ -11,24 +11,18 @@ The report mentions that six macroscopic samples were taken from the prostatecto
 **2. Näytteiden koko:**
 ```
 {
-  "näytteiden_koko": {
-    "apex": "8mm",
-    "basiksessa": "5mm"
-  }
+  "näytteiden_koko": "8mm ja 5mm"
 }
 ```
-The report mentions that the malignant foci in the apex and basiks samples are approximately 8mm and 5mm in size, respectively.
+The report mentions that the sizes of the malignant foci are approximately 8mm and 5mm.
 
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": {
-    "apex": "4+4=8",
-    "basiksessa": "3+4=7"
-  }
+  "Gleason-luokitus": "4+4=8" ja "3+4=7"
 }
 ```
-The report mentions that the Gleason score for the apex sample is 4+4=8 and for the basiks sample is 3+4=7.
+The report mentions that the Gleason score is 4+4=8 for the apex sample and 3+4=7 for the base sample.
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
@@ -36,7 +30,7 @@ The report mentions that the Gleason score for the apex sample is 4+4=8 and for 
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report does not mention any benign prostatic hyperplasia (BPH), so I assume it's not present.
+The report does not mention any benign prostatic hyperplasia.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -44,7 +38,7 @@ The report does not mention any benign prostatic hyperplasia (BPH), so I assume 
   "perineuraalinen_kasvu": "ei"
 }
 ```
-The report does not mention any perineural invasion, so I assume it's not present.
+The report does not mention any perineural growth.
 
 **6. Atypia:**
 ```
@@ -52,4 +46,6 @@ The report does not mention any perineural invasion, so I assume it's not presen
   "atypia": "NA"
 }
 ```
-The report does not mention anything about atypia, so I'll leave it as NA (not available).
+The report does not mention anything about atypia.
+
+Let me know if you need any further assistance!

@@ -11,11 +11,13 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: The number of tissue blocks obtained from the shavings, which is 12.
+* `sample_count`: The number of tissue blocks obtained from the shavings, which is 12 in this case.
 * `sample_size_or_weight`: Not mentioned in the report, so it's marked as NA (Not Available).
-* `Gleason_score`: The Gleason sum is 7, with a larger portion being class 3 (about 60% of the tumor).
-* `benign_hyperplasia_only`: False, because carcinoma is seen in a small part of the chips, indicating that it's not just benign hyperplasia.
+* `Gleason_score`: The Gleason sum is 7, which is a measure of the aggressiveness of the cancer.
+* `benign_hyperplasia_only`: False, because the report mentions carcinoma (cancer) in a small part of the chips.
 * `perineural_invasion`: Not mentioned in the report, so it's marked as NA (Not Available).
 * `atypia`: Not mentioned in the report, so it's marked as NA (Not Available).
+
+Let me know if you have any further questions or if you'd like me to clarify anything!

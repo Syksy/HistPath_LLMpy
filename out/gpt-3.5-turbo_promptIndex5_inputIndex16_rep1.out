@@ -2,11 +2,11 @@
   "Näytteiden määrä": 6,
   "Näytteiden koko": {
     "Apex": "n. 8mm",
-    "Basiks": "n. 5mm"
+    "Basiksessa": "n. 5mm"
   },
   "Gleason luokitus": {
     "Apex": "4+4",
-    "Basiks": "3+4"
+    "Basiksessa": "3+4"
   },
   "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
   "Perineuraalinen kasvu": "Ei havaittu",

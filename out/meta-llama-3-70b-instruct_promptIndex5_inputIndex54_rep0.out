@@ -15,8 +15,8 @@ Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 8 in this case.
 * `sample_size_or_weight`: Since the report doesn't mention the size or weight of the samples, I've marked it as NA (Not Available).
-* `Gleason_score`: The Gleason score is not mentioned in the report, so I've marked it as NA.
-* `benign_hyperplasia_only`: The report states that the finding is benign, and only regular prostate tissue is present, indicating that there is only benign hyperplasia.
+* `Gleason_score`: The report doesn't provide a Gleason score, so I've marked it as NA.
+* `benign_hyperplasia_only`: The report states that the finding is benign, and the tissue is mainly regular prostate tissue, indicating that it's a case of benign hyperplasia only.
 * `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked it as false.
 * `atypia`: There is no mention of atypia in the report, so I've marked it as false.
 

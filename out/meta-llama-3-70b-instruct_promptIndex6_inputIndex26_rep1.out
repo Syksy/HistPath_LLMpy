@@ -15,9 +15,9 @@ Here's a brief explanation for each field:
 
 * `number_of_samples`: The number of samples taken from the patient, which is 12 in this case.
 * `sample_size_or_weight`: The total length of the samples, which is approximately 150mm.
-* `Gleason_score`: Since the Gleason score is not mentioned in the report, I've marked it as NA (Not Available).
-* `benign_hyperplasia_only`: Based on the report, it seems that the growth is benign and only shows hyperplastic changes, so I've marked this as true.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've marked this as false.
-* `atypia`: Similarly, there is no mention of atypia or any abnormal changes in the report, so I've marked this as false.
+* `Gleason_score`: Since the report does not mention the Gleason score, I have marked it as NA (Not Available).
+* `benign_hyperplasia_only`: Based on the report, it appears that the growth is benign in nature, so I have marked this as true.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I have marked this as false.
+* `atypia`: There is no mention of atypia in the report, so I have marked this as false.
 
-Please let me know if you have any further questions or if there's anything else I can help with!
+Please note that if any information is missing from the report, I will mark it as NA to indicate that the value is not available.

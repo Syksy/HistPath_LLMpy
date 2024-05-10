@@ -2,22 +2,20 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "number_of_samples": 9, // A-C, D-E, F-G, H-I
-  "sample_size_or_weight": NA,
-  "Gleason_score": {
-    "primary_grade": 3,
-    "secondary_grade": 4
-  },
-  "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
+  "number_of_samples": 9, 
+  "sample_size_or_weight": NA, 
+  "Gleason_score": 3+4, 
+  "benign_hyperplasia_only": false, 
+  "perineural_invasion": NA, 
   "atypia": NA
 }
 ```
 
-Note: 
+Explanation:
 
-* The number of samples is inferred from the text as 9 (A-C, D-E, F-G, H-I).
-* The sample size or weight is not mentioned in the report, so it's marked as NA.
-* The Gleason score is reported as a combination of primary grade 3 and secondary grade 4.
-* The report mentions a large tumor, so it's not considered benign hyperplasia only.
-* There is no mention of perineural invasion or atypia in the report, so they are marked as NA.
+* "number_of_samples": 9, because the report mentions samples A-C, D-E, F-G, H-I, which makes a total of 9 samples.
+* "sample_size_or_weight": NA, because the report does not provide information about the size or weight of the samples.
+* "Gleason_score": 3+4, because the report mentions that the prevailing Gleason grade 3 and grade 4 differentiation is almost equal.
+* "benign_hyperplasia_only": false, because the report mentions a large tumor, which indicates that it's not just a benign hyperplasia.
+* "perineural_invasion": NA, because the report does not provide information about perineural invasion.
+* "atypia": NA, because the report does not provide information about atypia.

@@ -9,7 +9,7 @@ The report doesn't explicitly mention the number of samples taken. Therefore, th
 ```
 
 **2. Näytteiden koko:**
-The report mentions that the total length of the prostate biopsy is approximately 150mm.
+The report mentions that the total length of the prostate biopsy is approximately 150mm. Therefore, the answer is:
 ```
 {
   "näytteiden_koko": 150,
@@ -18,15 +18,15 @@ The report mentions that the total length of the prostate biopsy is approximatel
 ```
 
 **3. Gleason-luokitus:**
-There is no mention of Gleason classification in the report.
+The report doesn't mention the Gleason score. Therefore, the answer is:
 ```
 {
-  "Gleason_luokitus": "NA"
+  "Gleason-luokitus": "NA"
 }
 ```
 
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
-There is no mention of benign prostatic hyperplasia in the report.
+The report doesn't mention benign prostatic hyperplasia. Therefore, the answer is:
 ```
 {
   "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
@@ -34,7 +34,7 @@ There is no mention of benign prostatic hyperplasia in the report.
 ```
 
 **5. Perineuraalinen kasvu:**
-There is no mention of perineural growth in the report.
+The report doesn't mention perineural growth. Therefore, the answer is:
 ```
 {
   "perineuraalinen_kasvu": "NA"
@@ -42,11 +42,11 @@ There is no mention of perineural growth in the report.
 ```
 
 **6. Atypia:**
-The report mentions that there is atypia in sample 1B.
+The report mentions that there is atypia in the sample. Therefore, the answer is:
 ```
 {
   "atypia": "kyllä"
 }
 ```
 
-Let me know if you'd like me to proceed with anything else!
+Let me know if you'd like me to combine these answers into a single JSON object!

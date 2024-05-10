@@ -11,10 +11,10 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Since the text doesn't explicitly mention the number of samples, I returned `NA`.
-* `sample_size_or_weight`: The text mentions "About 19g of prostate shavings in total", so I returned `19g`.
-* `Gleason_score`: The text mentions "the highest level 5 and the second highest level 4 in the Gleason classification", so I returned `5+4=9`.
-* `benign_hyperplasia_only`: The text describes a "carpet-like malignant growth", which implies that it's not just benign hyperplasia, so I returned `ei` (no).
-* `perineural_invasion` and `atypia`: These are not mentioned in the text, so I returned `NA` for both.
+* `sample_count`: Since the report doesn't explicitly mention the number of samples, I've marked it as "NA".
+* `sample_size_or_weight`: The report mentions "About 19g of prostate shavings in total", so I've used this value.
+* `Gleason_score`: The report mentions "the highest level 5 and the second highest level 4 in the Gleason classification", so I've combined them into a single score "5+4=9".
+* `benign_hyperplasia_only`: The report mentions "a carpet-like malignant growth", which implies that it's not just benign hyperplasia, so I've marked it as "ei" (no).
+* `perineural_invasion` and `atypia`: Since the report doesn't mention these specific features, I've marked them as "NA".

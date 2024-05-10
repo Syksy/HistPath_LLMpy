@@ -1,0 +1,12 @@
+Here are the answers in JSON format:
+
+{
+"1. How many samples have been taken?": "4",
+"2. What is the size of the samples taken?": "NA",
+"3. What is the Gleason score of the samples?": "4, 3",
+"4. Can BPH be detected in the samples taken?": "NA",
+"5. Can perineural growth be detected in the samples taken?": "NA",
+"6. Can atypia be detected in the samples taken?": "NA"
+}
+
+Note: The Gleason score is reported as both 4 and 3, as the text mentions that grade 4 is the most prevalent, but grade 3 is almost as large a percentage.

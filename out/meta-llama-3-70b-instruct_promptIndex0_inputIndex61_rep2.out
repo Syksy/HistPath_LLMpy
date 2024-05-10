@@ -1,12 +1,14 @@
 Here are the answers in JSON format:
 
+```
 {
-"a": "NA",
-"b": "NA",
-"c": "NA",
-"d": "NA",
-"e": "NA",
-"f": "NA"
+  "a. Näytteiden määrä": "NA",
+  "b. Näytteiden koko": "NA",
+  "c. Gleason-luokitus": "NA",
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "NA",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
 }
+```
 
-The provided text does not contain any relevant information about a medical report, so I couldn't find any answers to the questions. The text appears to be a random collection of words and numbers, without any meaningful content related to a medical diagnosis or report.
+The provided text does not contain any relevant information about the medical report, so all answers are "NA" (Not Available).

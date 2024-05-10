@@ -1,0 +1,12 @@
+{
+  "number of samples": 6,
+  "size of samples": ["5mm", "10mm"],
+  "Gleason score": {
+    "Colony 1": "4+4=8",
+    "Colony 2": "4+3=7",
+    "Colony 3": "3+4=7"
+  },
+  "BPH": "kyllä",
+  "perineural growth": "no",
+  "atypia": "kyllä"
+}

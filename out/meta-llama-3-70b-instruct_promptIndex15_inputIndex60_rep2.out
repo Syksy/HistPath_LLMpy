@@ -1,0 +1,18 @@
+I apologize, but the provided text "Beep boop? Boop biip. Blarp!" does not contain any relevant information about a histopathological report of a prostate cancer sample. It appears to be a nonsensical sequence of words.
+
+As a result, I cannot provide answers to the questions in the format you requested. If you could provide the actual histopathological report, I would be happy to help you extract the relevant information.
+
+Here is an example of what the output could look like in JSON format:
+
+```
+{
+  "näytteiden määrä": NA,
+  "näytteiden koko": NA,
+  "Gleason-luokitus": NA,
+  "hyvälaatuinen eturauhasen liikakasvu": NA,
+  "perineuraalinen kasvu": NA,
+  "atypia": NA
+}
+```
+
+Please provide the actual report, and I'll do my best to assist you.

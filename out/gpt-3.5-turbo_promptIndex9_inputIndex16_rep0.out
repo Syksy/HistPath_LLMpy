@@ -1,0 +1,14 @@
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": {
+    "apex": 8,
+    "basiks": 5
+  },
+  "Gleason-luokitus": {
+    "apex": "4+4",
+    "basiks": "3+4"
+  },
+  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "ei"
+}

@@ -13,7 +13,7 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* "number_of_samples" is 8, as there are eight cassettes mentioned in the report.
-* "sample_size_or_weight" is "13g", which is the total weight of the planing chips.
-* "Gleason_score" is "3+3=6", which is the Gleason score mentioned in the report.
-* The other fields ("benign_hyperplasia_only", "perineural_invasion", and "atypia") are marked as NA (Not Available) since there is no information about them in the report.
+* "number_of_samples": 8, because the report mentions "eight cassettes".
+* "sample_size_or_weight": "13g", because the report mentions "13g of planing chips".
+* "Gleason_score": "3+3=6", because the report explicitly mentions the Gleason score.
+* "benign_hyperplasia_only", "perineural_invasion", and "atypia" are all NA, because the report does not mention anything about these specific features.

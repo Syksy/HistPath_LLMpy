@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Let me explain how I arrived at this structured report:
+Here's a brief explanation for each field:
 
-* `sample_count`: There are 4 fragments mentioned in the report, so I counted them as separate samples.
-* `sample_size_or_weight`: The sizes of the fragments are given in millimeters, so I listed them out separately.
-* `Gleason_score`: The report mentions Gleason score 3 as the primary pattern and 4 as the secondary pattern, so I combined them into a single score.
-* `benign_hyperplasia_only`: Since the report mentions malignant growth on the left side, I answered "ei" (no) to this question.
-* `perineural_invasion`: The report mentions growth around nerves and blood vessels, which indicates perineural invasion, so I answered "kyllä" (yes).
-* `atypia`: The report mentions low-grade differentiated carcinoma cells, which implies atypia, so I answered "kyllä" (yes).
+* `sample_count`: 4, since there are 4 fragments mentioned in the report (2 from the left side and 2 from the right side).
+* `sample_size_or_weight`: The sizes of the fragments are listed in millimeters.
+* `Gleason_score`: The Gleason score is reported as 3+4, which is a combination of the primary and secondary patterns.
+* `benign_hyperplasia_only`: "ei" (no), since the report mentions malignant features.
+* `perineural_invasion`: "kyllä" (yes), since the report mentions growth around nerves.
+* `atypia`: "kyllä" (yes), since the report mentions malignant cells.

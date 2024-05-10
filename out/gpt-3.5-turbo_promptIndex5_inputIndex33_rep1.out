@@ -1,8 +1,8 @@
 {
-  "Potilaalta otettujen näytteiden määrä": "Useita ohuita neulanäytteitä",
-  "Näytteiden koko tai paino": "Oikealla noin 60mm ja vasemmalla noin 80mm",
-  "Näytteen Gleason luokitus": "Gleason taso 9 (4+5)",
-  "Onko kyseessä vain hyvänlaatuinen eturauhasen liikakasvu": "Ei, karsinooma löydetty näytteestä B",
-  "Onko näytteessä havaittu perineuraalista pahanlaatuista kasvua": "Ei mainintaa",
-  "Onko näytteessä havaittu atypiaa": "Ei mainintaa"
+  "potilaalta_otetut_naytteet": 2,
+  "naytteiden_koko_tai_paino": "Oikealla noin 60mm ja vasemmalla noin 80mm",
+  "Gleason luokitus": 9,
+  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_pahanlaatuinen_kasvu": false,
+  "atypia": false
 }

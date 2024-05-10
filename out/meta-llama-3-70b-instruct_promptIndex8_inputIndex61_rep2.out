@@ -7,17 +7,17 @@ After analyzing the provided histopathological report, I'll do my best to extrac
   "Gleason_score": "9",
   "benign_hyperplasia_only": NA,
   "perineural_invasion": NA,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
 Here's a brief explanation for each field:
 
-* `sample_count`: No information found in the report, so I returned `NA`.
-* `sample_size_or_weight`: No information found in the report, so I returned `NA`.
+* `sample_count`: No information found in the report, so I returned NA.
+* `sample_size_or_weight`: No information found in the report, so I returned NA.
 * `Gleason_score`: The report mentions "1+2=9", which suggests a Gleason score of 9.
-* `benign_hyperplasia_only`: No information found in the report, so I returned `NA`.
-* `perineural_invasion`: No information found in the report, so I returned `NA`.
-* `atypia_present`: No information found in the report, so I returned `NA`.
+* `benign_hyperplasia_only`: No information found in the report, so I returned NA.
+* `perineural_invasion`: No information found in the report, so I returned NA.
+* `atypia`: No information found in the report, so I returned NA.
 
-Please note that the report seems to be incomplete or lacks specific details, which is why many fields are marked as `NA`. If you have any further questions or would like me to clarify anything, feel free to ask!
+Please note that the report seems to be incomplete or lacks specific information, which is why I had to return NA for several fields. If you have any further questions or need clarification, feel free to ask!

@@ -1,11 +1,8 @@
 {
-  "näytteiden_määrä": "useita",
-  "näytteiden_koko_tai_paino": {
-    "oikea": "60mm",
-    "vasen": "80mm"
-  },
-  "gleason_luokitus": "9 (4+5)",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei mainintaa",
-  "perineuraalinen_kasvu": "ei mainintaa",
-  "atypia": "kyllä, karsinoomaa näytteessä B"
+  "Näytteiden määrä": "Useita, tarkka määrä ei mainittu",
+  "Näytteiden koko tai paino": "Oikealta noin 60mm, vasemmalta noin 80mm",
+  "Gleason luokitus": "9 (4+5)",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei mainittu, mutta muissa näytteissä normaalia rauhasrakennetta",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "Kyllä, näytteessä B havaitaan karsinoomaa"
 }

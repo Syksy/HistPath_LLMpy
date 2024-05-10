@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 14,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "4+3",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "kyllä",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions several samples, including A-D, E-F, G-N, and N-O, which adds up to 14 samples.
+2. Näytteiden koko: There is no mention of the size of the samples in the report, so the answer is "NA".
+3. Gleason-luokitus: The report mentions that the dominant Gleason grade is 4, and there is also some grade 3, so the answer is "4+3".
+4. Hyvälaatuinen eturauhasen liikakasvu: The report does not mention any benign prostatic hyperplasia, and the focus is on the cancer diagnosis, so the answer is "ei".
+5. Perineuraalinen kasvu: The report explicitly mentions perineural invasion, so the answer is "kyllä".
+6. Atypia: There is no mention of atypia in the report, so the answer is "NA".

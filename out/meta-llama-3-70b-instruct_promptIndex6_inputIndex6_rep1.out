@@ -3,7 +3,7 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 1,
-  "sample_size_or_weight": NA,
+  "sample_size_or_weight": "NA",
   "Gleason_score": 7,
   "benign_hyperplasia_only": false,
   "perineural_invasion": false,
@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: The report mentions multiple samples (D-G apex, basis K-P, seminaalivehikkeleitä O-Q), but it's not clear how many individual samples were taken. Therefore, I've assumed a single sample with multiple fragments.
-* `sample_size_or_weight`: There is no information about the size or weight of the samples, so I've returned NA.
-* `Gleason_score`: The report explicitly states that the tumor is Gleason score 7.
-* `benign_hyperplasia_only`: The report mentions a tumor and provides a Gleason score, indicating that it's not just benign hyperplasia. Therefore, I've set this to false.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I've set this to false.
-* `atypia`: There is no mention of atypia in the report, so I've set this to false.
+* `sample_count`: The number of samples taken from the patient is not explicitly stated, but based on the text, it appears to be a single prostatectomy specimen, so I've assumed a value of 1.
+* `sample_size_or_weight`: The size or weight of the sample is not mentioned, so I've returned "NA" (not available).
+* `Gleason_score`: The Gleason score is explicitly stated as 7.
+* `benign_hyperplasia_only`: The report mentions a tumor, so it's not a case of benign hyperplasia only, hence the value is `false`.
+* `perineural_invasion`: There is no mention of perineural invasion, so I've assumed it's not present, hence the value is `false`.
+* `atypia`: There is no mention of atypia, so I've assumed it's not present, hence the value is `false`.

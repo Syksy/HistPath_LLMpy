@@ -1,8 +1,8 @@
 {
   "potilaan_näytteiden_määrä": 3,
-  "näytteiden_koko_tai_paino": ["8+6mm", "10mm", "5+5mm"],
-  "näytteiden_Gleason_luokitus": [7, 7, "NA"],
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
-  "atypia_tavallisesta_kudoksesta_poikkeavia_muutoksia": true
+  "näytteiden_koko_tai_paino": ["näyte 1: 8+6mm", "näyte 2: 10mm", "näyte 3: 5+5mm"],
+  "näytteiden_Gleason_luokitus": ["näyte 1: 3+4", "näyte 2: 3+4", "näyte 3: ei havaittu pahanlaatuista kasvua"],
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "ei",
+  "perineuraalinen_pahanlaatuinen_kasvu": "ei",
+  "atypia_tavallisesta_kudoksesta_poikkeavia_muutoksia": ["näyte 1: PIN-muutoksia", "näyte 2: PIN-muutoksia"]
 }

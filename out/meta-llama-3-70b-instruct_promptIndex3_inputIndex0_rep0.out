@@ -1,8 +1,8 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Number of samples": 1,
+  "1. Number of samples": "NA",
   "2. Size of samples": "100mm",
   "3. Gleason score": "NA",
   "4. BPH detection": "NA",
@@ -13,9 +13,9 @@ Here are the answers in JSON format:
 
 Note: 
 
-* The number of samples is assumed to be 1 since the text does not explicitly mention multiple samples.
-* The size of the sample is mentioned as 100mm.
-* The Gleason score is not mentioned in the text, so it's marked as 'NA'.
-* There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so it's marked as 'NA'.
-* Perineural growth is mentioned as "Havaitaan perineuraalia kasvua", which translates to "Perineural growth is detected".
-* Atypia is not explicitly mentioned, but the text mentions "ei selkeää malignia tai PIN löydöstä", which means "no clear malignancy or PIN found", implying that atypia is not detected.
+* The number of samples is not explicitly mentioned in the text, so it's marked as "NA" (Not Available).
+* The size of the samples is mentioned as 100mm.
+* The Gleason score is not mentioned in the text, so it's marked as "NA".
+* BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so it's marked as "NA".
+* Perineural growth is mentioned as "havaitaan perineuraalia kasvua", which means it can be detected, so it's marked as "yes".
+* Atypia is not mentioned explicitly, but "ei selkeää malignia tai PIN löydöstä" suggests that there is no clear atypia or malignancy, so it's marked as "no".

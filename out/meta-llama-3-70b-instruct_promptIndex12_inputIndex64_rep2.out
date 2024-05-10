@@ -1,0 +1,16 @@
+I'm happy to help! However, I notice that the provided text is an error message and not a pathology report. It seems to be a SQL query error message. Therefore, I cannot extract the requested information from this text.
+
+Here is the response in JSON format:
+
+```
+{
+  "sample_count": "NA",
+  "sample_amount": "NA",
+  "gleason_grade": "NA",
+  "patient_bph": "NA",
+  "sample_perineural_invasion": "NA",
+  "sample_atypia": "NA"
+}
+```
+
+Please provide the actual pathology report, and I'll be happy to assist you in extracting the requested information.

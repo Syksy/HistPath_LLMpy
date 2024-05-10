@@ -1,0 +1,14 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. How many samples have been taken?": "14",
+  "2. What is the size of the samples taken?": "NA",
+  "3. What is the Gleason score of the samples?": "4, jonkin verran luokkaa 3",
+  "4. Can BPH be detected in the samples taken?": "NA",
+  "5. Can perineural growth be detected in the samples taken?": "Kyllä, perineuraalista invaasiota havaitaan runsaasti",
+  "6. Can atypia be detected in the samples taken?": "NA"
+}
+```
+
+Note: The answer to question 1 is based on the assumption that each letter (A-O) represents a separate sample.

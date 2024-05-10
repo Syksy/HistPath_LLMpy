@@ -19,7 +19,7 @@ There is no mention of the size of the biopsy specimens in the report.
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": ["4+4=8", "4+3=7", "3+4=7"]
+  "Gleason-luokitus": ["4+4=8", "4+3=7", "3+4=7"]
 }
 ```
 The report mentions three different Gleason scores: 4+4=8, 4+3=7, and 3+4=7.
@@ -30,7 +30,7 @@ The report mentions three different Gleason scores: 4+4=8, 4+3=7, and 3+4=7.
   "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
 }
 ```
-The report mentions "hyperplastic changes in the epithelium" which suggests that there is no malignant growth, but rather benign hyperplasia.
+The report mentions "hyperplastic changes in the epithelium" in some of the samples, which suggests that there is no malignant growth.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -46,4 +46,4 @@ There is no mention of perineural growth in the report.
   "atypia": "kyllä"
 }
 ```
-The report mentions a "poorly differentiated atypical glandular structure" which suggests that atypia is present.
+The report mentions "poorly differentiated atypical glandular structure" in one of the samples, which suggests that atypia is present.

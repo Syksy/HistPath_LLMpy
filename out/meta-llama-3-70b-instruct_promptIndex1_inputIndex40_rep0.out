@@ -1,10 +1,10 @@
 I'll go through the questions one by one and provide the answers in JSON format.
 
 **1. Näytteiden määrä:**
-The report mentions several samples, but does not provide a clear total number of samples. Therefore, the answer is:
+The report mentions several samples, but does not provide a clear total count. Therefore, the answer is:
 ```
 {
-  "näytteiden_määrä": "NA"
+  "sample_count": "NA"
 }
 ```
 
@@ -12,7 +12,7 @@ The report mentions several samples, but does not provide a clear total number o
 The report does not mention the size of the samples. Therefore, the answer is:
 ```
 {
-  "näytteiden_koko": "NA"
+  "sample_size": "NA"
 }
 ```
 
@@ -20,7 +20,7 @@ The report does not mention the size of the samples. Therefore, the answer is:
 The report mentions that the prevailing Gleason class is 4, and there is also some class 3. Therefore, the answer is:
 ```
 {
-  "Gleason_luokitus": "4+3=7"
+  "Gleason_score": "4+3"
 }
 ```
 
@@ -28,7 +28,7 @@ The report mentions that the prevailing Gleason class is 4, and there is also so
 The report does not mention benign prostatic hyperplasia (BPH). Therefore, the answer is:
 ```
 {
-  "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
+  "BPH": "NA"
 }
 ```
 
@@ -36,7 +36,7 @@ The report does not mention benign prostatic hyperplasia (BPH). Therefore, the a
 The report mentions that perineural invasion is abundantly observed. Therefore, the answer is:
 ```
 {
-  "perineuraalinen_kasvu": "kyllä"
+  "perineural_invasion": "kyllä"
 }
 ```
 
@@ -48,4 +48,4 @@ The report does not mention atypia. Therefore, the answer is:
 }
 ```
 
-Let me know if you'd like me to proceed with anything else!
+Let me know if you'd like me to proceed with the next set of questions!

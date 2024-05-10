@@ -1,18 +1,21 @@
 {
-  "Näytteiden määrä": 6,
-  "Näytteiden koko tai paino": "NA",
-  "Näytteen Gleason luokitus": [
+  "näytteiden_määrä": 6,
+  "näytteiden_koko_tai_paino": "NA",
+  "näytteiden_Gleason_luokitus": [
     {
-      "Pesäke 1": "4+4=8"
+      "pesäke": 1,
+      "Gleason_luokitus": "4+4=8"
     },
     {
-      "Pesäke 2": "4+3=7"
+      "pesäke": 2,
+      "Gleason_luokitus": "4+3=7"
     },
     {
-      "Pesäke 3": "3+4=7"
+      "pesäke": 3,
+      "Gleason_luokitus": "3+4=7"
     }
   ],
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, lopuissa näytteissä hyperplastisia muutoksia",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "Kyllä, pesäke 1:ssä huonosti erilaistunutta atyyppista rauhasrakennetta"
+  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "perineuraalinen_kasvu": "NA",
+  "atypia": true
 }

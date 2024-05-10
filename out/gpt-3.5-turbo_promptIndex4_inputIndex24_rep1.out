@@ -3,6 +3,6 @@
   "näytteiden_koko_tai_paino": "NA",
   "Gleason luokitus": "NA",
   "hyvänlaatuinen_eturauhasen_liikakasvu": true,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
+  "perineuraalinen_kasvu": false,
   "atypia": false
 }

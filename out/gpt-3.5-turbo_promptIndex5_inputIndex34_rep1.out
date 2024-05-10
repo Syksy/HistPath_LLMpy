@@ -1,10 +1,15 @@
 {
   "Potilaan tiedot": {
-    "Näytteiden määrä": "Useita näytteitä",
-    "Näytteiden koko/paino": "N/A",
-    "Gleason luokitus": "Suspension",
-    "Hyvänlaatuinen eturauhasen liikakasvu": "Ei mainintaa",
-    "Perineuraalinen kasvu": "Ei havaittu",
-    "Atypia": "Havaittu"
+    "Näytteiden määrä": 1,
+    "Näytteiden koko tai paino": "Total length approx. 150mm",
+    "Gleason luokitus": "NA",
+    "Hyvänlaatuinen eturauhasen liikakasvu": false,
+    "Perineuraalinen kasvu": false,
+    "Atypia": true
+  },
+  "Lääkärin tiedot": {
+    "Nimi": "Lauri Lääkäri",
+    "Sijainti": "Meilahti",
+    "Päivämäärä": "1 January 2021"
   }
 }

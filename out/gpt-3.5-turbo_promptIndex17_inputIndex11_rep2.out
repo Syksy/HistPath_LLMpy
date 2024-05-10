@@ -1,0 +1,11 @@
+{
+  "samples_taken": 13,
+  "size_of_samples": "180mm",
+  "Gleason_score": {
+    "class_3": "isompi osuus",
+    "class_4": "pienempi osuus"
+  },
+  "BPH_detection": "NA",
+  "perineural_growth_detection": "NA",
+  "atypia_detection": "NA"
+}

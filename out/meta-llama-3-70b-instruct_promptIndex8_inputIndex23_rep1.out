@@ -4,31 +4,19 @@ Here is the structured report in JSON format:
 {
   "sample_count": 3,
   "sample_size_or_weight": [
-    {"sample": 1, "size_or_weight": "8+6mm"},
-    {"sample": 2, "size_or_weight": "10mm"},
-    {"sample": 3, "size_or_weight": "5+5mm"}
+    {"sample": 1, "size": "8+6mm"},
+    {"sample": 2, "size": "10mm"},
+    {"sample": 3, "size": "5+5mm"}
   ],
-  "Gleason_score": [
-    {"sample": 1, "Gleason_score": "3+4=7"},
-    {"sample": 2, "Gleason_score": "3+4=7"},
-    {"sample": 3, "Gleason_score": NA}
+  "gleason_score": [
+    {"sample": 1, "score": "3+4=7"},
+    {"sample": 2, "score": "3+4=7"},
+    {"sample": 3, "score": NA}
   ],
-  "benign_hyperplasia_only": [
-    {"sample": 1, "benign_hyperplasia_only": "ei"},
-    {"sample": 2, "benign_hyperplasia_only": "ei"},
-    {"sample": 3, "benign_hyperplasia_only": "kyllä"}
-  ],
-  "perineural_invasion": [
-    {"sample": 1, "perineural_invasion": NA},
-    {"sample": 2, "perineural_invasion": NA},
-    {"sample": 3, "perineural_invasion": NA}
-  ],
-  "atypia_present": [
-    {"sample": 1, "atypia_present": "kyllä"},
-    {"sample": 2, "atypia_present": "kyllä"},
-    {"sample": 3, "atypia_present": "ei"}
-  ]
+  "benign_hyperplasia_only": "ei",
+  "perineural_invasion": "ei",
+  "atypia": "kyllä"
 }
 ```
 
-Note: I assumed that the PIN-muutoksia mentioned in the report refers to atypia present in samples (1) and (2). If this is not correct, please let me know.
+Note: I assumed that the presence of PIN-muutoksia (prostatic intraepithelial neoplasia) in samples 1 and 2 indicates atypia. If this is not the case, please let me know and I'll correct the report.

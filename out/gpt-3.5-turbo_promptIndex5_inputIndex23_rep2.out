@@ -1,51 +1,23 @@
 {
-  "Biopsianäytteet": [
-    {
-      "näytteiden määrä": 2,
-      "koko tai paino": "8+6mm",
-      "Gleason luokitus": [
-        {
-          "kasvainkudoksen osuus": "60%",
-          "luokka": 3
-        },
-        {
-          "kasvainkudoksen osuus": "40%",
-          "luokka": 4
-        }
-      ],
-      "hyvänlaatuinen eturauhasen liikakasvu": false,
-      "perineuraalinen kasvu": false,
-      "atypia": false
-    },
-    {
-      "näytteiden määrä": 1,
-      "koko tai paino": "10mm",
-      "Gleason luokitus": [
-        {
-          "kasvainkudoksen osuus": "70%",
-          "luokka": 3
-        },
-        {
-          "kasvainkudoksen osuus": "30%",
-          "luokka": 4
-        }
-      ],
-      "hyvänlaatuinen eturauhasen liikakasvu": false,
-      "perineuraalinen kasvu": false,
-      "atypia": false
-    }
-  ],
-  "Radikaaliprostatektomianäyte": {
-    "näytteiden määrä": "NA",
-    "koko tai paino": "NA",
-    "Gleason luokitus": "NA",
+  "Biopsianäytteet": {
+    "määrä": 3,
+    "koko": ["8+6mm", "10mm", "5+5mm"],
+    "Gleason luokitus": [7, 7, "NA"],
     "hyvänlaatuinen eturauhasen liikakasvu": false,
     "perineuraalinen kasvu": false,
-    "atypia": false
+    "atypia": true
   },
-  "TURP-hoitolastu": {
-    "näytteiden määrä": "NA",
-    "koko tai paino": "NA",
+  "Radikaaliprostatektomianäytteet": {
+    "määrä": "NA",
+    "koko": "NA",
+    "Gleason luokitus": "NA",
+    "hyvänlaatuinen eturauhasen liikakasvu": "NA",
+    "perineuraalinen kasvu": "NA",
+    "atypia": "NA"
+  },
+  "TURP-hoidon höyläyslastut": {
+    "määrä": "NA",
+    "koko": "NA",
     "Gleason luokitus": "NA",
     "hyvänlaatuinen eturauhasen liikakasvu": true,
     "perineuraalinen kasvu": false,

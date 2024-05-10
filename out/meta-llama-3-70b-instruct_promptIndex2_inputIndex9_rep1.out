@@ -2,13 +2,20 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Näytteiden määrä": ("8"),
-  "2. Näytteiden koko": ("13g"),
-  "3. Gleason-luokitus": ("3+3=6"),
-  "4. Hyvälaatuinen liikakasvu": ("kyllä"),
-  "5. Perineuraalinen kasvu": ("NA"),
-  "6. Atypia": ("NA")
+  "1. Näytteiden määrä": "8",
+  "2. Näytteiden koko": "13g",
+  "3. Gleason-luokitus": "3+3=6",
+  "4. Hyvälaatuinen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
 }
 ```
 
-Note: Since the text does not mention perineural growth or atypia, I have marked them as "NA" (not available).
+Here's a brief explanation for each answer:
+
+1. The patient has 8 samples (kasetilla) taken.
+2. The total weight of the samples is 13g.
+3. The Gleason score is 3+3=6.
+4. Since the report mentions "karsinoomaa" (carcinoma), it implies that there is malignant growth, not benign (hyvälaatuinen) growth.
+5. There is no mention of perineuraalinen kasvu (perineural growth) in the report, so the answer is NA (not available).
+6. There is no mention of atypia in the report, so the answer is NA (not available).

@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 12,
+  "2. Size of samples": ["8mm", "7mm", "5mm"],
+  "3. Gleason score": "3+3",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The text mentions "3/12 biopsiosta", which means 3 out of 12 biopsies showed cancer, so there are 12 samples in total.
+2. The sizes of the samples are mentioned as 8mm, 7mm, and 5mm.
+3. The Gleason score is mentioned as "Gleason 3 arkkitehtuuri" in multiple places, which corresponds to a Gleason score of 3+3.
+4. There is no mention of BPH (Benign Prostatic Hyperplasia) in the text, so it's unlikely to be detected.
+5. There is no mention of perineural growth in the text, so it's not possible to determine if it's present or not.
+6. The text explicitly states "Ei havaita tuma-atypiaa", which means no atypia was detected.

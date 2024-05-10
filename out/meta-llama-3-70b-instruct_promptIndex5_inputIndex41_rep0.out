@@ -1,13 +1,14 @@
-Based on the provided histopathological report, I will convert it into a structured format in JSON. Here is the output:
+Here is the structured report in JSON format:
 
 ```
 {
-  "sample_count": 13,
-  "sample_size_or_weight": "about 180mm",
+  "sample_type": "Biopsia",
+  "number_of_samples": 13,
+  "sample_size_or_weight": "180mm",
   "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4,
-    "percentage_of_secondary_pattern": 30
+    "primary": 3,
+    "secondary": 4,
+    "percentage_of_secondary": 30
   },
   "benign_hyperplasia_only": false,
   "perineural_invasion": null,
@@ -17,8 +18,9 @@ Based on the provided histopathological report, I will convert it into a structu
 
 Here's a brief explanation of each field:
 
-* `sample_count`: The number of biopsies taken from the patient, which is 13 in this case.
-* `sample_size_or_weight`: The size or weight of the material examined, which is approximately 180mm.
-* `Gleason_score`: An object containing the Gleason score information. In this case, the primary pattern is 3, and the secondary pattern is 4, with the latter accounting for about 30% of the tumor found.
-* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because carcinoma was found in some biopsies.
-* `perineural_invasion` and `atypia`: These fields are null because there is no mention of perineural invasion or atypia in the original report.
+* `sample_type`: The type of sample, which in this case is a biopsy.
+* `number_of_samples`: The number of samples taken from the patient, which is 13.
+* `sample_size_or_weight`: The size or weight of the sample material, which is approximately 180mm.
+* `Gleason_score`: An object containing the Gleason score information. The primary score is 3, the secondary score is 4, and the percentage of the secondary score is 30%.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (false in this case, since carcinoma was found).
+* `perineural_invasion` and `atypia`: These fields are null since there is no mention of perineural invasion or atypia in the original report.

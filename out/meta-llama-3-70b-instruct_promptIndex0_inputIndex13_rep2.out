@@ -1,4 +1,4 @@
-Here are the answers in JSON format:
+Here are the answers to the questions in JSON format:
 
 ```
 {
@@ -11,10 +11,16 @@ Here are the answers in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question a, the answer is 1 because there is only one prostate sample mentioned.
-* For question b, the answer is 19 because the total weight of the prostate sample is approximately 19g.
-* For question c, the answer is 5 because the Gleason score is mostly composed of grade 5 and secondly grade 4.
-* For question d, the answer is "ei" (no) because there is no mention of benign prostatic hyperplasia in the report.
-* For questions e and f, the answers are "NA" (not available) because there is no mention of perineural growth or atypia in the report.
+a. The number of samples taken is 1, as there is only one prostate sample mentioned in the report.
+
+b. The size of the sample is 19g, as mentioned in the report.
+
+c. The Gleason score is 5, which is the most common score mentioned in the report.
+
+d. There is no mention of benign prostatic hyperplasia (hyvälaatuinen liikakasvu) in the report, so the answer is "ei" (no).
+
+e. There is no mention of perineural growth (perineuraalinen kasvu) in the report, so the answer is "NA" (not available).
+
+f. There is no mention of atypia in the report, so the answer is "NA" (not available).

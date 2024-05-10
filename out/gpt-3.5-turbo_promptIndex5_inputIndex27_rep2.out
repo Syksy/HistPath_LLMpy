@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": 12,
-  "näytteiden_koko_tai_paino": "Oikean basiksen biopsiat 8mm ja 7mm, vasemman basiksen biopsia 5mm",
+  "potilaalta_otetut_naytteet": 12,
+  "naytteiden_koko_tai_paino": "Oikean basiksen 8mm ja 7mm, vasemman basiksen 5mm",
   "Gleason luokitus": "3+3",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
+  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,
   "atypia": false
 }

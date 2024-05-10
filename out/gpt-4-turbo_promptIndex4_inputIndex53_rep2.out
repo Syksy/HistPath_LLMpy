@@ -10,7 +10,7 @@
     "Näyte 2": "Gleason 3 (70%) ja Gleason 4 (30%)",
     "Näyte 3": "NA"
   },
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, näytteissä 1 ja 2 on adenokarsinoomaa",
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "Ei, näytteissä 1 ja 2 on adenokarsinoomaa",
   "Perineuraalinen kasvu": "NA",
   "Atypia": "Kyllä, PIN-muutoksia näytteissä 1 ja 2"
 }

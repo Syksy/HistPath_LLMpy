@@ -1,18 +1,12 @@
 {
-  "Number of specimens": 6,
-  "Specimen size or weight": "NA",
-  "Gleason classification": [
-    {
-      "Colony 1": "4+4=8"
-    },
-    {
-      "Colony 2": "4+3=7"
-    },
-    {
-      "Colony 3": "3+4=7"
-    }
+  "Näytteiden määrä": 6,
+  "Näytteiden koko tai paino": "NA",
+  "Näytteen Gleason luokitus": [
+    {"Näyte 1": "4+4=8"},
+    {"Näyte 2": "4+3=7"},
+    {"Näyte 3": "3+4=7"}
   ],
-  "Benign prostatic hyperplasia": "Yes, in the rest of the samples",
-  "Perineural invasion": "No",
-  "Atypia": "Yes, poorly differentiated atypical glandular structure in Colony 1"
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä, lopuissa näytteissä",
+  "Perineuraalinen kasvu": "Ei mainintaa",
+  "Atypia": "Kyllä, näyte 1"
 }

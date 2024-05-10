@@ -2,9 +2,9 @@
   "näytteiden_määrä": 13,
   "näytteiden_koko": "180mm",
   "Gleason luokitus": {
-    "isompi_osuus": 3,
-    "pienempi_osuus": 4,
-    "pienemmän_osuuden_osuus": "30%"
+    "luokka_isompi_osuus": 3,
+    "luokka_pienempi_osuus": 4,
+    "osuus_pienemmästä_luokasta": "30%"
   },
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,

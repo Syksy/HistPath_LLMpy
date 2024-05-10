@@ -6,11 +6,11 @@
     "näyte_3": "5+5 mm"
   },
   "gleason_luokitus": {
-    "näyte_1": "Gleason 7 (3+4)",
-    "näyte_2": "Gleason 7 (3+4)",
+    "näyte_1": "Gleason 3 (60%) ja Gleason 4 (40%)",
+    "näyte_2": "Gleason 3 (70%) ja Gleason 4 (30%)",
     "näyte_3": "NA"
   },
   "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
   "perineuraalinen_kasvu": "NA",
-  "atypia": "Kyllä, PIN-muutoksia näytteissä (1) ja (2)"
+  "atypia": "PIN-muutokset näytteissä (1) ja (2)"
 }

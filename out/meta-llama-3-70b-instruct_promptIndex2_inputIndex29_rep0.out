@@ -11,7 +11,11 @@ Here are the answers to the questions in JSON format:
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* Question 4: The report does not mention benign prostatic hyperplasia, so I answered 'ei' (no).
-* Questions 5 and 6: The report does not mention perineural growth or atypia, so I answered 'NA' (not available).
+1. The patient has three biopsy samples taken.
+2. The total length of the biopsy samples is 30mm.
+3. The Gleason score is 7, with a major component of 3 and a minor component of 4.
+4. There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth, so the answer is 'ei' (no).
+5. There is no mention of perineural invasion, so the answer is 'NA' (not applicable).
+6. There is no mention of atypia, so the answer is 'NA' (not applicable).

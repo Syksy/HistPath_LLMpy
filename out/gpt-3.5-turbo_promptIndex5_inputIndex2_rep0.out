@@ -1,8 +1,8 @@
 {
   "Näytteitä": 3,
   "Näytteiden koko tai paino": "Yhteispituus 90mm",
-  "Gleason luokitus": "Ei mainintaa Gleason luokituksesta",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei havaittu",
-  "Perineuraalinen kasvu": "Ei havaittu",
-  "Atypia": "Ei havaittu"
+  "Gleason luokitus": "Ei mainintaa",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
+  "Perineuraalinen kasvu": "Ei",
+  "Atypia": "Ei"
 }

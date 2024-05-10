@@ -1,11 +1,11 @@
 {
-  "Näytteiden määrä": 1,
-  "Näytteiden koko": {
-    "oikea": 60,
-    "vasen": 80
-  },
-  "Gleason-luokitus": 9,
-  "Eturauhasen hyvälaatuinen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "NA"
+    "Näytteiden määrä": 1,
+    "Näytteiden koko": {
+        "oikea": 60,
+        "vasen": 80
+    },
+    "Gleason-luokitus": 9,
+    "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+    "Perineuraalinen kasvu": "ei",
+    "Atypia": "NA"
 }

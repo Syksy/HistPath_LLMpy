@@ -1,8 +1,11 @@
 {
-  "Näytteiden määrä": "NA",
-  "Näytteiden koko": "12.3g chips",
-  "Gleason-luokitus": "NA",
-  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "NA"
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": {
+    "koko": 12.3,
+    "määre": "g chips"
+  },
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
 }

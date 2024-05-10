@@ -5,17 +5,17 @@ Here is the structured report in JSON format:
   "sample_count": 1,
   "sample_size_or_weight": "19g",
   "Gleason_score": "5, 4",
-  "benign_hyperplasia_only": false,
-  "perineural_invasion": true,
-  "atypia": false
+  "benign_hyperplasia_only": "false",
+  "perineural_invasion": "true",
+  "atypia": "true"
 }
 ```
 
 Here's a brief explanation for each field:
 
-* `sample_count`: The number of samples taken from the patient. In this case, it's not explicitly stated, but based on the context, I assume it's 1.
-* `sample_size_or_weight`: The size or weight of the sample(s). In this case, it's approximately 19g.
-* `Gleason_score`: The Gleason score of the sample. In this case, it's a combination of scores 5 and 4.
-* `benign_hyperplasia_only`: Whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because the report mentions "pahanlaatuista kasvua" (malignant growth).
-* `perineural_invasion`: Whether perineural invasion (i.e., cancer cells surrounding nerves) is present in the sample. In this case, it's true because the report mentions "pahanlaatuista kasvua stroomassa" (malignant growth in the stroma).
-* `atypia`: Whether atypia (i.e., abnormal cell changes) is present in the sample. In this case, it's false because there's no mention of atypia in the report.
+* `sample_count`: The number of samples taken from the patient. In this case, it's 1, as there is no indication of multiple samples.
+* `sample_size_or_weight`: The size or weight of the sample, which is 19g in this case.
+* `Gleason_score`: The Gleason score of the sample, which is a combination of scores 5 and 4.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false, as the sample shows malignant growth.
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present in the sample. In this case, it's true, as the sample shows "pahanlaatuista kasvua stroomassa" (malignant growth in the stroma).
+* `atypia`: A boolean indicating whether atypia is present in the sample. In this case, it's true, as the sample shows "mattomaista pahanlaatuista kasvua" (malignant growth with atypical features).

@@ -1,8 +1,8 @@
 {
-  "number_of_samples": "NA",
+  "number_of_samples": 16,
   "sample_size_or_weight": "NA",
   "Gleason_classification": "Gleason level 7 carcinoma",
-  "benign_prostatic_hyperplasia": "Yes",
-  "perineural_invasion": "No",
-  "atypia": "No"
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": false,
+  "atypia": false
 }

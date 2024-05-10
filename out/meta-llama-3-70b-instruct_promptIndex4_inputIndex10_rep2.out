@@ -11,4 +11,4 @@ Here is the structured report in JSON format:
 }
 ```
 
-Note: The sample count is estimated based on the description of the samples (A-D, E-F, G-N, N-O), but the exact size or weight of the samples is not provided. Similarly, there is no mention of atypia in the original report, so it is marked as NA.
+Note: The sample count is estimated based on the description of the samples (A-D, E-F, G-N, N-O), but the exact count may vary depending on the interpretation. The sample size or weight is not mentioned in the report, so it is marked as NA. The Gleason score is reported as 4, with some component of score 3. The report does not suggest that the sample only shows benign hyperplasia, so this field is marked as false. Perineural invasion is reported as present, and atypia is not mentioned, so it is marked as NA.

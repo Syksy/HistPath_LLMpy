@@ -6,41 +6,45 @@ Here is the structured report in JSON format:
     {
       "sample_id": 1,
       "number_of_samples": 2,
-      "size_or_weight": "8+6mm",
+      "sample_size": "8+6mm",
       "gleason_score": 7,
       "gleason_breakdown": {
         "3": 60,
         "4": 40
       },
-      "benign_hyperplasia_only": false,
       "perineural_invasion": NA,
-      "atypia": true
+      "atypia": true,
+      "benign_hyperplasia": false
     },
     {
       "sample_id": 2,
       "number_of_samples": 1,
-      "size_or_weight": "10mm",
+      "sample_size": "10mm",
       "gleason_score": 7,
       "gleason_breakdown": {
         "3": 70,
         "4": 30
       },
-      "benign_hyperplasia_only": false,
       "perineural_invasion": NA,
-      "atypia": true
+      "atypia": true,
+      "benign_hyperplasia": false
     },
     {
       "sample_id": 3,
       "number_of_samples": 2,
-      "size_or_weight": "5+5mm",
+      "sample_size": "5+5mm",
       "gleason_score": NA,
       "gleason_breakdown": NA,
-      "benign_hyperplasia_only": true,
       "perineural_invasion": NA,
-      "atypia": false
+      "atypia": false,
+      "benign_hyperplasia": true
     }
   ]
 }
 ```
 
-Note: I assumed that the PIN-muutoksia mentioned in the report refers to atypia, and therefore marked it as true for samples 1 and 2. If this is not correct, please let me know. Also, since there was no mention of perineural invasion in the report, I marked it as NA (not available) for all samples.
+Note: 
+
+* `NA` stands for "Not Available" or "Not Applicable", indicating that the information is not present in the original report.
+* `atypia` is set to `true` if PIN-muutoksia (Prostatic Intraepithelial Neoplasia) is mentioned in the report, indicating the presence of atypical changes.
+* `benign_hyperplasia` is set to `true` if no malignant changes are found in the sample, indicating benign hyperplasia.

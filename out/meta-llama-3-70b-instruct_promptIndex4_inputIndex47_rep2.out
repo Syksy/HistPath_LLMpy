@@ -14,8 +14,8 @@ Here is the structured report in JSON format:
 Here's a brief explanation for each field:
 
 * `number_of_samples`: There are 4 samples in total, 2 from the left side and 2 from the right side.
-* `sample_size_or_weight`: The sizes of the samples are listed as an array, with two samples from the left side (10 mm and 7 mm) and two from the right side (15 mm and 10 mm).
+* `sample_size_or_weight`: The sizes of the samples are 10 mm, 7 mm, 15 mm, and 10 mm.
 * `Gleason_score`: The main Gleason score is 3, with type 4 being the second most common.
-* `benign_hyperplasia_only`: This is set to `false` because the report mentions carcinoma cells, indicating that it's not just benign hyperplasia.
-* `perineural_invasion`: This is set to `true` because the report mentions growth around nerves.
-* `atypia`: This is set to `true` because the report mentions low-differentiated carcinoma cells, which implies atypical changes.
+* `benign_hyperplasia_only`: This is false, as there are malignant cells present in the samples.
+* `perineural_invasion`: This is true, as growth around nerves is mentioned in the report.
+* `atypia`: This is true, as low-differentiated carcinoma cells are present, which are atypical compared to normal tissue.

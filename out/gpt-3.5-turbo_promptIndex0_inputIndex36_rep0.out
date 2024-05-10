@@ -1,8 +1,8 @@
 {
   "Näytteiden määrä": "7",
-  "Näytteiden koko": "Apex: D-G, Base: K-P, Seminal vesicles: O-Q",
+  "Näytteiden koko": "Apex in specimens D-G, base in specimens K-P, seminal vesicles O-Q",
   "Gleason-luokitus": "7",
-  "Eturauhasen hyvälaatuinen liikakasvu": "Ei",
-  "Perineuraalinen kasvu": "Ei",
-  "Atypia": "Ei"
+  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "NA"
 }

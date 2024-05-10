@@ -1,16 +1,34 @@
 {
   "number_of_samples": 3,
   "sample_sizes": [
-    "8+6mm",
-    "10mm",
-    "5+5mm"
+    {
+      "sample_id": 1,
+      "size": "8+6mm"
+    },
+    {
+      "sample_id": 2,
+      "size": "10mm"
+    },
+    {
+      "sample_id": 3,
+      "size": "5+5mm"
+    }
   ],
-  "gleason_score": [
-    "Gleason 7 (3+4)",
-    "Gleason 7 (3+4)",
-    "NA"
+  "gleason_scores": [
+    {
+      "sample_id": 1,
+      "score": "Gleason 7 (3+4)"
+    },
+    {
+      "sample_id": 2,
+      "score": "Gleason 7 (3+4)"
+    },
+    {
+      "sample_id": 3,
+      "score": "NA"
+    }
   ],
-  "benign_prostatic_hyperplasia": false,
-  "perineural_invasion": false,
-  "atypia": true
+  "benign_prostatic_hyperplasia": "No",
+  "perineural_invasion": "No",
+  "atypia": "Yes"
 }

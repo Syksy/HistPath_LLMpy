@@ -3,7 +3,7 @@ Here are the answers in JSON format:
 ```
 {
   "1. Number of samples": 3,
-  "2. Size of samples": "7, 6 and 2mm",
+  "2. Size of samples": "7, 6, and 2mm",
   "3. Gleason score": "7",
   "4. BPH detection": "NA",
   "5. Perineural growth detection": "NA",
@@ -13,4 +13,4 @@ Here are the answers in JSON format:
 
 Note: 
 
-* For question 4, 5, and 6, I answered "NA" because there is no mention of BPH, perineural growth, or atypia in the provided text.
+* BPH (Benign Prostatic Hyperplasia), perineural growth, and atypia are not mentioned in the given text, so the answers are 'NA' (Not Available).

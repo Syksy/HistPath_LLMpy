@@ -1,6 +1,11 @@
 {
   "Näytteiden määrä": 4,
-  "Näytteiden koko": [10, 8, 14, 14],
+  "Näytteiden koko": {
+    "Näyte 1": 10,
+    "Näyte 2": 8,
+    "Näyte 3": 14,
+    "Näyte 4": 14
+  },
   "Gleason-luokitus": {
     "Näyte 1": "NA",
     "Näyte 2": "NA",

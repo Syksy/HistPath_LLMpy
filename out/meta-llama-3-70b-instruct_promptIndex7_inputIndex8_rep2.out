@@ -13,9 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* `number_of_samples`: The report mentions that 20g of tissue was divided into 6 blocks, so I assume this means there are 6 samples.
-* `sample_size_or_weight`: The total weight of the tissue is 30g.
-* `Gleason_score`: There is no mention of Gleason score in the report, so I return NA.
-* `benign_hyperplasia_only`: The report concludes that the finding is consistent with benign hyperplasia, so I return true.
-* `perineural_invasion`: There is no mention of perineural invasion in the report, so I return false.
-* `atypia`: The report explicitly states that there is no atypia, so I return false.
+* "number_of_samples": 6, because the report mentions that 20g of tissue was divided into 6 blocks.
+* "sample_size_or_weight": "30g", because the report mentions that the total weight of the tissue was approximately 30g.
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": true, because the report concludes that the finding is consistent with benign hyperplasia.
+* "perineural_invasion": false, because the report does not mention perineural invasion.
+* "atypia": false, because the report explicitly states that no atypia was found.

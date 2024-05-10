@@ -13,8 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* "number_of_samples" is 12, as stated in the report.
-* "sample_size_or_weight" is "150 mm", which is the total length of the samples.
-* "Gleason_score" is NA, as it is not mentioned in the report.
-* "benign_hyperplasia_only" is true, as the report states that the end result is mostly benign growth.
-* "perineural_invasion" and "atypia" are both NA, as they are not mentioned in the report.
+* "number_of_samples": 12, as there are 12 representative needle biopsies.
+* "sample_size_or_weight": "150 mm", as the total length of the samples is about 150 mm.
+* "Gleason_score": NA, as there is no mention of Gleason score in the report.
+* "benign_hyperplasia_only": true, as the report states that the end result is mostly benign growth.
+* "perineural_invasion": NA, as there is no mention of perineural invasion in the report.
+* "atypia": NA, as there is no mention of atypia in the report.

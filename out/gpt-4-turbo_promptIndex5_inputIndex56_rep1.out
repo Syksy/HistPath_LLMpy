@@ -1,8 +1,9 @@
 {
+  "Näytetyyppi": "Biopsianäytteet",
   "Näytteiden määrä": 12,
   "Näytteiden koko tai paino": "150 mm",
   "Gleason luokitus": "NA",
-  "Hyvänlaatuinen eturauhasen liikakasvu": true,
-  "Perineuraalinen kasvu": false,
-  "Atypia": false
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä",
+  "Perineuraalinen kasvu": "Ei",
+  "Atypia": "Ei"
 }

@@ -19,7 +19,7 @@ The sample size is mentioned as approximately 30g.
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "NA"
+  "Gleason-luokitus": "NA"
 }
 ```
 There is no mention of Gleason classification in the report.
@@ -30,7 +30,7 @@ There is no mention of Gleason classification in the report.
   "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
 }
 ```
-The report mentions that the finding is consistent with benign hyperplasia, which implies that there is evidence of benign prostate hyperplasia.
+The report mentions that the finding is consistent with benign hyperplasia, which implies that there is benign prostate hyperplasia.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -46,4 +46,4 @@ There is no mention of perineural growth in the report.
   "atypia": "ei"
 }
 ```
-The report explicitly states that there is no atypia, malignancy, or carcinoma observed in the sample.
+The report explicitly states that there is no atypia.

@@ -9,21 +9,18 @@ Here is the structured report in JSON format:
     {"side": "right", "size": "15 mm"},
     {"side": "right", "size": "10 mm"}
   ],
-  "Gleason_score": {
-    "primary_pattern": 3,
-    "secondary_pattern": 4
-  },
+  "Gleason_score": {"primary": 3, "secondary": 4},
   "benign_hyperplasia_only": false,
   "perineural_invasion": true,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is 4, as there are two fragments from each side of the prostate.
-* The sample size or weight is reported separately for each fragment.
-* The Gleason score is reported with primary and secondary patterns.
-* Benign hyperplasia only is set to false, as malignant cells are present in some fragments.
-* Perineural invasion is reported as true, as growth around nerves is mentioned.
-* Atypia present is reported as NA, as it is not explicitly mentioned in the original report.
+* `number_of_samples`: The number of samples taken from the patient, which is 4 in this case (2 from the left side and 2 from the right side).
+* `sample_size_or_weight`: An array of objects describing the size of each sample. Since the weight is not mentioned, I assumed the values are lengths in mm.
+* `Gleason_score`: An object with the primary and secondary Gleason scores, which are 3 and 4, respectively.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia. In this case, it's false because malignant cells are present.
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present. In this case, it's true because growth around nerves is mentioned.
+* `atypia`: Since there is no mention of atypia in the original report, I returned NA (Not Available) for this field.

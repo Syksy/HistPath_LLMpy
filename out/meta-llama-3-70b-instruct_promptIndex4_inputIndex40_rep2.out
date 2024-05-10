@@ -4,21 +4,18 @@ Here is the structured report in JSON format:
 {
   "number_of_samples": 14,
   "sample_size_or_weight": NA,
-  "Gleason_score": {
-    "primary": 4,
-    "secondary": 3
-  },
+  "Gleason_score": 4,
   "benign_hyperplasia_only": false,
   "perineural_invasion": true,
   "atypia": NA
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `number_of_samples`: 14 samples were taken from the patient (A-N).
-* `sample_size_or_weight`: No information about the size or weight of the samples is provided, so NA is returned.
-* `Gleason_score`: The prevailing Gleason class is 4, and there is also some class 3, so both are reported.
-* `benign_hyperplasia_only`: The report mentions a tumor infiltrating through the capsule into the fat, so it's not just benign hyperplasia, hence false.
-* `perineural_invasion`: Perineural invasion is abundantly observed, so true.
+* `number_of_samples`: 14 samples were taken from the patient (A-D, E-F, G-N, and N-O).
+* `sample_size_or_weight`: No information is provided about the size or weight of the samples, so NA is returned.
+* `Gleason_score`: The prevailing Gleason class is 4, with some class 3 also present.
+* `benign_hyperplasia_only`: The report mentions a tumor and perineural invasion, so this is not a case of benign hyperplasia only.
+* `perineural_invasion`: Perineural invasion is abundantly observed in the samples.
 * `atypia`: There is no mention of atypia in the report, so NA is returned.

@@ -6,16 +6,16 @@ Here is the structured report in JSON format:
   "sample_size_or_weight": "8mm, 7mm, 5mm",
   "Gleason_score": "3+3",
   "benign_hyperplasia_only": "ei",
-  "perineural_invasion": "NA",
+  "perineural_invasion": "ei",
   "atypia": "ei"
 }
 ```
 
-Let me explain how I arrived at this structured report:
+Here's a brief explanation for each field:
 
-* `sample_count`: The text mentions 12 biopsies in total.
-* `sample_size_or_weight`: The text mentions the sizes of three biopsies: 8mm, 7mm, and 5mm. I combined these into a single string.
-* `Gleason_score`: The text mentions Gleason 3 architecture in multiple biopsies, and the summary mentions a score of 3+3.
-* `benign_hyperplasia_only`: The text mentions cancer findings in some biopsies, so this is set to "ei" (no).
-* `perineural_invasion`: There is no mention of perineural invasion in the text, so this is set to NA.
-* `atypia`: The text explicitly states that there is no tumor atypia, so this is set to "ei" (no).
+* `sample_count`: 12 biopsies were taken from the patient.
+* `sample_size_or_weight`: The sizes of the biopsies are 8mm, 7mm, and 5mm.
+* `Gleason_score`: The Gleason score is 3+3.
+* `benign_hyperplasia_only`: The answer is "ei" (no) because the report mentions adenocarcinoma, which is a malignant tumor.
+* `perineural_invasion`: The answer is "ei" (no) because there is no mention of perineural invasion in the report.
+* `atypia`: The answer is "ei" (no) because the report explicitly states that no atypia was found.

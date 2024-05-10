@@ -5,7 +5,11 @@
     {"Näyte 2": "10 mm"},
     {"Näyte 3": "5+5 mm"}
   ],
-  "Gleason-luokitus": 7,
+  "Gleason-luokitus": [
+    {"Näyte 1": "Gleason 7 (3+4)"},
+    {"Näyte 2": "Gleason 7 (3+4)"},
+    {"Näyte 3": "NA"}
+  ],
   "Eturauhasen hyvälaatuinen liikakasvu": "NA",
   "Perineuraalinen kasvu": "NA",
   "Atypia": "NA"

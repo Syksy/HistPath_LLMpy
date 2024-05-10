@@ -6,7 +6,7 @@ I'll go through the questions one by one and provide the answers in JSON format.
   "näytteiden_määrä": 6
 }
 ```
-The report mentions that there are 3 samples from the left side and 3 samples from the right side, making a total of 6 samples.
+The report mentions "Systemic biopsy needle samples with a total length of 4+6+3 from the left and 5+7+8mm from the right", which implies that there are 6 samples in total.
 
 **2. Näytteiden koko:**
 ```
@@ -17,6 +17,38 @@ The report mentions that there are 3 samples from the left side and 3 samples fr
   }
 }
 ```
-The report mentions the size of each sample, but not a single overall size. I've provided the sizes for each side separately.
+The report mentions the length of the samples from the left and right sides, but does not provide a single numerical value for the size of the samples.
 
-Let me know when you're ready for me to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of Gleason score in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report mentions "a strong adenocarcinoma suspicion", which implies that there is no benign (hyvälaatuinen) growth.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+There is no mention of atypia in the report.
+
+Let me know if you'd like me to proceed with the next set of questions!

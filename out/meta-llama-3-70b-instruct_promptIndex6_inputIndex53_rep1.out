@@ -6,44 +6,45 @@ Here is the structured report in JSON format:
   "sample_details": [
     {
       "sample_id": 1,
-      "size": "8+6mm",
-      "tumor_tissue_length": "4mm",
-      "gleason_score": {
-        "primary_pattern": 3,
-        "primary_proportion": 0.6,
-        "secondary_pattern": 4,
-        "secondary_proportion": 0.4
+      "sample_size": "8+6mm",
+      "tumor_size": "4mm",
+      "gleason_score": 7,
+      "gleason_pattern": {
+        "3": 60,
+        "4": 40
       },
       "pin_changes": true,
       "perineural_invasion": NA,
-      "atypia": NA
+      "atypia": NA,
+      "benign_hyperplasia": false
     },
     {
       "sample_id": 2,
-      "size": "10mm",
-      "tumor_tissue_length": "5mm",
-      "gleason_score": {
-        "primary_pattern": 3,
-        "primary_proportion": 0.7,
-        "secondary_pattern": 4,
-        "secondary_proportion": 0.3
+      "sample_size": "10mm",
+      "tumor_size": "5mm",
+      "gleason_score": 7,
+      "gleason_pattern": {
+        "3": 70,
+        "4": 30
       },
       "pin_changes": true,
       "perineural_invasion": NA,
-      "atypia": NA
+      "atypia": NA,
+      "benign_hyperplasia": false
     },
     {
       "sample_id": 3,
-      "size": "5+5mm",
-      "tumor_tissue_length": NA,
+      "sample_size": "5+5mm",
+      "tumor_size": NA,
       "gleason_score": NA,
+      "gleason_pattern": NA,
       "pin_changes": false,
       "perineural_invasion": NA,
-      "atypia": NA
+      "atypia": NA,
+      "benign_hyperplasia": true
     }
-  ],
-  "benign_hyperplasia_only": false
+  ]
 }
 ```
 
-Note: I assumed that the absence of any mention of perineural invasion or atypia in the original report means that these features were not observed, and therefore I returned `NA` for these fields. Similarly, I assumed that the absence of any mention of tumor tissue in Sample (3) means that no tumor tissue was observed, and therefore I returned `NA` for the corresponding fields.
+Note: NA stands for "Not Available" or "Not Applicable", indicating that the information is not present in the original report.

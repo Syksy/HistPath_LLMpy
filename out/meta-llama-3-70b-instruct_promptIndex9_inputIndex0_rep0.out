@@ -1,0 +1,12 @@
+Here are the answers to the questions based on the provided histopathological report:
+
+{
+"(Näytteiden määrä)": 1,
+"(Näytteiden koko)": 100,
+"(Gleason-luokitus)": NA,
+"(Eturauhasen hyvälaatuinen liikakasvu)": ei,
+"(Perineuraalinen kasvu)": kyllä,
+"(Atypia)": NA
+}
+
+Note: NA stands for "Not Available" or "Not Answerable" since the report does not provide a clear answer to the question.

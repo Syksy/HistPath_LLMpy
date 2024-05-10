@@ -8,4 +8,12 @@ The report mentions "Prostate biopsies taken according to the normal method in c
 }
 ```
 
-Please let me know when to proceed to the next question!
+**2. Näytteiden koko:**
+The report mentions "total length approx. 150mm" which refers to the total length of the samples. Therefore, the answer is:
+```
+{
+  "näytteiden_koko": "150mm"
+}
+```
+
+Please let me know when to proceed with the next questions!

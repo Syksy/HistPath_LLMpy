@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "(4+6+3)+(5+7+8) = 13",
+  "2. Näytteiden koko": "4mm, 6mm, 3mm, 5mm, 7mm, 8mm",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```
+
+Note: 
+
+* The number of samples is 13, as there are 4+6+3 samples from the left side and 5+7+8 samples from the right side.
+* The sizes of the samples are 4mm, 6mm, 3mm, 5mm, 7mm, and 8mm.
+* There is no Gleason score mentioned in the report, so the answer is NA (Not Available).
+* There is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+* There is no mention of perineural growth, so the answer is NA (Not Available).
+* There is no mention of atypia, so the answer is NA (Not Available).

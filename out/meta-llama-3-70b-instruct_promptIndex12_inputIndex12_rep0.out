@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 12,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "3+4=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions that 12 kudosblokkia (tissue blocks) were obtained from the biopsy.
+2. Näytteiden koko: There is no mention of the size of the biopsy samples in the report.
+3. Gleason-luokitus: The report mentions that the Gleason score is 7, with the majority (60%) being grade 3.
+4. Hyvälaatuinen eturauhasen liikakasvu: The report does not mention any benign prostatic hyperplasia (BPH), and instead focuses on the presence of carcinoma.
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the report.
+6. Atypia: There is no mention of atypia in the report.

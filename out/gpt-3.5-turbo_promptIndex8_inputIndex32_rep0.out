@@ -1,8 +1,8 @@
 {
   "Biopsies": 3,
-  "Sample size": "90mm",
-  "Gleason score": "NA",
-  "Benign prostatic hyperplasia": "kyllä",
-  "Perineural invasion": "ei",
+  "Sample_size": "90mm",
+  "Gleason_score": "NA",
+  "Benign_prostatic_hyperplasia": "kyllä",
+  "Perineural_invasion": "ei",
   "Atypia": "ei"
 }

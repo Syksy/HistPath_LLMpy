@@ -15,6 +15,6 @@ Here's a brief explanation of each field:
 
 * `sample_count`: The number of samples taken from the patient, which is 8 in this case.
 * `sample_size_or_weight`: The total weight of the planing chips, which is 13g.
-* `Gleason_score`: The Gleason score of the carcinoma found in blocks F & G, which is 3+3=6.
+* `Gleason_score`: The Gleason score of the carcinoma, which is 3+3=6.
 * `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., no cancer). In this case, it's false because carcinoma was found.
 * `perineural_invasion` and `atypia`: These fields are null because there is no mention of perineural invasion or atypia in the report.

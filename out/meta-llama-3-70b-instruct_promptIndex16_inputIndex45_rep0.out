@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "6",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 6 biopsies (Samples 1-6).
+2. The size of the biopsies is not specified in the report, so the answer is NA (Not Available).
+3. There is no Gleason score mentioned in the report, so the answer is NA.
+4. The report states that the samples are benign, so there is no evidence of high-grade prostatic intraepithelial neoplasia (HGPIN) or carcinoma, which means no high-grade prostatic liikakasvu.
+5. There is no mention of perineural invasion in the report, so the answer is ei (no).
+6. The report explicitly states that no significant atypia is observed in the gland epithelia, so the answer is ei (no).

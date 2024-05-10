@@ -3,12 +3,12 @@
   "naytteiden_koko_tai_paino": "oikealta noin 60mm ja vasemmalta noin 80mm",
   "Gleason luokitus": {
     "nayte_B": {
+      "karsinooma": true,
       "Gleason_taso": 9,
       "Gleason_alataso": {
-        "1": 4,
-        "2": 5
-      },
-      "karsinooma_osuus": "noin 20%"
+        "4": "n/a",
+        "5": "20%"
+      }
     }
   },
   "hyvanlaatuinen_eturauhasen_liikakasvu": false,

@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": "4 (2 vasemmalta, 2 oikealta)",
-  "Näytteiden koko tai paino": "Vasen: 10 mm, 7 mm; Oikea: 15 mm, 10 mm",
-  "Näytteen Gleason luokitus": "Vasen: Pääsääntöisesti Gleason 3, toiseksi yleisin Gleason 4",
+  "Näytteiden määrä": "4 (vasemmalta puolelta 2, oikealta puolelta 2)",
+  "Näytteiden koko tai paino": "Vasen puoli: 10 mm ja 7 mm, Oikea puoli: 15 mm ja 10 mm",
+  "Gleason luokitus": "Vasen puoli: Pääsääntöisesti 3, toiseksi yleisin 4",
   "Hyvänlaatuinen eturauhasen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "Kyllä, kasvua hermojen ja verisuonten ympärillä",
-  "Atypia": "NA"
+  "Perineuraalinen kasvu": "Kyllä, vasemman puolen näytteissä",
+  "Atypia": "Ei mainintaa atypiasta, mutta vasemman puolen näytteissä matala-differentoitunut karsinooma"
 }

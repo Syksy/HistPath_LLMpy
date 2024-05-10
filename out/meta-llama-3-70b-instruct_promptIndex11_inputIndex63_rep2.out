@@ -1,0 +1,14 @@
+I'll go through the text and extract the requested information. Here is the result in JSON format:
+
+```
+{
+  "Näytteiden määrä": "NA",
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "NA",
+  "Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+The text does not contain any information about the number of samples, their size, Gleason classification, or any of the other requested features. Therefore, all answers are "NA" (Not Available).

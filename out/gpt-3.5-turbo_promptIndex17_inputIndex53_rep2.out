@@ -1,0 +1,23 @@
+{
+  "number_of_samples": 3,
+  "sample_sizes": [
+    "8+6mm",
+    "10mm",
+    "5+5mm"
+  ],
+  "gleason_scores": [
+    {
+      "sample_number": 1,
+      "gleason_3_percentage": 60,
+      "gleason_4_percentage": 40
+    },
+    {
+      "sample_number": 2,
+      "gleason_3_percentage": 70,
+      "gleason_4_percentage": 30
+    }
+  ],
+  "BPH_detection": "NA",
+  "perineural_growth_detection": "NA",
+  "atypia_detection": "NA"
+}

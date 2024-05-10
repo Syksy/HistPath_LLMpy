@@ -1,8 +1,8 @@
 {
-  "potilaan_naytteiden_maara": 1,
-  "naytteiden_koko_tai_paino": "NA",
-  "Gleason luokitus": "NA",
-  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
+  "number_of_samples": 1,
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": "NA",
+  "benign_prostatic_hyperplasia": true,
+  "perineural_invasion": false,
   "atypia": true
 }

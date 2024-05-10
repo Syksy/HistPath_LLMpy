@@ -15,7 +15,7 @@ Explanation:
 
 * `sample_count`: 6, as there are 6 biopsy samples mentioned in the report.
 * `sample_size_or_weight`: NA, as the report does not provide information on the size or weight of the samples.
-* `Gleason_score`: 7, which is the Gleason score mentioned in the report (4+3=7).
-* `benign_hyperplasia_only`: false, as the report mentions Gleason 5 and Gleason 4+3=7, indicating malignant growth.
-* `perineural_invasion`: NA, as the report does not mention perineural invasion.
-* `atypia`: false, as the report does not mention atypia.
+* `Gleason_score`: 7, as the report mentions a Gleason score of 4+3=7.
+* `benign_hyperplasia_only`: false, as the report mentions Gleason 5 and 4+3=7 scores, indicating malignant growth.
+* `perineural_invasion`: NA, as the report does not provide information on perineural invasion.
+* `atypia`: false, as the report does not mention atypia or any other abnormal changes besides the malignant growth.

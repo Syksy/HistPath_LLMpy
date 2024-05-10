@@ -1,7 +1,7 @@
 {
   "number of samples": 2,
-  "size of samples": "19g total, 10g histology",
-  "Gleason score": "5+4=9",
+  "size of samples": "19g",
+  "Gleason score": "9",
   "BPH": "no",
   "perineural growth": "yes",
   "atypia": "yes"

@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "1",
+  "2. Näytteiden koko": "12.3g",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The sample contains 1 cartridge, which implies that there is only 1 sample taken from the patient.
+2. The sample weighs 12.3g, which is the size of the sample.
+3. There is no mention of Gleason score in the report, so the answer is NA (Not Available).
+4. The report does not suggest any benign prostatic hyperplasia, so the answer is "ei" (no).
+5. There is no mention of perineural invasion in the report, so the answer is "ei" (no).
+6. The report does not mention any atypia, so the answer is "ei" (no).

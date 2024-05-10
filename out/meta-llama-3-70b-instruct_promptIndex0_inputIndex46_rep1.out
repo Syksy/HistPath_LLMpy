@@ -2,17 +2,13 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "(a. Näytteiden määrä)": 6,
-  "(b. Näytteiden koko)": "NA",
-  "(c. Gleason-luokitus)": "4+4, 3+4",
-  "(d. Eturauhasen hyvälaatuinen liikakasvu)": "ei",
-  "(e. Perineuraalinen kasvu)": "NA",
-  "(f. Atypia)": "NA"
+  "a. Näytteiden määrä": 6,
+  "b. Näytteiden koko": ["8mm", "5mm"],
+  "c. Gleason-luokitus": ["4+4", "3+4"],
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
 }
 ```
 
-Note: 
-
-* For question b, the size of the samples is not explicitly mentioned, so I answered "NA".
-* For question d, since the lausunto mentions adenocarcinoma, which is a type of malignant tumor, I answered "ei" (no) to good-quality prostate hyperplasia.
-* For questions e and f, there is no clear answer in the lausunto, so I answered "NA".
+Let me know if you have any further questions!

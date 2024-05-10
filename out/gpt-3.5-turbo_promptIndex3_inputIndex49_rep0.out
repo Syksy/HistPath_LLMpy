@@ -2,7 +2,7 @@
   "number of samples": 1,
   "size of samples": "12.3g",
   "Gleason score": "NA",
-  "BPH": "no",
-  "perineural growth": "no",
-  "atypia": "no"
+  "BPH detected": "no",
+  "perineural growth detected": "no",
+  "atypia detected": "no"
 }

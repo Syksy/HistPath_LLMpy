@@ -1,8 +1,20 @@
 {
   "potilaan_näytteiden_määrä": 3,
-  "näytteiden_koko_tai_paino": ["8+6mm", "10mm", "5+5mm"],
-  "näytteiden_Gleason_luokitus": [7, 7, "NA"],
-  "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_pahanlaatuinen_kasvu": false,
-  "atypia_tavallisesta_kudoksesta_poikkeavia_muutoksia": true
+  "näytteiden_koko_tai_paino": [
+    "Näyte 1: 8+6mm",
+    "Näyte 2: 10mm",
+    "Näyte 3: 5+5mm"
+  ],
+  "näytteiden_Gleason_luokitus": [
+    "Näyte 1: Gleason 3 - 60%, Gleason 4 - 40%",
+    "Näyte 2: Gleason 3 - 70%, Gleason 4 - 30%",
+    "Näyte 3: Ei havaittu poikkeavaa prostatakudosta"
+  ],
+  "hyvänlaatuinen_eturauhasen_liikakasvu": "Ei",
+  "perineuraalinen_pahanlaatuinen_kasvu": "Ei",
+  "atypia_tavallisesta_kudoksesta_poikkeavia_muutoksia": [
+    "Näyte 1: Kyllä",
+    "Näyte 2: Kyllä",
+    "Näyte 3: Ei"
+  ]
 }

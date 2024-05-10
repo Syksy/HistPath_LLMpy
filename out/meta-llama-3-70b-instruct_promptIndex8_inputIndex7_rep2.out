@@ -5,17 +5,17 @@ Here is the structured report in JSON format:
   "sample_count": 6,
   "sample_size_or_weight": "120mm",
   "Gleason_score": NA,
-  "benign_hyperplasia_only": "ei",
+  "benign_hyperplasia": "kyllä",
   "perineural_invasion": NA,
   "atypia": NA
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
 * `sample_count`: 6, as there are 6 biopsy samples.
-* `sample_size_or_weight`: "120mm", as the total size of the samples is approximately 120mm.
+* `sample_size_or_weight`: "120mm", as the total length of the samples is approximately 120mm.
 * `Gleason_score`: NA, as there is no mention of Gleason score in the report.
-* `benign_hyperplasia_only`: "ei", as the report mentions suspicion of cancer, but not a definitive diagnosis.
+* `benign_hyperplasia`: "kyllä", as the report mentions basaalisoluhyperplasiaa, which is a type of benign hyperplasia.
 * `perineural_invasion`: NA, as there is no mention of perineural invasion in the report.
 * `atypia`: NA, as there is no mention of atypia in the report.

@@ -1,0 +1,12 @@
+Here are the answers to the questions in JSON format:
+
+{
+"(Näytteiden määrä)": 6,
+"(Näytteiden koko)": "NA",
+"(Gleason-luokitus)": "4+4, 3+4",
+"(Eturauhasen hyvälaatuinen liikakasvu)": "ei",
+"(Perineuraalinen kasvu)": "ei",
+"(Atypia)": "NA"
+}
+
+Note: For question 2, I answered "NA" because the report does not specify the size of the samples, but rather the size of the malignant foci (8mm and 5mm).

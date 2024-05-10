@@ -4,14 +4,14 @@ Here are the answers to the questions in JSON format:
 {
   "1. Number of samples taken": ("3"),
   "2. Size of the samples": ("30mm"),
-  "3. Gleason score": ("7 (3+4)"),
-  "4. Benign prostatic hyperplasia found": ("ei"),
-  "5. Perineural growth found": ("NA"),
-  "6. Atypia found": ("NA")
+  "3. Gleason score": ("3+4=7"),
+  "4. Benign prostatic hyperplasia": ("ei"),
+  "5. Perineural growth": ("NA"),
+  "6. Atypia": ("NA")
 }
 ```
 
 Note: 
 
-* For question 4, I assumed that since the report mentions carcinoma foci, there is no benign prostatic hyperplasia found.
-* For questions 5 and 6, I marked them as "NA" since there is no mention of perineural growth or atypia in the report.
+* Question 4: There is no mention of benign prostatic hyperplasia in the report, so the answer is "ei" (no).
+* Questions 5 and 6: There is no mention of perineural growth or atypia in the report, so the answers are "NA" (not available).

@@ -1,0 +1,8 @@
+{
+  "number of samples": "SYNTAX ERROR IN SQL QUERY",
+  "size of samples": "ERROR CODE 123",
+  "Gleason score": "Query parameters {sample_count, sample_amount, gleason_grade, patient_bph, sample_perineural_invasion, sample_atypia} not found",
+  "BPH detection": "double check column names and queried MAIN_TABLE",
+  "perineural growth detection": "RETURN*",
+  "atypia detection": "NA"
+}

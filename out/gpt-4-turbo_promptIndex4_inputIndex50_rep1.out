@@ -6,7 +6,7 @@
     {"Näyte 2": "4+3=7"},
     {"Näyte 3": "3+4=7"}
   ],
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Kyllä, lopuissa näytteissä pääasiassa hyperplastisia muutoksia",
-  "Perineuraalinen kasvu": "Ei mainintaa",
-  "Atypia": "Kyllä, näytteissä 1 ja 2"
+  "Vain hyvänlaatuinen eturauhasen liikakasvu": "Ei, adenokarsinoomaa ja hyperplastisia muutoksia",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "Kyllä, atyyppisiä rauhasrakenteita näytteessä 1"
 }

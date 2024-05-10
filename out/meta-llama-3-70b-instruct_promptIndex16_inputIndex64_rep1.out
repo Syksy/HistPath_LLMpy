@@ -1,0 +1,14 @@
+It seems like there's a syntax error in the SQL query, and the error message is not providing any information about the sample. Therefore, I'll have to return "NA" (Not Available) for all the questions.
+
+Here are the answers in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "NA",
+  "2. Näytteiden koko": "NA",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "5. Perineuraalinen kasvu": "NA",
+  "6. Atypia": "NA"
+}
+```

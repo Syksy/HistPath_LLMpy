@@ -1,11 +1,11 @@
 {
   "Potilaan tiedot": {
-    "Näytteiden määrä": "Kaseteissa normaalin tavan mukaan otetut prostatabiopsioat",
+    "Näytteiden määrä": 1,
     "Näytteiden koko/paino": "Kokonaispituus n. 150mm",
-    "Gleason luokitus": "NA",
-    "Hyvänlaatuinen eturauhasen liikakasvu": "Ei",
-    "Perineuraalinen kasvu": "Ei",
-    "Atypia": "Kyllä"
+    "Gleason luokitus": "Suspisio-asteelle",
+    "Hyvänlaatuinen eturauhasen liikakasvu": false,
+    "Perineuraalinen kasvu": false,
+    "Atypia": true
   },
   "Lääkärin tiedot": {
     "Nimi": "Lauri Lääkäri",

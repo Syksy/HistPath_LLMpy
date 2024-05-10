@@ -1,0 +1,18 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": "3",
+  "2. Näytteiden koko": "90mm",
+  "3. Gleason-luokitus": "NA",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "kyllä",
+  "5. Perineuraalinen kasvu": "ei",
+  "6. Atypia": "ei"
+}
+```
+
+Note: 
+
+* Gleason score is not mentioned in the report, so I marked it as "NA" (not available).
+* The report mentions "hyperplasia" which is a type of benign growth, so I marked question 4 as "kyllä" (yes).
+* There is no mention of perineural growth or atypia in the report, so I marked questions 5 and 6 as "ei" (no).

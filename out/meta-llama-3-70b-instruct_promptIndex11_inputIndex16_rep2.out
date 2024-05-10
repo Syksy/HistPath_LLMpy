@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": "4+4, 3+4",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The text mentions "kuusi makroleikettä" which means 6 macro sections, so I assume that's the number of samples taken.
+2. Näytteiden koko: There is no clear mention of the size of the samples, so I answered "NA".
+3. Gleason-luokitus: The text mentions "Gleason 4+4 luokkaan" and "luokkaa 3+4", so I answered with both values.
+4. Hyvälaatuinen eturauhasen liikakasvu: The text does not mention anything about benign prostatic hyperplasia, and the diagnosis is adenocarcinoma, so I answered "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth, so I answered "NA".
+6. Atypia: There is no mention of atypia, so I answered "NA".

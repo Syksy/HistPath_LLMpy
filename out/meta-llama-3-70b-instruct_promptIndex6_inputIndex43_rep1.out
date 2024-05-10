@@ -4,20 +4,18 @@ Here is the structured report in JSON format:
 {
   "sample_count": 1,
   "sample_size_or_weight": "19g",
-  "Gleason_score": {
-    "primary_pattern": 5,
-    "secondary_pattern": 4
-  },
+  "Gleason_score": "5+4",
   "benign_hyperplasia_only": false,
-  "perineural_invasion": NA,
-  "atypia": NA
+  "perineural_invasion": false,
+  "atypia": false
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: Since the report doesn't explicitly state the number of samples, I assume it's 1 based on the context.
-* `sample_size_or_weight`: The report mentions "About 19g of prostate shavings in total".
-* `Gleason_score`: The report states "the highest level 5 and the second highest level 4 in the Gleason classification".
-* `benign_hyperplasia_only`: The report mentions a "carpet-like malignant growth", indicating that it's not just benign hyperplasia.
-* `perineural_invasion` and `atypia`: These are not mentioned in the report, so I return NA (Not Available) for these fields.
+* `sample_count`: Since the report doesn't explicitly state the number of samples, I assumed it's 1, as it's a single report.
+* `sample_size_or_weight`: The report mentions "About 19g of prostate shavings in total", so I extracted this value.
+* `Gleason_score`: The report states "the highest level 5 and the second highest level 4 in the Gleason classification", which corresponds to a Gleason score of 5+4.
+* `benign_hyperplasia_only`: The report mentions "a carpet-like malignant growth", which indicates that it's not just benign hyperplasia, so I set this to `false`.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so I set this to `false`.
+* `atypia`: There is no mention of atypia in the report, so I set this to `false`.

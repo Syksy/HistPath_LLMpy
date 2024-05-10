@@ -1,0 +1,12 @@
+Here are the answers to the questions based on the provided histopathology report:
+
+{
+"(Näytteiden määrä)": 3,
+"(Näytteiden koko)": 4,
+"(Gleason-luokitus)": NA,
+"(Eturauhasen hyvälaatuinen liikakasvu)": kyllä,
+"(Perineuraalinen kasvu)": NA,
+"(Atypia)": NA
+}
+
+Note: The Gleason score is not mentioned in the report, so the answer is NA. Similarly, there is no mention of perineural growth or atypia, so the answers are NA.

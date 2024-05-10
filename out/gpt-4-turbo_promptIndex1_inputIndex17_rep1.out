@@ -1,8 +1,8 @@
 {
   "1. Näytteiden määrä": "NA",
   "2. Näytteiden koko": {
-    "vasemman puolen fragmentit": "10 mm ja 7 mm",
-    "oikean puolen fragmentit": "15 mm ja 10 mm"
+    "vasemman puolen fragmentit": ["10 mm", "7 mm"],
+    "oikean puolen fragmentit": ["15 mm", "10 mm"]
   },
   "3. Gleason-luokitus": "3+4=7",
   "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",

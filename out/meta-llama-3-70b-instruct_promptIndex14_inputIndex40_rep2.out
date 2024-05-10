@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 14,
+  "2. Minkä kokoisia otetut näytteet ovat?": "macrosections",
+  "3. Mikä on näytteiden Gleason-luokitus?": "4 (prevailing) and 3",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "Yes",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```
+
+Note: The answer to question 4 is "NA" because the report does not mention anything about benign prostatic hyperplasia. Similarly, the answer to question 6 is "NA" because the report does not mention anything about atypia.

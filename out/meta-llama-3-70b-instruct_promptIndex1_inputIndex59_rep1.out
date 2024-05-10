@@ -15,6 +15,38 @@ The report mentions "Three fusion biopsies" which indicates that 3 samples were 
   "määre": "mm"
 }
 ```
-The report mentions "From the total length of 30mm" which indicates that the total length of the samples is 30 millimeters.
+The report mentions "From the total length of 30mm" which indicates that the total length of the samples is 30mm.
 
-Let me know when you're ready for me to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "3+4=7"
+}
+```
+The report mentions "score 7" and "level 3 grade growth" and "Gleason type 4 spliced structure" which indicates that the Gleason score is 3+4=7.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+The report does not mention any benign prostatic hyperplasia, and the focus is on carcinoma, so it can be assumed that there is no benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+The report does not mention perineural growth, so the answer is NA.
+
+**6. Atypia:**
+```
+{
+  "atypia": "NA"
+}
+```
+The report does not mention atypia, so the answer is NA.
+
+Let me know if you need any further assistance!

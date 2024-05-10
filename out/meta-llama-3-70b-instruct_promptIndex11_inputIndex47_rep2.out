@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": 4,
+  "2. Näytteiden koko": {"left": "10 mm and 7 mm", "right": "15 mm and 10 mm"},
+  "3. Gleason-luokitus": "3+4",
+  "4. Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "5. Perineuraalinen kasvu": "kyllä",
+  "6. Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples is 4 (2 from the left side and 2 from the right side).
+2. The sizes of the samples are 10 mm and 7 mm from the left side, and 15 mm and 10 mm from the right side.
+3. The Gleason score is 3+4, which means the main type is 3 and the secondary type is 4.
+4. There is no mention of benign prostatic hyperplasia, so the answer is "ei" (no).
+5. Perineural growth is mentioned, so the answer is "kyllä" (yes).
+6. There is no mention of atypia, so the answer is "NA" (not available).

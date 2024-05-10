@@ -15,7 +15,7 @@ Explanation:
 
 * "number_of_samples": 6, because the report mentions "6 kpl edustavia prostatabiopsioita" (6 representative prostate biopsies).
 * "sample_size_or_weight": "n. 120mm", because the report mentions "yhteensä n. 120mm" (total of approximately 120mm).
-* "Gleason_score": NA, because the report does not mention Gleason score.
-* "benign_hyperplasia_only": NA, because although the report mentions basaalisoluhyperplasiaa (basal cell hyperplasia), it does not explicitly state that it's only benign hyperplasia.
+* "Gleason_score": NA, because the report does not mention the Gleason score.
+* "benign_hyperplasia_only": NA, because the report mentions "basalisoluhyperplasiaa" (basal cell hyperplasia), but it's not clear if it's only benign hyperplasia.
 * "perineural_invasion": NA, because the report does not mention perineural invasion.
-* "atypia": NA, because the report does not mention atypia or any other abnormal changes in the tissue.
+* "atypia": NA, because the report does not mention atypia explicitly, although it mentions "ei voida varmaa syöpädiagnoosia antaa" (cannot give a certain cancer diagnosis), which might imply some atypical changes, but it's not clear.

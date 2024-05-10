@@ -1,18 +1,18 @@
 I'm happy to help!
 
-After carefully reviewing the provided histopathological report, I must conclude that it appears to be a nonsensical sequence of words and does not contain any meaningful information. Therefore, I will return a structured response in JSON format with "NA" values for each question, indicating that the required information is not available.
+After carefully reviewing the provided histopathological report, I must conclude that it appears to be a nonsensical sequence of words and does not contain any meaningful information. Therefore, I will return a structured report in JSON format with the requested information, where applicable, and "NA" (Not Available) for the fields that cannot be determined.
 
-Here is the response:
+Here is the structured report:
 
 ```
 {
-  "number_of_samples": "NA",
-  "sample_size_or_weight": "NA",
-  "Gleason_score": "NA",
-  "benign_hyperplasia_only": "NA",
-  "perineural_invasion": "NA",
-  "atypia_present": "NA"
+  "number_of_samples": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
 }
 ```
 
-Please provide a valid histopathological report, and I'll be happy to assist you in extracting the relevant information!
+Please note that the original report does not contain any relevant information, and therefore, I was unable to extract any meaningful data. If you could provide a more informative report, I would be happy to assist you in structuring it.

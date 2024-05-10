@@ -19,7 +19,7 @@ The sample size is mentioned as 100mm.
 **3. Gleason-luokitus:**
 ```
 {
-  "Gleason_luokitus": "NA"
+  "Gleason-luokitus": "NA"
 }
 ```
 There is no mention of the Gleason score in the report.
@@ -27,10 +27,10 @@ There is no mention of the Gleason score in the report.
 **4. Hyvälaatuinen eturauhasen liikakasvu:**
 ```
 {
-  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+  "hyvälaatuinen_eturauhasen_liikakasvu": "NA"
 }
 ```
-The report does not mention any benign prostatic hyperplasia (BPH).
+There is no clear mention of benign prostatic hyperplasia in the report.
 
 **5. Perineuraalinen kasvu:**
 ```
@@ -46,6 +46,6 @@ The report mentions perineural growth.
   "atypia": "NA"
 }
 ```
-There is no mention of atypia in the report.
+There is no clear mention of atypia in the report.
 
-Let me know if you need anything else!
+Let me know if you need any further assistance!

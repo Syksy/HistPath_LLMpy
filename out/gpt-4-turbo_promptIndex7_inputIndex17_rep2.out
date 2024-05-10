@@ -4,8 +4,11 @@
     "vasen_puoli": ["10 mm", "7 mm"],
     "oikea_puoli": ["15 mm", "10 mm"]
   },
-  "gleason_luokitus": "3+4",
+  "gleason_luokitus": {
+    "vasen_puoli": "3+4",
+    "oikea_puoli": "NA"
+  },
   "hyvänlaatuinen_eturauhasen_liikakasvu": "NA",
   "perineuraalinen_kasvu": "Kyllä",
-  "atypia": "NA"
+  "atypia": "Kyllä"
 }

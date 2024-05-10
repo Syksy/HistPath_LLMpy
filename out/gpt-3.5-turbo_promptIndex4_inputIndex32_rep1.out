@@ -1,8 +1,8 @@
 {
-  "samples_taken": 3,
-  "sample_size": "90mm",
-  "Gleason_classification": "NA",
-  "benign_prostatic_hyperplasia": true,
-  "perineural_invasion": false,
+  "näytteiden_määrä": 3,
+  "näytteiden_pituus": "90mm",
+  "Gleason luokitus": "NA",
+  "hyvänlaatuinen_eturauhasen_liikakasvu": true,
+  "perineuraalinen_kasvu": false,
   "atypia": false
 }

@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": 15,
-  "Näytteiden koko": "macrosections",
-  "Gleason-luokitus": "4",
-  "Eturauhasen hyvälaatuinen liikakasvu": "NA",
-  "Perineuraalinen kasvu": "kyllä",
-  "Atypia": "NA"
+    "Näytteiden määrä": 15,
+    "Näytteiden koko": "makrosuurennoksia",
+    "Gleason-luokitus": "4 ja osittain 3",
+    "Eturauhasen hyvälaatuinen liikakasvu": "NA",
+    "Perineuraalinen kasvu": "kyllä",
+    "Atypia": "NA"
 }

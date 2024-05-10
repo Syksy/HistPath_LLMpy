@@ -9,18 +9,20 @@ Here is the structured report in JSON format:
     {"sample": 3, "size": "5+5mm"}
   ],
   "Gleason_score": [
-    {"sample": 1, "score": 7},
-    {"sample": 2, "score": 7}
+    {"sample": 1, "Gleason_score": 3, "percentage": 60},
+    {"sample": 1, "Gleason_score": 4, "percentage": 40},
+    {"sample": 2, "Gleason_score": 3, "percentage": 70},
+    {"sample": 2, "Gleason_score": 4, "percentage": 30}
   ],
-  "benign_hyperplasia_only": NA,
+  "benign_hyperplasia": NA,
   "perineural_invasion": NA,
-  "atypia_present": NA
+  "atypia": NA
 }
 ```
 
 Note: 
 
-* The number of samples is 3.
-* The size or weight of each sample is provided.
-* The Gleason score is reported for samples 1 and 2, but not for sample 3 since it does not contain tumor tissue.
-* Since there is no explicit mention of benign hyperplasia only, perineural invasion, or atypia in the report, these values are marked as NA (not available).
+* The number of samples is 3, as indicated in the report.
+* The sample sizes or weights are listed for each sample.
+* The Gleason scores are listed for each sample, with the corresponding percentages.
+* The questions about benign hyperplasia, perineural invasion, and atypia cannot be answered based on the provided report, so the value is set to NA (Not Available).

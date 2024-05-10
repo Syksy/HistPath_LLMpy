@@ -4,15 +4,18 @@ Here are the answers to the questions in JSON format:
 {
   "1. Näytteiden määrä": ("1"),
   "2. Näytteiden koko": ("19g"),
-  "3. Gleason-luokitus": ("5+4=9"),
+  "3. Gleason-luokitus": ("5+4"),
   "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
   "5. Perineuraalinen kasvu": ("NA"),
   "6. Atypia": ("NA")
 }
 ```
 
-Note: 
+Here's a brief explanation for each answer:
 
-* For question 1, I assumed that only one sample was taken from the patient.
-* For question 4, I answered "ei" (no) because the text does not mention any benign prostatic hyperplasia.
-* For questions 5 and 6, I answered "NA" (not available) because the text does not provide information about perineural growth or atypia.
+1. The patient has one sample (näytteiden määrä).
+2. The total weight of the sample is 19g, with 10g sent for histology (näytteiden koko).
+3. The Gleason score is 5+4, indicating a high-grade cancer (Gleason-luokitus).
+4. There is no mention of benign prostatic hyperplasia (BPH) or any other benign condition, so the answer is "ei" (hyvälaatuinen eturauhasen liikakasvu).
+5. There is no mention of perineural invasion, so the answer is "NA" (perineuraalinen kasvu).
+6. There is no mention of atypia, so the answer is "NA" (atypia).

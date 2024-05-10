@@ -13,11 +13,9 @@ Here is the structured report in JSON format:
 
 Explanation:
 
-* "number_of_samples" is 6, as stated in the report.
-* "sample_size_or_weight" is approximately 120mm, as stated in the report.
-* "Gleason_score" is NA, as it is not mentioned in the report.
-* "benign_hyperplasia_only" is NA, as the report mentions basal cell hyperplasia, but it's not clear if it's the only finding.
-* "perineural_invasion" is NA, as it is not mentioned in the report.
-* "atypia" is NA, as it is not mentioned in the report.
-
-Note that I've used NA to indicate missing or uncertain values, rather than 0 or no, as per your instructions.
+* "number_of_samples": 6, as mentioned in the report ("6 representative prostate biopsies")
+* "sample_size_or_weight": "approx. 120mm", as mentioned in the report
+* "Gleason_score": NA, as there is no mention of Gleason score in the report
+* "benign_hyperplasia_only": NA, as the report mentions "Suspicio finding on biopsies" which suggests that it's not just benign hyperplasia
+* "perineural_invasion": NA, as there is no mention of perineural invasion in the report
+* "atypia": NA, as there is no mention of atypia in the report

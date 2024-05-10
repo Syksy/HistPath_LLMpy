@@ -3,19 +3,19 @@ Here is the structured report in JSON format:
 ```
 {
   "sample_count": 14, // A-D, E-F, G-N, N-O
-  "sample_size_or_weight": NA,
+  "sample_size_or_weight": "NA",
   "Gleason_score": 4,
   "benign_hyperplasia_only": false,
   "perineural_invasion": true,
-  "atypia": NA
+  "atypia": false
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: There are 14 samples mentioned in the report: A-D, E-F, G-N, and N-O.
-* `sample_size_or_weight`: No information about sample size or weight is provided in the report, so NA is returned.
+* `sample_count`: The number of samples taken from the patient, which is 14 in this case (A-D, E-F, G-N, N-O).
+* `sample_size_or_weight`: The size or weight of the samples is not mentioned in the report, so it's marked as "NA" (Not Available).
 * `Gleason_score`: The dominant Gleason score is 4, with some areas also showing Gleason score 3.
-* `benign_hyperplasia_only`: The report mentions cancerous growth and perineural invasion, so it's not just benign hyperplasia.
-* `perineural_invasion`: Perineural invasion is explicitly mentioned in the report.
-* `atypia`: There is no mention of atypia in the report, so NA is returned.
+* `benign_hyperplasia_only`: The report mentions that the tumor infiltrates the capsule and shows perineural invasion, so it's not just a benign hyperplasia.
+* `perineural_invasion`: The report explicitly mentions that perineural invasion is present.
+* `atypia`: There is no mention of atypia in the report, so it's marked as false.

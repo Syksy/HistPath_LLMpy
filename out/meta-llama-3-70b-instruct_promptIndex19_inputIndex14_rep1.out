@@ -1,0 +1,17 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 4,
+  "2. Size of samples": ["10mm", "8mm", "14mm", "14mm"],
+  "3. Gleason score": "3+4=7/90+10",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "no",
+  "6. Atypia detection": "ei"
+}
+```
+
+Note: 
+
+* "ei" in Finnish means "no" in English.
+* The Gleason score is reported as major+minor=sum/sum, where major and minor refer to the primary and secondary patterns, respectively, and sum is the total score. In this case, the Gleason score is 3+4=7, with 90% of the tissue showing pattern 3 and 10% showing pattern 4.

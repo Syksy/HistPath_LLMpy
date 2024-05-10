@@ -13,6 +13,6 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* For question 4, I assumed that "PIN changes" refer to high-grade prostatic intraepithelial neoplasia (HGPIN), which is a precursor lesion to prostate cancer.
-* For question 5, there is no mention of perineural invasion in the report, so I answered "NA" (not available).
-* For question 6, I assumed that "atypia" refers to any abnormal or malignant changes, which are present in the report as adenocarcinoma and PIN changes.
+* For question 4, I assumed that "PIN changes" refer to high-grade prostatic intraepithelial neoplasia (PIN), which is a precursor lesion to prostate cancer.
+* For question 5, I answered "NA" because there is no mention of perineural invasion in the report.
+* For question 6, I answered "kyllä" because PIN changes are a type of atypia.

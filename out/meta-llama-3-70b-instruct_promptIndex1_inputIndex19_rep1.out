@@ -16,4 +16,36 @@ There is no clear mention of the number of samples taken from the patient.
 ```
 The sample size is mentioned as 12.3 grams.
 
-Let me know when to proceed with the next questions!
+**3. Gleason-luokitus:**
+```
+{
+  "Gleason-luokitus": "NA"
+}
+```
+There is no mention of Gleason classification in the report.
+
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "kyllä"
+}
+```
+The report mentions "strooman hyperplasia", which suggests that there is benign prostatic hyperplasia.
+
+**5. Perineuraalinen kasvu:**
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+There is no mention of perineural growth in the report.
+
+**6. Atypia:**
+```
+{
+  "atypia": "ei"
+}
+```
+The report explicitly states that there is no malignant finding, which implies that there is no atypia.
+
+Let me know if you'd like me to proceed with the next set of questions!

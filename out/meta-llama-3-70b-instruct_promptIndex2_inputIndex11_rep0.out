@@ -5,7 +5,7 @@ Here are the answers to the questions in JSON format:
   "1. Näytteiden määrä": ("13"),
   "2. Näytteiden koko": ("noin 180mm"),
   "3. Gleason-luokitus": ("3+4=7"),
-  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("kyllä"),
   "5. Perineuraalinen kasvu": ("NA"),
   "6. Atypia": ("NA")
 }
@@ -13,5 +13,5 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* For question 3, I assumed that the Gleason score is 3+4=7, based on the text mentioning that the majority of the tumor is grade 3 and a smaller portion (about 30%) is grade 4.
-* For questions 4, 5, and 6, I answered "ei" or "NA" because there is no mention of benign prostatic hyperplasia, perineural growth, or atypia in the given text.
+* For question 3, I assumed the Gleason score is 3+4=7, based on the text "erillisiä rauhasia muodostavan luokan isompi osuus luokkaa 3 ja pienempi osuus 4".
+* For questions 5 and 6, I answered "NA" (not available) since there is no information about perineural growth or atypia in the given text.

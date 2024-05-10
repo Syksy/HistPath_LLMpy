@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "NA",
+  "Gleason-luokitus": ["4+4=8", "4+3=7", "3+4=7"],
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "kyllä"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions "Six biopsy specimens were taken for examination", so the answer is 6.
+2. Näytteiden koko: There is no mention of the size of the biopsy specimens, so the answer is "NA".
+3. Gleason-luokitus: The report mentions three different Gleason scores: 4+4=8, 4+3=7, and 3+4=7.
+4. Hyvälaatuinen eturauhasen liikakasvu: The report mentions "hyperplastic changes in the epithelium" in the rest of the samples, which implies that there is no malignant growth, so the answer is "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth, so the answer is "NA".
+6. Atypia: The report mentions "poorly differentiated atypical glandular structure" in Colony 1, which implies that there is atypia, so the answer is "kyllä".

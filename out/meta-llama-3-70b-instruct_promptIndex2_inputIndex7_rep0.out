@@ -5,7 +5,7 @@ Here are the answers to the questions in JSON format:
   "1. Näytteiden määrä": ("6"),
   "2. Näytteiden koko": ("n. 120mm"),
   "3. Gleason-luokitus": ("NA"),
-  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
   "5. Perineuraalinen kasvu": ("NA"),
   "6. Atypia": ("kyllä")
 }
@@ -13,7 +13,7 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* For question 3, the Gleason score is not mentioned in the report, so I answered "NA" (not available).
-* For question 4, there is no mention of benign hyperplasia, but rather basaalisoluhyperplasia, which is not the same thing. Basaalisoluhyperplasia is a type of cellular change that can be seen in prostate tissue, but it's not necessarily a benign condition.
-* For question 5, there is no mention of perineural growth, so I answered "NA".
-* For question 6, atypia is implied by the phrase " Suspicio-löydös biopsioista", which suggests that there are some atypical cells present, but not enough to make a definitive diagnosis of cancer.
+* Gleason-luokitus is not mentioned in the text, so I answered "NA" (not available).
+* Hyvälaatuinen eturauhasen liikakasvu is not mentioned, but basaalisoluhyperplasia is mentioned, which is a benign condition, so I answered "ei" (no).
+* Perineuraalinen kasvu is not mentioned, so I answered "NA" (not available).
+* Atypia is not explicitly mentioned, but the text mentions "basalisoluhyperplasiaa" which can be considered as a form of atypia, so I answered "kyllä" (yes).

@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "Näytteiden määrä": 6,
+  "Näytteiden koko": "<1mm",
+  "Gleason-luokitus": "4+3=7",
+  "Hyvälaatuinen eturauhasen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. Näytteiden määrä: The report mentions 6 biopsy samples (1 basis oikea, 2 keski oikea, 3 apex oikea, 4 basis vasen, 5 keski vasen, 6 apex vasen).
+2. Näytteiden koko: The report mentions that the samples show Gleason 5 growth patterns in areas smaller than 1mm.
+3. Gleason-luokitus: The report mentions Gleason 4+3=7 as the main growth pattern, with some areas showing Gleason 5.
+4. Hyvälaatuinen eturauhasen liikakasvu: The report does not mention any benign prostatic hyperplasia, so the answer is "ei".
+5. Perineuraalinen kasvu: There is no mention of perineural growth in the report, so the answer is "NA".
+6. Atypia: There is no mention of atypia in the report, so the answer is "NA".

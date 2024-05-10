@@ -13,7 +13,7 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* The number of samples and size of samples cannot be determined from the given text, so I've marked them as 'NA' (Not Available).
-* The Gleason score is mentioned as 7, with a major component of 3 and a minor component of 4.
-* There is no mention of BPH (Benign Prostatic Hyperplasia) or atypia in the text, so I've marked them as 'NA'.
-* Perineural growth is not detected, as mentioned in the text ("Läpikasvua ei nähdä").
+* The number of samples and size of samples cannot be determined from the given text, so the answer is "NA".
+* The Gleason score is 7, with a major score of 3 and a minor score of 4.
+* There is no mention of BPH (Benign Prostatic Hyperplasia) or atypia in the text, so the answer is "NA".
+* Perineural growth is not detected, as stated in the text ("Läpikasvua ei nähdä").

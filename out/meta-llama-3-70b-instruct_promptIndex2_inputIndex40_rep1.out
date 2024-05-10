@@ -2,20 +2,20 @@ Here are the answers to the questions in JSON format:
 
 ```
 {
-  "1. Number of samples": ("14"),
-  "2. Size of samples": ("macrosections"),
-  "3. Gleason score": ("4+3=7"),
-  "4. Benign prostatic hyperplasia": ("ei"),
-  "5. Perineural invasion": ("kyllä"),
-  "6. Atypia": ("NA")
+  "1. Number of samples taken": ("14"),
+  "2. Size of the samples": ("macrosections"),
+  "3. Gleason classification": ("4+3=7"),
+  "4. Is there benign prostatic hyperplasia in the sample?": ("ei"),
+  "5. Is there perineural invasion in the sample?": ("kyllä"),
+  "6. Is there atypia in the sample?": ("NA")
 }
 ```
 
 Here's a brief explanation for each answer:
 
-1. The number of samples is 14, as indicated by the labels A-N.
+1. The number of samples taken is 14, as indicated by the labels A-N.
 2. The size of the samples is described as macrosections, which means they are larger sections of tissue.
-3. The Gleason score is reported as having a prevailing class of 4 and some class 3, so the sum would be 4+3=7.
-4. There is no mention of benign prostatic hyperplasia (BPH) in the report, so the answer is "ei" (no).
-5. Perineural invasion is explicitly mentioned in the report as being abundantly observed, so the answer is "kyllä" (yes).
-6. There is no mention of atypia in the report, so the answer is "NA" (not applicable).
+3. The Gleason classification is 4+3=7, indicating that the prevailing Gleason class is 4, with some class 3.
+4. There is no mention of benign prostatic hyperplasia in the sample, so the answer is "ei" (no).
+5. Perineural invasion is abundantly observed, so the answer is "kyllä" (yes).
+6. There is no mention of atypia in the sample, so the answer is "NA" (not applicable).

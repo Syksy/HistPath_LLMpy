@@ -1,7 +1,7 @@
 {
-  "Biopsioiden lukumäärä": "NA",
-  "Näytteiden koko tai paino": "Yhteispituus oikealta noin 60mm ja vasemmalta noin 80mm",
-  "Gleason luokitus": "9 (4+5)",
+  "Näytteiden lukumäärä": 2,
+  "Näytteiden koko": "60mm ja 80mm",
+  "Gleason luokitus": "4+5=9",
   "Hyvänlaatuinen eturauhasen liikakasvu": "ei",
   "Perineuraalinen kasvu": "ei",
   "Atypia": "kyllä"

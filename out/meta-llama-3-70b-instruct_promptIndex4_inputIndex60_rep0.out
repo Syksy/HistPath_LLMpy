@@ -1,6 +1,6 @@
 I'm happy to help!
 
-After analyzing the provided text, I must conclude that it doesn't contain any relevant information for a histopathological report. The text appears to be a collection of nonsensical words and sounds.
+After analyzing the provided histopathological report, I must conclude that it doesn't contain any relevant information. The text appears to be a sequence of nonsensical words and doesn't provide any meaningful data.
 
 Therefore, I will return a JSON-formatted response with NA (Not Available) values for each of the requested fields:
 
@@ -11,8 +11,8 @@ Therefore, I will return a JSON-formatted response with NA (Not Available) value
   "Gleason_score": "NA",
   "benign_hyperplasia_only": "NA",
   "perineural_invasion": "NA",
-  "atypia_present": "NA"
+  "atypia": "NA"
 }
 ```
 
-Please provide a real histopathological report, and I'll be happy to assist you in converting it into a structured format!
+Please provide a valid histopathological report, and I'll be happy to assist you in extracting the relevant information!

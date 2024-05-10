@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 2,
+  "2. Size of samples": "60mm (right), 80mm (left)",
+  "3. Gleason score": "4+5=9",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Note: 
+
+* For question 4, since the text doesn't mention BPH (Benign Prostatic Hyperplasia), I assumed it's not detected.
+* For question 5, since the text doesn't mention perineural growth, I marked it as NA (Not Available).
+* For question 6, since the text mentions "karsinoomaa" (carcinoma) and "muutosta" (change), I assumed atypia is detected.

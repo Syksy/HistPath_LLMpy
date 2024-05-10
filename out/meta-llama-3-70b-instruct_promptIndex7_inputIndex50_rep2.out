@@ -5,14 +5,21 @@ Here is the structured report in JSON format:
   "number_of_biopsies": 6,
   "biopsy_size_or_weight": NA,
   "Gleason_score": [
-    {"score": 8, "primary_grade": 4, "secondary_grade": 4},
-    {"score": 7, "primary_grade": 4, "secondary_grade": 3},
-    {"score": 7, "primary_grade": 3, "secondary_grade": 4}
+    {"score": 8, "primary": 4, "secondary": 4},
+    {"score": 7, "primary": 4, "secondary": 3},
+    {"score": 7, "primary": 3, "secondary": 4}
   ],
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
-  "atypia_present": true
+  "atypia": true
 }
 ```
 
-Note: I've assumed that the Gleason score is reported for each colony separately, so I've represented it as an array of objects. If this is not the case, please let me know and I'll adjust the output accordingly.
+Note: 
+
+* The number of biopsies is 6, as stated in the report.
+* The size or weight of the biopsies is not mentioned, so it is reported as NA.
+* The Gleason scores are reported as an array, since there are multiple scores mentioned in the report.
+* The report mentions adenocarcinoma, which means it's not a case of benign hyperplasia only, so the value is set to false.
+* There is no mention of perineural invasion, so it is reported as NA.
+* Atypia is mentioned in the report, so the value is set to true.

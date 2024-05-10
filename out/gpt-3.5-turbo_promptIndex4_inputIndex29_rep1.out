@@ -1,8 +1,8 @@
 {
   "näytteiden_määrä": 3,
   "näytteiden_koko": "Yhteispituus 30mm",
-  "Gleason luokitus": "3+4",
+  "Gleason luokitus": "3 ja 4",
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
+  "perineuraalinen_kasvu": "NA",
   "atypia": true
 }

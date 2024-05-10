@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("1"),
+  "2. Näytteiden koko": ("n. 150mm"),
+  "3. Gleason-luokitus": ("NA"),
+  "4. Hyvälaatuinen eturauhasen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("kyllä")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The number of samples taken is not explicitly stated, but since the report mentions " Näytteessä 1B", it can be inferred that there is at least one sample, and possibly more.
+2. The total length of the samples is approximately 150mm.
+3. There is no Gleason score mentioned in the report, so the answer is NA (not available).
+4. There is no mention of benign prostatic hyperplasia (BPH) or any other type of benign growth, so the answer is "ei" (no).
+5. There is no mention of perineural growth, so the answer is "ei" (no).
+6. The report mentions "tuma-atypiaa" which means nuclear atypia, so the answer is "kyllä" (yes).

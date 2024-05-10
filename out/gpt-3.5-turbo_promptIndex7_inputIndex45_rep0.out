@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": 6,
-  "näytteiden_koko_tai_paino": "NA",
-  "Gleason luokitus": "NA",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": true,
-  "perineuraalinen_kasvu": false,
-  "atypia": false
+  "samples_taken": 6,
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": "NA",
+  "benign_prostate_hyperplasia": true,
+  "perineural_invasion": false,
+  "atypia_observed": false
 }

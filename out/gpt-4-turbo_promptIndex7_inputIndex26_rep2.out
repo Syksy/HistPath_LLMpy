@@ -1,8 +1,8 @@
 {
-  "näytteiden_määrä": 12,
-  "näytteiden_koko_tai_paino": "yhteispituus noin 150mm",
-  "gleason_luokitus": "NA",
-  "hyvänlaatuinen_eturauhasen_liikakasvu": "kyllä",
-  "perineuraalinen_kasvu": "NA",
-  "atypia": "NA"
+  "Näytteiden määrä": 12,
+  "Näytteiden koko tai paino": "yhteispituus noin 150mm",
+  "Gleason luokitus": "NA",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "kyllä",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
 }

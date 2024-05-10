@@ -4,5 +4,5 @@
   "näytteiden_Gleason_luokitus": [7, 7, "NA"],
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_pahanlaatuinen_kasvu": false,
-  "atypia": true
+  "atypia_tavallisesta_kudoksesta_poikkeavia_muutoksia": true
 }

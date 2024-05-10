@@ -8,20 +8,24 @@ Here is the structured report in JSON format:
     {"sample": 2, "size": "10mm"},
     {"sample": 3, "size": "5+5mm"}
   ],
-  "Gleason_score": [
-    {"sample": 1, "score": 7, "pattern_3": 60, "pattern_4": 40},
-    {"sample": 2, "score": 7, "pattern_3": 70, "pattern_4": 30},
+  "gleason_score": [
+    {"sample": 1, "score": 7, "pattern3": 60, "pattern4": 40},
+    {"sample": 2, "score": 7, "pattern3": 70, "pattern4": 30},
     {"sample": 3, "score": NA}
   ],
   "benign_hyperplasia_only": false,
   "perineural_invasion": false,
-  "atypia_present": true
+  "atypia": true
 }
 ```
 
-Note: 
+Here's a brief explanation of each field:
 
-* `NA` stands for Not Available or Not Applicable.
-* `benign_hyperplasia_only` is set to `false` because the report mentions adenocarcinoma.
-* `perineural_invasion` is set to `false` because it is not mentioned in the report.
-* `atypia_present` is set to `true` because PIN-muutoksia (Prostatic Intraepithelial Neoplasia) are mentioned in the report.
+* `sample_count`: The number of samples taken from the patient.
+* `sample_size_or_weight`: An array of objects, each containing the sample number and its corresponding size or weight.
+* `gleason_score`: An array of objects, each containing the sample number, Gleason score, and the percentage of pattern 3 and pattern 4.
+* `benign_hyperplasia_only`: A boolean indicating whether the sample only shows benign hyperplasia (false in this case).
+* `perineural_invasion`: A boolean indicating whether perineural invasion is present (false in this case).
+* `atypia`: A boolean indicating whether atypia is present (true in this case, as PIN-muutoksia is mentioned in the report).
+
+Note that I've used `NA` to indicate that the Gleason score is not applicable for sample 3, as it does not contain any cancerous tissue.

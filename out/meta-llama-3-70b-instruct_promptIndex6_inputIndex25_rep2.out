@@ -4,10 +4,7 @@ Based on the provided histopathological report, I will convert it into a structu
 {
   "number_of_samples": 4,
   "sample_size_or_weight": "2mm (sample 2)",
-  "Gleason_score": {
-    "primary": 4,
-    "secondary": 3
-  },
+  "Gleason_score": 4,
   "benign_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": NA
@@ -17,7 +14,8 @@ Based on the provided histopathological report, I will convert it into a structu
 Here's a brief explanation for each field:
 
 * `number_of_samples`: The number of samples taken from the patient, which is 4 in this case.
-* `sample_size_or_weight`: The size or weight of the sample, which is only available for sample 2 (2mm).
-* `Gleason_score`: The Gleason score is a grading system used to evaluate the aggressiveness of prostate cancer. In this case, the primary Gleason score is 4, and the secondary score is 3.
-* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia (i.e., non-cancerous growth). Since the report mentions adenocarcinoma, this field is set to `false`.
-* `perineural_invasion` and `atypia`: These fields are marked as `NA` (Not Available) since there is no mention of perineural invasion or atypia in the provided report.
+* `sample_size_or_weight`: The size or weight of the sample, which is 2mm for sample 2.
+* `Gleason_score`: The Gleason score of the sample, which is 4, with a mention of Gleason 3 being almost equally prominent.
+* `benign_hyperplasia_only`: This field indicates whether the sample only shows benign hyperplasia. In this case, it's false, as the sample shows adenocarcinoma.
+* `perineural_invasion`: This field indicates whether perineural invasion is present in the sample. Since it's not mentioned in the report, I've marked it as NA (Not Available).
+* `atypia`: This field indicates whether atypia is present in the sample. Since it's not mentioned in the report, I've marked it as NA (Not Available).

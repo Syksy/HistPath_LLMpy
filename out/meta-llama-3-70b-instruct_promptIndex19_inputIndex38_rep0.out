@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 6,
+  "2. Size of samples": "about 30g",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "kyllä",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "ei"
+}
+```
+
+Explanation:
+
+1. The text mentions that "about 20g were started in six blocks", implying that 6 samples were taken.
+2. The total weight of the planing chips is about 30g, but the size of each individual sample is not specified.
+3. There is no mention of the Gleason score in the text, so it is marked as NA (not available).
+4. The text mentions "suspected benign hyperplasia", which is a synonym for BPH (benign prostatic hyperplasia), so it is marked as "kyllä" (yes).
+5. There is no mention of perineural growth in the text, so it is marked as NA (not available).
+6. The text explicitly states that "no atypia... is visible", so it is marked as "ei" (no).

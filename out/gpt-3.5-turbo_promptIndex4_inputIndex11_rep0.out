@@ -2,11 +2,11 @@
   "näytteiden_määrä": 13,
   "näytteiden_koko": "180mm",
   "Gleason luokitus": {
-    "luokka_3": "isompi osuus",
-    "luokka_4": "pienempi osuus",
-    "osuus_4": "30%"
+    "luokka_isompi_osuus": 3,
+    "luokka_pienempi_osuus": 4,
+    "osuus_tuumorista": "noin 30%"
   },
   "hyvänlaatuinen_eturauhasen_liikakasvu": false,
   "perineuraalinen_kasvu": false,
-  "atypia": false
+  "atypia": true
 }

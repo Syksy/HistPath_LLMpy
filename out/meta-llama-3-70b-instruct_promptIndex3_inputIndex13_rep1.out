@@ -16,5 +16,5 @@ Note:
 * The number of samples is assumed to be 1 since the text does not mention multiple samples.
 * The size of the samples is given as 19g, with 10g sent for histology.
 * The Gleason score is reported as having mostly grade 5 and secondly grade 4, so it's represented as 5+4.
-* BPH (Benign Prostatic Hyperplasia) can be inferred from the presence of fibromuscular stroma, so it's marked as 'yes'.
-* There is no mention of perineural growth or atypia in the text, so they are marked as 'NA' (not available).
+* BPH (Benign Prostatic Hyperplasia) is likely present due to the mention of "fibromuskulaaria stroomaa" which translates to "fibromuscular stroma", a characteristic of BPH.
+* There is no mention of perineural growth or atypia in the text, so the answers are marked as "NA" (Not Available).

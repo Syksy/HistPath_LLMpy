@@ -1,7 +1,7 @@
 I'll go through the questions one by one and provide the answers in JSON format.
 
 **1. Näytteiden määrä:**
-The report mentions "eight cassettes" but not the exact number of samples. Therefore, I'll answer:
+The report mentions "eight cassettes" but not the exact number of samples. Therefore, the answer is:
 ```
 {
   "näytteiden_määrä": "NA"
@@ -9,7 +9,7 @@ The report mentions "eight cassettes" but not the exact number of samples. There
 ```
 
 **2. Näytteiden koko:**
-The report mentions "13g of planing chips". Therefore, I'll answer:
+The report mentions "13g of planing chips". Therefore, the answer is:
 ```
 {
   "näytteiden_koko": "13g"
@@ -17,11 +17,45 @@ The report mentions "13g of planing chips". Therefore, I'll answer:
 ```
 
 **3. Gleason-luokitus:**
-The report mentions "Gleason 3+3=6". Therefore, I'll answer:
+The report mentions "Gleason 3+3=6". Therefore, the answer is:
 ```
 {
   "Gleason_luokitus": "3+3=6"
 }
 ```
 
-Let me know when to proceed with the next questions!
+**4. Hyvälaatuinen eturauhasen liikakasvu:**
+The report does not explicitly mention "hyvälaatuinen eturauhasen liikakasvu". However, it does mention "carcinoma", which implies malignant growth. Therefore, the answer is:
+```
+{
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei"
+}
+```
+
+**5. Perineuraalinen kasvu:**
+The report does not mention "perineuraalinen kasvu". Therefore, the answer is:
+```
+{
+  "perineuraalinen_kasvu": "NA"
+}
+```
+
+**6. Atypia:**
+The report does not mention "atypia". Therefore, the answer is:
+```
+{
+  "atypia": "NA"
+}
+```
+
+Here are all the answers in a single JSON object:
+```
+{
+  "näytteiden_määrä": "NA",
+  "näytteiden_koko": "13g",
+  "Gleason_luokitus": "3+3=6",
+  "hyvälaatuinen_eturauhasen_liikakasvu": "ei",
+  "perineuraalinen_kasvu": "NA",
+  "atypia": "NA"
+}
+```

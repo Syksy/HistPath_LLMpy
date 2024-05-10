@@ -1,6 +1,6 @@
 {
   "1. How many samples have been taken?": 6,
-  "2. What is the size of the samples taken?": "NA",
+  "2. What is the size of the samples taken?": "Sizes mentioned: 5mm, 10mm, and unspecified for others",
   "3. What is the Gleason score of the samples?": [
     "4+4=8",
     "4+3=7",
@@ -9,7 +9,7 @@
     "NA",
     "NA"
   ],
-  "4. Can BPH be detected in the samples taken?": "yes",
+  "4. Can BPH be detected in the samples taken?": "no",
   "5. Can perineural growth be detected in the samples taken?": "no",
   "6. Can atypia be detected in the samples taken?": "yes"
 }

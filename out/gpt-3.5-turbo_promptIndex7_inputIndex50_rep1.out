@@ -3,33 +3,24 @@
   "sample_size_or_weight": "NA",
   "Gleason_classification": [
     {
-      "colony_number": 1,
+      "colony": 1,
       "location": "left front",
       "distance_from_margin": "5mm",
-      "tissue_type": "adenocarcinoma",
-      "Gleason_score": "4+4=8",
-      "perineural_invasion": "NA",
-      "atypia": "present"
+      "classification": "4+4=8"
     },
     {
-      "colony_number": 2,
+      "colony": 2,
       "location": "left center",
       "distance_from_margin": "10mm",
-      "tissue_type": "carcinoma",
-      "Gleason_score": "4+3=7",
-      "proportion_of_grade_4": "80%",
-      "perineural_invasion": "NA",
-      "atypia": "NA"
+      "classification": "4+3=7",
+      "proportion_of_grade_4": "80%"
     },
     {
-      "colony_number": 3,
+      "colony": 3,
       "location": "right center",
-      "distance_from_margin": "NA",
-      "tissue_type": "NA",
-      "Gleason_score": "NA",
-      "proportion_of_grade_4": "70%",
-      "perineural_invasion": "NA",
-      "atypia": "NA"
+      "classification": "3+4=7",
+      "proportion_of_grade_3": "70%",
+      "proportion_of_grade_4": "30%"
     }
   ],
   "benign_prostatic_hyperplasia": true,

@@ -6,17 +6,18 @@ Here is the structured report in JSON format:
   "sample_size_or_weight": {"right": "60mm", "left": "80mm"},
   "Gleason_score": 9,
   "Gleason_breakdown": {"primary": 4, "secondary": 5},
-  "benign_hyperplasia_only": false,
+  "benign_prostatic_hyperplasia_only": false,
   "perineural_invasion": NA,
   "atypia": false
 }
 ```
 
-Note: 
+Here's a brief explanation for each field:
 
-* The number of samples is assumed to be 2, one from the right and one from the left, based on the description of the sample sizes.
-* The sample size or weight is reported separately for the right and left samples.
-* The Gleason score is reported as a total score of 9, with a breakdown of primary pattern 4 and secondary pattern 5.
-* Benign hyperplasia only is set to false, as carcinoma was found in sample B.
-* Perineural invasion is reported as NA, as it is not mentioned in the original report.
-* Atypia is set to false, as no atypical changes were mentioned in the original report.
+* `number_of_samples`: 2, as there are biopsies taken from two sites (right and left).
+* `sample_size_or_weight`: The size of each sample is reported in millimeters.
+* `Gleason_score`: The total Gleason score is 9.
+* `Gleason_breakdown`: The primary and secondary Gleason scores are 4 and 5, respectively.
+* `benign_prostatic_hyperplasia_only`: False, as a carcinoma is found in sample B.
+* `perineural_invasion`: NA, as there is no mention of perineural invasion in the report.
+* `atypia`: False, as there is no mention of atypia in the report.

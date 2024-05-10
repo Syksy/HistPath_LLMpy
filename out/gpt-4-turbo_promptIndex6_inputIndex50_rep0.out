@@ -1,18 +1,21 @@
 {
-  "Number_of_Specimens": 6,
-  "Specimen_Size_or_Weight": "NA",
-  "Gleason_Score": [
+  "number_of_samples": 6,
+  "sample_size_or_weight": "NA",
+  "Gleason_classification": [
     {
-      "Colony_1": "4+4=8"
+      "sample": 1,
+      "score": "4+4=8"
     },
     {
-      "Colony_2": "4+3=7"
+      "sample": 2,
+      "score": "4+3=7"
     },
     {
-      "Colony_3": "3+4=7"
+      "sample": 3,
+      "score": "3+4=7"
     }
   ],
-  "Benign_Prostatic_Hyperplasia": "Yes",
-  "Perineural_Invasion": "No",
-  "Atypia": "Yes"
+  "benign_prostatic_hyperplasia": "Yes",
+  "perineural_invasion": "No",
+  "atypia": "Yes"
 }

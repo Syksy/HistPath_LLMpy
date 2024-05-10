@@ -1,0 +1,14 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "a. Näytteiden määrä": "NA",
+  "b. Näytteiden koko": "NA",
+  "c. Gleason-luokitus": "NA",
+  "d. Eturauhasen hyvälaatuinen liikakasvu": "NA",
+  "e. Perineuraalinen kasvu": "NA",
+  "f. Atypia": "NA"
+}
+```
+
+The reason for all the "NA" answers is that the provided text does not mention anything about biopsies, Gleason score, or any other characteristics of a prostate cancer sample. The text appears to be a medical report describing a patient's visit to the emergency room due to a shoulder injury, and does not contain any information about prostate cancer or biopsies.

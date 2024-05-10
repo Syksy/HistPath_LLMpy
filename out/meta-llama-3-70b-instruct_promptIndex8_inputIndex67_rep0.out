@@ -1,0 +1,14 @@
+Based on the provided text, I will extract the relevant information and convert it into a structured format in JSON. Here is the result:
+
+```
+{
+  "sample_count": NA,
+  "sample_size_or_weight": NA,
+  "Gleason_score": NA,
+  "benign_hyperplasia_only": NA,
+  "perineural_invasion": NA,
+  "atypia": NA
+}
+```
+
+The text does not contain any specific information about the number of samples, their size or weight, Gleason score, or any other relevant details. Therefore, I have assigned "NA" (Not Available) to all fields.

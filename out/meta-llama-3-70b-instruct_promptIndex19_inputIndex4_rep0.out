@@ -1,0 +1,21 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 1,
+  "2. Size of samples": "150mm",
+  "3. Gleason score": "NA",
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Explanation:
+
+1. The text mentions "prostatabiopsioat" which is a plural form, but it's clear that only one sample is being described, so the answer is 1.
+2. The text states "kokonaispituus n. 150mm" which means the total length of the sample is approximately 150mm.
+3. There is no mention of Gleason score in the text, so the answer is NA (not available).
+4. The text does not mention BPH (benign prostatic hyperplasia), and the description of the sample is more consistent with adenocarcinoma, so the answer is "ei" (no).
+5. There is no mention of perineural growth in the text, so the answer is NA (not available).
+6. The text mentions "tuma-atypiaa" which means nuclear atypia, so the answer is "kyllä" (yes).

@@ -1,21 +1,36 @@
 {
-  "potilaalta_otetut_naytteet": 6,
-  "naytteiden_koko_tai_paino": "Ei saatavilla",
-  "Gleason luokitus": [
-    {
-      "nayte": "Colony 1",
-      "luokitus": "4+4=8"
-    },
-    {
-      "nayte": "Colony 2",
-      "luokitus": "4+3=7"
-    },
-    {
-      "nayte": "Colony 3",
-      "luokitus": "3+4=7"
-    }
-  ],
-  "hyvanlaatuinen_eturauhasen_liikakasvu": false,
-  "perineuraalinen_kasvu": false,
-  "atypia": true
+  "Biopsy": {
+    "Number of samples": 6,
+    "Sample size/weight": "NA",
+    "Gleason score": [
+      {
+        "Colony": "1",
+        "Location": "left front",
+        "Distance from glandular structure": "5mm",
+        "Histology": "adenocarcinoma",
+        "Gleason classification": "4+4=8",
+        "Perineural invasion": "NA",
+        "Atypia": "Present"
+      },
+      {
+        "Colony": "2",
+        "Location": "left center",
+        "Histology": "carcinoma tissue",
+        "Gleason score": "4+3=7",
+        "Proportion of grade 4": "80%",
+        "Perineural invasion": "NA",
+        "Atypia": "NA"
+      },
+      {
+        "Colony": "3",
+        "Location": "right center",
+        "Histology": "NA",
+        "Gleason score": "7 (3+4)",
+        "Proportion of grades 3 and 4": "70:30%",
+        "Perineural invasion": "NA",
+        "Atypia": "NA"
+      }
+    ],
+    "Benign prostatic hyperplasia": "Present"
+  }
 }

@@ -14,7 +14,7 @@ Here are the answers in JSON format:
 Note: 
 
 * The size of the samples is not mentioned in the text, so it's marked as "NA" (Not Available).
-* The Gleason score is not mentioned in the text, so it's marked as "NA".
-* Perineural growth is not mentioned in the text, so it's marked as "NA".
-* BPH (Benign Prostatic Hyperplasia) can be detected in the samples taken, as benign prostate tissue is mentioned.
-* Atypia cannot be detected in the samples taken, as the text explicitly states that no significant atypia was found.
+* The Gleason score is not mentioned in the text, so it's marked as "NA" (Not Available).
+* BPH (Benign Prostatic Hyperplasia) is detected in the samples, as the text mentions "benigniä prostatakudosta" which translates to "benign prostatic tissue".
+* Perineural growth is not mentioned in the text, so it's marked as "NA" (Not Available).
+* Atypia is not detected in the samples, as the text mentions "ei myöskään havaita merkittävää atypiaa" which translates to "no significant atypia is detected".

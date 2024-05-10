@@ -1,8 +1,8 @@
 {
   "Näytteiden määrä": "NA",
   "Näytteiden koko": {
-    "oikea": 60,
-    "vasen": 80
+    "right": 60,
+    "left": 80
   },
   "Gleason-luokitus": 9,
   "Eturauhasen hyvälaatuinen liikakasvu": "ei",

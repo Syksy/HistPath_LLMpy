@@ -1,0 +1,8 @@
+{
+  "number of samples": "sample_count",
+  "size of samples": "sample_amount",
+  "Gleason score": "gleason_grade",
+  "BPH detection": "patient_bph",
+  "Perineural growth detection": "sample_perineural_invasion",
+  "Atypia detection": "sample_atypia"
+}

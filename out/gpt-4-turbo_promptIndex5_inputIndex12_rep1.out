@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": 12,
+  "Näytteiden määrä": "12 kudosblokkia",
   "Näytteiden koko tai paino": "NA",
-  "Näytteen Gleason luokitus": "7 (3+4, 60% tuumorista luokka 3)",
-  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, karsinoomaa löydetty",
+  "Gleason luokitus": "7 (3+4, jossa luokka 3 noin 60% tuumorista)",
+  "Hyvänlaatuinen eturauhasen liikakasvu": "Ei, karsinoomaa havaittu",
   "Perineuraalinen kasvu": "NA",
-  "Atypia": "NA"
+  "Atypia": "Kyllä, neoplastiseksi tulkittavassa osuudessa"
 }

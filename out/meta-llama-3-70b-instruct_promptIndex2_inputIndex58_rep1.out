@@ -14,8 +14,8 @@ Here are the answers to the questions in JSON format:
 Here's a brief explanation for each answer:
 
 1. The patient has 6 biopsy samples taken, as indicated by the numbers 1-6 in the report.
-2. The size of the samples is not explicitly mentioned in the report, so I've marked it as "NA" (not available).
-3. The Gleason score is reported as 4+3=7, which indicates a moderately differentiated prostate cancer.
-4. Since the report mentions poorly differentiated Gleason 4+3=7 growth, I've marked the presence of well-differentiated prostate cancer as "ei" (no).
-5. There is no mention of perineural growth in the report, so I've marked it as "NA" (not available).
-6. Similarly, there is no mention of atypia in the report, so I've marked it as "NA" (not available).
+2. The size of the samples is not explicitly mentioned in the report, so the answer is "NA" (not available).
+3. The Gleason score is 4+3=7, which indicates a moderately to poorly differentiated prostate cancer.
+4. The report mentions "poorly differentiated" growth patterns, which suggests that there is no well-differentiated prostate cancer present, so the answer is "ei" (no).
+5. There is no mention of perineural growth in the report, so the answer is "NA" (not available).
+6. There is no mention of atypia in the report, so the answer is "NA" (not available).

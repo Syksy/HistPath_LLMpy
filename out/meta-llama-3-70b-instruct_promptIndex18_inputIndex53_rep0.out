@@ -1,0 +1,18 @@
+Here are the answers in JSON format:
+
+```
+{
+  "1. Number of samples": 3,
+  "2. Size of samples": ["8+6mm", "10mm", "5+5mm"],
+  "3. Gleason score": ["3+4=7/60%/40%", "3+4=7/70%/30%", "NA"],
+  "4. BPH detection": "ei",
+  "5. Perineural growth detection": "NA",
+  "6. Atypia detection": "kyllä"
+}
+```
+
+Note: 
+
+* For question 4, BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so the answer is "ei" (no).
+* For question 5, perineural growth is not mentioned in the text, so the answer is "NA" (not available).
+* For question 6, atypia is mentioned as "PIN changes" in the text, which refers to prostatic intraepithelial neoplasia, a type of atypia. Therefore, the answer is "kyllä" (yes).

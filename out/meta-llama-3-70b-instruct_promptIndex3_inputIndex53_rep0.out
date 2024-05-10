@@ -13,7 +13,6 @@ Here are the answers in JSON format:
 
 Note: 
 
-* For question 2, I provided a list of sizes for each sample.
-* For question 3, I provided a list of Gleason scores for each sample, where 'NA' indicates that no Gleason score was mentioned for that sample.
-* For questions 4 and 5, I answered 'NA' because there was no mention of BPH or perineural growth in the text.
-* For question 6, I answered 'yes' because PIN changes were mentioned in the text, which is a type of atypia.
+* For question 4, BPH (Benign Prostatic Hyperplasia) is not mentioned in the text, so the answer is "NA".
+* For question 5, perineural growth is not mentioned in the text, so the answer is "NA".
+* For question 6, atypia is mentioned as "PIN changes" which is a type of atypia, so the answer is "yes".

@@ -1,0 +1,12 @@
+{
+  "number of samples": 6,
+  "size of samples": "formalin-fixed",
+  "Gleason score": {
+    "major": 3,
+    "minor": 4,
+    "sum": 7
+  },
+  "BPH detected": "ei",
+  "perineural growth detected": "ei",
+  "atypia detected": "kyllä"
+}

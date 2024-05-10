@@ -1,0 +1,11 @@
+{
+  "Number of samples": 1,
+  "Size of the samples": {
+    "Right": "60mm",
+    "Left": "80mm"
+  },
+  "Gleason score": 9,
+  "BPH detection": "NA",
+  "Perineural growth detection": "NA",
+  "Atypia detection": "NA"
+}

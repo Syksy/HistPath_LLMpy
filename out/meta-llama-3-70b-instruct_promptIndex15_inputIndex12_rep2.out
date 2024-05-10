@@ -1,0 +1,21 @@
+Here are the answers to the questions in JSON format:
+
+```
+{
+  "1. Näytteiden määrä": ("12"),
+  "2. Näytteiden koko": ("ei mainittu"),
+  "3. Gleason-luokitus": ("3+4=7"),
+  "4. Hyvälaatuinen liikakasvu": ("ei"),
+  "5. Perineuraalinen kasvu": ("ei"),
+  "6. Atypia": ("ei")
+}
+```
+
+Here's a brief explanation for each answer:
+
+1. The patient has 12 tissue blocks taken.
+2. The size of the tissue blocks is not specified.
+3. The Gleason score is 7, with a major component of 3 (60% of the tumor) and a minor component of 4.
+4. There is no benign hyperplasia mentioned in the report.
+5. There is no perineural invasion mentioned in the report.
+6. There is no atypia mentioned in the report.

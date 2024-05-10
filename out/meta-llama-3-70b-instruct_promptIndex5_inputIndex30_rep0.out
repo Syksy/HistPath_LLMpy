@@ -14,10 +14,8 @@ Based on the provided histopathological report, I will convert it into a structu
 Here's a brief explanation for each field:
 
 * `sample_count`: The number of samples taken from the patient. In this case, it's not specified, so I returned `NA`.
-* `sample_size_or_weight`: The size or weight of the sample(s). In this case, it's specified as 100mm.
+* `sample_size_or_weight`: The size or weight of the sample. In this case, it's specified as 100mm.
 * `Gleason_score`: The Gleason score is not mentioned in the report, so I returned `NA`.
-* `benign_hyperplasia_only`: The report mentions suspicious findings for malignancy, so it's unlikely that it's only benign hyperplasia. I set this to `false`.
-* `perineural_invasion`: The report explicitly mentions perineural growth, which is suspicious for malignancy. I set this to `true`.
-* `atypia`: The report doesn't mention atypia or any other abnormal changes besides perineural growth and inflammatory changes. I set this to `false`.
-
-Let me know if you have any further questions or if you'd like me to process more reports!
+* `benign_hyperplasia_only`: The report mentions "no clear malignant or PIN findings", but it also mentions "suspicious for malignancy", so I returned `false`, indicating that it's not just benign hyperplasia.
+* `perineural_invasion`: The report explicitly mentions "perineural growth", which is a type of perineural invasion, so I returned `true`.
+* `atypia`: The report doesn't mention any atypia, so I returned `false`.

@@ -13,5 +13,5 @@ Here are the answers to the questions in JSON format:
 
 Note: 
 
-* For question 4, I assumed that "hyvälaatuista eturauhasen liikakasvua" refers to benign prostatic hyperplasia, and since the report mentions carcinoma, I answered "ei".
-* For questions 5 and 6, I answered "NA" because there is no mention of perineural growth or atypia in the report.
+* Question 4: There is no mention of benign prostatic hyperplasia in the report, so the answer is "ei" (no).
+* Questions 5 and 6: There is no mention of perineural growth or atypia in the report, so the answers are "NA" (not available).

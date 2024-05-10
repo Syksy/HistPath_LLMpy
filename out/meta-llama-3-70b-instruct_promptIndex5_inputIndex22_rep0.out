@@ -2,16 +2,20 @@ Here is the structured report in JSON format:
 
 ```
 {
-  "sample_count": 9, // Apex näytteisiin A-C (3), kaksi makroleikettä kohti basista D-E (2), F-G basis (1), H-I kaksi näytettä seminaalivehikkeleistä (2)
-  "sample_size_or_weight": NA, // Not mentioned in the report
-  "Gleason_score": {
-    "primary": 3,
-    "secondary": 4
-  },
-  "benign_hyperplasia_only": false, // Laaja kasvain mentioned in the report
-  "perineural_invasion": false, // Not mentioned in the report
-  "atypia": false, // Not mentioned in the report
+  "sample_count": 9,
+  "sample_size_or_weight": "NA",
+  "Gleason_score": 3+4,
+  "benign_hyperplasia_only": false,
+  "perineural_invasion": false,
+  "atypia": false
 }
 ```
 
-Note: The sample count is based on the description of the samples taken from different regions of the prostate. The Gleason score is reported as a range (3-4) since both grades are mentioned to be present almost equally.
+Here's a brief explanation for each field:
+
+* `sample_count`: 9 samples were taken from the patient (Apex näytteisiin A-C, 2 makroleikettä kohti basista D-E, F-G basis, and H-I 2 näytettä seminaalivehikkeleistä).
+* `sample_size_or_weight`: No information is provided about the size or weight of the samples, so the value is set to "NA".
+* `Gleason_score`: The Gleason score is 3+4, indicating a mixture of Gleason pattern 3 and 4.
+* `benign_hyperplasia_only`: The report mentions a "laaja kasvain" (large tumor), so this field is set to `false`.
+* `perineural_invasion`: There is no mention of perineural invasion in the report, so this field is set to `false`.
+* `atypia`: There is no mention of atypia in the report, so this field is set to `false`.

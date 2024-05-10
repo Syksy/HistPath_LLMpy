@@ -15,7 +15,7 @@
       "score": "3+4=7"
     }
   ],
-  "benign_prostatic_hyperplasia": true,
-  "perineural_invasion": false,
-  "atypia": true
+  "benign_prostatic_hyperplasia": "Yes",
+  "perineural_invasion": "No",
+  "atypia": "Yes"
 }

@@ -11,11 +11,11 @@ Here is the structured report in JSON format:
 }
 ```
 
-Explanation:
+Here's a brief explanation for each field:
 
-* `sample_count`: 6, as there are 6 biopsy samples taken from the patient.
-* `sample_size_or_weight`: NA, as the size or weight of the samples is not mentioned in the report.
-* `Gleason_score`: NA, as the Gleason score is not applicable for benign samples.
-* `benign_hyperplasia_only`: true, as the report mentions that only benign prostatic tissue is seen in the samples.
-* `perineural_invasion`: false, as there is no mention of perineural invasion in the report.
-* `atypia`: false, as the report explicitly states that no significant atypia is seen in the epithelial cells.
+* `sample_count`: The number of biopsy samples taken from the patient, which is 6 in this case.
+* `sample_size_or_weight`: Since the report doesn't mention the size or weight of the samples, I've marked it as NA (Not Available).
+* `Gleason_score`: The report doesn't mention the Gleason score, so I've marked it as NA.
+* `benign_hyperplasia_only`: The report states that the samples show benign prostate tissue, so this field is set to true.
+* `perineural_invasion`: The report doesn't mention perineural invasion, so this field is set to false.
+* `atypia`: The report explicitly states that no atypia is seen in the samples, so this field is set to false.

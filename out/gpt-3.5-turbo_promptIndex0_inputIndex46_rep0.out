@@ -3,6 +3,6 @@
   "Näytteiden koko": [8, 5],
   "Gleason-luokitus": [4, 4],
   "Eturauhasen hyvälaatuinen liikakasvu": "ei",
-  "Perineuraalinen kasvu": "NA",
-  "Atypia": "NA"
+  "Perineuraalinen kasvu": "ei",
+  "Atypia": "kyllä"
 }

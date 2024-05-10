@@ -1,8 +1,8 @@
 {
-  "Näytteiden määrä": 8,
-  "Näytteiden koko": "13g",
-  "Gleason-luokitus": "3+3",
-  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
-  "Perineuraalinen kasvu": "ei",
-  "Atypia": "ei"
+    "Näytteiden määrä": 8,
+    "Näytteiden koko": "13g",
+    "Gleason-luokitus": "3+3",
+    "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+    "Perineuraalinen kasvu": "NA",
+    "Atypia": "NA"
 }
