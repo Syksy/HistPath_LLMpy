@@ -1,0 +1,11 @@
+JSON-formaatissa:
+```json
+{
+  "näytteiden määrä": "NA",
+  "näytteiden koko": "NA",
+  "Gleason-luokitus": "NA",
+  "hyvälaatuinen eturauhasen liikakasvu": "NA",
+  "perineuraalinen kasvu": "NA",
+  "atypia": "NA"
+}
+```

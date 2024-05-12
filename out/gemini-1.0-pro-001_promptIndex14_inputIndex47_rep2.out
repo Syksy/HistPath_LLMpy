@@ -1,0 +1,10 @@
+```json
+{
+  "1. Kuinka monta näytettä potilaalta on otettu?": 4,
+  "2. Minkä kokoisia otetut näytteet ovat?": "10 ja 7 mm (vasen puoli), 15 ja 10 mm (oikea puoli)",
+  "3. Mikä on näytteiden Gleason-luokitus?": "3 (pääasiallinen), 4 (toissijainen)",
+  "4. Onko näytteessä havaittu hyvälaatuista eturauhasen liikakasvua?": "NA",
+  "5. Onko näytteessä havaittu perineuraalista kasvua?": "Kyllä",
+  "6. Onko näytteessä havaittu atypiaa?": "NA"
+}
+```

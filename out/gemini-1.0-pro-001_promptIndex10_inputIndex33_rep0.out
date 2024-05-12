@@ -1,0 +1,16 @@
+```json
+{
+  "Näytteiden määrä": 2,
+  "Näytteiden koko": {
+    "oikea": "60mm",
+    "vasen": "80mm"
+  },
+  "Gleason-luokitus": {
+    "vasen": 9,
+    "oikea": "NA"
+  },
+  "Eturauhasen hyvälaatuinen liikakasvu": "ei",
+  "Perineuraalinen kasvu": "NA",
+  "Atypia": "NA"
+}
+```

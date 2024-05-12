@@ -1,0 +1,12 @@
+JSON-formaatissa rakenteellinen lausunto:
+
+```json
+{
+  "sample_count": "NA",
+  "sample_amount": "NA",
+  "gleason_grade": "NA",
+  "patient_bph": "NA",
+  "sample_perineural_invasion": "NA",
+  "sample_atypia": "NA"
+}
+```

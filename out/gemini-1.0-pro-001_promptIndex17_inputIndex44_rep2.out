@@ -1,0 +1,10 @@
+```json
+{
+  "1. Kuinka monta näytettä on otettu?": "4",
+  "2. Mikä on otettujen näytteiden koko?": "1) 10mm, 2) 8mm, 3) 14mm ja 4) 14mm",
+  "3. Mikä on näytteiden Gleason-pisteet?": "Gleason 3 (noin 90%) ja Gleason 4 (10%)",
+  "4. Voidaanko näytteistä havaita hyvänlaatuista eturauhasen liikakasvua (BPH)?": "Ei mainita",
+  "5. Voidaanko näytteistä havaita perineuraalista kasvua?": "Ei",
+  "6. Voidaanko näytteistä havaita atypiaa?": "Ei mainita"
+}
+```

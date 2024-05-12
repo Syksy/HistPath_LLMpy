@@ -1,0 +1,10 @@
+```json
+{
+  "number_of_samples": 20,
+  "size_of_samples": "4+6+3 vasemmalta ja 5+7+8mm oikealta",
+  "Gleason_score": "NA",
+  "BPH": "NA",
+  "perineural_growth": "NA",
+  "atypia": "NA"
+}
+```

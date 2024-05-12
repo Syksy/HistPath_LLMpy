@@ -1,0 +1,11 @@
+JSON-formaatissa:
+```json
+{
+  "näytteiden määrä": "NA",
+  "näytteiden koko": "NA",
+  "gleason_grade": "NA",
+  "patient_bph": "NA",
+  "sample_perineural_invasion": "NA",
+  "sample_atypia": "NA"
+}
+```

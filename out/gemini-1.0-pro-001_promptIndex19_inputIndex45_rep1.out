@@ -1,0 +1,10 @@
+```json
+{
+  "number_of_samples": 6,
+  "size_of_samples": "biopsy cylinders",
+  "Gleason_score": "NA",
+  "BPH": "NA",
+  "perineural_growth": "NA",
+  "atypia": "ei"
+}
+```
