@@ -6,9 +6,12 @@ import numpy
 
 import prompts
 import numpy as np
+# .env vars load
+from dotenv import load_dotenv
+load_dotenv()
 
-# Working directory for project
-os.chdir("D:\\Gits\\HistPath_LLMpy\\")
+# Working directory for project taken from env vars
+os.chdir(os.environ.get("ROOT_DIR"))
 
 modelnames = ["gpt-3.5-turbo", "gpt-4-turbo", "gemini-1.0-pro-001", "meta/meta-llama-3-70b-instruct"]
 
