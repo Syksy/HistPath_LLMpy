@@ -13,8 +13,8 @@ import re
 from dotenv import load_dotenv
 load_dotenv()
 
-# Working directory
-os.chdir("D:\\Gits\\HistPath_LLMpy\\out\\")
+# Working directory for project taken from env vars
+os.chdir(os.environ.get("ROOT") + "out\\")
 
 for rep in range(3):  # Run multiple repeats of the same setup to assess determinism
     for modelname in ["meta/meta-llama-3-70b-instruct"]:

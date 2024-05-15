@@ -13,13 +13,12 @@ client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY")
 )
 
-# Working directory
-os.chdir("D:\\Gits\\HistPath_LLMpy\\out\\")
+# Working directory for project taken from env vars
+os.chdir(os.environ.get("ROOT_DIR") + "out\\")
 
 # Try-catch some of the most common errors
 try:
-    #for rep in range(3): # Run multiple repeats of the same setup to assess determinism
-    for rep in [1, 2]:
+    for rep in range(3): # Run multiple repeats of the same setup to assess determinism
         for modelname in ["gpt-4-turbo", "gpt-3.5-turbo"]:
             for promptIndex in range(prompts.getMaxPrompts()):
                 for inputIndex in range(prompts.getMaxInputs()):
