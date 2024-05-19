@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Working directory for project taken from env vars
-os.chdir(os.environ.get("ROOT") + "out\\")
+os.chdir(os.environ.get("ROOT_DIR") + "out\\")
 
 for rep in range(3):  # Run multiple repeats of the same setup to assess determinism
     for modelname in ["meta/meta-llama-3-70b-instruct"]:
