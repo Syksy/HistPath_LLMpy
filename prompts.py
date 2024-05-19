@@ -234,37 +234,37 @@ inputs_gib = [
 ]
 
 # Language agnostic prompt construction
-def getPrompt(promptIndex, inputIndex):
+def getPrompt(promptIndex : int, inputIndex : int) -> str:
     return pre[promptIndex] + (inputs_fin + inputs_eng + inputs_gib)[inputIndex] + post[promptIndex]
 
 # Language sensitive prompt construction
-def getFullPrompt(promptIndex, inputIndex):
+def getFullPrompt(promptIndex : int, inputIndex : int) -> str:
     if promptIndex in getFinPrompts():
         return pre[promptIndex] + (inputs_fin + inputs_gib)[inputIndex] + post[promptIndex]
     elif promptIndex in getEngPrompts():
         return pre[promptIndex] + (inputs_eng + inputs_gib)[inputIndex] + post[promptIndex]
 
 # Printable formatted illustrative prompt construction
-def getPrintablePrompt(promptIndex, inputIndex):
+def getPrintablePrompt(promptIndex : int) -> str:
     return pre[promptIndex] + "<INPUT STATEMENT>" + post[promptIndex]
 
 
-def getInput(inputIndex):
+def getInput(inputIndex : int) -> str:
     return (inputs_fin + inputs_eng + inputs_gib)[inputIndex]
 
-def getMaxInputs():
+def getMaxInputs() -> int:
     return len(inputs_fin + inputs_eng + inputs_gib)
 
-def getMaxPrompts():
+def getMaxPrompts() -> int:
     return len(pre)
 
 # Return indices for the Finnish prompt formulations
 def getFinPrompts():
-    return [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    return [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 
 
 def getEngPrompts():
-    return [2, 17, 18, 19]
+    return [3, 17, 18, 19]
 
 # Return indices for the Finnish input statements
 def getFinInputs():
