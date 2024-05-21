@@ -382,7 +382,7 @@ rightwrong = [
         # Question 1 - Size of samples
         [["4\\+6\\+3|5\\+7\\+8|13|20|33"], ["(?!)"]],
         # Question 2 - Gleason score
-        [["NA"], ["^4\\+3=7$|^4\\+6=10$|^4\\3=7|3\\+4=7$"]],
+        [["NA"], [""]],
         # Question 3 - Was BPH detected
         [["NA"], ["(?!)"]],
         # Question 4 - Was perineural growth detected
@@ -616,10 +616,10 @@ rightwrong = [
 # Query candidate correct and false answers and return correct (+1), false (-1), or uncertain (0)
 def getRegexCorrect(answer : str, inputIndex : int, questionIndex : int) -> int:
     # Wrap the machine-translated answers (0-29 in Finnish, 30-59 are the same machine translated to English)
-    if inputIndex >= 30 & inputIndex < 60:
+    if 30 <= inputIndex < 60:
         inputIndex -= 30
     # Gibberish inputs are always wrong if the answer is not NA
-    if inputIndex >= 60 & inputIndex < 70:
+    if 60 <= inputIndex < 70:
         if answer == "NA":
             return 1
         else:
