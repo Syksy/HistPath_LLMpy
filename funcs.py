@@ -14,3 +14,15 @@ def jsonSanitize(text):
             ))))
         ))))))
     )
+
+def consensusString(string1 : str, string2 : str, string3 : str) -> str:
+    if string1 == string2:
+        return string1
+    elif string1 == string3:
+        return string1
+    elif string2 == string3:
+        return string2
+    else:
+        return string1
+
+
