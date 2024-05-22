@@ -1,0 +1,421 @@
+	inputIndex	answerIndex	uniqanswers
+0	0	0	[1, 'NA', '1']
+1	0	1	"[100, '100mm', 'yhteispituus 100mm', ""['pituus', 'yksikkö']"", 'yhteispituudelta 100mm', '100 mm']"
+2	0	2	['NA', 'suspekti maligni']
+3	0	3	['ei', 'no', False, 'NA', 'Ei']
+4	0	4	['kyllä', 'yes', True, 'Kyllä']
+5	0	5	['NA', 'ei', 'no', False, 'Kyllä', 'kyllä']
+6	1	0	[6, 'Kuusi', '(6)', '6']
+7	1	1	['formaliinifiksoitua', 'NA', 'formaliinifiksoitu', 'formalin-fixed', 'Ei saatavilla', 'ei saatavilla', 'formaliinifiksoituja preparaatteja', 'small', '(NA)']
+8	1	2	"[7, '3+4=7', ""['major', 'minor', 'sum']"", 'Gleason-luokka 3+4=7', '3+4=7/NA/NA', '7', '7 (3+4)', '(3+4=7)']"
+9	1	3	['ei', 'no', True, False, 'kyllä', 'NA', 'Ei', '(kyllä)', '(ei)']
+10	1	4	['ei', 'no', False, 'Ei', 'NA', '(ei)']
+11	1	5	['ei', 'kyllä', 'yes', False, 'NA', True, '(NA)', '(ei)']
+12	2	0	[3, '3']
+13	2	1	"['90mm', 'Yhteispituus 90mm', 90, 'yhteispituus 90mm', ""['yhteispituus', 'määre']"", '90mm yhteispituus', 'Näytteiden yhteispituus 90mm', '90mm (yhteispituus)']"
+14	2	2	['NA', 'Ei mainintaa']
+15	2	3	['kyllä', 'yes', True, 'Ei', 'ei', 'Kyllä, viittaus hyperplasiaan', 'Kyllä', 'ehkä', 'ehkä viittaisi hyperplasiaan', 'mahdollinen', 'mahdollisesti', 'NA', 'mahtoiko olla hyperplasiaa', 'Ehkä', 'Ehkä (hyperplasiaan viittaava)']
+16	2	4	['NA', 'no', False, 'Ei', 'ei', 'tai']
+17	2	5	['ei', 'no', False, 'Ei', 'Ei, ei atypiaa havaittu', 'ei atypiaa']
+18	3	0	['2', 'NA', 2, 'useita', 'koko elin yhtenä näytteenä']
+19	3	1	"['60mm ja 80mm', 'NA', ""['right', 'left']"", ""['60mm', '80mm']"", 'oikealta noin 60mm ja vasemmalta noin 80mm', 'Yhteispituus oikealta noin 60mm ja vasemmalta noin 80mm', ""['oikea', 'vasen']"", ""['oikealta', 'vasemmalta']"", 'yhteispituus oikealta noin 60mm ja vasemmalta noin 80mm', 'right about 60mm and left about 80mm', ""['Oikea', 'Vasen']"", 'Oikea 60mm, Vasen 80mm', 'Oikealta noin 60mm, vasemmalta noin 80mm', 'Oikealta noin 60mm ja vasemmalta noin 80mm', '60mm oikealta, 80mm vasemmalta', 'oikealta noin 60mm, vasemmalta noin 80mm', '60mm (right, 80mm (left)', '60mm, 80mm', ""['oikea', 'vasen', 'yksikkö']"", '60mm (oikea) ja 80mm (vasen)']"
+20	3	2	"['9', '4+5=9', ""['näyte_B']"", ""['nayte_B']"", '9 (4+5)', 9, '4+5=9/9', ""['major', 'minor', 'sum']"", 'Kokonais Gleason taso on 9 (4+5)', ""['kokonaisluokitus', 'pääluokitus', 'toissijainen luokitus']"", ""['primary', 'secondary', 'total']""]"
+21	3	3	['NA', 'ei', 'no', False, 'Ei', 'ei mainintaa']
+22	3	4	['NA', 'no', False, 'ei', 'Ei', 'ei mainintaa', 'Ei mainintaa', 'ei mainittu']
+23	3	5	['NA', 'ei', 'yes', False, 'kyllä', 'Ei', 'no', 'kyllä, karsinoomaa näytteessä B', 'Kyllä, karsinoomaa näytteessä B', 'Kyllä, karsinooma näytteessä B', 'Kyllä, karsinoomaa havaittu', 'ei mainittu']
+24	4	0	[1, 'NA', 'Kaseteissa normaalin tavan mukaan otetut prostatabiopsioat', '1', 'multiple', 'koko elin yhtenä näytteenä']
+25	4	1	"['150mm', 'n. 150mm', 'kokonaispituus n. 150mm', 150, 'NA', ""['kokonaispituus', 'määre']"", 'noin 150mm', '150 mm']"
+26	4	2	['Suspisio-asteelle', 'NA', 'suspisio-asteelle', 'suspisio-asteelle/NA', '3+3=6/6/NA']
+27	4	3	['NA', 'ei', 'no', False, 'Ei', 'ei mainintaa', 'ei mainintaa, muut näytteet normaalia rauhaskudosta', 'ei mainintaa, muissa näytteissä normaalia rauhaskudosta']
+28	4	4	['NA', 'ei', 'no', False, 'Ei', 'ei mainintaa']
+29	4	5	['Kyllä', 'kyllä', 'yes', True, 'kyllä, näytteessä 1B tuma-atypiaa', 'kyllä, näytteessä 1B on tuma-atypiaa', 'Kyllä, näytteessä 1B havaittu tuma-atypiaa', 'tuma-atypiaa', 'Kyllä (näyte 1B)']
+30	5	0	[5, 'noin 5g edestä prostatan höylälastuja', 'noin 5', 'NA', 'all', 'all samples', '5', '5g', 'noin 5g', '1', 'ei voida määrittää', 1]
+31	5	1	['5g', 'höylälastuja', 'NA', 'noin 5g', 'yhteensä noin 5g', 'höylälastut', 5, 'about 5g']
+32	5	2	[8, '4+4=8', '8', '4', 'edustavin Gleason 4:ää ja sen eri variantteja joten pistesumma 8', 'Gleason pistesumma 8', 'pistesumma 8', '8 (4+4)', '4+?=?8']
+33	5	3	['ei', 'NA', False, 'EI', 'no', 'Ei']
+34	5	4	['ei', 'kyllä', 'NA', False, 'KYLLÄ', True, 'no']
+35	5	5	['ei', 'kyllä', 'yes', True, 'KYLLÄ', 'NA', 'Kyllä, adenokarsinoomaa', 'Kyllä', 'Kyllä, adenokarsinooma', False]
+36	6	0	[7, 'NA', '16', 16, 1, 4, 'Näytteitä on otettu D-G apexia, basis näytteissä K-P, seminaalivehikkeleitä O-Q eli yhteensä 10 näytettä.', 'Q-P = 17', 'D-G apexia, basis näytteissä K-P, seminaalivehikkeleitä O-Q', '14', 14, '11', 'koko elin yhtenä näytteenä', 12, '7', 'multiple', 3]
+37	6	1	"['normaalikaava', 'NA', 'D-G, K-P, O-Q', ""['D-G', 'K-P', 'O-Q']"", 'ei tietoa', 'normaalikokoinen', 'Näytteet on ajettu kaseteilla normaalikaavan mukaan, joten niiden kokoja ei ole erikseen mainittu.', 'D-G apexia, basis näytteissä K-P, seminaalivehikkeleitä O-Q', 'normaalikaavan mukaan', 'D-G apex, K-P basis, O-Q seminaalivehikkeleitä', 'not specified']"
+38	6	2	[7, '3+4=7', '7', 'Gleason 7', '7+3=10', 'Löydetyt tuumorit Gleason 7-tasoista karsinoomaa.', '7/3+4', '7-tasoista karsinoomaa, josta isompi osuus scoorauksella 3 n. 60%', '7 (3+4)', '3+4=7/60%/NA']
+39	6	3	['NA', 'ei', 'no', False, 'Ei', 'Basis ja seminaalivehikkelit ovat puhtaat, joten hyvälaatuista eturauhasen liikakasvua ei ole havaittu.', 'puhtaat', 'false']
+40	6	4	['kyllä', 'NA', 'ei', 'no', False, 'Ei', 'Perineuraalista kasvua ei ole mainittu lausunnossa.', 'Ei mainintaa', 'Ei mainittu']
+41	6	5	['NA', 'ei', True, 'Ei', 'Kyllä', 'kyllä', 'Atypiaa ei ole mainittu lausunnossa.', 'no', 'Ei mainintaa', False]
+42	7	0	"[6, ""['näytteiden määrä']"", '6 kpl', '6', '(6)']"
+43	7	1	"['n. 120mm', '120mm', 120, 'yhteensä n. 120mm', ""['näytteiden koko']"", 'noin 120mm', '(n. 120mm)']"
+44	7	2	"['NA', ""['Gleason-luokitus']"", '(NA)']"
+45	7	3	"['kyllä', 'yes', True, 'ei', 'Kyllä', 'NA', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'Kyllä, basaalisoluhyperplasiaa', 'Kyllä, basaalisoluhyperplasiaa havaittu', False, 'Kyllä (basaalisoluhyperplasia)', '(ei)']"
+46	7	4	"['NA', False, 'ei', 'tai', 'no', ""['perineuraalinen kasvu']"", '(ei)']"
+47	7	5	"['NA', 'ei', True, False, ""['atypia']"", 'no', 'Suspicio-löydös, diagnoosi epävarma', 'kyllä', '(ei)']"
+48	8	0	"[6, '6', 'NA', ""['näytteiden määrä']""]"
+49	8	1	"['noin 20g', 'NA', 'yhteensä noin 30g, joista noin 20g käynnistettiin kuudessa blokissa', '20g', '30g', '30g, joista 20g käytettiin kuudessa blokissa', 'kuudessa blokissa', 'approximately 20g', 30, ""['näytteiden koko']"", '30g kokonaisuudessaan, joista 20g käynnistettiin kuudessa blokissa', 'yhteensä noin 30g', 'noin 30g']"
+50	8	2	"['NA', 'Ei mainintaa', ""['Gleason-luokitus']""]"
+51	8	3	"['kyllä', 'yes', True, 'Kyllä', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'Kyllä, löydös sopii epäiltyyn hyvänlaatuiseen hyperplasiaan']"
+52	8	4	"['NA', 'no', False, 'Ei', 'ei', ""['perineuraalinen kasvu']""]"
+53	8	5	"['NA', 'ei', 'no', False, 'Ei', ""['atypia']""]"
+54	9	0	[8, '8', 13, 'NA', '8 kasettia', '13']
+55	9	1	['13g', 'NA', 'Yhteensä 13g', 13, 'Höyläyslastut', 'g', 'g (gram)']
+56	9	2	['3+3', '3+3=6', 6, 'Gleason 3+3=6', '6']
+57	9	3	['ei', 'NA', False, 'no', 'kyllä']
+58	9	4	['NA', False, 'ei', 'no']
+59	9	5	['NA', False, 'ei', 'no']
+60	10	0	[15, 'NA', 'O', 'Oletettavasti 15 näytettä', 'Otoksia on otettu yhteensä 15 kappaletta', '15', 14, '14', '18', '(14)']
+61	10	1	['makroleikkeet', 'NA', 'A-D basiksesta apexiin päin makroleikkeinä, apex näytteinä E-F ja basis G-N, seminaalivesikkelit molemmilta puolilta N-O', 'from base to apex', 'Ei tietoa', 'Näytteiden koko vaihtelee makroleikkeiden mukaan', 'makroleikkeinä', 'Makroleikkeinä A-D, E-F, G-N, N-O', 'A-D makroleikkeinä, E-F ja G-N apexissa ja basis G-N, N-O seminaalivesikkelit', 'A-D basiksesta apexiin päin makroleikkeinä, ja apex näytteinä E-F ja basis G-N, ja loput seminaalivesikkelit molemmilta puolilta N-O', 'macro sections', 'Makroleikkeinä', '(NA)', '(makroleikkeinä, apex näytteinä, basiksessa)', 'macrosections']
+62	10	2	['4 ja jonkin verran luokkaa 3', '4+3=7', '4', 'Gleason luokka 4, jonkin verran myös luokkaa 3', 'Useissa fokuksissa vallitseva Gleason luokka on 4, mukana myös luokkaa 3', 4, '4 pääosin, mukana myös luokkaa 3', '4+3=7/7', '4+3=7/7/NA', '4 with some class 3', '4+3', 'Pääosin Gleason luokka 4, mukana myös luokka 3', 'Gleason luokka 4, mukana myös jonkin verran luokkaa 3', '4 (pääasiassa) ja 3 (jonkin verran)', '4 (pääosa, 3 (jonkin verran)', '4 ja 3', '4+3=7/NA/NA', '(4+3=7)', '4 (with some Gleason 3)', '(4+3=7/7/NA)', '4, jonkin verran luokkaa 3']
+63	10	3	['NA', 'ei', 'no', 'Ei', 'Ei, kyseessä on pahanlaatuinen kasvain', 'Ei mainintaa', '(ei)', False]
+64	10	4	['kyllä', 'yes', 'Kyllä', 'Kyllä, runsaasti havaittu', 'Perineuraalista invaasiota havaittu runsaasti', 'Kyllä, runsaasti', 'Yes, runsaasti', '(kyllä)', True, 'Yes', 'Kyllä, perineuraalista invaasiota havaitaan runsaasti']
+65	10	5	['NA', 'ei', 'yes', 'Kyllä', 'Ei mainintaa atypiasta', 'Atypiaa havaittu', 'kyllä', 'Ei mainintaa', 'Yes', 'no', '(NA)', False, '(ei)']
+66	11	0	"[13, '13', ""['näytteiden määrä']"", '13 kpl']"
+67	11	1	"['180mm', 'noin 180mm', 180, ""['koko', 'määre']"", ""['näytteiden koko']""]"
+68	11	2	"['3 ja 4', '3+4=7', ""['luokka_isompi_osuus', 'luokka_pienempi_osuus', 'osuus_tuumorista']"", ""['4, 6']"", 'luokka 3 ja luokka 4 (30%)', '3+4', '3+4=7/13/NA', ""['class_3', 'class_4']"", '3+4=7/NA', 'NA', ""['Gleason-luokitus']"", ""['suurempi_osuus', 'pienempi_osuus', 'pienemmän_osuuden_prosenttiosuus']"", 'Gleason-luokitus 3+4', 'Luokka 3 ja pienempi osuus 4, jälkimmäisen osuus noin 30%', '3 + 4 (30%)', '7 (3+4)', '3+4 (4 noin 30%)', '3+4 (30%)', '3 + 4 (30 %)', '3+4=7/7/NA', ""['primary', 'secondary', 'percentage_secondary']"", '3 ja 4 (jälkimmäisen osuus noin 30%)']"
+69	11	3	"['ei', 'NA', False, 'EI', 'kyllä', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'no']"
+70	11	4	"['ei', 'NA', False, 'EI', 'tai', ""['perineuraalinen kasvu']"", 'no']"
+71	11	5	"['NA', 'ei', 'yes', True, 'KYLLÄ', 'kyllä', ""['atypia']"", 'no']"
+72	12	0	"[12, '12', ""['näytteiden määrä']"", '12 kudosblokkia', '(12)']"
+73	12	1	"['NA', 'pieni', 'ei saatavilla', 'pieni osa', ""['näytteiden koko']"", 'alle 5%', 'höyläyksestä saatuja lastuja', 'lastuja', 'ei mainittu', '(ei mainittu)']"
+74	12	2	"[7, '3+4=7', '7', ""['major', 'minor', 'sum']"", ""['major+minor', 'sum']"", ""['Gleason-luokitus']"", '7 (3+4)', '7 (3+4, jossa luokka 3 on 60% tuumorista)', '7 (3+4, 60% tuumorista luokka 3)', '(3+4=7)']"
+75	12	3	"['ei', 'no', False, 'NA', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'Ei', 'Ei, karsinoomaa löydetty', 'yes', '(ei)', 'kyllä']"
+76	12	4	"['NA', 'ei', 'no', False, ""['perineuraalinen kasvu']"", 'Ei mainittu', 'ei/tai', '(ei mainittu)']"
+77	12	5	"['NA', 'kyllä', True, 'ei', ""['atypia']"", 'no', 'Kyllä', 'Kyllä, neoplastiseksi tulkittava osuus', '(ei mainittu)']"
+78	13	0	[19, 'NA', 1, 10, 'noin 19', '19', '19g', '10g', 'koko elin yhtenä näytteenä', '1', '1 (koko elin yhtenä näytteenä)']
+79	13	1	"['10g', '19g', '10g histologiaan', 'NA', 10, 19, ""['koko', 'määre']"", '19g, josta laitettu 10g histologiaan', '19g kokonaispaino, 10g histologiaan', 'noin 19g', '19g (10g sent for histology)', '19g (josta 10g histologiaan)']"
+80	13	2	"['5', '5+4=9', ""['taso_1', 'taso_2', 'taso_3', 'taso_4', 'taso_5']"", ""['taso 5', 'taso 4']"", 5, 'Eniten tasoa 5 ja toiseksi eniten tasoa 4', ""['most_common', 'second_most_common']"", 'NA', 'eniten tasoa 5 ja toiseksi eniten tasoa 4', '5+4', 'Eniten Gleason taso 5, toiseksi eniten taso 4', '5 ja 4', '5 (eniten, 4 (toiseksi eniten)', '5+4=9/9/NA', '5, 4', ""['primary', 'secondary']"", '5+4=sum', '5+4=/9/']"
+81	13	3	['ei', 'no', False, 'Ei', 'kyllä', 'NA', 'yes', 'false']
+82	13	4	['ei', 'NA', 'kyllä', 'yes', True, 'Kyllä', 'no', 'true']
+83	13	5	['kyllä', 'yes', True, 'Kyllä', 'NA', 'ei', 'true', False]
+84	14	0	[4, '4', '(4)']
+85	14	1	"['[10, 8, 14, 14]', '10mm, 8mm, 14mm, 14mm', ""['10mm', '8mm', '14mm', '14mm']"", ""['1', '2', '3', '4']"", ""['Näyte 1', 'Näyte 2', 'Näyte 3', 'Näyte 4']"", ""[{'Näyte 1': '10mm'}, {'Näyte 2': '8mm'}, {'Näyte 3': '14mm'}, {'Näyte 4': '14mm'}]"", ""['näyte 1', 'näyte 2', 'näyte 3', 'näyte 4']"", ""[{'näyte_1': '10mm'}, {'näyte_2': '8mm'}, {'näyte_3': '14mm'}, {'näyte_4': '14mm'}]"", '1) 10mm, 2) 8mm, 3) 14mm, 4) 14mm', ""['Sample 1', 'Sample 2', 'Sample 3', 'Sample 4']"", '10mm, 8mm, 14mm ja 14mm', '[(10mm, (8mm, (14mm, (14mm)]', ""[{'sample': 1, 'size_or_weight': '10mm'}, {'sample': 2, 'size_or_weight': '8mm'}, {'sample': 3, 'size_or_weight': '14mm'}, {'sample': 4, 'size_or_weight': '14mm'}]"", ""[{'näyte': 1, 'koko': 10, 'määre': 'mm'}, {'näyte': 2, 'koko': 8, 'määre': 'mm'}, {'näyte': 3, 'koko': 14, 'määre': 'mm'}, {'näyte': 4, 'koko': 14, 'määre': 'mm'}]"", '(10mm, 8mm, 14mm, 14mm)']"
+86	14	2	"[""['Gleason 3', 'Gleason 4']"", '3+4=7', ""['näyte_1', 'näyte_2', 'näyte_3', 'näyte_4']"", ""['Gleason 3 (90%)', 'Gleason 4 (10%)']"", ""['3 (90%)', '4 (10%)']"", ""['3', '4']"", '[3, 4]', '3+4=7/4/NA', ""[{'sample': 4, 'Gleason_3': '90%', 'Gleason_4': '10%'}]"", '3+4=7/7/NA', ""['Näyte 1', 'Näyte 2', 'Näyte 3', 'Näyte 4']"", ""['näyte 1', 'näyte 2', 'näyte 3', 'näyte 4']"", ""['NA', 'NA', 'NA', '7 (3+4)']"", ""['Näyte 4']"", 'Gleason 3 (90%) ja Gleason 4 (10%)', ""['1', '2', '3', '4']"", ""['Sample 1', 'Sample 2', 'Sample 3', 'Sample 4']"", '3+4', ""['NA', 'NA', 'NA', '3+4']"", 'Gleason 3 (noin 90%) ja Gleason 4 (10%)', '(3+4=7)', ""['sample', 'score']"", '3+4=90+10', 'Gleason 3 (90%) and Gleason 4 (10%)', '(3+4=7/90+10=100/NA)', '3+4=7/90%/10%', '3+4=7/90+10']"
+87	14	3	"['kyllä', 'ei', 'no', False, 'Kyllä', 'NA', ""['näyte 1', 'näyte 2', 'näyte 3', 'näyte 4']"", True, ""('ei')"", '(ei)']"
+88	14	4	"['ei', 'no', False, 'Ei', 'No', ""['näyte 1', 'näyte 2', 'näyte 3', 'näyte 4']"", ""('ei')"", '(ei)']"
+89	14	5	"['NA', 'ei', 'yes', False, 'kyllä', 'Ei', ""['näyte 1', 'näyte 2', 'näyte 3', 'näyte 4']"", 'no', ""('NA')"", '(ei)']"
+90	15	0	[6, '6', '1-6', '(6)']
+91	15	1	['Tyyppipaikoista', 'NA', 'tyyppipaikoista', 'Ei saatavilla', 'Ei tietoa', 'biopsiasylinterit', '1-6 prostatabiopsiat tyyppipaikoista', '(NA)']
+92	15	2	['NA', 'Ei saatavilla', 'Ei löydetty', 'Ei karsinoomaa', '(NA)']
+93	15	3	['kyllä', 'yes', True, 'Kyllä', 'NA', 'ei', '(ei)']
+94	15	4	['NA', 'ei', False, 'Ei', 'no', '(ei)']
+95	15	5	['NA', 'ei', 'no', False, 'Ei', '(ei)']
+96	16	0	[6, '6', 'NA', 'koko elin yhtenä näytteenä', 'kuusi', 'kuusi makroleikettä', 1, '(6)']
+97	16	1	"['[8, 5]', '8mm ja 5mm', ""['8mm', '5mm']"", ""['Apex', 'Basiksessa']"", 'Apexin fokusten koot n. 8mm ja basiksen fokusten koot n. 5mm', 'NA', ""['Apex', 'Basiks']"", ""['apex', 'basiks']"", ""['n. 8mm', 'n. 5mm']"", ""['koot', 'määre']"", '8mm and 5mm', '(ei mainittu)', 'Not applicable (prostatectomy resection)']"
+98	16	2	"['[4, 4]', '4+4 ja 3+4', '4+4=8, 3+4=7', ""['4+4', '3+4']"", ""['Apex', 'Basiksessa']"", '4+4 apexissa, 3+4 basiksessa', '4+4', '4+4=8', '4+4=8 ja 3+4', '4+4 / 3+4', '4+4/3+4', ""['apex', 'basiks']"", 'NA', ""['apex', 'basis']"", '4+4 and 3+4', 'Apex: 4+4, Basiksesta: 3+4', 'Apex: Gleason 4+4, Basiksesta: Gleason 3+4', '4+4=8/3+4=7/NA', '4+4/3+4/NA', '4+4, 3+4', '4+4 (apex, 3+4 (basiks)', 'Apex: 4+4, Basksis: 3+4', '(4+4=8 ja 3+4=7)', ""['apex', 'base']"", '4+4 (apex) and 3+4 (basiks)', '(4+4=8, 3+4=7)', '4+4=8 and 3+4=7']"
+99	16	3	['NA', 'ei', 'no', False, 'Ei', '(ei)']
+100	16	4	['NA', 'ei', False, 'Ei havaittu', 'Ei', 'no', 'Ei mainintaa', '(ei)']
+101	16	5	['NA', 'kyllä', 'ei', False, 'Ei havaittu', True, 'Ei', 'no', 'Ei mainintaa', '(ei mainittu)', '(ei)']
+102	17	0	"[4, '4', 'NA', ""['näytteiden määrä']"", '4 (vasemmalta puolelta 2, oikealta puolelta 2)', '(4)']"
+103	17	1	"['[10, 7, 15, 10]', '10-15mm', '10mm, 7mm, 15mm, 10mm', ""['left', 'right']"", ""['10mm', '7mm', '15mm', '10mm']"", ""['vasen puoli: 10mm, 7mm', 'oikea puoli: 15mm, 10mm']"", 'NA', ""['left_side', 'right_side']"", ""['vasen', 'oikea']"", ""['näytteiden koko']"", ""['Vasen puoli', 'Oikea puoli']"", ""['vasen_puoli', 'oikea_puoli']"", 'Vasen puoli: 10 mm, 7 mm; Oikea puoli: 15 mm, 10 mm', ""['10 mm', '7 mm', '15 mm', '10 mm']"", 'vasemmalta 10mm ja 7mm, oikealta 15mm ja 10mm', 'vasemman puolen fragmentit: 10 mm ja 7 mm, oikean puolen fragmentit: 15 mm ja 10 mm', ""[{'side': 'left', 'size': '10mm'}, {'side': 'left', 'size': '7mm'}, {'side': 'right', 'size': '15mm'}, {'side': 'right', 'size': '10mm'}]"", ""[{'size': 10, 'unit': 'mm'}, {'size': 7, 'unit': 'mm'}, {'size': 15, 'unit': 'mm'}, {'size': 10, 'unit': 'mm'}]"", '(10mm, 7mm, 15mm, 10mm)']"
+104	17	2	"['3+4', '3+4=7', ""['3', '4']"", '3 pääsääntöisesti ja toiseksi eniten tapaa 4', '3+4=7/NA', ""['left_side', 'right_side']"", ""['Vasen', 'Oikea']"", ""['Gleason-luokitus']"", '7', ""['Vasen puoli']"", ""['Vasen puoli', 'Oikea puoli']"", 'Gleason 3+4', 'Gleason kasvutapa 3 pääsääntöisesti ja toiseksi eniten tapaa 4', '[3, 4]', '3 + 4', '3+4=7/7/NA', 3, ""['primary', 'secondary']"", ""['left']"", '3, 4', '(3+4=7/7/NA)', '3+4=7/7']"
+105	17	3	"['ei', 'no', False, 'kyllä', 'NA', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'Ei', 'Ei mainittu', True, '(ei)']"
+106	17	4	"['kyllä', 'yes', True, 'Kyllä', ""['perineuraalinen kasvu']"", '(kyllä)']"
+107	17	5	"['NA', 'kyllä', 'yes', False, True, 'ei', 'Ei', ""['atypia']"", 'no', 'Kyllä', 'Ei mainittu', '(ei)']"
+108	18	0	[6, '6', 'NA', 12, '12', '15', '20', '21', 20, '(4+6+3)+(5+7+8) = 13']
+109	18	1	"['[4, 6, 3, 5, 7, 8]', '5+7+8 mm', '4+6+3 vasemmalta ja 5+7+8mm oikealta', ""['4+6+3mm', '5+7+8mm']"", ""['4+6+3mm vasemmalta', '5+7+8mm oikealta']"", '4+6+3mm vasemmalta ja 5+7+8mm oikealta', 'NA', ""{'vasen': [4, 6, 3], 'oikea': [5, 7, 8]}"", ""['left', 'right']"", ""['vasemmalta', 'oikealta']"", '4+6+3+5+7+8 mm', '4+6+3 mm from the left, 5+7+8 mm from the right', ""['vasen', 'oikea']"", '4+6+3 mm vasemmalta, 5+7+8 mm oikealta', '4+6+3 mm vasemmalta ja 5+7+8 mm oikealta', '4mm, 6mm, 3mm vasemmalta ja 5mm, 7mm, 8mm oikealta', '4+6+3 mm vasemmalta (oikealta korjattuna, 5+7+8 mm oikealta (vasemmalta korjattuna)', ""['4mm', '6mm', '3mm', '5mm', '7mm', '8mm']"", '4mm, 6mm, 3mm, 5mm, 7mm, 8mm', '4+6+3 mm and 5+7+8 mm', '4+6+3 mm (left, 5+7+8 mm (right)', '4+6+3 mm (left) and 5+7+8 mm (right)', '4+6+3 mm, 5+7+8 mm', '4+6+3 mm (vasen) ja 5+7+8 mm (oikea)']"
+110	18	2	['NA', '4+3=7', 'Vahva adenokarsinooma-suspisio', 'maligniin viittaavaa kasvua, marginaalit positiivit', '4+6=10', '4+3=7/3+4=7', '4+3=7/NA']
+111	18	3	['NA', 'ei', 'Ei', 'EI', False, 'kyllä', 'no']
+112	18	4	['NA', 'kyllä', 'Kyllä', 'KYLLÄ', False, 'ei', 'no']
+113	18	5	['NA', 'kyllä', 'yes', 'Kyllä', 'KYLLÄ', True, 'no', 'Kyllä, maligniin viittaavaa kasvua', 'ei']
+114	19	0	[1, 'NA', 'yhteensä 12', '1', 12.3, '12.3g']
+115	19	1	"[12.3, '12.3g lastuja', '12.3g', ""['koko', 'määre']"", 'g', 'NA', 'lastuja', '12,3 g']"
+116	19	2	['NA']
+117	19	3	['kyllä', 'ei', 'yes', True, 'Kyllä', 'NA', 'Kyllä, strooman hyperplasia', False, 'Kyllä, strooman hyperplasia viittaa siihen', 'Kyllä (strooman hyperplasia)']
+118	19	4	['NA', False, 'ei havaittu', 'Ei', 'ei', 'no']
+119	19	5	['NA', 'ei', 'no', False, 'ei havaittu', 'Ei']
+120	20	0	[6, 'kuusi', '6']
+121	20	1	"[""['5mm', '10mm']"", 'NA', '5-10mm', 'ei saatavilla', 'Sizes mentioned: 5mm, 10mm, and unspecified for others', '5mm/10mm/NA/NA/NA/NA', ""['5mm', '10mm', 'NA', 'NA', 'NA', 'NA']"", ""['5mm', '10mm', None, None, None, None]"", '5mm, 10mm, NA', '5mm, 10mm', '5mm, 10mm (ei tietoa kaikista näytteistä)', '5mm ja 10mm']"
+122	20	2	"['[8, 7]', '4+4=8, 4+3=7, 3+4=7', ""['8', '7', '7']"", ""[{'pesäke': '1. vasemmalta edestä', 'luokitus': '4+4=8'}, {'pesäke': '2. vasemmalta keskeltä', 'luokitus': '4+3=7', 'graduksen_4_osuus': 'n. 80%'}, {'pesäke': '3. oikealta keskeltä', 'luokitus': '3+4=7', 'gradusten_suhde': 'n. 70:30%'}]"", ""[{'pesäke': '1. vasemmalta edestä', 'luokitus': '4+4=8'}, {'pesäke': '2. vasemmalta keskeltä', 'luokitus': '4+3=7'}, {'pesäke': '3. oikealta keskeltä', 'luokitus': '3+4=7'}]"", ""[{'pesake': '1. vasemmalta edesta', 'luokitus': '4+4=8'}, {'pesake': '2. vasemmalta keskelta', 'luokitus': '4+3=7'}, {'pesake': '3. oikealta keskelta', 'luokitus': '3+4=7'}]"", '8', ""['4+4=8', '4+3=7', '3+4=7']"", ""['4+4=8', '4+3=7', '7 (3+4)']"", '[8, 7, 7]', ""[{'Pesäke 1': '4+4=8'}, {'Pesäke 2': '4+3=7'}, {'Pesäke 3': '3+4=7'}, {'Pesäke 4': 'NA'}, {'Pesäke 5': 'NA'}, {'Pesäke 6': 'NA'}]"", ""['4+4=8', '4+3=7', '3+4=7', 'NA', 'NA', 'NA']"", ""[{'Pesäke 1': '4+4=8'}, {'Pesäke 2': '4+3=7'}, {'Pesäke 3': '3+4=7'}]"", ""[{'pesäke': 1, 'Gleason_luokitus': '4+4=8'}, {'pesäke': 2, 'Gleason_luokitus': '4+3=7'}, {'pesäke': 3, 'Gleason_luokitus': '3+4=7'}]"", ""[{'Pesäke 1': '4+4=8', 'Pesäke 2': '4+3=7', 'Pesäke 3': '3+4=7'}]"", '4+4=8/4+3=7/3+4=7/NA/NA/NA', ""[{'Pesäke 1': '8', 'Pesäke 2': '7', 'Pesäke 3': '7'}]"", '8/7/7', ""['8 (4+4)', '7 (4+3)', '7 (3+4)']"", '8 (4+4, 7 (4+3, 7 (3+4)', '8, 7, 7', '4+4=8/4+3=7/3+4=7', 'Pesäke 1: 8, Pesäke 2: 7, Pesäke 3: 7', ""['8', '7', '7', 'NA', 'NA', 'NA']"", '[8, 7, 7, None, None, None]', ""[{'sample': 'Pesäke 1', 'score': 8, 'primary': 4, 'secondary': 4}, {'sample': 'Pesäke 2', 'score': 7, 'primary': 4, 'secondary': 3}, {'sample': 'Pesäke 3', 'score': 7, 'primary': 3, 'secondary': 4}]""]"
+123	20	3	['NA', 'ei', 'kyllä', False, 'Kyllä', 'no', 'Ei', 'Ei, adenokarsinoomaa havaittu', 'Kyllä, lopuissa näytteissä havaittu epiteelissä hyperplastisia muutoksia.']
+124	20	4	['NA', 'ei', False, 'Ei', 'no', 'Ei mainittu', None]
+125	20	5	['Kyllä', 'kyllä', 'yes', True, 'Kyllä, atyyppista rauhasrakennetta havaittu', 'Kyllä, huonosti erilaistunutta atyyppista rauhasrakennetta.']
+126	21	0	[4, '4', 'kolme', 'NA', '3', 3, '4g', '(4)', 1]
+127	21	1	['NA', '4g', '4g höyläyslastuja', 'yhteensä 4g höyläyslastuja', 'yhteensä 4g', 'g', 'höyläyslastuja', '(4g)']
+128	21	2	['NA', 'ei mainittu', 'NA/NA', '(NA)']
+129	21	3	['kyllä', 'yes', True, 'Kyllä', '(kyllä)']
+130	21	4	['NA', 'no', False, 'Ei', 'ei', 'tai', '(NA)']
+131	21	5	['NA', 'ei', False, 'Ei', 'no', '(NA)']
+132	22	0	[9, '9', '10', 'NA', 'Yhteensä 9 näytettä', 10, '8', 8, '(9)', 'multiple', '9 (A-C, D-E, F-G, H-I)', '9 (A-I)']
+133	22	1	['vaihtelevia', 'NA', 'apex-näytteet A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä', 'varying sizes', 'ei tiedossa', 'Ei saatavilla', 'Apex-näytteet A-C, kaksi makroleikettä kohti basista D-E, F-G basis ja H-I kaksi näytettä seminaalivehikkeleistä', 'laaja', 'apex: A-C, basista: D-E, basis: F-G, seminaalivehikkeleistä: H-I', 'kaksi makroleikettä kohti', 'kaksi makroleikettä', 'makroleikettä', '(NA)', '(macro- ja seminaalivehikkeleitä)']
+134	22	2	"[3, '3+4=7', '3+4', 'Vallitseva Gleason luokka 3 ja luokan 4 erilaistumista melkein yhtä paljon', ""['apex', 'basis']"", '3+4=7/NA', 'NA', '7 (3+4)', 'Gleason luokka 3 ja luokan 4', 7, '3 + 4', '3+4=7/7/NA', '3+4=7/NA/NA', '(3+4=7)', 'Gleason luokka 3 ja luokan 4 erilaistumista melkein yhtä paljon', '(3+4=7/7/NA)']"
+135	22	3	['NA', 'ei', 'no', False, 'Ei', 'kyllä', 'Ei mainintaa hyvälaatuisesta eturauhasen liikakasvusta', '(ei)']
+136	22	4	['kyllä', 'ei', 'no', False, 'Ei', 'NA', 'Ei mainintaa perineuraalisesta kasvusta', 'Ei mainittu', '(ei)']
+137	22	5	['NA', 'kyllä', 'yes', True, 'Ei', 'ei', 'Ei mainintaa atypiasta', 'no', 'Ei mainittu', 'Kyllä', '(ei)', False]
+138	23	0	[3, '3', '(3)']
+139	23	1	"[""['8+6mm', '10mm', '5+5mm']"", '8+6mm, 10mm', '8+6mm, 10mm, 5+5mm', ""['Näyte 1: 8+6mm', 'Näyte 2: 10mm', 'Näyte 3: 5+5mm']"", ""['(1) 8+6mm', '(2) 10mm', '(3) 5+5mm']"", '[8, 6, 10]', ""['1', '2', '3']"", ""[{'Näyte 1': '8+6 mm'}, {'Näyte 2': '10 mm'}, {'Näyte 3': '5+5 mm'}]"", ""[{'Näyte 1': '8+6 mm', 'Näyte 2': '10 mm', 'Näyte 3': '5+5 mm'}]"", ""['Näyte 1', 'Näyte 2', 'Näyte 3']"", ""['näyte_1', 'näyte_2', 'näyte_3']"", '[14, 10, 10]', ""[{'Näyte 1': '8+6mm'}, {'Näyte 2': '10mm'}, {'Näyte 3': '5+5mm'}]"", ""['Sample 1', 'Sample 2', 'Sample 3']"", 'Näyte (1): 8+6mm, Näyte (2): 10mm, Näyte (3): 5+5mm', 'NA', '[8, 6, 10, 5, 5]', '[(8+6)mm, 10mm, (5+5)mm]', ""[{'sample': 1, 'size': '8+6mm'}, {'sample': 2, 'size': '10mm'}, {'sample': 3, 'size': '5+5mm'}]"", ""[{'näyte 1': '8+6mm'}, {'näyte 2': '10mm'}, {'näyte 3': '5+5mm'}]""]"
+140	23	2	"[""[7, 7, 'NA']"", '4+3=7, 3+4=7', '7', '3+4=7', ""['Näyte 1: Gleason 3 - 60%, Gleason 4 - 40%', 'Näyte 2: Gleason 3 - 70%, Gleason 4 - 30%', 'Näyte 3: Ei havaittu poikkeavaa prostatakudosta']"", ""['(1) 3+4', '(2) 3+4', '(3) NA']"", '3+4=7, 3+4=7, NA', 7, '3+4=7, 3+4=7', ""['Gleason 7', 'Gleason 7']"", '7/NA', '7/3+4=7/NA', ""['Gleason 7', 'Gleason 7', 'NA']"", ""['1', '2', '3']"", ""['sample 1', 'sample 2', 'sample 3']"", ""[{'Näyte 1': 'Gleason 7 (3+4)'}, {'Näyte 2': 'Gleason 7 (3+4)'}, {'Näyte 3': 'NA'}]"", ""['Näyte 1', 'Näyte 2', 'Näyte 3']"", ""['7', '7', 'NA']"", ""['näyte_1', 'näyte_2', 'näyte_3']"", ""['Sample 1', 'Sample 2', 'Sample 3']"", ""['7']"", ""['7', '7']"", ""['7 (3+4)', '7 (3+4)']"", 'Gleason 7', ""['7/7/NA', '7/7/NA', 'NA/NA/NA']"", '7 (3+4=7)', ""['3+4=7', '3+4=7', 'NA']"", ""[{'sample': 1, 'score': 7, 'pattern3': 60, 'pattern4': 40}, {'sample': 2, 'score': 7, 'pattern3': 70, 'pattern4': 30}, {'sample': 3, 'score': 'NA'}]"", ""[{'sample': 1, 'Gleason_score': 7, 'Gleason_3': 60, 'Gleason_4': 40}, {'sample': 2, 'Gleason_score': 7, 'Gleason_3': 70, 'Gleason_4': 30}, {'sample': 3, 'Gleason_score': 'NA'}]"", ""[{'sample': 1, 'score': '3+4=7'}, {'sample': 2, 'score': '3+4=7'}, {'sample': 3, 'score': 'NA'}]"", ""[{'näyte 1': '3+4=7'}, {'näyte 2': '3+4=7'}]"", '(3+4=7)']"
+141	23	3	"['NA', 'ei', 'no', 'Ei', False, 'kyllä', 'Ei, adenokarsinoomaa näytteissä 1 ja 2', ""['ei', 'ei', 'ei']"", '(ei)']"
+142	23	4	"['NA', 'ei', 'Ei', False, 'no', 'Ei mainittu', 'ei/tai/NA', ""['NA', 'NA', 'NA']"", '(ei)', 'Ei mainita, mutta nähdään PIN-muutoksia näytteissä (1) ja (2)', ""['kyllä', 'kyllä', 'ei']"", 'yes']"
+143	23	5	"['Kyllä', 'kyllä', 'yes', ""['Näyte 1: Kyllä', 'Näyte 2: Kyllä', 'Näyte 3: Ei']"", True, 'NA', 'no', 'PIN-muutokset näytteissä (1) ja (2)', 'Kyllä, PIN-muutoksia näytteissä 1 ja 2', 'ei', 'Kyllä (PIN-muutoksia)', 'kyllä (PIN-muutoksia)', ""['kyllä', 'kyllä', 'ei']"", '(kyllä, PIN-muutoksia)', 'Ei havaita tavallisesta poikkeavaa prostatakudosta näytteessä (3)']"
+144	24	0	[8, '8', 'NA', 'kahdeksassa blokissa', 'kahdeksan', 'kahdeksan blokkia', '1', 'Kahdeksan', '(8)']
+145	24	1	['NA', 'elektrosektiolastut', 'ei saatavilla', 'pieni', 'kahdeksassa blokissa', 'ei tiedossa', 'ei mainittu', '(NA)']
+146	24	2	['NA', 'ei saatavilla', '(NA)']
+147	24	3	['kyllä', 'yes', True, 'ei', 'Kyllä', 'NA', 'benigni', '(kyllä)']
+148	24	4	['NA', 'ei', 'no', False, 'Ei', 'ei/NA', '(ei)']
+149	24	5	['NA', 'ei', 'no', False, 'Ei', 'ei/NA', '(ei)']
+150	25	0	[4, 'NA', '4', '(4)']
+151	25	1	"['2mm', 'N/A', ""['Näyte 2: 2mm']"", 'NA', 'näyte nro 2: noin 2mm kokoinen alue', 'nro 2: noin 2mm kokoinen alue', '2 mm', 'Näytteessä nro 2 on noin 2mm kokoinen alue', 'noin 2mm', 2, '(ei mainittu)', '2mm (only for sample 2)', '2mm (sample 2)', '(noin 2mm)', '(2mm)']"
+152	25	2	"['4', '4+3=7', ""['vallitseva', 'toinen suuri prosenttiosuus']"", ""['vallitseva', 'toissijainen']"", ""['vallitseva', 'toiseksi yleisin']"", 4, '4+3=7/7/NA', ""['dominant', 'second_most_common']"", '4+3=7/NA', 'NA', 'vallitseva Gleason luokka 4, luokka 3 lähes yhtä suuri %', 'vallitsevampi Gleason luokka 4, luokka 3 lähes yhtä suuri %', 'Gleason 4+3', 'Gleason 4 (vallitseva, Gleason 3 (lähes yhtä suuri %)', 'Vallitseva Gleason-luokka 4, luokka 3 lähes yhtä suuri %', 'Gleason luokka 4', '4 (vallitsevampi) / 3', '4 (vallitsevampi) ja 3 (lähes yhtä suuri %)', '4 (luokka 4 vallitsevampi) ja 3 (lähes yhtä suuri %)', '(4+3=7)', ""['primary', 'secondary']"", '4+3', '4, with 3 being almost as prominent', '(4+3=7/100/NA)', '(4+3=7/7/NA)']"
+153	25	3	['NA', 'ei', 'no', False, 'Ei', 'Ei mainittu', '(ei)']
+154	25	4	['NA', 'kyllä', 'no', False, 'ei', 'tai', 'Ei mainittu', '(NA)', None, '(ei)']
+155	25	5	['NA', 'kyllä', 'yes', True, 'ei', 'no', 'Kyllä', 'Ei mainittu', '(NA)', None, '(ei)']
+156	26	0	[12, '12', '(12)']
+157	26	1	['150mm', 'noin 150mm', 'Noin 150mm yhteensä', 150, 'yhteispituus noin 150mm', 'Yhteispituus noin 150mm', 'noin 150mm yhteispituus', '(noin 150mm)']
+158	26	2	['NA', '(NA)']
+159	26	3	"['kyllä', 'yes', True, 'Kyllä', ""Kyllä, mainittu 'hyperplastisen kaltaista epiteeliä'"", 'NA', 'ei', '(kyllä)']"
+160	26	4	['NA', 'no', False, 'ei', 'Ei', '(ei)']
+161	26	5	['NA', 'ei', 'no', False, True, 'Ei', '(ei)']
+162	27	0	[12, '12', '3/12', '(12)']
+163	27	1	"['[8, 7, 5]', '5-8mm', ""['8mm x 7mm', '7mm x 5mm', '5mm']"", ""['8mm', '7mm', '5mm']"", ""['oikean basiksen 8mm pituinen biopsia', 'oikean basiksen 7mm pituinen biopsia', 'vasemman basiksen 5mm biopsia']"", '8mm, 7mm, 5mm', 'Oikean basiksen biopsiat 8mm ja 7mm, vasemman basiksen biopsia 5mm', 'NA', ""[{'location': 'right base', 'sizes': ['8mm', '7mm']}, {'location': 'left base', 'sizes': ['5mm']}]"", ""['oikean basiksen biopsiat', 'vasemman basiksen biopsia']"", ""['oikea_basiksen_biopsia_1', 'oikea_basiksen_biopsia_2', 'vasen_basiksen_biopsia']"", '1) 8mm, 2) 7mm, 3) 5mm, muut NA', '1) 8mm, 2) 7mm, 3) 5mm', ""[{'8mm': 'pitkä biopsia'}, {'7mm': 'pitkä biopsia'}, {'5mm': 'pitkä biopsia'}]"", ""['right_base', 'left_base']"", 'oikean basiksen 8mm pituinen biopsia, 7mm pituinen biopsia, vasemmalla basiksessa 5mm', '8mm ja 7mm', '(varies: 5mm, 7mm, 8mm)', ""[{'location': 'right base', 'size': '8mm'}, {'location': 'right base', 'size': '7mm'}, {'location': 'left base', 'size': '5mm'}]"", ""[{'sample': 'Right base', 'size': '8mm'}, {'sample': 'Right base', 'size': '7mm'}, {'sample': 'Left base', 'size': '5mm'}]"", ""['oikea basi', 'vasen basi', 'NA']"", '(8mm, 7mm, 5mm)']"
+164	27	2	"[3, '3+3=6', ""['Gleason 3 arkkitehtuuri', 'Gleason 3 arkkitehtuuri', 'Gleason 3 arkkitehtuuri']"", '3+3', '3+3/3+3/3+3', '3+3/3/NA', ""[{'location': 'right base', 'score': 3}, {'location': 'left base', 'score': 3}]"", 'Gleason 3+3', '3+3=6/6/NA', ""['3+3']"", '(3+3=6)', 'Gleason 3', '(3+3=6/6/NA)', '3']"
+165	27	3	"['NA', 'ei', 'no', False, 'Ei havaittu', 'Ei mainintaa, NA', 'false', ""('ei')"", '(ei)']"
+166	27	4	"['NA', 'ei', False, 'Ei havaittu', 'no', 'Ei mainintaa, NA', 'ei/tai/NA', ""('NA')"", '(ei/tai/NA)']"
+167	27	5	"['Ei', 'ei', 'no', False, 'Ei havaittu', 'false', 'ei havaittu', ""('ei')"", '(ei)']"
+168	28	0	[6, '6', '(6)']
+169	28	1	['<1mm', 'NA', 'paksuneulabiopsia', 'pieneltä alueelta (<1mm)', 'ei saatavilla', 'Ei saatavilla', 'Ei tiedossa', 'paksuneula', 'paksuneulabiopsianäyte', 'pieniä alueita (<1mm)', '(<1mm)', '(ei mainittu)']
+170	28	2	[4, '4+3=7', 7, '4+3=7/7/NA', 'Gleason 4+3=7', '4+3=7/NA', 'Gleason 5 pieneltä alueelta (<1mm, pääosin Gleason 4+3=7', '4+3=7/5/NA', '4+3=7/5', '5 ja 7', '5 (pieneltä alueelta, 4+3=7 (pääosin)', '5 (pieneltä alueelta) ja 4+3=7 (pääosin)', '7 (4+3)', '5-6', '5-6: Gleason 5, pääosin Gleason 4+3=7', '5/7/NA', '5-6 pieneltä alueelta (<1mm) Gleason 5, pääosin Gleason 4+3=7', '7/NA/NA', '(4+3=7)', 'Gleason 4+3=7, with small areas of Gleason 5']
+171	28	3	['ei', 'NA', False, 'no', 'Ei', '(ei)']
+172	28	4	['ei', 'NA', False, 'no', '(NA)', '(ei mainittu)', '(ei)']
+173	28	5	['ei', 'kyllä', 'yes', True, 'NA', 'no', '(NA)', False, '(ei mainittu)', '(ei)']
+174	29	0	"[3, '3', 'kolme', ""['näytteiden määrä']"", 'Kolme', '(3)']"
+175	29	1	"['[7, 6, 2]', '30mm', '7mm, 6mm, 2mm', 'Yhteispituus 30mm', '7mm, 6mm ja 2mm', ""['7mm', '6mm', '2mm']"", 30, ""['yhteispituus', 'määre']"", ""['näytteiden koko']"", '30mm yhteispituus', 'NA', '30 mm', '(30mm)', '7, 6, and 2mm', '(7mm, 6mm, 2mm)']"
+176	29	2	"[7, '3+4=7', '3+4', 'Score 7', 'score 7', '3+4=7/15/NA', ""['Gleason-luokitus']"", 'Score 7 (3+4)', 'Gleason score 7 (3+4)', '7', '7 (3+4)', '7 (3+4)/15mm', '3+4=7/15mm', '(3+4=7)', '(3+4=7/15mm)', '7/3+4/15mm']"
+177	29	3	"['NA', 'ei', 'Ei', False, 'kyllä', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'no', ""('ei')"", '(ei)']"
+178	29	4	"['NA', 'kyllä', 'Ei', False, 'ei', 'tai', ""['perineuraalinen kasvu']"", 'no', ""('NA')"", '(ei)']"
+179	29	5	"['NA', 'kyllä', 'Ei', 'Kyllä', True, 'ei', ""['atypia']"", 'no', ""('NA')"", False, '(ei)']"
+180	30	0	[1, 'NA', '1']
+181	30	1	"[100, '100mm', ""['numeerinen arvo', 'määre']"", '100 mm']"
+182	30	2	['NA']
+183	30	3	['NA', 'ei', 'no', False, 'Ei', 'kyllä', 'false']
+184	30	4	['Kyllä', 'kyllä', 'yes', True, 'Yes', 'true']
+185	30	5	['NA', 'no', False, 'Ei', 'ei', 'No', 'false']
+186	31	0	[6, 'Six formalin-fixed preparations', '6', 'Kuusi']
+187	31	1	['formalin-fixed', 'NA', 'vasen lohko', 'ei saatavilla', 'small', 'formaliinikiinnitteisiä']
+188	31	2	[7, '3+4=7', '3+4=7/NA/NA', '7']
+189	31	3	['NA', 'ei', 'no', True, False, 'kyllä']
+190	31	4	['ei', 'no', False, 'Ei', 'No']
+191	31	5	['NA', False, 'ei', 'kyllä', 'no']
+192	32	0	[3, '3', '(3)']
+193	32	1	"[90, '90mm', ""['kokonaispituus', 'yksikkö']"", 'Yhteensä 90mm', '90mm (total length)', '(90mm)']"
+194	32	2	['NA', '(NA)']
+195	32	3	['kyllä', 'yes', True, 'Kyllä', 'Yes', 'ehkä', 'Kyllä, viittaus hyperplasiaan', 'Ehkä, yhdessä näytteessä on viitteitä hyperplasiasta.', 'kenties', 'NA', 'Yes (hyperplasia suspected)', '(kyllä)']
+196	32	4	['NA', False, 'Ei havaittu', 'ei', 'tai', 'no', 'No', 'Ei', '(ei)']
+197	32	5	['ei', 'no', False, 'Ei havaittu', 'Ei', 'No', '(ei)']
+198	33	0	[1, 'NA', 2, '2', 'Biopsioiden lukumäärä ei mainittu', 'Multiple (at least 2, sample B and others)']
+199	33	1	"[""['oikea', 'vasen']"", '60mm (oikea, 80mm (vasen)', ""['right', 'left']"", 'Oikealla noin 60mm ja vasemmalla noin 80mm', 'NA', '60mm (oikea) ja 80mm (vasen)', '60mm ja 80mm', 'oikea 60mm, vasen 80mm', 'oikealla noin 60mm ja vasemmalla noin 80mm', 'right about 60mm and on the left about 80mm', ""['Oikea', 'Vasen']"", ""['Oikea puoli', 'Vasen puoli']"", 'oikealla noin 60mm, vasemmalla noin 80mm', 'total length on the right about 60mm and on the left about 80mm', 'Total length on the right about 60mm and on the left about 80mm', '60mm oikealla, 80mm vasemmalla', 'oikealla noin 60 mm ja vasemmalla noin 80 mm', 'oikea noin 60 mm, vasen noin 80 mm', 'Oikea: noin 60 mm, Vasen: noin 80 mm', 'Oikealla noin 60 mm ja vasemmalla noin 80 mm', ""['60mm', '80mm']"", '60mm on the right, 80mm on the left', '60mm (right, 80mm (left)', '60mm, 80mm', ""['right', 'left', 'unit']"", 'About 60mm on the right and about 80mm on the left', '60mm and 80mm']"
+200	33	2	"[9, '4+5=9', ""['näyte_B', 'muutos_vasemmalla']"", ""['näyte_B', 'muut_näytteet']"", '9 (4+5)', ""['major', 'minor', 'sum']"", 'Total Gleason level is 9 (4+5)', ""['vasen', 'oikea']"", ""['primary', 'secondary', 'total']""]"
+201	33	3	['NA', 'ei', 'no', False, 'Ei', 'No', 'Ei mainita']
+202	33	4	['NA', 'kyllä', False, 'ei', 'tai', 'no', 'Ei mainita']
+203	33	5	['NA', 'kyllä', 'no', False, 'ei', 'Kyllä', 'Ei mainita']
+204	34	0	[1, 'NA', 'Useita näytteitä', 'Useita, tarkka määrä ei mainittu', 'koko elin yhtenä näytteenä', '1', 'multiple', 'Multiple (at least 2, sample 1B and others)']
+205	34	1	"['150mm', 'Noin 150mm', 'NA', 150, 'approx. 150mm', ""['kokonaispituus', 'yksikkö']"", 'Kokonaispituus noin 150mm', 'noin 150mm', 'kokonaispituus noin 150 mm', '150 mm', 'n. 150 mm', 'Total length approx. 150mm', '150mm (total length)', 'approx. 150mm (total length)']"
+206	34	2	['NA', 'Suspensiossa, mutta vastaa adenokarsinoomaa', 'suspension']
+207	34	3	['ei', 'no', False, True, 'NA', 'Ei mainintaa, muut näytteet normaalia rauhaskudosta', 'false', 'Ei']
+208	34	4	['NA', 'no', False, 'ei', 'Ei mainintaa', 'false', 'Ei']
+209	34	5	['kyllä', 'yes', True, 'Kyllä', 'Kyllä, yhdessä näytteessä (1B) havaittu adenokarsinoomaa vastaavaa atypiaa', 'true', 'Kyllä, näytteessä 1B on havaittu ydinasymmetriaa ja morfologisia löydöksiä, jotka vastaavat adenokarsinoomaa', 'kyllä, näytteessä 1B', 'Yes (nuclear atypia)']
+210	35	0	[1, 'NA', 5, '5', 'all', '5g', 'about 5g', 'about 5g of prostate shavings']
+211	35	1	"['5g', 'noin 5g eturauhasen lastuja', 'NA', 'eturauhaslastuja', 'noin 5g', 5, ""['koko', 'määre']"", 'about 5g', 'noin 5 g', 'not specified']"
+212	35	2	[8, '4+4=8', '8', '8 (4+4)', '4', '4+? = 8']
+213	35	3	['ei', 'NA', False, 'Ei', 'no']
+214	35	4	['ei', 'NA', 'kyllä', False, 'Ei', True, 'tai', 'no']
+215	35	5	['ei', 'NA', 'yes', True, 'Ei', 'kyllä', 'no', 'Kyllä', False]
+216	36	0	['7', 'NA', 16, 7, 'Prostatectomy preparation that has been tested, which is run on cassettes according to the normal formula. Apex in specimens D-G, base in specimens K-P, seminal vesicles O-Q.', '16', 14, 'koko elin yhtenä näytteenä', '14 (D-G = 4, K-P = 6, O-Q = 3)', '1', 12, 1]
+217	36	1	"['Apex in specimens D-G, base in specimens K-P, seminal vesicles O-Q', 'NA', 'apex in specimens D-G, base in specimens K-P, seminal vesicles O-Q', ""['Apex', 'Base', 'Seminal vesicles']"", 'vaihtelevia', 'Apex: D-G, Base: K-P, Seminal vesicles: O-Q', 'Apex: D-G, base: K-P, seminal vesicles: O-Q', ""['apex', 'base', 'seminal vesicles']""]"
+218	36	2	"['7', '7+3=10', '3+4=7', 'Gleason level 7 carcinoma, with a larger proportion having a score of 3, approx. 60% of the findings.', 'Gleason level 7 carcinoma', 7, '7=3+4', ""['major', 'minor', 'sum']"", '3+4=7/7/NA', '7 (3+4)', '7 (3 + 4)']"
+219	36	3	['ei', 'no', 'Ei', 'Not seen', 'Yes', 'NA', 'false', False]
+220	36	4	['ei', 'NA', 'no', 'Ei', 'Not seen', 'No', 'Kyllä', False]
+221	36	5	['NA', 'ei', 'Ei', 'Not mentioned', 'No', 'kyllä', 'no', 'Kyllä', False]
+222	37	0	[6, '6']
+223	37	1	[120, '120mm', 'approx. 120mm in total', 'noin 120mm yhteensä', '120mm in total', 'noin 120 mm', 'approx. 120mm', 'n. 120 mm']
+224	37	2	['NA', 'ei määritelty']
+225	37	3	['kyllä', 'ei', 'yes', True, 'Kyllä', 'Yes', 'NA', 'Yes, basal cell hyperplasia', 'Kyllä, lasit näyttävät paikoittain eturauhaskudoksessa perusolujen hyperplasiaa', False]
+226	37	4	['NA', False, 'ei', 'no', 'No']
+227	37	5	['NA', 'ei', 'kyllä', 'no', True, 'Yes']
+228	38	0	[6, 'kuusi', '6', 'NA']
+229	38	1	"['pieni', 'NA', '30g', 'about 20g', 'noin 30g, joista noin 20g kuudessa lohkossa', 'noin 30g yhteensä, joista noin 20g kuudessa lohkossa', 'noin 20g', 30, ""['kokonaispaino', 'määre']"", '20g', '30g kokonaisuudessaan, 20g aloitettu kuudessa lohkossa', 20, 'yhteensä noin 30g, josta noin 20g aloitettiin kuudessa lohkossa', 'About 30g', 'About 30g of planing chips came in total, of which about 20g were started in six blocks.', 'noin 20 g', 'noin 30 g', 'noin 30g', 'about 30g, of which about 20g were started in six blocks', 'about 30g', 'About 30g of planing chips']"
+230	38	2	['NA']
+231	38	3	['kyllä', 'yes', True, 'Kyllä', 'true', 'Yes']
+232	38	4	['NA', 'no', False, 'ei havaittu', 'ei', 'Ei', 'false', 'No']
+233	38	5	['NA', 'ei', 'no', False, 'ei havaittu', 'Ei', 'false', 'No']
+234	39	0	[8, 'NA', '8', '13', 13, '13g']
+235	39	1	['13g', 13, 'NA', 'g']
+236	39	2	['3+3', '3+3=6', 6, '3+3=6/6/NA', 'Gleason 3+3=6', '6']
+237	39	3	['NA', False, 'ei', 'no', 'kyllä']
+238	39	4	['NA', False, 'ei', 'no', None]
+239	39	5	['NA', True, False, 'ei', 'kyllä', 'no', None]
+240	40	0	[15, 'NA', 'O', 'Otoksia on otettu yhteensä 15 kappaletta', '15', 16, '14', '18', 14]
+241	40	1	"['makrosuurennoksia', 'NA', 'makroskooppisia', ""['base', 'apex', 'seminal vesicles']"", 'Näytteiden koko vaihtelee, mutta ne on jaettu seuraavasti: A-D perusosasta huippuun makroskooppisina osioina, huippu E-F ja perusta G-N, sekä jäljellä olevat siemenrakkulat molemmilta puolilta N-O.', 'A-D: base to apex, E-F: apex, G-N: base, N-O: seminal vesicles', 'macrosections', 'Makronäytteet', 'makrolohkot', 'makronäytteet', 'Makroleikkeet', 'makro']"
+242	40	2	"['4 ja osittain 3', '4+3=7', '4 ja 3', 'Eniten esiintyvä Gleason-luokka on 4, mutta havaittavissa on myös luokkaa 3.', '4', '4+3=7/NA', ""['prevailing_class', 'other_class']"", 4, 'Pääasiassa luokka 4, myös luokka 3', '4+3', 'Pääasiassa luokka 4, joissakin myös luokka 3', 'Gleason-luokka on pääosin 4, mutta myös luokkaa 3 on havaittu.', '3 ja 4', '4 (pääasiallinen) ja 3 (jossain määrin)', '4 (vallitseva, 3', '4+3=7/7/NA', '4+3=7/NA/NA', '4, 3', '4 (prevailing) and 3']"
+243	40	3	['NA', 'ei', 'no', 'Ei', 'Kyllä, kyseessä on vain hyvänlaatuinen eturauhasen liikakasvu.', 'kyllä', 'false', False]
+244	40	4	['kyllä', 'yes', 'Kyllä', 'Perineuraalista invaasiota havaitaan runsaasti.', 'abundantly observed', 'Kyllä, perineuraalinen invaasio on runsaasti havaittu.', 'Kyllä, runsaasti havaittu', 'true', True, 'Yes']
+245	40	5	['NA', 'kyllä', 'yes', 'Ei', 'Näytteessä havaitaan atypiaa, eli tavallisesta kudoksesta poikkeavia muutoksia.', 'ei', 'Kyllä', 'no', False]
+246	41	0	[13, '13']
+247	41	1	"[180, '180mm', 'noin 180mm', 'about 180mm', ""['numeerinen arvo', 'määre']"", '180mm of material', 'noin 180mm materiaalia', 'noin 180 mm', 'about 180mm of material']"
+248	41	2	"[4, 'NA', '4+3=7', '3+4=7', 'luokka 4', ""['näyte 4', 'näyte 6']"", '4', 'luokka 3 ja 4', '4+3=7/13/NA', '4+3=7/7/NA', '3+4=7/7/NA', 'larger proportion of class 3 and smaller proportion of class 4 (30% of the tumor)', ""['Pääluokka', 'Sivuluokka', 'Prosenttiosuus sivuluokasta']"", 'Pääosin luokka 3, pienempi osuus luokka 4 (noin 30%)', '3 + 4 = 7', '3+4', '3 + 4 = 7 (4 noin 30 %)', '3 + 4 (4 noin 30 %)', '3+4=7/30%', '4, 6', '3+4=7/5', '3+4=7/5+3=8/NA', '3 and 4 (with 30% of the tumor being class 4)']"
+249	41	3	['NA', 'ei', False, 'kyllä', 'Ei mainita']
+250	41	4	['NA', 'kyllä', False, 'ei havaittu', 'ei', 'tai', 'Ei mainita']
+251	41	5	['NA', 'kyllä', 'yes', True, 'ei havaittu', 'ei', 'Ei mainita']
+252	42	0	[12, 'NA', '12', '12 tissue blocks', '(12)']
+253	42	1	['pieni', 'NA', 'small', 'ei saatavilla', 'ei tiedossa', 'pieniä', 'pieni osa lastuista', 'small part of the chips', 'tissue blocks', 'shavings', 'shavings obtained from planing', '(shavings)']
+254	42	2	[7, '3+4=7', '7', '7 (3+4, 60% of the tumor is class 3)', '7 (3+4)', '7 (3+4, jossa 60% luokkaa 3)', '(3+4=7)']
+255	42	3	['ei', 'NA', 'kyllä', 'no', False, 'Ei', 'false', '(ei)']
+256	42	4	['ei', 'NA', 'no', False, 'tai', 'Ei mainittu', 'ei/tai', '(ei)']
+257	42	5	['ei', 'yes', True, 'kyllä', 'NA', 'no', 'Yes', 'Kyllä', '(ei)']
+258	43	0	[1, 'NA', '1', 2, '19g of prostate shavings', 'About 19g of prostate shavings in total', '19g']
+259	43	1	"['[19]', '19g', '19g in total, 10g put into histology', '19g total, 10g for histology', '19g total, 10g histology', 19, ""['kokonaispaino', 'määre']"", '19g kokonaisuudessaan, joista 10g laitettiin histologiaan', '10g', 'NA', '10g were put into histology']"
+260	43	2	"['[5, 4]', '5+4=9', '9', ""['korkein taso', 'toiseksi korkein taso']"", '5+4', 5, '5 and the second highest level 4', ""['highest_level', 'second_highest_level']"", 'Korkein taso 5 ja toiseksi korkein taso 4', '5 (korkein, 4 (toiseksi korkein)', '5 ja 4', '5, 4', '5 and 4', '5+4=9/9/NA', '5+4=9/9']"
+261	43	3	['ei', 'no', False, 'kyllä', 'NA', 'Ei']
+262	43	4	['kyllä', 'ei', 'yes', True, False, 'NA', 'no', 'Kyllä', 'Ei mainittu', None]
+263	43	5	['kyllä', 'yes', True, 'NA', 'no', 'Kyllä', 'Kyllä, ytimet ovat suurentuneet, vaihtelevat kooltaan ja ydinkiteet ovat selvästi erottuvia', False, None]
+264	44	0	[4, '4']
+265	44	1	"['[10, 8, 14, 14]', '10mm, 8mm, 14mm, 14mm', ""['10mm', '8mm', '14mm', '14mm']"", ""['1) 10mm', '2) 8mm', '3) 14mm', '4) 14mm']"", ""['1', '2', '3', '4']"", ""[{'sample 1': '10mm'}, {'sample 2': '8mm'}, {'sample 3': '14mm'}, {'sample 4': '14mm'}]"", ""['sample_1', 'sample_2', 'sample_3', 'sample_4']"", ""[{'sample': 1, 'size': '10mm'}, {'sample': 2, 'size': '8mm'}, {'sample': 3, 'size': '14mm'}, {'sample': 4, 'size': '14mm'}]"", ""['Sample 1', 'Sample 2', 'Sample 3', 'Sample 4']"", '1) 10mm, 2) 8mm, 3) 14mm, 4) 14mm', ""['sample 1', 'sample 2', 'sample 3', 'sample 4']"", '1) 10mm, 2) 8mm, 3) 14mm and 4) 14mm', '1) 10mm, 2) 8mm, 3) 14mm ja 4) 14mm', ""[{'sample': 1, 'size': 10, 'unit': 'mm'}, {'sample': 2, 'size': 8, 'unit': 'mm'}, {'sample': 3, 'size': 14, 'unit': 'mm'}, {'sample': 4, 'size': 14, 'unit': 'mm'}]"", ""[{'sample': 1, 'size_or_weight': '10mm'}, {'sample': 2, 'size_or_weight': '8mm'}, {'sample': 3, 'size_or_weight': '14mm'}, {'sample': 4, 'size_or_weight': '14mm'}]""]"
+266	44	2	"['[3, 4]', '3+4=7', ""['näyte_1', 'näyte_2', 'näyte_3', 'näyte_4']"", ""['Gleason 3', 'Gleason 4']"", ""['Sample 4: Gleason 3 (90%, Gleason 4 (10%)']"", ""['3', '4']"", '3+4=7/4+3=7/NA', ""['3 (90%)', '4 (10%)']"", '3+4=7/7/NA', '3+4=7/3/NA', ""['Sample 1', 'Sample 2', 'Sample 3', 'Sample 4']"", ""['sample_1', 'sample_2', 'sample_3', 'sample_4']"", ""['Sample 4']"", '3+4', 'Gleason 3 (90%, Gleason 4 (10%)', 'Näyte 4: Gleason 3 (noin 90%, Gleason 4 (10%)', ""['sample 1', 'sample 2', 'sample 3', 'sample 4']"", '7 (3+4)', 'Gleason 3 (90%) ja Gleason 4 (10%)', 'Gleason 3 (noin 90%) ja Gleason 4 (10%)', ""['sample', 'score', 'percentage', 'pattern']"", ""['sample', 'score']"", 3, '3+4=90+10', 'Gleason 3 (90%) and Gleason 4 (10%)', '3+4=7/90%/10%', '3+4=7/90+10']"
+267	44	3	['kyllä', 'ei', 'no', True, False, 'NA', 'kyllä (näytteet 2 ja 3)', 'Kyllä, näytteissä 2 ja 3', 'Ei mainita']
+268	44	4	['ei', 'no', False, 'NA', 'No', 'Ei']
+269	44	5	['NA', 'kyllä', False, 'ei', 'No', 'no', 'Kyllä', True, 'Ei mainita']
+270	45	0	[6, '6', '(6)']
+271	45	1	['Biopsies', 'NA', 'prostate biopsies', 'biopsies from the type sites', 'Ei saatavilla', 'biopsy cylinders', 'Biopsies from the type sites', 'biopsies', '(NA)']
+272	45	2	['NA', 'Ei saatavilla', '(NA)']
+273	45	3	['kyllä', 'yes', True, 'ei', 'Yes', 'NA', 'no', False, '(ei)']
+274	45	4	['NA', False, 'ei', 'no', 'No', '(ei)']
+275	45	5	['NA', 'ei', 'no', False, 'No', 'Ei', '(ei)']
+276	46	0	[6, 1, '1', 'NA', 'koko elin yhtenä näytteenä', 'kuusi', 'kuusi makrolohkoa ja normaaleja mikroskooppisia lohkoja', '6', 'Kuusi makroleikettä ja normaaleja mikroskooppileikkeitä']
+277	46	1	"['[8, 5]', '8mm ja 5mm', ""['8mm', '5mm']"", 'approx. 8mm and 5mm', 'N/A', 'NA', ""['koot', 'määre']"", '8mm and 5mm', 'noin 8mm ja 5mm', '8mm', '8 mm ja 5 mm', 'macrosections', '8mm, 5mm', 'macrosections (no specific size mentioned)']"
+278	46	2	"['[4, 4]', '4+4=8 ja 3+4=7', '4+4=8, 3+4=7', ""['apex', 'base']"", '4+4 apexissa, 3+4 pohjassa', '4+4+3+4', '[4, 3]', '4+4 ja 3+4', '4+4=8 ja 3+4', ""['4+4', '3+4']"", '4+4/3+4', 'NA', ""['4+4=8', '3+4=7']"", 'Apex: 4+4, Base: 3+4', ""['Apex', 'Base']"", '4+4/3+4/NA', 'apex: 4+4, base: 3+4', '4+4=8/3+4=7/NA', '4+4=8', '4+4 and 3+4', '4+4 (huippu) ja 3+4 (pohja)', '4+4 (huippu, 3+4 (pohja)', '4+4', '4+4 (apex) ja 3+4 (base)', '4+4=8 and 3+4=7', '4+4, 3+4']"
+279	46	3	['ei', 'NA', False, 'kyllä', 'no', 'Ei mainita']
+280	46	4	['ei', 'NA', False, 'no', 'Ei mainita']
+281	46	5	['kyllä', 'NA', False, True, 'ei', 'no', 'Ei mainita']
+282	47	0	[4, '2', 2, '4', 'NA', '4 (2 vasemmalta puolelta, 2 oikealta puolelta)', 'koko elin yhtenä näytteenä']
+283	47	1	"['[10, 7, 15, 10]', '10 mm ja 7 mm', '10 ja 7 mm vasemmalla, 15 ja 10 mm oikealla', ""['left side', 'right side']"", ""['10 mm', '7 mm', '15 mm', '10 mm']"", ""['vasen: 10 mm, 7 mm', 'oikea: 15 mm, 10 mm']"", 'Left side: 10 mm and 7 mm, Right side: 15 mm and 10 mm', '10 mm ja 7 mm vasemmalla puolella, 15 mm ja 10 mm oikealla puolella', '10 mm + 7 mm (vasen, 15 mm + 10 mm (oikea)', 'NA', '7-10 mm', ""['vasen puoli', 'oikea puoli']"", '10 mm, 7 mm, 15 mm, 10 mm', ""['left_side', 'right_side']"", 'vasen puoli: 10 mm ja 7 mm, oikea puoli: 15 mm ja 10 mm', ""['Vasen puoli', 'Oikea puoli']"", '10, 7, 15, 10', 'left side are 10 and 7 mm in length and the right side 15 and 10 mm', ""['vasen', 'oikea']"", 'vasemmalta puolelta 10 mm ja 7 mm, oikealta puolelta 15 mm ja 10 mm', ""['left', 'right']"", 'left side: 10 mm, 7 mm; right side: 15 mm, 10 mm', '10 ja 7 mm, 15 ja 10 mm', '10 ja 7 mm (vasen puoli, 15 ja 10 mm (oikea puoli)', '10 and 7 mm in length and the right side 15 and 10 mm', ""[{'side': 'left', 'size': '10 mm'}, {'side': 'left', 'size': '7 mm'}, {'side': 'right', 'size': '15 mm'}, {'side': 'right', 'size': '10 mm'}]""]"
+284	47	2	"['[3, 4]', '3+4=7', ""['3', '4']"", ""['vasen: 3+4', 'oikea: ei pahanlaatuista kasvua']"", '3 (main rule) and 4 (second most common)', ""['vasen puoli', 'oikea puoli']"", ""['left_side', 'right_side']"", '3, 4', '7 (3+4)', ""['Vasen puoli', 'Oikea puoli']"", '3+4', '3 pääsääntöisesti, 4 toiseksi yleisin', 'Gleason-luokitus 3 pääsääntöisesti, tyyppi 4 toiseksi yleisin', '3+4=7/NA', 'Gleason kasvutyyppi 3 on pääsääntöinen, tyyppi 4 toiseksi yleisin', '3 + 4', '3 (pääasiallinen, 4 (toissijainen)', '3+4=7/7/NA', 3, ""['primary', 'secondary']"", 'Gleason 3 and 4', '3+4=7/7']"
+285	47	3	['NA', 'ei', 'no', False, 'Yes', 'kyllä', 'Ei', 'Ei, vasemmalla puolella havaittu pahanlaatuista kasvua']
+286	47	4	['Kyllä', 'kyllä', 'yes', True, 'Present', 'Kyllä, vasemmalla puolella kasvua hermojen ja verisuonten ympärillä', 'Yes']
+287	47	5	['NA', 'kyllä', 'yes', True, 'Not mentioned', 'ei', 'Kyllä', 'no', 'Ei mainintaa atypiasta, mutta vasemmalla puolella pahanlaatuista kasvua', False]
+288	48	0	[6, '6', 'NA', 12, '3', '11', '10', '15']
+289	48	1	"['[4, 6, 3, 5, 7, 8]', '4+6+3mm, 5+7+8mm', '4+6+3mm vasemmalta ja 5+7+8mm oikealta', ""['left', 'right']"", 'NA', ""['vasen', 'oikea']"", '4+6+3 mm from the left and 5+7+8 mm from the right', '4+6+3+5+7+8 mm', '4+6+3 mm from the left (corrected to right, 5+7+8 mm from the right (corrected to left)', '4+6+3 mm vasemmalta, 5+7+8 mm oikealta', '4+6+3 mm from the left, 5+7+8 mm from the right', 'vasemmalta 4+6+3 mm, oikealta 5+7+8 mm', '4mm, 6mm, 3mm, 5mm, 7mm, 8mm', '4+6+3 mm vasemmalta ja 5+7+8 mm oikealta', '4+6+3 from the left and 5+7+8mm from the right', '4+6+3mm', '4+6+3', '4+6+3mm ja 5+7+8mm', '4+6+3 mm (left, 5+7+8 mm (right)', '4+6+3 mm (left) and 5+7+8 mm (right)', '4+6+3mm and 5+7+8mm']"
+290	48	2	['NA', 'ei saatavilla', 'Adenokarsinooman vahva epäily', 'Adenokarsinooma epäily, positiiviset reunat', '4+6+3+5+7+8', '4+3=7/7/NA']
+291	48	3	['NA', 'ei', 'Ei', False, 'Yes', 'no']
+292	48	4	['NA', 'ei mainintaa', 'Ei havaittu', False, 'ei', 'tai', 'no', 'Kyllä', 'kyllä']
+293	48	5	['NA', 'kyllä', 'yes', 'ei mainintaa', 'Kyllä', True, 'ei', 'no']
+294	49	0	[1, 'NA', '12.3g', 12.3, '1']
+295	49	1	"['12.3g', 12.3, 'NA', ""['koko', 'määre']"", '12.3g chips', '12,3 g', 'g', 'ei tiedossa']"
+296	49	2	['NA']
+297	49	3	['kyllä', 'NA', 'no', True, 'Kyllä', 'yes', 'Yes', 'ei']
+298	49	4	['NA', 'no', False, 'Ei havaittu', 'ei', 'Ei', 'No']
+299	49	5	['NA', 'ei', 'no', False, 'Ei havaittu', 'Ei', 'No']
+300	50	0	[6, 'Six biopsy specimens', 'kuusi (6)', '6']
+301	50	1	"[""['5mm', '10mm']"", 'NA', 'Ei mainittu']"
+302	50	2	"[""['4+4=8', '4+3=7', '7 (3+4)']"", 'NA', ""['4+4=8', '4+3=7', '7']"", ""['4+4=8', '4+3=7', '7', 'NA', 'NA', 'NA']"", ""['Colony 1', 'Colony 2', 'Colony 3', 'muut näytteet']"", ""[{'sample_number': 1, 'classification': '4+4=8'}, {'sample_number': 2, 'classification': '4+3=7'}, {'sample_number': 3, 'classification': '3+4=7'}]"", ""[{'colony_number': 1, 'Gleason_score': '4+4=8'}, {'colony_number': 2, 'Gleason_score': '4+3=7'}, {'colony_number': 3, 'Gleason_score': 'NA'}, {'colony_number': 'NA', 'Gleason_score': 'NA'}]"", '[8, 7, 7]', '4+4=8, 4+3=7, 7', '4+4=8 / 4+3=7 / 7 (3+4)', ""['4+4=8', '4+3=7', '3+4=7']"", ""['Colony 1', 'Colony 2', 'Colony 3']"", ""[{'Colony 1': '4+4=8'}, {'Colony 2': '4+3=7'}, {'Colony 3': '3+4=7'}, {'Colony 4': 'NA'}, {'Colony 5': 'NA'}, {'Colony 6': 'NA'}]"", ""['4+4=8', '4+3=7', '3+4=7', 'NA', 'NA', 'NA']"", ""[{'Näyte 1': '4+4=8'}, {'Näyte 2': '4+3=7'}, {'Näyte 3': '3+4=7'}]"", ""[{'sample': 1, 'score': '4+4=8'}, {'sample': 2, 'score': '4+3=7'}, {'sample': 3, 'score': '3+4=7'}]"", ""[{'Colony 1': '4+4=8', 'Colony 2': '4+3=7', 'Colony 3': '3+4=7'}]"", '4+4=8/4+3=7/3+4=7/NA/NA/NA', '8/7/7/NA/NA/NA', ""['8', '7', '7']"", ""['4+4=8', '4+3=7', '3+4']"", ""[{'major': 4, 'minor': 4, 'summa': 8}, {'major': 4, 'minor': 3, 'summa': 7}, {'major': 3, 'minor': 4, 'summa': 7}]"", '4+4=8, 4+3=7, 3+4=7', '8, 7, 7', '4+4=8/4+3=7/3+4=7/NA', 'Näyte 1: 4+4=8, Näyte 2: 4+3=7, Näyte 3: 3+4=7', ""[{'score': 8, 'primary': 4, 'secondary': 4}, {'score': 7, 'primary': 4, 'secondary': 3}, {'score': 7, 'primary': 3, 'secondary': 4}]"", ""[{'colony': 1, 'score': 8, 'grade3': 0, 'grade4': 4}, {'colony': 2, 'score': 7, 'grade3': 3, 'grade4': 4}, {'colony': 3, 'score': 7, 'grade3': 3, 'grade4': 4}]"", ""[{'location': 'Colony 1', 'score': '4+4=8'}, {'location': 'Colony 2', 'score': '4+3=7'}, {'location': 'Colony 3', 'score': '3+4=7'}]"", '4+4=8', ""['8 (4+4)', '7 (4+3)', '7 (3+4)', 'NA', 'NA', 'NA']""]"
+303	50	3	['kyllä', 'ei', 'yes', False, True, 'Kyllä', 'NA', 'Kyllä, lopuissa näytteissä pääasiassa hyperplastisia muutoksia', 'Kyllä, lopuissa näytteissä', 'Yes', 'Ei', 'no', 'false']
+304	50	4	['NA', 'ei', 'no', False, 'Ei', 'Ei mainintaa', 'No', 'Ei mainittu', 'ei mainittu']
+305	50	5	['kyllä', 'yes', True, 'Kyllä', 'NA', 'Kyllä, näytteissä 1 ja 2 havaittu atypiaa', 'Kyllä, näyte 1', 'Yes', 'true', 'Colony 1. from the left front, a poorly differentiated atypical glandular structure can be seen 5mm away.', 'Kyllä, näyte 1: huonosti erilaistunut atypiallinen rauhasrakenne']
+306	51	0	[3, '3', 'kolme', 1, 'NA', '4']
+307	51	1	['4g', 'NA', 4, 'g']
+308	51	2	['NA', 'NA/NA=NA']
+309	51	3	['kyllä', 'yes', True, 'ei', 'Kyllä', 'True', 'Yes', 'true']
+310	51	4	['NA', False, 'ei', 'Ei', 'tai', 'no', 'No']
+311	51	5	['NA', 'ei', 'no', False, 'Ei', 'False', 'No']
+312	52	0	"[9, '9', 'NA', 'I-H eli 9 näytettä', 'Yhteensä 9 näytettä', 10, ""['näytteiden määrä']"", '8', 'koko elin yhtenä näytteenä', '10', '9-11', 11, '9 (A-I)']"
+313	52	1	"['vaihtelevia', 'NA', 'kaksi makroskooppista osaa per näyte', 'two macrosections per base, two samples from seminal vesicles', 'Ei saatavilla', 'Ei tiedossa', 'Kaksi makroskooppista osaa per näyte', 'two macrosections per base D-E, F-G base and H-I two samples from seminal vesicles', ""['apex', 'base', 'seminal vesicles']"", 'apex: A-C, base: D-E, F-G, seminal vesicles: H-I', ""['näytteiden koko']"", 'macrosections', 'macrosections, not specified']"
+314	52	2	"['3 ja 4', '3+4=7', '3+4', 'Gleason-luokitus 3 ja 4', 'Gleason grade 3 and grade 4 differentiation', '3+4=7/7/NA', 'NA', ""['Gleason-luokitus']"", '7', 'Grade 3 and grade 4', 'Gleason grade 3 and grade 4', 7, '3+4=7/NA/NA', 'Gleason grade 3 and 4']"
+315	52	3	"['NA', 'ei', 'no', 'Ei', False, 'Ei mainintaa', ""['hyvälaatuinen eturauhasen liikakasvu']"", 'No', 'false']"
+316	52	4	"['kyllä', 'NA', 'no', 'ei', 'Ei', False, 'Ei mainintaa', ""['perineuraalinen kasvu']"", 'No', 'Ei mainittu']"
+317	52	5	"['NA', 'kyllä', 'ei', 'Ei', True, 'Ei mainintaa', ""['atypia']"", 'no', 'Yes', 'Kyllä, pienet positiiviset reunamarginaalit', 'Kyllä', False]"
+318	53	0	[3, '3']
+319	53	1	"['[8, 6, 10]', '8+6mm, 10mm', '8+6mm, 10mm, 5+5mm', ""['8+6mm', '10mm', '5+5mm']"", '[14, 10, 10]', ""[{'Sample (1)': '8+6mm', 'Sample (2)': '10mm', 'Sample (3)': '5+5mm'}]"", ""['Sample 1', 'Sample 2', 'Sample 3']"", 'NA', ""[{'Sample 1': '8+6mm'}, {'Sample 2': '10mm'}, {'Sample 3': '5+5mm'}]"", 'Näyte (1): 8+6mm, Näyte (2): 10mm, Näyte (3): 5+5mm', '[8, 6, 10, 5, 5]', ""[{'sample': 1, 'size': '8+6mm'}, {'sample': 2, 'size': '10mm'}, {'sample': 3, 'size': '5+5mm'}]"", ""[{'sample': 1, 'size_or_weight': '8+6mm'}, {'sample': 2, 'size_or_weight': '10mm'}, {'sample': 3, 'size_or_weight': '5+5mm'}]"", ""['Sample (1)', 'Sample (2)', 'Sample (3)']""]"
+320	53	2	"['[7, 7]', '3+4=7, 3+4=7', '7', '3+4=7', '3+4=7, 3+4=7, NA', '[7]', ""['Gleason 3', 'Gleason 3', 'NA']"", '3+4=7/3+4=7/NA', ""[{'sample': 1, 'Gleason_3': '60%', 'Gleason_4': '40%'}, {'sample': 2, 'Gleason_3': '70%', 'Gleason_4': '30%'}]"", ""['3+4=7', '3+4=7', 'NA']"", 7, ""['Sample 1', 'Sample 2', 'Sample 3']"", 'Gleason 7', ""[{'Sample 1': '3+4=7'}, {'Sample 2': '3+4=7'}]"", ""['7', '3 (60%) + 4 (40%)', '3 (70%) + 4 (30%)']"", '7 (3+4)', ""['7', '7']"", ""['3+4', '3+4', 'NA']"", ""['3+4=7/40%/60%', '3+4=7/30%/70%', 'NA']"", ""['3+4=7/40%', '3+4=7/30%', 'NA']"", ""['7 (3+4)', '7 (3+4)']"", ""[{'sample': 1, 'Gleason_score': 3, 'proportion': 0.6}, {'sample': 1, 'Gleason_score': 4, 'proportion': 0.4}, {'sample': 2, 'Gleason_score': 3, 'proportion': 0.7}, {'sample': 2, 'Gleason_score': 4, 'proportion': 0.3}]"", ""[{'sample': 1, 'Gleason_score': 3, 'percentage': 60}, {'sample': 1, 'Gleason_score': 4, 'percentage': 40}, {'sample': 2, 'Gleason_score': 3, 'percentage': 70}, {'sample': 2, 'Gleason_score': 4, 'percentage': 30}]"", ""[{'sample': 1, 'Gleason_score': '3+4=7'}, {'sample': 2, 'Gleason_score': '3+4=7'}, {'sample': 3, 'Gleason_score': 'NA'}]"", ""['Sample (1)', 'Sample (2)']"", ""['3+4=7/60%/40%', '3+4=7/70%/30%', 'NA']""]"
+321	53	3	['NA', 'ei', 'kyllä', 'no', False, 'Ei mainittu']
+322	53	4	['NA', 'ei', 'tai', 'no', False, True, 'Ei mainittu']
+323	53	5	['NA', 'yes', 'kyllä', 'ei', 'no', True, 'Ei mainittu', 'PIN changes', 'PIN-muutokset (PIN changes)']
+324	54	0	[8, 'NA', '8', '8 blocks', 'kahdeksan']
+325	54	1	['NA', 'pieni', 'electrosection chips', 'ei saatavilla', 'ei tarkempaa tietoa', 'sähköleikkauslastuja', 'elektroleikkauslastuja']
+326	54	2	['NA', 'ei saatavilla']
+327	54	3	['kyllä', 'ei', 'no', True, 'Kyllä', False, 'NA', 'yes', 'Yes']
+328	54	4	['NA', 'ei', 'no', False, 'Ei']
+329	54	5	['NA', 'ei', 'no', False, 'Ei']
+330	55	0	[4, '4', '(4)']
+331	55	1	['2mm', 'NA', '2 mm', 'Ei tiedossa', 2, '(NA)', 'approximately 2mm']
+332	55	2	"['4', '4+3=7', ""['grade_3', 'grade_4']"", ""['Grade_3', 'Grade_4']"", ""['Grade_3', 'Grade_4', 'Grade_5']"", 'Grade 4, although grade 3 is almost as large a %', '4+3=7/7/NA', 'NA', 'Grade 4', 'Gleason-luokka 4', 4, 7, '4 (pääasiallinen, 3 (lähes yhtä suuri %)', '4 ja 3', '4+3=7/NA/NA', '(4+3=7)', '4+3', '(4+3=7/7/NA)']"
+333	55	3	['ei', 'NA', False, True, 'no', 'Ei', 'Ei mainita', '(ei)']
+334	55	4	['ei', 'NA', False, 'no', 'Ei mainita', '(NA)', '(ei)']
+335	55	5	['ei', 'kyllä', 'yes', True, 'NA', 'no', 'Kyllä', 'Ei mainita', '(NA)', '(ei)']
+336	56	0	[12, '12']
+337	56	1	"[150, '150 mm', 'about 150 mm', 'noin 150 mm', ""['kokonaispituus', 'yksikkö']"", 'kokonaispituus noin 150 mm', 'NA']"
+338	56	2	['NA']
+339	56	3	['kyllä', 'ei', 'yes', True, 'Kyllä', 'Yes', 'Kyllä, mainittu aaltoileva hyperplastinen kaltainen epiteeli viittaa BPH:hen (hyvänlaatuinen eturauhasen liikakasvu)', 'NA']
+340	56	4	['NA', 'no', False, 'ei havaittu', 'ei']
+341	56	5	['NA', 'ei', 'no', False, 'ei havaittu', 'No']
+342	57	0	[12, '12', '(12)']
+343	57	1	"['[8, 7, 5]', '8mm ja 7mm', ""['8mm', '7mm', '5mm']"", '8mm ja 7mm oikeasta pohjasta, 5mm vasemmasta pohjasta', '8mm, 7mm, 5mm', 'NA', ""[{'koko': 8, 'määre': 'mm'}, {'koko': 7, 'määre': 'mm'}, {'koko': 5, 'määre': 'mm'}]"", ""['Oikea perusta', 'Vasen perusta']"", ""['koot', 'määre']"", '8 mm, 7 mm, 5 mm', ""[{'location': 'right base', 'size': '8mm'}, {'location': 'right base', 'size': '7mm'}, {'location': 'left base', 'size': '5mm'}]"", ""['8mm', '7mm', '5mm', 'NA']"", '(8mm, 7mm, 5mm)']"
+344	57	2	"[3, '3+3=6', ""['3', '3', '3']"", '3+3', '3', '3+3/3/NA', '3+3=6/6/NA', '(3+3=6/6/NA)']"
+345	57	3	['NA', 'ei', 'no', False, 'Ei, adenocarcinoma löydetty', True, 'kyllä', 'false', '(ei)']
+346	57	4	['NA', 'ei', False, 'Ei havaittu', 'no', '(ei/tai/NA)', '(ei)']
+347	57	5	['NA', 'ei', 'no', False, 'Ei havaittu', 'Ei', 'No', 'false', 'ei havaittu', '(ei)']
+348	58	0	[6, '6', '(6)']
+349	58	1	['<1mm', 'NA', 'pieni alue (<1mm)', 'ei saatavilla', 'ei tietoa', 'small area (<1mm)', '(NA)']
+350	58	2	[4, '4+3=7', 7, 'Gleason 4+3=7', '4+3=7/5/NA', 'Gleason 5 growth patterns are seen, but mainly poorly differentiated Gleason 4+3=7 growth is observed', '4+3=7/7/NA', 'Gleason 4+3=7, with small areas of Gleason 5', '5-6: 5, 4+3=7', '7', '7 (4+3)', '5+3=7', '5-6: Gleason 5, muuten Gleason 4+3=7', '(4+3=7)']
+351	58	3	['NA', 'ei', False, 'no', 'Ei', '(ei)']
+352	58	4	['NA', 'kyllä', False, 'ei', 'no', '(NA)']
+353	58	5	['NA', 'kyllä', 'yes', True, 'ei', 'no', 'Kyllä', '(NA)']
+354	59	0	[3, 'Three fusion biopsies', '3', 'Kolme', '(3)']
+355	59	1	"['[7, 6, 2]', '30mm', '7mm, 6mm, 2mm', 'NA', ""['7mm', '6mm', '2mm']"", 30, ""['kokonaispituus', 'määre']"", '30mm kokonaispituus', 'Total length of 30mm', '7, 6 and 2mm', '7, 6 ja 2mm', '(30mm)']"
+356	59	2	['3+4', '3+4=7', '7', 7, 4, '3+4=7/4', '3+4=7/7/NA', '3+4=7/NA', 'Gleason score 7 (3+4)', '7 (3+4)', 'Score 7 (3+4)', 'Gleason score 7', '(3+4=7)']
+357	59	3	['NA', 'ei', 'kyllä', 'no', False, '(ei)']
+358	59	4	['NA', 'ei', 'no', False, 'tai', 'kyllä', '(ei)']
+359	59	5	['NA', 'kyllä', 'ei', 'yes', True, 'no', 'Yes', False, '(ei)']
+360	60	0	[1, 'NA', 'useita', 'Kaksi näytettä', 2, 6, '1']
+361	60	1	['NA', 'pieni', '0.8 cm x 0.6 cm ja 1.2 cm x 1.0 cm', '1.5 cm x 1.0 cm x 0.8 cm / 1.2 cm x 0.9 cm x 0.6 cm', 'pieniä', '10 mm', '1.5 cm x 1.5 cm']
+362	60	2	[7, '4+3=7', 'NA', '3+4=7', 'Gleason-luokitus 4+3', '3+4=7/4+3=7']
+363	60	3	['kyllä', 'NA', 'ei', 'Kyllä', 'Ei havaittu']
+364	60	4	['ei', 'kyllä', 'NA', 'Ei', 'Ei havaittu', 'yes']
+365	60	5	['NA', 'ei', 'kyllä', 'Ei', 'Ei havaittu']
+366	61	0	[1, 'NA', 6, '1', 'Ei mainintaa', 'Kaksi näytettä', 'yksi', 3]
+367	61	1	['NA', 'pieni', 'Ei mainintaa', '0.5 cm x 0.3 cm', 'pieniä', 'yks kaks kolme', 'small']
+368	61	2	[9, '4+3=7', '3+4=7', 'NA', 'Ei mainintaa', '9', 'Gleason-luokitus 3+4', '1+2=9/9/NA', '1+2=9/12/NA', '1+2=3']
+369	61	3	['NA', 'kyllä', 'Kyllä', 'ei', 'Ei havaittu']
+370	61	4	['NA', 'ei', 'Ei', 'kyllä', 'Ei havaittu']
+371	61	5	['NA', 'kyllä', 'ei', 'Ei', 'Ei havaittu']
+372	62	0	[1, 'NA', 'yksi']
+373	62	1	['NA', 'pieni', 'ei tietoa', 'ei mainintaa', 'tuhat kiloa', 'ei määritelty', '1000 kiloa']
+374	62	2	['NA', '4+3=7', '3+3', 'Gleason ryhmä 3', 'miinus sata']
+375	62	3	['ei', 'NA', False, 'Kyllä', True, 'kyllä']
+376	62	4	['ei', 'NA', False, 'Ei', 'tai']
+377	62	5	['ei', 'kyllä', 'NA', False, 'Ei']
+378	63	0	[1, 'NA', 0, '0']
+379	63	1	['NA', 'pieni', 'N/A']
+380	63	2	[7, '3+4=7', 'NA', 6, 'Gleason-luokitus ei ole mainittu lausunnossa', '3+4=7/7/NA', 'NA/NA/NA', 'N/A']
+381	63	3	['ei', 'NA', 'Ei', 'kyllä', 'N/A']
+382	63	4	['ei', 'kyllä', 'NA', 'Ei havaittu', 'N/A']
+383	63	5	['kyllä', 'NA', 'ei', 'Ei havaittu', 'N/A']
+384	64	0	['NA', 'ERROR', 'SYNTAX ERROR IN SQL QUERY', 'sample_count']
+385	64	1	['NA', 'ERROR', 'ERROR CODE 123', 'sample_amount']
+386	64	2	['NA', '3+4=7', 'ERROR', 'Query parameters {sample_count, sample_amount, gleason_grade, patient_bph, sample_perineural_invasion, sample_atypia} not found', '4+3=7', 'gleason_grade']
+387	64	3	['NA', 'ERROR', 'double check column names and queried MAIN_TABLE', 'patient_bph']
+388	64	4	['NA', 'kyllä', 'ERROR', 'RETURN*', 'sample_perineural_invasion']
+389	64	5	['NA', 'ei', 'ERROR', 'kyllä', 'sample_atypia']
+390	65	0	['1', 'NA', 1, 'yksi']
+391	65	1	['pieni', 'NA', 'ei mainittu']
+392	65	2	['9', 'NA', 'yhdeksän', 9, '9+9=18/18/NA', '9/9/NA', '9/NA/NA']
+393	65	3	['NA', 'kyllä', 'Ei', 'Kyllä', 'ei']
+394	65	4	['NA', 'ei havaittu', 'Ei', 'Ei havaittu', 'kyllä', 'ei']
+395	65	5	['NA', 'ei havaittu', 'Ei', 'Ei havaittu', 'kyllä', 'ei']
+396	66	0	[1, 'NA', 'Kaksi', 0, 'Kaksi näytettä', 'yksi', 2, 3]
+397	66	1	['NA', 'Pieni', 'pieni', '0.8 cm x 0.6 cm ja 1.2 cm x 1.0 cm', 'pieniä', 'ei mainittu', '1.5 cm and 2.0 cm', 'small', '2 mm']
+398	66	2	[8, '4+3=7', '3+4=7', 'NA', 7, 'Gleason-luokitus 4+3', 'ei mainittu', '7', 'NA/NA/NA']
+399	66	3	['NA', 'ei', 'kyllä', 'Ei']
+400	66	4	['NA', 'kyllä', 'ei', 'ei havaittu', 'Ei mainintaa', 'Yes', 'yes']
+401	66	5	['NA', 'kyllä', 'ei', 'ei havaittu', 'Ei mainintaa', 'No']
+402	67	0	[1, 'NA', 12, 6, '2']
+403	67	1	"['NA', 'pieni', 'small', ""['pituus', 'leveys', 'syvyys']"", 'pieniä', 'ei tietoa', 'biopsia', 'Right lobe: 15 mm, Left lobe: 18 mm']"
+404	67	2	[7, '4+3=7', '3+4=7', 'NA', 4]
+405	67	3	['ei', 'NA', 'no', 'Kyllä', True, 'kyllä']
+406	67	4	['ei', 'kyllä', 'NA', 'Ei', False, 'no']
+407	67	5	['ei', 'kyllä', 'NA', 'Ei', False]
+408	68	0	[1, 'NA', 12, 'Kolme näytettä', 0, 5]
+409	68	1	['NA', '1-2 mm', '1. 1x1x0.2 cm, 2. 1x1x0.2 cm, 3. 1x1x0.2 cm', '2 mm']
+410	68	2	[7, '3+4=7', 'NA', 'Gleason-luokitus 4+3=7']
+411	68	3	['NA', 'ei', 'Kyllä', 'Ei havaittu hyvälaatuista eturauhasen liikakasvua']
+412	68	4	['NA', 'ei', 'kyllä', 'Ei havaittu', 'Ei havaittu perineuraalista kasvua', 'yes']
+413	68	5	['NA', 'kyllä', 'ei', 'Ei havaittu', 'Atypiaa havaittu']
+414	69	0	[1, 'NA', 12, 0, 'Kaksi näytettä']
+415	69	1	['NA', 'pieni', '0.5 cm x 0.3 cm ja 0.4 cm x 0.2 cm', '1-2 mm']
+416	69	2	[8, '4+3=7', '3+4=7', 'NA', 7, 'Gleason-luokitus 4+3', 'NA/NA/NA']
+417	69	3	['NA', 'ei', 'Kyllä', 'kyllä', 'Ei havaittu']
+418	69	4	['NA', 'kyllä', 'Ei havaittu', 'Ei', 'ei']
+419	69	5	['NA', 'kyllä', 'Ei havaittu', 'Ei', 'ei', 'Ei mainintaa atypiasta']
