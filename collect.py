@@ -2,6 +2,7 @@
 import os
 import numpy as np
 import prompts
+import answers
 import json
 import re
 import funcs
@@ -110,8 +111,7 @@ for inputIndex in range(prompts.getMaxInputs()):
                     js1 = json.loads(funcs.jsonSanitize(output[1, modelIndex, promptIndex, inputIndex].decode("utf-8")))
                     js2 = json.loads(funcs.jsonSanitize(output[2, modelIndex, promptIndex, inputIndex].decode("utf-8")))
                     # Make consensus choices for choosing the final JSON
-                    # TODO
-                    js = js0
+                    js = funcs.consensusString(js0, js1, js2)
                     # Only aggregate the parseable JSON answers
                     if len(list(js.values())) == 6:
                         answer = list(js.values())[answerIndex]
@@ -155,7 +155,7 @@ uniqanswers.iloc[0:6, 0:3] # Lists of answers to the first input statement acros
 # eikä merkittävää tulehdusta. WHO-luokituksen mukaan gradus 3."
 uniqanswers.loc[(uniqanswers["inputIndex"] == 3) & (uniqanswers["answerIndex"] == 2), 'uniqanswers']
 
-answers = pd.DataFrame({
+answersDF = pd.DataFrame({
     'model': [], # Name of utilized model
     'promptIndex': [], # Index number of the utilized prompt
     'inputIndex':[], # Index number of the input statement
@@ -167,43 +167,56 @@ answers = pd.DataFrame({
 for modelIndex in range(len(modelnames)):
     for promptIndex in range(prompts.getMaxPrompts()):
         for inputIndex in range(prompts.getMaxInputs()):
+            print("RegExing answers modelIndex " + str(modelIndex) + " promptIndex " + str(promptIndex) + " inputIndex" + str(inputIndex))
             try:
                 js0 = json.loads(funcs.jsonSanitize(output[0, modelIndex, promptIndex, inputIndex].decode("utf-8")))
                 js1 = json.loads(funcs.jsonSanitize(output[1, modelIndex, promptIndex, inputIndex].decode("utf-8")))
                 js2 = json.loads(funcs.jsonSanitize(output[2, modelIndex, promptIndex, inputIndex].decode("utf-8")))
                 # Make consensus choices for choosing the final JSON
-                # TODO
-                js = js0
+                js = funcs.consensusString(js0, js1, js2)
                 for answer in range(len(list(js.values()))):
-                    answers.loc[len(answers.index)] = [
+                    # Some broken JSONs try to return answers beyond index 5
+                    if answer>5:
+                        break
+                    #print("Answer index " + str(answer))
+                    ans = list(js.values())[answer]
+                    if isinstance(ans, dict):
+                        if isinstance(list(ans), dict):
+                            ans = "Error: Nested list"
+                        else:
+                            ans = "".join(str(list(ans)))
+                    elif isinstance(ans, list):
+                        ans = "".join(str(list(ans)))
+                    answersDF.loc[len(answersDF.index)] = [
                         modelnames[modelIndex],
                         promptIndex,
                         inputIndex,
                         answer,
-                        list(js.values())[answer],
-                        0
+                        ans,
+                        answers.getRegexCorrect(answer=str(ans), inputIndex=inputIndex, questionIndex=answer)
                     ]
             except ValueError:
                 if verbose:
                     print("Parsing JSON-error")
 
-# Exhaustive listing of answers obtained with each combination from DF to tsv
-answers.to_csv("exports\\answers.tsv", sep="\t")
+print(answersDF)
 
+# Exhaustive listing of answers obtained with each combination from DF to tsv
+answersDF.to_csv("exports\\answers.tsv", sep="\t")
 
 # Conditional marking of correctness
 # -1 = False
-# 0 = Uncertain / unquantifiable
+# 0 = Uncertain / unquantifiable / ambiguous
 # +1 = Correct
-answers.loc[((answers["inputIndex"] == 0) &
-            (answers["answerIndex"] == 0) &
-            (answers["answer"].isin([1, "1", "NA"]))), 'correct'] = 1
+#answersDF.loc[((answersDF["inputIndex"] == 0) &
+#            (answersDF["answerIndex"] == 0) &
+#            (answersDF["answer"].isin([1, "1", "NA"]))), 'correct'] = 1
 
 # Gibberish inputs should only yield NA
-answers.loc[(answers["inputIndex"].isin([60,61,62,63,64,65,66,67,68,69]))
-            & (~(answers['answer'] == 'NA')), 'correct'] = -1
-answers.loc[(answers["inputIndex"].isin([60,61,62,63,64,65,66,67,68,69]))
-            & (answers['answer'] == 'NA'), 'correct'] = 1
+#answersDF.loc[(answersDF["inputIndex"].isin([60,61,62,63,64,65,66,67,68,69]))
+#            & (~(answersDF['answer'] == 'NA')), 'correct'] = -1
+#answersDF.loc[(answersDF["inputIndex"].isin([60,61,62,63,64,65,66,67,68,69]))
+#            & (answersDF['answer'] == 'NA'), 'correct'] = 1
 
 # Exemplify if Gleasons were being picked up eagerly for the gibberish inputs
 # by any particular model or prompt
@@ -216,10 +229,10 @@ gibgleason = pd.DataFrame({
 
 for modelname in modelnames:
     for promptIndex in range(prompts.getMaxPrompts()):
-        sum = list(answers.loc[(answers['model'] == modelname)
-                               & (answers['promptIndex'] == promptIndex)
-                               & (answers['answerIndex'] == 2) # Gleason
-                               & (answers['inputIndex'].isin([60,61,62,63,64,65,66,67,68,69]))
+        sum = list(answersDF.loc[(answersDF['model'] == modelname)
+                               & (answersDF['promptIndex'] == promptIndex)
+                               & (answersDF['answerIndex'] == 2) # Gleason
+                               & (answersDF['inputIndex'].isin([60,61,62,63,64,65,66,67,68,69]))
         , 'correct'])
         fpsum = 0
         for val in sum:
@@ -231,11 +244,7 @@ for modelname in modelnames:
             fpsum
         ]
 
-print(gibgleason)
-
-
-
-print(answers.loc[(answers["inputIndex"] == 0) & (answers["answerIndex"] == 0)])
-print(answers[(answers["inputIndex"] == 0) & (answers["answerIndex"] == 0)])
-
-print(answers)
+#print(gibgleason)
+#print(answersDF.loc[(answersDF["inputIndex"] == 0) & (answersDF["answerIndex"] == 0)])
+#print(answersDF[(answersDF["inputIndex"] == 0) & (answersDF["answerIndex"] == 0)])
+#print(answersDF)
